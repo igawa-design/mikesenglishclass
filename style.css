@@ -118,6 +118,8 @@ SP Portrait
 			height: 100%;
 			width: 0;
 			position: fixed;
+			scroll-behavior: smooth;
+			-webkit-overflow-scrolling: touch;
 			z-index: 1;
 			top: 0;
 			left: 0;

@@ -63,6 +63,11 @@ SP Portrait
 			width: 35px;
 			height: 35px;
 		}
+		.fnc_icon {
+			width: 20px;
+			height: 20px;
+			margin-right: 5px;
+		}
 		.logo,
 		.icon {
 			transition: all 0.3s ease 0s;
@@ -596,7 +601,9 @@ SP Portrait
 			font-size: 2rem;
 		}
 		.fnc-cont__credits-link {
-			display: block;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			margin-bottom: 25px;
 			font-size: 1.8rem;
 			color: #fff;

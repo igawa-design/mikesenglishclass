@@ -796,7 +796,7 @@ SP Portrait
 			justify-content: space-around;
 			align-items: center;
 			width: 100vw;
-			height: 100px;
+			height: 130px;
 			background: rgba(0, 0, 0, 0.7);
 			padding: 0 2%;
 		}
@@ -816,6 +816,7 @@ SP Portrait
 			order: 2;
 			display: flex;
 			flex-direction: column;
+			align-content: center;
 		}
 		.header_icon {
 			width: 50px;

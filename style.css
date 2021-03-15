@@ -798,18 +798,19 @@ SP Portrait
 			width: 100vw;
 			height: 100px;
 			background: rgba(0, 0, 0, 0.5);
+			padding: 0 2%;
 		}
 		h1 {
-			width: 150px;
-			height: 150px;
+			width: 130px;
+			height: 130px;
 			font-size: 5rem;
 		}
 		.logo {
-			width: 150px;
-			height: 150px;
+			width: 130px;
+			height: 130px;
 		}
 		.navigation {
-			margin-left: 30px;
+			margin-left: 20px;
 		}
 		.sns {
 			order: 2;
@@ -833,7 +834,7 @@ SP Portrait
 			flex-direction: column;
 			min-width: inherit;
 			padding: 0 1%;
-			font-size: 1rem;
+			font-size: 1.4rem;
 			text-shadow: 0 0 1px rgba(0,0,0,0.5);
 		}
 		.nav_list:hover {

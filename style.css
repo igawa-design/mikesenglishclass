@@ -911,6 +911,7 @@ SP Portrait
 		}
 		.fnc-slide__content {
 			left: 5%;
+			top: 20%;
 		}
 		.fnc-slide__heading-line .top_txt {
 			font-size: 2rem;

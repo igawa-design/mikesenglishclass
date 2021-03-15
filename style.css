@@ -204,7 +204,7 @@ SP Portrait
 			order: 2;
 			margin: 0 20px;
 			border-bottom: 1px dotted rgba(0, 0, 0, 0.95);
-			padding-bottom: 6%;
+			padding-bottom: 15px;
 		}
 		.nav_list_ja::before {
 			content: "-";

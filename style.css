@@ -129,7 +129,7 @@ SP Portrait
 			transition: 0.5s;
 		}
 		.sidenavs a {
-			padding: 3%;
+			padding: 10px 3%;
 			text-decoration: none;
 			font-size: 1.5rem;
 			color: rgb(255, 255, 255);
@@ -592,12 +592,12 @@ SP Portrait
 			border-radius: 10px;
 		}
 		.fnc-cont__credits-name {
-			margin-bottom: 20px;
+			margin-bottom: 50px;
 			font-size: 2rem;
 		}
 		.fnc-cont__credits-link {
 			display: block;
-			margin-bottom: 10px;
+			margin-bottom: 25px;
 			font-size: 1.8rem;
 			color: #fff;
 		}

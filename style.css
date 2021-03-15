@@ -847,6 +847,11 @@ SP Portrait
 			content: none;
 		}
 		.nav_list_ja {
+			display: inline-block;
+			width: auto;
+			margin: auto;
+			border-bottom: none;
+			padding: 0;
 			font-size: 0.9rem;
 		}
 		.nav_list_en {
@@ -909,6 +914,7 @@ SP Portrait
 		}
 		.fnc-slide__heading-line .top_txt {
 			font-size: 2rem;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 		}
 	}
 

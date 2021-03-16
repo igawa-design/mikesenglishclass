@@ -826,12 +826,13 @@ SP Portrait
 		.sns {
 			order: 2;
 			display: flex;
+			flex-wrap: wrap;
 			flex-direction: column;
-			align-content: center;
+			align-items: center;
 		}
 		.header_icon {
 			width: 50px;
-			height: 50px;
+			max-height: 50px;
 		}
 		.sp_menu {
 			display: none;

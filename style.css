@@ -68,6 +68,10 @@ SP Portrait
 			height: 25px;
 			margin-right: 5px;
 		}
+		.mail {
+			width: 23px;
+			height: 23px;
+		}
 		.logo,
 		.icon {
 			transition: all 0.3s ease 0s;

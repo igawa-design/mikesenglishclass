@@ -98,8 +98,6 @@
       setTimeout(afterSlidingHandler, slidingAT + slidingDelay);
     }
 
-
-
     function controlClickHandler() {
       if (sliding) return;
       if (this.classList.contains("m--active-control")) return;
@@ -182,16 +180,24 @@ document.querySelector(".fnc-cont__credits-close").addEventListener("click", fun
   $demoCont.classList.remove("credits-active");
 });
 
+<<<<<<< HEAD
 // by Webcreatorbox
 // URL https://www.webcreatorbox.com
+=======
+// by webcreatorbox
+>>>>>>> 947e21391fd050fc2703f87913843065952bf601
 // loading
 window.onload = function() {
   const spinner = document.getElementById('loading');
   spinner.classList.add('loaded');
 };
 
+<<<<<<< HEAD
 // by webdev.tech
 // URL https://web-dev.tech
+=======
+// by web-dev.tech
+>>>>>>> 947e21391fd050fc2703f87913843065952bf601
 // window height
 // 1.関数の定義
 function setHeight() {

@@ -142,7 +142,7 @@ SP Portrait
 			list-style: none;
 			width: 20px;
 			height: 20px;
-			background: rgba(255, 255, 255, 0.2);
+			background: rgba(255, 255, 255, 0.5);
 			animation: animate 25s linear infinite;
 			bottom: -150px;
 		}
@@ -654,7 +654,7 @@ SP Portrait
 			position: absolute;
 			right: 0;
 			top: 0;
-			width: 100vw;
+			width: auto;
 			height: 100%;
 			padding: 150px 2% 30px;
 			background: transparent;
@@ -857,9 +857,7 @@ SP Portrait
 	/* 568px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 568px){
-
 	}
-
 
 	/********************************************************************************************
 	Tablet Portrait
@@ -895,9 +893,6 @@ SP Portrait
 		.fancy-slider .fnc-slide-4 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
 			background-image: url("common/img/contact_pc.jpg");
-		}
-		.fnc-cont__credits {
-			width: 400px;
 		}
 	}
 
@@ -1045,8 +1040,6 @@ SP Portrait
 			top: 100px; /* header height */
 		}
 	}
-
-
 
 
 	/********************************************************************************************

@@ -44,24 +44,25 @@ SP Portrait
 			display: flex;
 			position: relative;
 			z-index: 100;
+			background: rgba(0, 0, 0, 0.5);
 			padding: 0 3%;
-			margin-bottom: -70px;
+			margin-bottom: -80px;
 		}
 		h1 {
 			position: relative;
 			display: flex;
 			align-items: center;
-			height: 70px;
-			width: 70px;
+			height: 80px;
+			width: 80px;
 			font-size: 3rem;
 		}
 		.logo {
-			width: 70px;
-			height: 70px;
+			width: 80px;
+			height: 80px;
 		}
 		.header_icon {
-			width: 35px;
-			height: 35px;
+			width: 40px;
+			height: 40px;
 		}
 		.fnc_icon {
 			width: 25px;
@@ -78,7 +79,7 @@ SP Portrait
 		}
 		.logo:hover,
 		.icon:hover {
-			transform: rotate(-10deg) scale(1.1,1.1);
+			transform: rotate(-10deg) scale(1.1, 1.1);
 		}
 		.navigation {
 			display: flex;
@@ -98,26 +99,126 @@ SP Portrait
 		.sp_menu {
 			display: flex;
 			align-items: center;
-			margin: 0 0 0 20px;
+			margin: 0 0 0 25px;
 		}
 		.hamburger-menu div {
-			width: 35px;
+			width: 40px;
 			height: 2px;
 			background-color: rgb(255, 255, 255);
-			margin: 10px 0;
+			margin: 13px 0;
 			transition: .5s;
-			transform:scale(1,1);
+			transform: scale(1,1);
 		}
 		.hamburger-menu:hover div {
 			opacity: 0.6;
 			margin: 8px 0;
-			transform:scale(1.1,1.1);
+			transform: scale(1.1, 1.1);
 		}
 		.hamburger-menu + .sidenavs:target {
 			overflow-x: visible;
 			overflow-y: scroll;
 			width: 100%;
 			display:block;
+		}
+		.area{
+			width: 100%;
+			height: 100vh;
+		}
+		/* uigradients.com */
+		.circles{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.circles li{
+			position: absolute;
+			display: block;
+			list-style: none;
+			width: 20px;
+			height: 20px;
+			background: rgba(255, 255, 255, 0.2);
+			animation: animate 25s linear infinite;
+			bottom: -150px;
+		}
+		.circles li:nth-child(1){
+			left: 25%;
+			width: 80px;
+			height: 80px;
+			animation-delay: 0s;
+		}
+		.circles li:nth-child(2){
+			left: 10%;
+			width: 20px;
+			height: 20px;
+			animation-delay: 2s;
+			animation-duration: 12s;
+		}
+		.circles li:nth-child(3){
+			left: 70%;
+			width: 20px;
+			height: 20px;
+			animation-delay: 4s;
+		}
+		.circles li:nth-child(4){
+			left: 40%;
+			width: 60px;
+			height: 60px;
+			animation-delay: 0s;
+			animation-duration: 18s;
+		}
+		.circles li:nth-child(5){
+			left: 65%;
+			width: 20px;
+			height: 20px;
+			animation-delay: 0s;
+		}
+		.circles li:nth-child(6){
+			left: 75%;
+			width: 110px;
+			height: 110px;
+			animation-delay: 3s;
+		}
+		.circles li:nth-child(7){
+			left: 35%;
+			width: 150px;
+			height: 150px;
+			animation-delay: 7s;
+		}
+		.circles li:nth-child(8){
+			left: 50%;
+			width: 25px;
+			height: 25px;
+			animation-delay: 15s;
+			animation-duration: 45s;
+		}
+		.circles li:nth-child(9){
+			left: 20%;
+			width: 15px;
+			height: 15px;
+			animation-delay: 2s;
+			animation-duration: 35s;
+		}
+		.circles li:nth-child(10){
+			left: 85%;
+			width: 150px;
+			height: 150px;
+			animation-delay: 0s;
+			animation-duration: 11s;
+		}
+		@keyframes animate {
+			0%{
+				transform: translateY(0) rotate(0deg);
+				opacity: 1;
+				border-radius: 0;
+			}
+			100%{
+				transform: translateY(-1000px) rotate(720deg);
+				opacity: 0;
+				border-radius: 50%;
+			}
 		}
 		.sidenavs:target {
 			overflow-x: hidden;
@@ -126,16 +227,19 @@ SP Portrait
 		.sidenavs {
 			height: 100%;
 			width: 0;
+			background: rgba(102, 176, 106, 0.9) /*#66b06a*/ url(common/img/bg_from_nipponcolors_texture.png);
 			position: fixed;
 			scroll-behavior: smooth;
 			-webkit-overflow-scrolling: touch;
 			z-index: 1;
 			top: 0;
 			left: 0;
-			background: rgba(48, 48, 48, 0.9);
 			overflow-x: hidden;
 			padding: 60px 0;
 			transition: 0.5s;
+		}
+		.sidenavs div {
+			height:100%;
 		}
 		.sidenavs a {
 			padding: 10px 3%;
@@ -212,7 +316,7 @@ SP Portrait
 			width: 100vw;
 			order: 2;
 			margin: 0 20px;
-			border-bottom: 1px dotted rgba(0, 0, 0, 0.95);
+			border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
 			padding-bottom: 15px;
 		}
 		.nav_list_ja::before {

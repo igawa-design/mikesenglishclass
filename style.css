@@ -205,7 +205,7 @@ SP Portrait
 			animation-duration: 35s;
 		}
 		.circles li:nth-child(10){
-			left: 85%;
+			left: 55%;
 			width: 150px;
 			height: 150px;
 			animation-delay: 0s;

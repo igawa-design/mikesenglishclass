@@ -435,7 +435,7 @@ SP Portrait
 			z-index: 2;
 			position: absolute;
 			left: 0;
-			top: 12%;
+			top: 14%;
 			width: 95%;
 			padding: 0 3%;
 		}
@@ -657,9 +657,9 @@ SP Portrait
 			width: 100vw;
 			height: 100%;
 			padding: 150px 2% 30px;
-			background: rgba(48, 48, 48, 0.9);
+			background: transparent;
 			font-family: "Open Sans", Helvetica, Arial, sans-serif;
-			color: #fff;
+			color: rgba(48, 48, 48, 0.7);
 			text-align: center;
 			transition: transform 0.7s;
 			transform: translate3d(100%, 0, 0) rotateY(-45deg);
@@ -676,7 +676,7 @@ SP Portrait
 			position: absolute;
 			z-index: 100;
 			right: 3%;
-			top: 80px;
+			top: 90px;
 			width: 35px;
 			height: 35px;
 			cursor: pointer;
@@ -689,7 +689,7 @@ SP Portrait
 			width: 100%;
 			height: 2px;
 			margin-top: -1px;
-			background: #fff;
+			background: rgba(48, 48, 48, 0.7);
 		}
 		.fnc-cont__credits-close:before {
 			transform: rotate(45deg);
@@ -718,7 +718,7 @@ SP Portrait
 			align-items: center;
 			margin-bottom: 25px;
 			font-size: 1.8rem;
-			color: #fff;
+			color: rgba(48, 48, 48, 0.7);
 		}
 		.fnc-cont__credits-blend {
 			font-size: 30px;
@@ -938,9 +938,12 @@ SP Portrait
 			flex-direction: column;
 			align-items: center;
 		}
+		.icon {
+			margin: 0 0 10px 20px;
+		}
 		.header_icon {
-			width: 50px;
-			max-height: 50px;
+			width: 70px;
+			max-height: 70px;
 		}
 		.sp_menu {
 			display: none;
@@ -1030,9 +1033,6 @@ SP Portrait
 			top: 0;
 			margin-top: 0;
 		}
-		.fnc-cont__credits {
-			top: 100px; /* header height */
-		}
 		.fnc-slide__content {
 			left: 5%;
 			top: 20%;
@@ -1040,6 +1040,9 @@ SP Portrait
 		.fnc-slide__heading-line .top_txt {
 			font-size: 2rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+		}
+		.fnc-cont__credits {
+			top: 100px; /* header height */
 		}
 	}
 

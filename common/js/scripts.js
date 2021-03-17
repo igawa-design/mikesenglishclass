@@ -98,8 +98,6 @@
       setTimeout(afterSlidingHandler, slidingAT + slidingDelay);
     }
 
-
-
     function controlClickHandler() {
       if (sliding) return;
       if (this.classList.contains("m--active-control")) return;
@@ -182,12 +180,14 @@ document.querySelector(".fnc-cont__credits-close").addEventListener("click", fun
   $demoCont.classList.remove("credits-active");
 });
 
+// by webcreatorbox
 // loading
 window.onload = function() {
   const spinner = document.getElementById('loading');
   spinner.classList.add('loaded');
 };
 
+// by web-dev.tech
 // window height
 // 1.関数の定義
 function setHeight() {

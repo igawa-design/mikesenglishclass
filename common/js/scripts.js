@@ -182,12 +182,16 @@ document.querySelector(".fnc-cont__credits-close").addEventListener("click", fun
   $demoCont.classList.remove("credits-active");
 });
 
+// by Webcreatorbox
+// URL https://www.webcreatorbox.com
 // loading
 window.onload = function() {
   const spinner = document.getElementById('loading');
   spinner.classList.add('loaded');
 };
 
+// by webdev.tech
+// URL https://web-dev.tech
 // window height
 // 1.関数の定義
 function setHeight() {
@@ -198,3 +202,36 @@ function setHeight() {
 setHeight();
 // 3.ブラウザのサイズが変更された時・画面の向きを変えた時に再計算する
 window.addEventListener('resize', setHeight);
+
+var background = {}
+
+background.initializr = function (){
+
+  var $this = this;
+
+  //option
+  $this.id = "background_css3";
+  $this.style = {bubbles_color:"#fff",stroke_width:0, stroke_color :"black"};
+  $this.bubbles_number = 30;
+  $this.speed = [1500,8000]; //milliseconds
+  $this.max_bubbles_height = $this.height;
+  $this.shape = false // 1 : circle | 2 : triangle | 3 : rect | false :random
+
+  if($("#"+$this.id).lenght > 0){
+    $("#"+$this.id).remove();
+  }
+  $this.object = $("<div style='z-inde:-1;margin:0;padding:0; overflow:hidden;position:absolute;bottom:0' id='"+$this.id+"'> </div>'").appendTo("body");
+
+  $this.ww = $(window).width()
+  $this.wh = $(window).height()
+  $this.width = $this.object.width($this.ww);
+  $this.height = $this.object.height($this.wh);
+
+
+  $("body").prepend("<style>.shape_background {transform-origin:center; width:80px; height:80px; background: "+$this.style.bubbles_color+"; position: absolute}</style>");
+
+
+  for (i = 0; i < $this.bubbles_number; i++) {
+      $this.generate_bubbles()
+  }
+}

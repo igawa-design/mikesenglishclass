@@ -636,10 +636,6 @@ SP Portrait
 			transition: all 0s 0s !important;
 			transform: scaleX(0) !important;
 		}
-		/* NOT PART OF COMMON SLIDER STYLES */
-		body {
-			margin: 0;
-		}
 		.fnc-cont {
 			overflow: hidden;
 			position: relative;
@@ -700,6 +696,7 @@ SP Portrait
 		.fnc-cont__credits-heading {
 			font-size: 2.5rem;
 			margin-bottom: 20px;
+			padding: 0 2%;
 			line-height: 1.2;
 		}
 		.fnc-cont__credits-img {

@@ -905,7 +905,7 @@ SP Portrait
 			top: 0;
 			z-index: 100;
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-between;
 			align-items: center;
 			width: 100vw;
 			height: 130px;
@@ -920,9 +920,6 @@ SP Portrait
 		.logo {
 			width: 130px;
 			height: 130px;
-		}
-		.navigation {
-			margin-left: 20px;
 		}
 		.sns {
 			order: 2;
@@ -992,17 +989,12 @@ SP Portrait
 		}
 
 
-
-
-
-
-
 		.nav_list {
 			flex-direction: column;
 			min-width: inherit;
 			padding: 0 1%;
 			font-size: 1.4rem;
-			text-shadow: 0 0 1px rgba(0,0,0,0.5);
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 		}
 		.nav_list::before {
 			content: none;
@@ -1017,10 +1009,11 @@ SP Portrait
 			margin: auto;
 			border-bottom: none;
 			padding: 0;
-			font-size: 0.9rem;
+			font-size: 1rem;
 		}
 		.nav_list_en {
-			text-shadow: 0 0 1px rgba(0,0,0,0.01);
+			font-size: 1.6rem;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 		}
 		.nav_list:nth-of-type(2) .nav_list_en::first-letter {
 			color: rgb(57, 82, 111);

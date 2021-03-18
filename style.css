@@ -253,6 +253,7 @@ SP Portrait
 			color: rgb(255, 255, 255);
 			text-shadow: 0 0 1px rgba(0,0,0,0.5);
 			text-decoration: none;
+			text-align: center;
 			font-weight:bold;
 		}
 		.sidenavs a:hover {
@@ -296,6 +297,7 @@ SP Portrait
 			z-index: 100;
 			display: flex;
 			flex-wrap: wrap;
+			justify-content: center;
 			min-width: 100vw;
 			padding: 2% 3%;
 			text-decoration: none;

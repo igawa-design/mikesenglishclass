@@ -944,7 +944,6 @@ SP Portrait
 		.nav_list {
 			flex-direction: column;
 			min-width: max-content;
-			font-size: 1.4rem;
 		}
 		.nav_list::before {
 			content: none;
@@ -962,11 +961,11 @@ SP Portrait
 			font-size: 1rem;
 		}
 		.nav_list_en {
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 		}
 		.nav_list_en::first-letter {
-			font-size: 2rem;
+			font-size: 1.8rem;
 		}
 		.About_Mike::first-letter {
 			color: rgb(57, 82, 111);

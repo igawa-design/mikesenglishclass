@@ -88,7 +88,6 @@ SP Portrait
 		}
 		.navigation {
 			display: flex;
-			justify-content: space-between;
 			align-items: center;
 		}
 		.icon {
@@ -96,11 +95,11 @@ SP Portrait
 			margin-left: 20px;
 			border: none;
 		}
-		.menu_pc {
+		.nav_pc {
 			display: none;
 		}
-		/* menu_sp - twinzlabo */
-		.menu_sp {
+		/* nav_sp - twinzlabo */
+		.nav_sp {
 			display: flex;
 			align-items: center;
 			margin: 0 0 0 23px;
@@ -922,8 +921,8 @@ SP Portrait
 			font-size: 5rem;
 		}
 		.logo {
-			width: 100px;
-			height: 100px;
+			width: 130px;
+			height: 130px;
 		}
 		.sns {
 			order: 3;
@@ -932,22 +931,20 @@ SP Portrait
 		.header_icon {
 			width: 80px;
 		}
-		.menu_sp {
-			display: none;
+		.nav_sp {
+			visibility: hidden;
 		}
-		.menu_pc {
+		.nav_pc {
 			display: block;
 		}
-		.menu_pc_list {
+		.nav_pc_list {
 			display: flex;
 			flex-wrap: wrap;
 		}
 		.nav_list {
 			flex-direction: column;
-			min-width: inherit;
-			padding: 0 1%;
+			min-width: max-content;
 			font-size: 1.4rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 		}
 		.nav_list::before {
 			content: none;
@@ -968,47 +965,47 @@ SP Portrait
 			font-size: 1.6rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 		}
-		.nav_list:nth-of-type(2) .nav_list_en::first-letter {
+		.nav_list_en::first-letter {
+			font-size: 2rem;
+		}
+		.About_Mike::first-letter {
 			color: rgb(57, 82, 111);
 		}
-		.nav_list:nth-of-type(3) .nav_list_en::first-letter {
+		.One_to_One::first-letter {
 			color: rgb(68, 118, 107);
 		}
-		.nav_list:nth-of-type(4) .nav_list_en::first-letter {
+		.Gallery::first-letter {
 			color: rgb(91, 121, 92);
 		}
-		.nav_list:nth-of-type(5) .nav_list_en::first-letter {
+		.Gallery_Lessonpix::first-letter {
+			color: rgb(91, 121, 92);
+		}
+		.Gallery_Scrapbook::first-letter {
+			color: rgb(91, 121, 92);
+		}
+		.Translations::first-letter {
 			color: rgb(114, 127, 78);
 		}
-		.nav_list:nth-of-type(6) .nav_list_en::first-letter {
+		.Location::first-letter {
 			color: rgb(165, 132, 54);
 		}
-		.nav_list:nth-of-type(7) .nav_list_en::first-letter {
+		.Reviews::first-letter {
 			color: rgb(157, 108, 47);
 		}
-		.nav_list:nth-of-type(8) .nav_list_en::first-letter {
+		.Reviews_One_to_One::first-letter {
+			color: rgb(157, 108, 47);
+		}
+		.Translations::first-letter {
+			color: rgb(157, 108, 47);
+		}
+		.Mikes_Posts::first-letter {
 			color: rgb(125, 53, 28);
 		}
-		.nav_list:nth-of-type(9) .nav_list_en::first-letter {
+		.Contact::first-letter {
 			color: rgb(112, 41, 36);
 		}
-		.nav_list:nth-of-type(10) .nav_list_en::first-letter {
-			color: red;
-		}
-		.nav_list:nth-of-type(11) .nav_list_en::first-letter {
-			color: red;
-		}
-		.nav_list:nth-of-type(12) .nav_list_en::first-letter {
-			color: red;
-		}
-		.nav_list:nth-of-type(13) .nav_list_en::first-letter {
-			color: red;
-		}
-		.nav_list:nth-of-type(14) .nav_list_en::first-letter {
-			color: red;
-		}
-		.nav_list:nth-of-type(15) .nav_list_en::first-letter {
-			color: red;
+		.English::first-letter {
+			color: rgb(57, 82, 111);
 		}
 		.close-btn {
 			display: none;

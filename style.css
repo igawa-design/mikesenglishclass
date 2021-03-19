@@ -914,6 +914,7 @@ SP Portrait
 			background: rgba(188, 180, 169, 0.5);
 			margin: 1%;
 			border-radius: 5px;
+			padding: 1%;
 		}
 		h1 {
 			width: 130px;
@@ -966,8 +967,8 @@ SP Portrait
 			font-size: 1rem;
 		}
 		.nav_list_en {
-			font-size: 1.2rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+			font-size: 1.4rem;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
 		.drop,
 		.no_drop {
@@ -989,7 +990,7 @@ SP Portrait
 			width: 200px;
 			height: 50px;
 			text-align: center;
-			background-color: rgb(0, 0, 0);
+			background-color: rgb(188, 180, 169);
 			transition: top 0.5s, background-color 0.3s;
 		}
 		.drop li.cat_Gallery:hover {
@@ -1052,6 +1053,10 @@ SP Portrait
 		}
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
+			text-shadow: 0.5px 0.5px 0 #fff, -0.5px -0.5px 0 #fff,
+												-0.5px 0.5px 0 #fff, 0.5px -0.5px 0 #fff,
+												0px 0.5px 0 #fff,  0 -0.5px 0 #fff,
+												-0.5px 0 0 #fff, 0.5px 0 0 #fff;
 		}
 		.About_Mike::first-letter {
 			color: rgb(57, 82, 111);

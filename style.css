@@ -784,7 +784,7 @@ SP Portrait
 			left: 0;
 			width: 50%;
 			height: 10px;
-			background: #314239;
+			background: rgb(49, 66, 57);
 			transform: translateZ(0);
 			animation: foo 2.5s linear alternate infinite;
 		}
@@ -797,7 +797,7 @@ SP Portrait
 			right: -100%;
 			width: 100%;
 			height: 10px;
-			background: #314239;
+			background: rgb(49, 66, 57);
 			animation: bar 2.5s linear alternate infinite;
 		}
 		.arrow_9ineBB:before {
@@ -964,6 +964,58 @@ SP Portrait
 			font-size: 1.4rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 		}
+
+
+		ul.drop1 {
+			display: inline-block;
+			position: relative;
+			list-style-type: none;
+			width: 200px;
+			padding: 0px;
+			margin-left: 10px;
+		}
+		ul.drop1 li {
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			cursor: pointer;
+			top: 0px;
+			left: 0px;
+			box-sizing: content-box;
+			width: 200px;
+			height: 50px;
+			text-align: center;
+			background-color: rgba(31, 40, 51, 0.9);
+			transition: top 0.5s, background-color 0s;
+		}
+		ul.drop1 li:hover {
+			background-color: rgba(31, 40, 51, 0.5);
+		}
+		ul.drop1 li.category {
+			position: relative;
+			z-index: 10;
+			width: 200px;
+			background-color: rgb(31, 40, 51);
+		}
+		ul.drop1 li.category1 {
+			z-index: 2;
+		}
+		ul.drop1 li.category2 {
+			z-index: 1;
+		}
+		ul.drop1:hover li.category1 {
+			top: 50px;
+		}
+		ul.drop1:hover li.category2 {
+			top: 100px;
+		}
+
+
+
+
+
+
+
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
 		}

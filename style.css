@@ -961,20 +961,19 @@ SP Portrait
 			font-size: 1rem;
 		}
 		.nav_list_en {
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 		}
-
-
-		ul.drop1 {
+		.drop,
+		.no_drop {
 			display: inline-block;
 			position: relative;
 			list-style-type: none;
 			width: 200px;
 			padding: 0px;
-			margin-left: 10px;
 		}
-		ul.drop1 li {
+		.drop li,
+		.no_drop li {
 			position: absolute;
 			display: flex;
 			flex-direction: column;
@@ -985,39 +984,79 @@ SP Portrait
 			width: 200px;
 			height: 50px;
 			text-align: center;
-			background-color: rgba(31, 40, 51, 0.9);
+			background-color: rgb(31, 40, 51);
 			transition: top 0.5s, background-color 0s;
 		}
-		ul.drop1 li:hover {
-			background-color: rgba(31, 40, 51, 0.5);
+		.drop li.cat_Gallery:hover {
+			background: rgb(91, 121, 92);
 		}
-		ul.drop1 li.category {
+		.drop li.cat_Reviews:hover {
+			background: rgb(157, 108, 47);
+		}
+		.drop li.category,
+		.no_drop li.category {
 			position: relative;
-			z-index: 10;
+			z-index: 0;
 			width: 200px;
-			background-color: rgb(31, 40, 51);
+			background: rgb(31, 40, 51);
 		}
-		ul.drop1 li.category1 {
+		.drop li.cat_Gallery {
+			background: rgb(91, 121, 92);
+		}
+		.drop li.cat_Reviews {
+			background: rgb(157, 108, 47);
+		}
+		.drop li.cat_Gallery,
+		.drop li.cat_Reviews {
+			z-index: 3;
+		}
+		.drop li.category1 {
 			z-index: 2;
 		}
-		ul.drop1 li.category2 {
+		.drop li.category2 {
 			z-index: 1;
 		}
-		ul.drop1:hover li.category1 {
+		.drop:hover li.category1 {
 			top: 50px;
 		}
-		ul.drop1:hover li.category2 {
+		.drop:hover li.category2 {
 			top: 100px;
 		}
-
-
-
-
-
-
-
+		.drop li.cat_Gallery + .category1:hover,
+		.drop li.cat_Gallery + .category1 + .category2:hover {
+			background: rgb(91, 121, 92);
+		}
+		.drop li.cat_Reviews + .category1:hover,
+		.drop li.cat_Reviews + .category1 + .category2:hover {
+			background: rgb(157, 108, 47);
+		}
+		.no_drop li.cat_About_Mike {
+			background: rgb(57, 82, 111);
+		}
+		.no_drop li.cat_One_to_One {
+			background: rgb(68, 118, 107);
+		}
+		.no_drop li.cat_Translations {
+			background: rgb(114, 127, 78);
+		}
+		.no_drop li.cat_Location {
+			background: rgb(165, 132, 54);
+		}
+		.no_drop li.cat_Mikes_Posts {
+			background: rgb(125, 53, 28);
+		}
+		.no_drop li.cat_Contact {
+			background: rgb(112, 41, 36);
+		}
+		.no_drop li.cat_English {
+			background: rgb(57, 82, 111);
+		}
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
+			text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff,
+	              -1px 1px 0 #fff, 1px -1px 0 #fff,
+	              0px 1px 0 #fff,  0 -1px 0 #fff,
+	              -1px 0 0 #fff, 1px 0 0 #fff;
 		}
 		.About_Mike::first-letter {
 			color: rgb(57, 82, 111);
@@ -1046,7 +1085,7 @@ SP Portrait
 		.Reviews_One_to_One::first-letter {
 			color: rgb(157, 108, 47);
 		}
-		.Translations::first-letter {
+		.Reviews_Translations::first-letter {
 			color: rgb(157, 108, 47);
 		}
 		.Mikes_Posts::first-letter {

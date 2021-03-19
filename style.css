@@ -908,13 +908,13 @@ SP Portrait
 			position: fixed;
 			top: 0;
 			z-index: 100;
-			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			width: 100vw;
+			width: 98%;
 			height: 130px;
 			background: rgba(0, 0, 0, 0.7);
-			padding: 0 2%;
+			margin: 1%;
+			border-radius: 5px;
 		}
 		h1 {
 			width: 130px;
@@ -937,17 +937,11 @@ SP Portrait
 		}
 		.menu_pc {
 			display: block;
-			order: 1;
-			margin-left: auto;
 		}
-		nav {
+		.menu_pc_list {
 			display: flex;
 			flex-wrap: wrap;
 		}
-		.menu_pc_list {
-			display: inline-block;
-		}
-
 		.nav_list {
 			flex-direction: column;
 			min-width: inherit;

@@ -856,6 +856,12 @@ SP Portrait
 		.section {
 			padding: 2%;
 		}
+		.sec_01,
+		.sec_02 {
+			background: rgb(231, 187, 92)/*#e7bb5c*/;
+			padding: 10px;
+			color: rgb(255, 255, 255)
+		}
 		.txt {
 			padding-top: 2%;
 		}
@@ -923,7 +929,7 @@ SP Portrait
 			background: rgba(188, 180, 169, 1);
 			margin: 1%;
 			border-radius: 5px;
-			padding: 1%;
+			padding: 1% 1.5%;
 		}
 		h1 {
 			width: 130px;
@@ -934,9 +940,6 @@ SP Portrait
 			display: flex;
 			flex-direction: column;
 			order: 3;
-			margin-left: 0;
-		}
-		.navigation {
 		}
 		.icon {
 			margin-left: 0;
@@ -976,7 +979,7 @@ SP Portrait
 			content: none;
 		}
 		.nav_list_en {
-			font-size: 1.4rem;
+			font-size: 1.6rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
 		.drop,
@@ -1124,6 +1127,11 @@ SP Portrait
 		.fnc-cont__credits {
 			top: 100px; /* header height */
 		}
+		.sec_01_h2,
+		.sec_01_h2 {
+			font-size: 1.7rem;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
+		}
 	}
 
 
@@ -1133,7 +1141,17 @@ SP Portrait
 	/* 1280px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 1280px){
+		.sns {
+			display: flex;
+			flex-direction: column;
+			order: 3;
+			margin-left: 30px;
+		}
 		.nav_list {
 			font-size: 1.3rem;
 		}
+		.sec_01_h2,
+		.sec_01_h2 {
+			font-size: 2rem;
 	}
+}

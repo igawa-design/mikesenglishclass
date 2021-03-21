@@ -141,12 +141,12 @@ SP Portrait
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: rgba(255, 255, 255, 0.8);
 			list-style: none;
 			width: 20px;
 			height: 20px;
 			background: rgba(255, 255, 255, 0.5);
 			animation: animate 25s linear infinite;
+			color: rgb(255, 255, 255) /* fff */;
 			bottom: -150px;
 		}
 		.circles li:nth-child(1){
@@ -327,8 +327,7 @@ SP Portrait
 		}
 		.nav_list_ja::before,
 		.nav_list_ja::after {
-			content: "-";
-			margin: 0 5px;
+			content: " - ";
 		}
 		/* fancy_slider */
 		.fnc-slider {
@@ -658,7 +657,7 @@ SP Portrait
 			padding: 150px 2% 30px;
 			background: transparent;
 			font-family: Helvetica, Arial, sans-serif;
-			color: rgba(48, 48, 48, 0.7);
+			color: rgb(48, 48, 48) /* #303030 */;
 			text-align: center;
 			transition: transform 0.7s;
 			transform: translate3d(100%, 0, 0) rotateY(-45deg);
@@ -697,10 +696,13 @@ SP Portrait
 			transform: rotate(-45deg);
 		}
 		.fnc-cont__credits-heading {
+			background: rgb(89, 145, 216) /*#5991d8*/;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			padding: 2%;
 			font-family: Helvetica, Arial, sans-serif;
 			font-size: 2.5rem;
-			margin-bottom: 20px;
-			padding: 0 1%;
+			color: rgb(255, 255, 255) /*#fff*/;
 			line-height: 1.2;
 		}
 		.fnc-cont__credits-img {
@@ -712,6 +714,11 @@ SP Portrait
 		.fnc-cont__credits-name {
 			margin-bottom: 50px;
 			font-size: 2rem;
+			color: rgb(89, 145, 216) /*#5991d8*/;
+		}
+		.fnc-cont__credits-name::before,
+		.fnc-cont__credits-name::after {
+			content: " - ";
 		}
 		.fnc-cont__credits-link {
 			display: flex;
@@ -1054,9 +1061,9 @@ SP Portrait
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
 			text-shadow: 0.5px 0.5px 0 #fff, -0.5px -0.5px 0 #fff,
-												-0.5px 0.5px 0 #fff, 0.5px -0.5px 0 #fff,
-												0px 0.5px 0 #fff,  0 -0.5px 0 #fff,
-												-0.5px 0 0 #fff, 0.5px 0 0 #fff;
+			-0.5px 0.5px 0 #fff, 0.5px -0.5px 0 #fff,
+			0px 0.5px 0 #fff,  0 -0.5px 0 #fff,
+			-0.5px 0 0 #fff, 0.5px 0 0 #fff;
 		}
 		.About_Mike::first-letter {
 			color: rgb(57, 82, 111);

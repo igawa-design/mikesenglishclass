@@ -926,7 +926,7 @@ SP Portrait
 			align-items: center;
 			width: 98%;
 			height: 130px;
-			background: rgba(188, 180, 169, 1);
+			background: rgba(82, 76, 67, 0.5);
 			margin: 1%;
 			border-radius: 5px;
 			padding: 1% 1.5%;
@@ -982,6 +982,9 @@ SP Portrait
 			font-size: 1.6rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
+		.nav_list_small {
+			font-size: 1.2rem;
+		}
 		.drop,
 		.no_drop {
 			display: inline-block;
@@ -1016,7 +1019,7 @@ SP Portrait
 			position: relative;
 			z-index: 0;
 			width: 150px;
-			background: rgb(188, 180, 169);
+			background: rgb(82, 76, 67);
 		}
 		.drop li.cat_Gallery,
 		.drop li.cat_Reviews {

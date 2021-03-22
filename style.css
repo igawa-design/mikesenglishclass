@@ -63,6 +63,9 @@ SP Portrait
 		.header_icon {
 			width: 40px;
 			height: 40px;
+			box-shadow: 0 0 0 1px rgb(204, 204, 204) /*#ccc*/;
+			border-radius: 5px;
+			margin: 5px 0;
 		}
 		.fnc_icon {
 			width: 25px;
@@ -74,11 +77,11 @@ SP Portrait
 			height: 23px;
 		}
 		.logo,
-		.icon {
+		.header_icon {
 			transition: all 0.3s ease 0s;
 		}
 		.logo:hover,
-		.icon:hover {
+		.header_icon:hover {
 			transform: rotate(-10deg) scale(1.1, 1.1);
 		}
 		.sns {
@@ -387,7 +390,7 @@ SP Portrait
 			overflow: hidden;
 			z-index: 1;
 			position: absolute;
-			right: 60%;
+			right: 80%;
 			top: 6%;
 			width: 50.25vh;
 			height: 67vh;
@@ -744,17 +747,17 @@ SP Portrait
 		}
 		.fancy-slider .fnc-slide-1 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/top_sp.jpg");
+			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/aboutmike_1400x1867.jpg");
 			background-size: cover;
 		}
 		.fancy-slider .fnc-slide-2 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/aboutmike_sp.jpg");
+			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/one-to-one_1400x1867.jpg");
 			background-size: cover;
 		}
 		.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/one-to-one_sp.jpg");
+			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/location_1400x1050.jpg");
 			background-size: cover;
 		}
 		.fancy-slider .fnc-slide-3 .fnc-slide__inner:before {
@@ -768,7 +771,7 @@ SP Portrait
 		}
 		.fancy-slider .fnc-slide-4 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("common/img/contact_sp.jpg");
+			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("common/img/contact_1400x1050.jpg");
 			background-size: cover;
 		}
 		.fancy-slider .fnc-slide-4 .fnc-slide__inner:before {
@@ -896,19 +899,19 @@ SP Portrait
 		}
 		.fancy-slider .fnc-slide-1 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-			background-image: url("common/img/top_pc.jpg");
+			background-image: url("common/img/aboutmike_1920x2560.jpg");
 		}
 		.fancy-slider .fnc-slide-2 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-			background-image: url("common/img/aboutmike_pc.jpg");
+			background-image: url("common/img/one-to-one_1920x2560.jpg");
 		}
 		.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-			background-image: url("common/img/one-to-one_pc.jpg");
+			background-image: url("common/img/location_1920x1440.jpg");
 		}
 		.fancy-slider .fnc-slide-4 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-			background-image: url("common/img/contact_pc.jpg");
+			background-image: url("common/img/contact_1920x1440.jpg");
 		}
 	}
 
@@ -937,9 +940,11 @@ SP Portrait
 			font-size: 5rem;
 		}
 		.sns {
-			display: flex;
 			flex-direction: column;
-			order: 3;
+			position: fixed;
+			top: 50%;
+			right: 1%;
+			transform: translateY(-50%);
 		}
 		.icon {
 			margin-left: 0;
@@ -1147,11 +1152,21 @@ SP Portrait
 	/* 1280px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 1280px){
-		.sns {
-			display: flex;
-			flex-direction: column;
-			order: 3;
-			margin-left: 30px;
+		.fancy-slider .fnc-slide-1 .fnc-slide__inner,
+		.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
+			background-image: url("common/img/aboutmike_2800x3734.jpg");
+		}
+		.fancy-slider .fnc-slide-2 .fnc-slide__inner,
+		.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+			background-image: url("common/img/one-to-one_2800x3734.jpg");
+		}
+		.fancy-slider .fnc-slide-3 .fnc-slide__inner,
+		.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
+			background-image: url("common/img/location_1920x1440.jpg");
+		}
+		.fancy-slider .fnc-slide-4 .fnc-slide__inner,
+		.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
+			background-image: url("common/img/contact_1920x1440.jpg");
 		}
 		.nav_list {
 			font-size: 1.3rem;

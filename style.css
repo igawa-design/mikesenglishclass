@@ -1112,6 +1112,9 @@ SP Portrait
 		.English::first-letter {
 			color: rgb(57, 82, 111);
 		}
+		.Sitemap::first-letter {
+			color: rgb(57, 82, 111);
+		}
 		.close-btn {
 			display: none;
 		}

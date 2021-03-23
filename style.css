@@ -246,7 +246,7 @@ SP Portrait
 		.sidenavs {
 			height: 100%;
 			width: 0;
-			background: rgba(106, 162, 83, 0.9) /*#6aa253*/ url(common/img/bg_from_nipponcolors_texture.png);
+			background: rgba(38, 155, 143, 0.9) /*#269b8f*/ url(common/img/bg_from_nipponcolors_texture.png);
 			position: fixed;
 			scroll-behavior: smooth;
 			-webkit-overflow-scrolling: touch;
@@ -344,6 +344,7 @@ SP Portrait
 		}
 		.nav_pic {
 			display: block;
+			opacity: 0.8;
 			width: 30px;
 			height: 30px;
 			margin: auto;
@@ -882,8 +883,9 @@ SP Portrait
 			width: 50%;
 			background: rgba(231, 187, 92, 0.8)/*#e7bb5c*/;
 			padding: 10px;
-			color: rgb(255, 255, 255)
+			color: rgb(255, 255, 255);
 		}
+
 		.txt {
 			padding-top: 2%;
 		}

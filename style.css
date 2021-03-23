@@ -246,7 +246,7 @@ SP Portrait
 		.sidenavs {
 			height: 100%;
 			width: 0;
-			background: rgba(38, 155, 143, 0.8) /*#269b8f*/ url(common/img/bg_from_nipponcolors_texture.png);
+			background: rgba(38, 155, 143, 0.9) /*#269b8f*/ url(common/img/bg_from_nipponcolors_texture.png);
 			position: fixed;
 			scroll-behavior: smooth;
 			-webkit-overflow-scrolling: touch;
@@ -881,7 +881,7 @@ SP Portrait
 			display: flex;
 			flex-direction: column;
 			width: 50%;
-			background: rgba(231, 187, 92, 0.8)/*#e7bb5c*/;
+			background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
 			padding: 10px;
 			color: rgb(255, 255, 255);
 		}
@@ -893,14 +893,21 @@ SP Portrait
 			order: 2;
 			margin-top: 10px;
 		}
-		.sec_01_txt_head {
+		.sec_txt_head {
 			order: 1;
 			background: rgb(49, 66, 57) /*#314239*/;
 			border-radius: 2px;
-			padding: 5px;
+			padding: 2px 5px;
 			font-size: 1.6rem;
 			font-weight: bold;
 			text-align: center;
+			border-bottom: 5px solid;
+		}
+		.sec_01_txt_head {
+			border-bottom-color: rgb(38, 155, 143) /*#269b8f*/;
+		}
+		.sec_02_txt_head {
+			border-bottom-color: rgb(255, 255, 255) /*#fff*/;
 		}
 		.sec_01_pic {
 			order: 3;
@@ -979,7 +986,6 @@ SP Portrait
 			align-items: center;
 			width: 98%;
 			height: 130px;
-			background: rgba(82, 76, 67, 0.5);
 			margin: 1%;
 			border-radius: 5px;
 			padding: 1% 1.5%;
@@ -1060,8 +1066,7 @@ SP Portrait
 			width: 150px;
 			height: 50px;
 			text-align: center;
-			background-color: rgb(188, 180, 169);
-			transition: top 0.5s, background-color 0.3s;
+			transition: top 0.5s ease 0s;
 		}
 		.drop li.cat_Gallery:hover {
 			background: rgb(91, 121, 92);
@@ -1074,7 +1079,6 @@ SP Portrait
 			position: relative;
 			z-index: 0;
 			width: 150px;
-			background: rgb(82, 76, 67);
 		}
 		.drop li.cat_Gallery,
 		.drop li.cat_Reviews {
@@ -1082,15 +1086,23 @@ SP Portrait
 		}
 		.drop li.category1 {
 			z-index: 2;
+			opacity: 0;
+			transition: all 0.3s ease 0s;
 		}
 		.drop li.category2 {
 			z-index: 1;
+			opacity: 0;
+			transition: all 0.3s ease 0s;
 		}
 		.drop:hover li.category1 {
 			top: 50px;
+			opacity: 1;
+			background: rgb(188, 180, 169) /*#bcb4a9*/;
 		}
 		.drop:hover li.category2 {
 			top: 100px;
+			opacity: 1;
+			background: rgb(188, 180, 169) /*#bcb4a9*/;
 		}
 		.drop li.cat_Gallery + .category1:hover,
 		.drop li.cat_Gallery + .category1 + .category2:hover {

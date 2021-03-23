@@ -9,9 +9,9 @@ Author URI: http://igawa.co
 /********************************************************************************************
 SP Portrait
 *********************************************************************************************/
-/* 280px
+/* 320px
 --------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 320px) {
 	html {
 		background: rgba(233, 231, 225, 1) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
 		color: rgba(37, 30, 28, 1) /*#251E1C*/;
@@ -806,7 +806,7 @@ SP Portrait
 			left: 0;
 			width: 50%;
 			height: 10px;
-			background: rgb(49, 66, 57);
+			background: rgb(49, 66, 57) /*#314239*/;
 			transform: translateZ(0);
 			animation: foo 2.5s linear alternate infinite;
 		}
@@ -819,7 +819,7 @@ SP Portrait
 			right: -100%;
 			width: 100%;
 			height: 10px;
-			background: rgb(49, 66, 57);
+			background: rgb(49, 66, 57) /*#314239*/;
 			animation: bar 2.5s linear alternate infinite;
 		}
 		.arrow_9ineBB:before {
@@ -864,21 +864,32 @@ SP Portrait
 		.flex {
 			display: flex;
 			justify-content: space-between;
-			align-items: center;
+			align-items: stretch;
 		}
 		.section {
 			padding: 2%;
 		}
 		.sec_01,
 		.sec_02 {
-			background: rgb(231, 187, 92)/*#e7bb5c*/;
+			background: rgba(231, 187, 92, 0.8)/*#e7bb5c*/;
 			padding: 10px;
 			color: rgb(255, 255, 255)
 		}
 		.txt {
 			padding-top: 2%;
 		}
+		.sec_01_h2,
+		.sec_02_h2 {
+			min-height: 100px;
+		}
+		.one-to-one_sec,
+		.online_sec {
+			display: block;
+			width: 80px;
+			margin: auto;
+		}
 	}
+
 
 	/********************************************************************************************
 	SP Landscape

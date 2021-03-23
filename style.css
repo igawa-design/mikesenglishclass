@@ -342,6 +342,11 @@ SP Portrait
 		.nav_list_ja::after {
 			content: " - ";
 		}
+		.nav_pic {
+			display: block;
+			width: 30px;
+			margin: auto;
+		}
 		/* fancy_slider */
 		.fnc-slider {
 			overflow: hidden;
@@ -871,6 +876,9 @@ SP Portrait
 		}
 		.sec_01,
 		.sec_02 {
+			display: flex;
+			flex-direction: column;
+			width: 50%;
 			background: rgba(231, 187, 92, 0.8)/*#e7bb5c*/;
 			padding: 10px;
 			color: rgb(255, 255, 255)
@@ -878,15 +886,32 @@ SP Portrait
 		.txt {
 			padding-top: 2%;
 		}
-		.sec_01_h2,
-		.sec_02_h2 {
-			min-height: 100px;
+		.sec_01_h2 {
+			order: 2;
+			margin-top: 10px;
 		}
-		.one-to-one_sec,
-		.online_sec {
+		.sec_01_txt_head {
+			order: 1;
+			background: rgb(49, 66, 57) /*#314239*/;
+			border-radius: 2px;
+			padding: 5px;
+			font-size: 1.6rem;
+			font-weight: bold;
+			text-align: center;
+		}
+		.sec_01_pic {
+			order: 3;
 			display: block;
 			width: 80px;
 			margin: auto;
+		}
+		.sec_01_txt {
+			order: 4;
+			margin-top: 10px;
+			font-size: 1.4rem;
+		}
+		.sec_01_a {
+			order: 5;
 		}
 	}
 

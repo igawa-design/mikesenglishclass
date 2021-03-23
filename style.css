@@ -882,7 +882,7 @@ SP Portrait
 			flex-direction: column;
 			width: 50%;
 			background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
-			padding: 10px;
+			padding: 10px 1%;
 			color: rgb(255, 255, 255);
 		}
 
@@ -1066,7 +1066,7 @@ SP Portrait
 			width: 150px;
 			height: 50px;
 			text-align: center;
-			transition: top 0.5s ease 0s;
+			transition: all 0.3s ease 0s;
 		}
 		.drop li.cat_Gallery:hover {
 			background: rgb(91, 121, 92);

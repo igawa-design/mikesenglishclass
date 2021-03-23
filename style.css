@@ -345,6 +345,7 @@ SP Portrait
 		.nav_pic {
 			display: block;
 			width: 30px;
+			height: 30px;
 			margin: auto;
 		}
 		/* fancy_slider */
@@ -903,6 +904,7 @@ SP Portrait
 			order: 3;
 			display: block;
 			width: 80px;
+			height: 80px;
 			margin: auto;
 		}
 		.sec_01_txt {

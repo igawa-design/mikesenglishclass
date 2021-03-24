@@ -1056,11 +1056,14 @@ SP Portrait
 			font-size: 5rem;
 		}
 		.sns {
-			flex-direction: column;
-			position: fixed;
-			top: 50%;
-			right: 1%;
-			transform: translateY(-50%);
+			flex-direction: row;
+			order: 3;
+		}
+		.header_icon {
+			width: 70px;
+			height: 70px;
+			box-shadow: none;
+			margin: 0;
 		}
 		.icon {
 			margin-left: 0;

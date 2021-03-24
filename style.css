@@ -80,8 +80,7 @@ SP Portrait
 			box-shadow: 0 0 0 1px rgb(255, 0, 0) /*#f00*/;
 		}
 		.fnc_icon.contact {
-			box-shadow: 0 0 0 1px orange;
-
+			box-shadow: 0 0 0 1px rgb(255, 112, 67) /*#ff7043*/;
 		}
 		.logo,
 		.header_icon {
@@ -131,6 +130,183 @@ SP Portrait
 			overflow-y: scroll;
 			width: 100%;
 			display:block;
+		}
+		.sidenavs:target {
+			overflow-x: hidden;
+			width: 0;
+		}
+		.sidenavs {
+			height: 100%;
+			width: 0;
+			background: rgba(145, 193, 101, 0.95) /*#91c165*/ url(common/img/bg_from_nipponcolors_texture.png);
+			position: fixed;
+			scroll-behavior: smooth;
+			-webkit-overflow-scrolling: touch;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			overflow-x: hidden;
+			padding: 60px 0;
+			transition: 0.5s;
+		}
+		.sidenavs div {
+			height:100%;
+		}
+		.sidenavs a {
+			display: flex;
+			transition: 0.3s;
+			transform: rotate(0deg);
+			padding: 10px 3%;
+			font-size: 1.5rem;
+			text-decoration: none;
+			text-align: center;
+			font-weight:bold;
+		}
+		.sidenavs a:hover {
+			color: rgb(255, 255, 255);
+		}
+		.sidenavs .close-btn {
+			position: absolute;
+			z-index: 100;
+			right: 3%;
+			top: 3%;
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+		}
+		.sidenavs .close-btn:before {
+			transform: rotate(45deg);
+		}
+		.sidenavs .close-btn:before, .sidenavs .close-btn:after {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 100%;
+			height: 2px;
+			margin-top: -1px;
+			background: #fff;
+		}
+		.sidenavs .close-btn:before {
+			transform: rotate(45deg);
+		}
+		.sidenavs .close-btn:after {
+			transform: rotate(-45deg);
+		}
+		.nav_list:hover {
+			color: rgb(255, 255, 255);
+		}
+		.nav_list {
+			position: relative;
+			z-index: 100;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			min-width: 100vw;
+			padding: 2% 3%;
+			text-decoration: none;
+			font-size: 1.4rem;
+			color: rgb(255, 255, 255);
+			transition: 0.3s;
+			font-weight: bold;
+			transform: rotate(0deg);
+		}
+		.nav_list a:hover {
+			opacity: 0.5;
+		}
+		.nav_list_en {
+			display: block;
+			order: 1;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-size: 2.2rem;
+			color: rgb(255, 255, 255);
+			text-shadow: 0 0 1px rgba(0,0,0,0.5);
+		}
+		.nav_list_ja {
+			display: block;
+			width: 100vw;
+			order: 2;
+			margin: 0 20px;
+			border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+			padding-bottom: 15px;
+			color: rgba(255, 255, 255, 0.9);
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+		}
+		.nav_list_ja::before,
+		.nav_list_ja::after {
+			content: " - ";
+		}
+		.first_letter,
+		.nav_list_en::first-letter {
+			font-size: 2.5rem;
+			text-shadow: 0.5px 0.5px 0 #fff, -0.5px -0.5px 0 #fff,
+			-0.5px 0.5px 0 #fff, 0.5px -0.5px 0 #fff,
+			0px 0.5px 0 #fff,  0 -0.5px 0 #fff,
+			-0.5px 0 0 #fff, 0.5px 0 0 #fff;
+		}
+		.About_Mike.first_letter,
+		.About_Mike::first-letter {
+			color: rgb(57, 82, 111);
+		}
+		.One_to_One.first_letter,
+		.One_to_One::first-letter {
+			color: rgb(68, 118, 107);
+		}
+		.Gallery.first_letter,
+		.Gallery::first-letter {
+			color: rgb(91, 121, 92);
+		}
+		.Gallery_Lessonpix.first_letter,
+		.Gallery_Lessonpix::first-letter {
+			color: rgb(91, 121, 92);
+		}
+		.Gallery_Scrapbook.first_letter,
+		.Gallery_Scrapbook::first-letter {
+			color: rgb(91, 121, 92);
+		}
+		.Translations.first_letter,
+		.Translations::first-letter {
+			color: rgb(114, 127, 78);
+		}
+		.Location.first_letter,
+		.Location::first-letter {
+			color: rgb(165, 132, 54);
+		}
+		.Reviews.first_letter,
+		.Reviews::first-letter {
+			color: rgb(157, 108, 47);
+		}
+		.Reviews_One_to_One.first_letter,
+		.Reviews_One_to_One::first-letter {
+			color: rgb(157, 108, 47);
+		}
+		.Reviews_Translations.first_letter,
+		.Reviews_Translations::first-letter {
+			color: rgb(157, 108, 47);
+		}
+		.Mikes_Posts.first_letter,
+		.Mikes_Posts::first-letter {
+			color: rgb(125, 53, 28);
+		}
+		.Contact.first_letter,
+		.Contact::first-letter {
+			color: rgb(112, 41, 36);
+		}
+		.English.first_letter,
+		.English::first-letter {
+			color: rgb(57, 82, 111);
+		}
+		.Sitemap.first_letter,
+		.Sitemap::first-letter {
+			color: rgb(57, 82, 111);
+		}
+		.nav_pic {
+			display: block;
+			opacity: 0.8;
+			width: 30px;
+			height: 30px;
+			margin: auto;
 		}
 		.area {
 			width: 100%;
@@ -238,116 +414,6 @@ SP Portrait
 				opacity: 0;
 				border-radius: 50%;
 			}
-		}
-		.sidenavs:target {
-			overflow-x: hidden;
-			width: 0;
-		}
-		.sidenavs {
-			height: 100%;
-			width: 0;
-			background: rgba(38, 155, 143, 0.9) /*#269b8f*/ url(common/img/bg_from_nipponcolors_texture.png);
-			position: fixed;
-			scroll-behavior: smooth;
-			-webkit-overflow-scrolling: touch;
-			z-index: 1;
-			top: 0;
-			left: 0;
-			overflow-x: hidden;
-			padding: 60px 0;
-			transition: 0.5s;
-		}
-		.sidenavs div {
-			height:100%;
-		}
-		.sidenavs a {
-			display: flex;
-			transition: 0.3s;
-			transform: rotate(0deg);
-			padding: 10px 3%;
-			font-size: 1.5rem;
-			color: rgba(255, 255, 255, 0.9);
-			text-shadow: 0 0 1px rgba(0,0,0,0.5);
-			text-decoration: none;
-			text-align: center;
-			font-weight:bold;
-		}
-		.sidenavs a:hover {
-			color: rgb(255, 255, 255);
-		}
-		.sidenavs .close-btn {
-			position: absolute;
-			z-index: 100;
-			right: 3%;
-			top: 3%;
-			width: 35px;
-			height: 35px;
-			cursor: pointer;
-		}
-		.sidenavs .close-btn:before {
-			transform: rotate(45deg);
-		}
-		.sidenavs .close-btn:before, .sidenavs .close-btn:after {
-			content: "";
-			position: absolute;
-			left: 0;
-			top: 50%;
-			width: 100%;
-			height: 2px;
-			margin-top: -1px;
-			background: #fff;
-		}
-		.sidenavs .close-btn:before {
-			transform: rotate(45deg);
-		}
-		.sidenavs .close-btn:after {
-			transform: rotate(-45deg);
-		}
-		.nav_list:hover {
-			color: rgb(255, 255, 255);
-		}
-		.nav_list {
-			position: relative;
-			z-index: 100;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			min-width: 100vw;
-			padding: 2% 3%;
-			text-decoration: none;
-			font-size: 1.4rem;
-			color: rgb(255, 255, 255);
-			transition: 0.3s;
-			font-weight: bold;
-			transform: rotate(0deg);
-		}
-		.nav_list a:hover {
-			opacity: 0.5;
-		}
-		.nav_list_en {
-			order: 1;
-			font-family: Helvetica, Arial, sans-serif;
-			font-weight: bold;
-			font-size: 2.2rem;
-		}
-		.nav_list_ja {
-			display: block;
-			width: 100vw;
-			order: 2;
-			margin: 0 20px;
-			border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
-			padding-bottom: 15px;
-		}
-		.nav_list_ja::before,
-		.nav_list_ja::after {
-			content: " - ";
-		}
-		.nav_pic {
-			display: block;
-			opacity: 0.8;
-			width: 30px;
-			height: 30px;
-			margin: auto;
 		}
 		/* fancy_slider */
 		.fnc-slider {
@@ -892,6 +958,7 @@ SP Portrait
 		.sec_01_h2 {
 			order: 2;
 			margin-top: 10px;
+			padding: 0 2%;
 		}
 		.sec_txt_head {
 			order: 1;
@@ -901,13 +968,7 @@ SP Portrait
 			font-size: 1.6rem;
 			font-weight: bold;
 			text-align: center;
-			border-bottom: 5px solid;
-		}
-		.sec_01_txt_head {
-			border-bottom-color: rgb(38, 155, 143) /*#269b8f*/;
-		}
-		.sec_02_txt_head {
-			border-bottom-color: rgb(255, 255, 255) /*#fff*/;
+			border-bottom: 2px solid rgb(255, 255, 255) /*#fff*/;
 		}
 		.sec_01_pic {
 			order: 3;
@@ -920,6 +981,7 @@ SP Portrait
 			order: 4;
 			margin-top: 10px;
 			font-size: 1.4rem;
+			padding: 2%;
 		}
 		.sec_01_a {
 			order: 5;
@@ -1043,6 +1105,9 @@ SP Portrait
 			font-size: 1.6rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
+		.nav_list_en::first-letter {
+			font-size: 1.8rem;
+		}
 		.nav_list_small {
 			font-size: 1.2rem;
 		}
@@ -1139,48 +1204,6 @@ SP Portrait
 			-0.5px 0.5px 0 #fff, 0.5px -0.5px 0 #fff,
 			0px 0.5px 0 #fff,  0 -0.5px 0 #fff,
 			-0.5px 0 0 #fff, 0.5px 0 0 #fff;
-		}
-		.About_Mike::first-letter {
-			color: rgb(57, 82, 111);
-		}
-		.One_to_One::first-letter {
-			color: rgb(68, 118, 107);
-		}
-		.Gallery::first-letter {
-			color: rgb(91, 121, 92);
-		}
-		.Gallery_Lessonpix::first-letter {
-			color: rgb(91, 121, 92);
-		}
-		.Gallery_Scrapbook::first-letter {
-			color: rgb(91, 121, 92);
-		}
-		.Translations::first-letter {
-			color: rgb(114, 127, 78);
-		}
-		.Location::first-letter {
-			color: rgb(165, 132, 54);
-		}
-		.Reviews::first-letter {
-			color: rgb(157, 108, 47);
-		}
-		.Reviews_One_to_One::first-letter {
-			color: rgb(157, 108, 47);
-		}
-		.Reviews_Translations::first-letter {
-			color: rgb(157, 108, 47);
-		}
-		.Mikes_Posts::first-letter {
-			color: rgb(125, 53, 28);
-		}
-		.Contact::first-letter {
-			color: rgb(112, 41, 36);
-		}
-		.English::first-letter {
-			color: rgb(57, 82, 111);
-		}
-		.Sitemap::first-letter {
-			color: rgb(57, 82, 111);
 		}
 		.close-btn {
 			display: none;

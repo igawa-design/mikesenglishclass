@@ -67,21 +67,6 @@ SP Portrait
 			border-radius: 5px;
 			margin: 5px 0;
 		}
-		.fnc_icon {
-			width: 25px;
-			height: 25px;
-			margin-right: 10px;
-			border-radius: 3px;
-		}
-		.fnc_icon.facebook {
-			box-shadow: 0 0 0 1px rgb(59, 89, 152) /*#3b5998*/;
-		}
-		.fnc_icon.youtube {
-			box-shadow: 0 0 0 1px rgb(255, 0, 0) /*#f00*/;
-		}
-		.fnc_icon.contact {
-			box-shadow: 0 0 0 1px rgb(255, 112, 67) /*#ff7043*/;
-		}
 		.logo,
 		.header_icon {
 			transition: all 0.3s ease 0s;
@@ -336,8 +321,8 @@ SP Portrait
 			bottom: -150px;
 		}
 		.fnc-cont__credits .circles li {
-			color: rgba(48, 48, 48, 0.5) /* 303030*/
-}
+			color: rgba(243, 130, 33, 0.5) /*#f38221*/;
+		}
 		.circles li:nth-child(1) {
 			left: 25%;
 			width: 80px;
@@ -734,16 +719,15 @@ SP Portrait
 		.fnc-cont__credits {
 			box-sizing: border-box;
 			overflow-y: auto;
-			z-index: 1;
+			z-index: 10;
 			position: absolute;
 			right: 0;
 			top: 0;
 			width: auto;
 			height: 100%;
 			padding: 150px 2% 30px;
-			background: transparent;
+			background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
 			font-family: Helvetica, Arial, sans-serif;
-			color: rgb(48, 48, 48) /* #303030 */;
 			text-align: center;
 			transition: transform 0.7s;
 			transform: translate3d(100%, 0, 0) rotateY(-45deg);
@@ -781,7 +765,7 @@ SP Portrait
 			transform: rotate(-45deg);
 		}
 		.fnc-cont__credits-heading {
-			background: rgb(188, 180, 169) /*#bcb4a9*/;
+			background: rgba(243, 130, 33, 0.5) /*#f38221*/;
 			margin-bottom: 20px;
 			border-radius: 5px;
 			padding: 2%;
@@ -799,26 +783,40 @@ SP Portrait
 		.fnc-cont__credits-name {
 			margin-bottom: 50px;
 			font-size: 2rem;
-			color: rgb(89, 145, 216) /*#5991d8*/;
+			color: rgb(255, 255, 255) /*#fff*/;
 		}
 		.fnc-cont__credits-name::before,
 		.fnc-cont__credits-name::after {
 			content: " - ";
+		}
+		.fnc_icon {
+			width: 25px;
+			height: 25px;
+			margin-right: 10px;
+		}
+		.fnc_icon.contact {
+			width: 23px;
+			height: 23px;
 		}
 		.fnc-cont__credits-link {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			margin: 0 5%;
-			border-bottom: 1px dotted rgba(82, 76, 67, 0.9);
+			border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*#fff*/;
 			padding: 15px 0;
 			font-size: 2.2rem;
-			color: rgba(82, 76, 67, 0.8);
+			color: rgb(255, 255, 255) /*#fff*/;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 		}
 		.fnc-cont__credits-blend {
 			font-size: 30px;
 			margin-bottom: 10px;
+		}
+		.fnc-cont__credits_txt {
+			margin: 30px 3% 10px;
+			font-size: 1.5rem;
+			color: rgb(255, 255, 255) /* fff */;
 		}
 		.fancy-slider {
 			z-index: 2;

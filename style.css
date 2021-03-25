@@ -40,7 +40,10 @@ SP Portrait
 				opacity: 0;
 			}
 		}
-		header {
+		body {
+			font-size: 1.4rem;
+		}
+			header {
 			display: flex;
 			position: relative;
 			z-index: 100;
@@ -943,6 +946,7 @@ SP Portrait
 			order: 2;
 			margin-top: 10px;
 			padding: 0 2%;
+			font-size: 1.6rem;
 		}
 		.sec_txt_head {
 			order: 1;
@@ -980,7 +984,7 @@ SP Portrait
 		  color: rgb(238, 139, 103) /*#ee8b67*/;
 		  perspective: 300px;
 		  transform-style: preserve-3d;
-				font-size: 1.2rem;
+				font-size: 1.3rem;
 		}
 		@keyframes pulse {
 		  from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
@@ -1260,7 +1264,6 @@ SP Portrait
 		.fnc-cont__credits {
 			top: 100px; /* header height */
 		}
-		.sec_01_h2,
 		.sec_01_h2 {
 			font-size: 1.7rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
@@ -1292,7 +1295,6 @@ SP Portrait
 		.nav_list {
 			font-size: 1.3rem;
 		}
-		.sec_01_h2,
 		.sec_01_h2 {
 			font-size: 2rem;
 	}

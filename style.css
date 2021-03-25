@@ -159,9 +159,12 @@ SP Portrait
 			width: 35px;
 			height: 35px;
 			cursor: pointer;
+			transition: all 0.3s ease 0s;
 		}
-		.sidenavs .close-btn:before, .sidenavs .close-btn:after,
-		.fnc-cont__credits-close:before, .fnc-cont__credits-close:after {
+		.sidenavs .close-btn:before,
+		.sidenavs .close-btn:after,
+		.fnc-cont__credits-close:before,
+		.fnc-cont__credits-close:after {
 			content: "";
 			position: absolute;
 			left: 0;
@@ -178,6 +181,10 @@ SP Portrait
 		.sidenavs .close-btn:after,
 		.fnc-cont__credits-close:after {
 			transform: rotate(-45deg);
+		}
+		.sidenavs .close-btn:hover,
+		.fnc-cont__credits-close:hover {
+			transform: scale(1.2);
 		}
 		.nav_list:hover {
 			color: rgb(255, 255, 255);

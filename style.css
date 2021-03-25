@@ -232,59 +232,59 @@ SP Portrait
 		}
 		.About_Mike.first_letter,
 		.About_Mike::first-letter {
-			color: rgb(57, 82, 111);
+			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.One_to_One.first_letter,
 		.One_to_One::first-letter {
-			color: rgb(68, 118, 107);
+			color: rgb(38, 155, 143) /*#269b8f*/;
 		}
 		.Gallery.first_letter,
 		.Gallery::first-letter {
-			color: rgb(91, 121, 92);
+			color: rgb(102, 176, 106) /*#66b06a*/;
 		}
 		.Gallery_Lessonpix.first_letter,
 		.Gallery_Lessonpix::first-letter {
-			color: rgb(91, 121, 92);
+			color: rgb(102, 176, 106) /*#66b06a*/;
 		}
 		.Gallery_Scrapbook.first_letter,
 		.Gallery_Scrapbook::first-letter {
-			color: rgb(91, 121, 92);
+			color: rgb(102, 176, 106) /*#66b06a*/;
 		}
 		.Translations.first_letter,
 		.Translations::first-letter {
-			color: rgb(114, 127, 78);
+			color: rgb(145, 193, 101) /*#91c165*/;
 		}
 		.Location.first_letter,
 		.Location::first-letter {
-			color: rgb(165, 132, 54);
+			color: rgb(255, 191, 40) /*#ffbf28*/;
 		}
 		.Reviews.first_letter,
 		.Reviews::first-letter {
-			color: rgb(157, 108, 47);
+			color: rgb(255, 156, 38) /*#ff9c26*/;
 		}
 		.Reviews_One_to_One.first_letter,
 		.Reviews_One_to_One::first-letter {
-			color: rgb(157, 108, 47);
+			color: rgb(255, 156, 38) /*#ff9c26*/;
 		}
 		.Reviews_Translations.first_letter,
 		.Reviews_Translations::first-letter {
-			color: rgb(157, 108, 47);
+			color: rgb(255, 156, 38) /*#ff9c26*/;
 		}
 		.Mikes_Posts.first_letter,
 		.Mikes_Posts::first-letter {
-			color: rgb(125, 53, 28);
+			color: rgb(228, 83, 80) /*#e45350*/;
 		}
 		.Contact.first_letter,
 		.Contact::first-letter {
-			color: rgb(112, 41, 36);
+			color: rgb(255, 112, 67)/*#ff7043*/;
 		}
 		.English.first_letter,
 		.English::first-letter {
-			color: rgb(57, 82, 111);
+			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.Sitemap.first_letter,
 		.Sitemap::first-letter {
-			color: rgb(57, 82, 111);
+			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.nav_pic {
 			display: block;
@@ -714,7 +714,7 @@ SP Portrait
 			position: relative;
 			min-height: 100vh; /* Fallback */
 			min-height: calc( var(--vh) * 100 );
-			perspective: 1500px;
+			perspective: 3500px;
 		}
 		.fnc-cont__credits {
 			box-sizing: border-box;
@@ -1060,13 +1060,15 @@ SP Portrait
 			order: 3;
 		}
 		.header_icon {
-			width: 70px;
-			height: 70px;
-			box-shadow: none;
-			margin: 0;
+			display: block;
+			width: 40px;
+			height: 40px;
 		}
 		.icon {
-			margin-left: 0;
+			display: block;
+			width: 40px;
+			height: 40px;
+			margin-left: 10px;
 		}
 		.nav_sp {
 			display: none;

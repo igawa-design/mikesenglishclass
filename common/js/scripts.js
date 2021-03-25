@@ -1,4 +1,11 @@
-// by Nikolay Talanov
+// by webcreatorbox.com /////////////////////////////////////////////////////////////
+// loading
+window.onload = function() {
+  const spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+};
+
+// by Nikolay Talanov /////////////////////////////////////////////////////////////
 // License https://codepen.io/suez/pen/wMMgXp/license
 
 (function() {
@@ -180,14 +187,7 @@ document.querySelector(".fnc-cont__credits-close").addEventListener("click", fun
   $demoCont.classList.remove("credits-active");
 });
 
-// by webcreatorbox
-// loading
-window.onload = function() {
-  const spinner = document.getElementById('loading');
-  spinner.classList.add('loaded');
-};
-
-// by web-dev.tech
+// by web-dev.tech /////////////////////////////////////////////////////////////
 // window height
 // 1.関数の定義
 function setHeight() {

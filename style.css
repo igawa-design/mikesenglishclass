@@ -962,7 +962,7 @@ SP Portrait
 		}
 			.sec_01_a {
 				order: 5;
-				animation: Pulse 2s infinite;
+				animation: pulse 2s infinite;
 				box-sizing:border-box;
 				width: 150px;
 				display: inline-block;
@@ -977,7 +977,7 @@ SP Portrait
 		  transform-style: preserve-3d;
 				font-size: 1.2rem;
 		}
-		@keyframes Pulse {
+		@keyframes pulse {
 		  from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
 		  50% { background-color: #fff; box-shadow: 0 0 10px #fff; }
 		  to { background-color: #fff; box-shadow: 0 0 5px #aaa; }
@@ -1049,6 +1049,9 @@ SP Portrait
 		.fancy-slider .fnc-slide-4 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
 			background-image: url("common/img/contact_1920x1440.jpg");
+		}
+		.fnc-cont__credits_txt {
+			font-size: 1.6rem;
 		}
 		.sec_01_a {
 			margin: 10px 3% 0 auto;

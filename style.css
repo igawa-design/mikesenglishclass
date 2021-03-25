@@ -948,7 +948,6 @@ SP Portrait
 			border-bottom: 2px solid rgb(255, 255, 255) /*#fff*/;
 		}
 		.sec_01_pic {
-			order: 3;
 			display: block;
 			width: 80px;
 			height: 80px;
@@ -957,7 +956,6 @@ SP Portrait
 		.sec_01_txt {
 			order: 4;
 			margin-top: 10px;
-			font-size: 1.4rem;
 			padding: 2%;
 		}
 			.sec_01_a {
@@ -1064,6 +1062,9 @@ SP Portrait
 	/* 1024px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 1024px){
+		body {
+			font-size: 1.6rem;
+		}
 		header {
 			position: fixed;
 			top: 0;

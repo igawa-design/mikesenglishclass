@@ -924,6 +924,7 @@ SP Portrait
 		}
 		.flex {
 			display: flex;
+			flex-direction: column;
 			justify-content: space-between;
 			align-items: stretch;
 		}
@@ -934,9 +935,9 @@ SP Portrait
 		.sec_02 {
 			display: flex;
 			flex-direction: column;
-			width: 50%;
+			width: 100%;
 			background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
-			padding: 10px 1%;
+			padding: 10px 2%;
 			color: rgb(255, 255, 255);
 		}
 		.txt {
@@ -944,7 +945,7 @@ SP Portrait
 		}
 		.sec_01_h2 {
 			order: 2;
-			margin-top: 10px;
+			margin-top: 20px;
 			padding: 0 2%;
 			font-size: 1.6rem;
 		}
@@ -982,6 +983,7 @@ SP Portrait
 				cursor: pointer;
 		  background-color: #fff;
 		  color: rgb(238, 139, 103) /*#ee8b67*/;
+				text-align: center;
 		  perspective: 300px;
 		  transform-style: preserve-3d;
 				font-size: 1.3rem;
@@ -1012,17 +1014,16 @@ SP Portrait
 		  transform: rotateY(0);
 		  opacity: 1;
 		}
-
 }
-
 
 	/********************************************************************************************
 	SP Landscape
 	*********************************************************************************************/
-	/* 568px
+	/* 812px
 	--------------------------------------------------------------------------------------------*/
-	@media screen and (min-width: 568px){
-	}
+	@media screen and (min-width: 812px){
+
+}
 
 	/********************************************************************************************
 	Tablet Portrait
@@ -1030,6 +1031,9 @@ SP Portrait
 	/* 768px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 768px){
+		body {
+			font-size: 1.6rem;
+		}
 		.fnc-slide__heading-line .top_txt:first-of-type {
 			font-size: 5rem;
 		}
@@ -1062,8 +1066,12 @@ SP Portrait
 		.fnc-cont__credits_txt {
 			font-size: 1.6rem;
 		}
+		.flex {
+			flex-direction: row;
+	}
 		.sec_01_a {
 			margin: 10px 3% 0 auto;
+			font-size: 1.4rem;
 		}
 	}
 
@@ -1073,9 +1081,6 @@ SP Portrait
 	/* 1024px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 1024px){
-		body {
-			font-size: 1.6rem;
-		}
 		header {
 			position: fixed;
 			top: 0;

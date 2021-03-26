@@ -43,7 +43,7 @@ SP Portrait
 		body {
 			font-size: 1.5rem;
 		}
-			header {
+		header {
 			display: flex;
 			position: relative;
 			z-index: 100;
@@ -970,51 +970,51 @@ SP Portrait
 			margin-top: 10px;
 			padding: 2%;
 		}
-			.sec_01_a {
-				order: 5;
-				animation: pulse 2s infinite;
-				box-sizing:border-box;
-				width: 150px;
-				display: inline-block;
-				margin: 10px auto;
-				padding: 5px 10px;
-				border: 3px solid rgb(238, 139, 103) /*#ee8b67*/;
-				position: relative;
-				cursor: pointer;
-		  background-color: #fff;
-		  color: rgb(238, 139, 103) /*#ee8b67*/;
-				text-align: center;
-		  perspective: 300px;
-		  transform-style: preserve-3d;
-				font-size: 1.3rem;
+		.sec_01_a {
+			order: 5;
+			animation: pulse 2s infinite;
+			box-sizing:border-box;
+			width: 150px;
+			display: inline-block;
+			margin: 10px auto;
+			padding: 5px 10px;
+			border: 3px solid rgb(238, 139, 103) /*#ee8b67*/;
+			position: relative;
+			cursor: pointer;
+			background-color: #fff;
+			color: rgb(238, 139, 103) /*#ee8b67*/;
+			text-align: center;
+			perspective: 300px;
+			transform-style: preserve-3d;
+			font-size: 1.3rem;
 		}
 		@keyframes pulse {
-		  from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
-		  50% { background-color: #fff; box-shadow: 0 0 10px #fff; }
-		  to { background-color: #fff; box-shadow: 0 0 5px #aaa; }
+			from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
+			50% { background-color: #fff; box-shadow: 0 0 10px #fff; }
+			to { background-color: #fff; box-shadow: 0 0 5px #aaa; }
 		}
-			.sec_01_a::after {
-				position: absolute;
-		  top: 0;
-		  left: 0;
-				display:block;
-				box-sizing: border-box;
-		  width: 144px;
-		  height: 100%;
-				content: 'more...';
-				background:rgb(238, 139, 103) /*#ee8b67*/;
-				padding: 5px 10px;
-		  color: #fff;
-		  transform-origin: 0 50%;
-		  transform: rotateY(-70deg);
-		  transition: .4s all;
-		  opacity: 0;
+		.sec_01_a::after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display:block;
+			box-sizing: border-box;
+			width: 144px;
+			height: 100%;
+			content: 'more...';
+			background:rgb(238, 139, 103) /*#ee8b67*/;
+			padding: 5px 10px;
+			color: #fff;
+			transform-origin: 0 50%;
+			transform: rotateY(-70deg);
+			transition: .4s all;
+			opacity: 0;
 		}
 		.sec_01_a:hover::after {
-		  transform: rotateY(0);
-		  opacity: 1;
+			transform: rotateY(0);
+			opacity: 1;
 		}
-}
+	}
 
 	/********************************************************************************************
 	SP Landscape
@@ -1024,8 +1024,8 @@ SP Portrait
 	@media screen and (min-width: 667px){
 		.flex {
 			flex-direction: row;
+		}
 	}
-}
 
 	/********************************************************************************************
 	Tablet Portrait
@@ -1275,7 +1275,7 @@ SP Portrait
 			font-size: 1.7rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
-}
+	}
 
 	/********************************************************************************************
 	PC
@@ -1299,10 +1299,13 @@ SP Portrait
 		.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
 			background-image: url("common/img/contact_1920x1440.jpg");
 		}
+		.navigation {
+			margin-left: auto;
+		}
 		.nav_list {
 			font-size: 1.3rem;
 		}
 		.sec_01_h2 {
 			font-size: 2rem;
+		}
 	}
-}

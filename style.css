@@ -939,10 +939,10 @@ SP Portrait
 		}
 		.middle_navs_list {
 			width: 46%;
-			background: rgb(49, 66, 57) /*#314239*/;
+			background: rgb(238, 139, 103) /*#ee8b67*/;
 			margin: 10px auto 2px;
 			border-radius: 2px;
-			padding: 2px 5px;
+			padding: 5px;
 			color: rgb(255, 255, 255) /*#fff*/;
 		}
 		.middle_navs_list:nth-child(odd) {
@@ -950,8 +950,9 @@ SP Portrait
 		.middle_navs_list_en {
 			display: flex;
 			flex-wrap: wrap;
-			font-size: 1rem;
-			letter-spacing: 0.15rem;
+			font-size: 1.2rem;
+			letter-spacing: 0.1rem;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 			}
 		.middle_navs_list_en	.nav_pic {
 			width: 15px;

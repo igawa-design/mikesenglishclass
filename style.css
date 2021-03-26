@@ -938,21 +938,23 @@ SP Portrait
 			background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
 		}
 		.middle_navs_list {
-			width: 46%;
-			background: rgb(238, 139, 103) /*#ee8b67*/;
-			margin: 10px auto 2px;
+			display: flex;
+			align-items: center;
+			width: 50%;
+			height: 50px;
+			background: rgba(238, 139, 103, 0.8) /*#ee8b67*/;
+			border: 1px dotted rgba(255, 255, 255, 0.5) /*#fff*/;
 			border-radius: 2px;
 			padding: 5px;
+			font-weight: bold;
+			font-size: 1.1rem;
 			color: rgb(255, 255, 255) /*#fff*/;
-		}
-		.middle_navs_list:nth-child(odd) {
+			letter-spacing: 0.1rem;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
 		.middle_navs_list_en {
 			display: flex;
 			flex-wrap: wrap;
-			font-size: 1.2rem;
-			letter-spacing: 0.1rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 			}
 		.middle_navs_list_en	.nav_pic {
 			width: 15px;
@@ -1049,6 +1051,17 @@ SP Portrait
 	}
 
 	/********************************************************************************************
+	SP（iPhone 6） Landscape
+	*********************************************************************************************/
+	/* 375px
+	--------------------------------------------------------------------------------------------*/
+	@media screen and (min-width: 375px){
+	.middle_navs_list {
+		font-size: 1.2rem;
+	}
+}
+
+	/********************************************************************************************
 	SP Landscape
 	*********************************************************************************************/
 	/* 667px
@@ -1084,6 +1097,7 @@ SP Portrait
 		}
 		.fnc-nav__control {
 			font-size: 1.6rem;
+			letter-spacing: 0.1rem;
 		}
 		.fancy-slider .fnc-slide-1 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
@@ -1103,6 +1117,12 @@ SP Portrait
 		}
 		.fnc-cont__credits_txt {
 			font-size: 1.6rem;
+		}
+		.middle_navs_list {
+			font-size: 1.6rem;
+		}
+		.vertical_bar {
+			padding: 0 5px;
 		}
 		.sec_01_a {
 			margin: 10px 3% 0 auto;
@@ -1342,6 +1362,13 @@ SP Portrait
 		}
 		.nav_list {
 			font-size: 1.3rem;
+		}
+		.middle_navs {
+			padding-top: 2%;
+		}
+		.middle_navs_list {
+			width: 46%;
+			margin: 0 2%;
 		}
 		.sec_01_h2 {
 			font-size: 2rem;

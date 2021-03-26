@@ -293,8 +293,8 @@ SP Portrait
 		.English::first-letter {
 			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
-		.Sitemap.first_letter,
-		.Sitemap::first-letter {
+		.Site_Map.first_letter,
+		.Site_Map::first-letter {
 			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.vertical_bar {
@@ -1254,7 +1254,7 @@ SP Portrait
 		.no_drop li.cat_English:hover {
 			background: rgb(57, 82, 111);
 		}
-		.no_drop li.cat_Sitemap:hover {
+		.no_drop li.cat_Site_Map:hover {
 			background: rgb(57, 82, 111);
 		}
 		.nav_list_en::first-letter {

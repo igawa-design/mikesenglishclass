@@ -297,6 +297,10 @@ SP Portrait
 		.Sitemap::first-letter {
 			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
+		.vertical_bar {
+			font-weight: normal;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
+		}
 		.nav_pic {
 			display: block;
 			opacity: 0.8;
@@ -823,7 +827,7 @@ SP Portrait
 		}
 		.fancy-slider .fnc-slide-2 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/one-to-one_1400x1867.jpg");
+			background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("common/img/one_to_one_1400x1867.jpg");
 			background-size: cover;
 		}
 		.fancy-slider .fnc-slide-3 .fnc-slide__inner,
@@ -963,6 +967,7 @@ SP Portrait
 			display: block;
 			width: 80px;
 			height: 80px;
+			opacity: 0.8;
 			margin: auto;
 		}
 		.sec_01_txt {
@@ -1059,7 +1064,7 @@ SP Portrait
 		}
 		.fancy-slider .fnc-slide-2 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-			background-image: url("common/img/one-to-one_1920x2560.jpg");
+			background-image: url("common/img/one_to_one_1920x2560.jpg");
 		}
 		.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
@@ -1231,6 +1236,9 @@ SP Portrait
 		.no_drop li.cat_One_to_One:hover {
 			background: rgb(68, 118, 107);
 		}
+		.no_drop li.cat_Online:hover {
+			background: rgb(57, 82, 111);
+		}
 		.no_drop li.cat_Translations:hover {
 			background: rgb(114, 127, 78);
 		}
@@ -1244,6 +1252,9 @@ SP Portrait
 			background: rgb(112, 41, 36);
 		}
 		.no_drop li.cat_English:hover {
+			background: rgb(57, 82, 111);
+		}
+		.no_drop li.cat_Sitemap:hover {
 			background: rgb(57, 82, 111);
 		}
 		.nav_list_en::first-letter {
@@ -1289,7 +1300,7 @@ SP Portrait
 		}
 		.fancy-slider .fnc-slide-2 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-			background-image: url("common/img/one-to-one_2800x3734.jpg");
+			background-image: url("common/img/one_to_one_2800x3734.jpg");
 		}
 		.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 		.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {

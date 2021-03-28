@@ -9,9 +9,9 @@ Author URI: http://igawa.co
 /********************************************************************************************
 SP Portrait
 *********************************************************************************************/
-/* 320px
+/* 280px
 --------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 280px) {
 	html {
 		background: rgba(233, 231, 225, 1) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
 		color: rgba(37, 30, 28, 1) /*#251E1C*/;
@@ -202,7 +202,7 @@ SP Portrait
 			padding: 2% 3%;
 			text-decoration: none;
 			font-size: 1.4rem;
-			color: rgb(255, 255, 255);
+			color: rgb(255, 255, 255) /*fff*/;
 			transition: 0.3s;
 			font-weight: bold;
 			transform: rotate(0deg);
@@ -210,27 +210,39 @@ SP Portrait
 		.nav_list a:hover {
 			opacity: 0.5;
 		}
-		.nav_list_en {
+		.nav_list_en,
+		.middle_nav_list_en {
 			display: block;
 			order: 1;
 			font-family: Helvetica, Arial, sans-serif;
 			font-weight: bold;
 			font-size: 2.2rem;
-			color: rgb(255, 255, 255);
-			text-shadow: 0 0 1px rgba(0,0,0,0.5);
+			color: rgb(255, 255, 255) /*fff*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*000*/;
 		}
-		.nav_list_ja {
+		.middle_nav_list_en {
+			font-size: 1.05rem !important;
+			font-weight: bold;
+		}
+		.nav_list_ja,
+		.middle_nav_list_ja {
 			display: block;
 			width: 100vw;
 			order: 2;
 			margin: 0 20px;
-			border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+			border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*fff*/;
 			padding-bottom: 15px;
-			color: rgba(255, 255, 255, 0.9);
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+			color: rgba(255, 255, 255, 0.9) /*fff*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*000*/;
+		}
+		.middle_nav_list_ja {
+			font-size: 1rem;
+			text-align: center;
 		}
 		.nav_list_ja::before,
-		.nav_list_ja::after {
+		.nav_list_ja::after,
+		.middle_nav_list_ja::before,
+		.middle_nav_list_ja::after {
 			content: " - ";
 		}
 		.first_letter,
@@ -241,56 +253,72 @@ SP Portrait
 			0px 0.5px 0 #fff,  0 -0.5px 0 #fff,
 			-0.5px 0 0 #fff, 0.5px 0 0 #fff;
 		}
+		.middle_nav_list .first_letter {
+			font-size: 1.5rem;
+		}
 		.About_Mike.first_letter,
-		.About_Mike::first-letter {
+		.About_Mike::first-letter,
+		.middle_About_Mike.first_letter {
 			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.One_to_One.first_letter,
-		.One_to_One::first-letter {
+		.One_to_One::first-letter,
+		.middle_One_to_One.first_letter {
 			color: rgb(38, 155, 143) /*#269b8f*/;
 		}
 		.Gallery.first_letter,
-		.Gallery::first-letter {
+		.Gallery::first-letter,
+		.middle_Gallery.first_letter {
 			color: rgb(102, 176, 106) /*#66b06a*/;
 		}
 		.Gallery_Lessonpix.first_letter,
-		.Gallery_Lessonpix::first-letter {
+		.Gallery_Lessonpix::first-letter,
+		.middle_Gallery_Lessonpix.first_letter {
 			color: rgb(102, 176, 106) /*#66b06a*/;
 		}
 		.Gallery_Scrapbook.first_letter,
-		.Gallery_Scrapbook::first-letter {
+		.Gallery_Scrapbook::first-letter,
+		.middle_Gallery_Scrapbook.first_letter {
 			color: rgb(102, 176, 106) /*#66b06a*/;
 		}
 		.Translations.first_letter,
-		.Translations::first-letter {
+		.Translations::first-letter,
+		.middle_Translations.first_letter {
 			color: rgb(145, 193, 101) /*#91c165*/;
 		}
 		.Location.first_letter,
-		.Location::first-letter {
+		.Location::first-letter,
+		.middle_Location.first_letter {
 			color: rgb(255, 191, 40) /*#ffbf28*/;
 		}
 		.Reviews.first_letter,
-		.Reviews::first-letter {
+		.Reviews::first-letter,
+		.middle_Reviews.first_letter {
 			color: rgb(255, 156, 38) /*#ff9c26*/;
 		}
 		.Reviews_One_to_One.first_letter,
-		.Reviews_One_to_One::first-letter {
+		.Reviews_One_to_One::first-letter,
+		.middle_Reviews_One_to_One.first_letter {
 			color: rgb(255, 156, 38) /*#ff9c26*/;
 		}
 		.Reviews_Translations.first_letter,
-		.Reviews_Translations::first-letter {
+		.Reviews_Translations::first-letter,
+		.middle_Reviews_Translations.first_letter {
 			color: rgb(255, 156, 38) /*#ff9c26*/;
 		}
 		.Mikes_Posts.first_letter,
-		.Mikes_Posts::first-letter {
+		.Mikes_Posts::first-letter,
+		.middle_Mikes_Posts.first_letter {
 			color: rgb(228, 83, 80) /*#e45350*/;
 		}
 		.Contact.first_letter,
-		.Contact::first-letter {
+		.Contact::first-letter,
+		.middle_Contact.first_letter {
 			color: rgb(255, 112, 67)/*#ff7043*/;
 		}
 		.English.first_letter,
-		.English::first-letter {
+		.English::first-letter,
+		.middle_English.first_letter {
 			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.Site_Map.first_letter,
@@ -298,15 +326,22 @@ SP Portrait
 			color: rgb(89, 145, 216) /*#5991d8*/;
 		}
 		.vertical_bar {
+			padding: 0 2px;
 			font-weight: normal;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
-		.nav_pic {
+		.nav_pic,
+		.middle_nav_pic {
 			display: block;
 			opacity: 0.8;
 			width: 30px;
 			height: 30px;
 			margin: auto;
+		}
+		.middle_nav_pic {
+			width: 15px;
+			height: 15px;
+			margin: 0 3px 0 0;
 		}
 		.area {
 			width: 100%;
@@ -932,13 +967,14 @@ SP Portrait
 			justify-content: space-between;
 			align-items: stretch;
 		}
-		.middle_navs {
+		.middle_nav_sp {
 			display: flex;
 			flex-wrap: wrap;
 			background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
 		}
-		.middle_navs_list {
+		.middle_nav_list {
 			display: flex;
+			flex-direction: column;
 			align-items: center;
 			width: 50%;
 			height: 50px;
@@ -947,16 +983,16 @@ SP Portrait
 			border-radius: 2px;
 			padding: 5px;
 			font-weight: bold;
-			font-size: 1.1rem;
 			color: rgb(255, 255, 255) /*#fff*/;
-			letter-spacing: 0.1rem;
+			letter-spacing: 0.05rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
-		.middle_navs_list_en {
+		.middle_nav_list_en {
 			display: flex;
 			flex-wrap: wrap;
-			}
-		.middle_navs_list_en	.nav_pic {
+			align-items: center;
+		}
+		.middle_nav_list_en	.nav_pic {
 			width: 15px;
 			height: 15px;
 			margin: 0 10px 0 0;
@@ -1053,13 +1089,22 @@ SP Portrait
 	/********************************************************************************************
 	SP（iPhone 6） Landscape
 	*********************************************************************************************/
-	/* 375px
+	/* 568px
 	--------------------------------------------------------------------------------------------*/
-	@media screen and (min-width: 375px){
-	.middle_navs_list {
-		font-size: 1.2rem;
+	@media screen and (min-width: 568px){
+		.fnc-slide__content {
+			top: 20%;
+		}
+		.middle_nav_list_en {
+			font-size: 1.3rem;
+		}
+		.middle_nav_pic {
+			margin: 0 10px 0 0;
+		}
+		.vertical_bar {
+			padding: 0 3px;
+		}
 	}
-}
 
 	/********************************************************************************************
 	SP Landscape
@@ -1118,11 +1163,8 @@ SP Portrait
 		.fnc-cont__credits_txt {
 			font-size: 1.6rem;
 		}
-		.middle_navs_list {
-			font-size: 1.6rem;
-		}
-		.vertical_bar {
-			padding: 0 5px;
+		.middle_nav_sp {
+			display: none;
 		}
 		.sec_01_a {
 			margin: 10px 3% 0 auto;
@@ -1363,10 +1405,7 @@ SP Portrait
 		.nav_list {
 			font-size: 1.3rem;
 		}
-		.middle_navs {
-			padding-top: 2%;
-		}
-		.middle_navs_list {
+		.middle_nav_list {
 			width: 46%;
 			margin: 0 2%;
 		}

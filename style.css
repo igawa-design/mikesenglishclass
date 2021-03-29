@@ -1013,7 +1013,7 @@ html {
 		width: 100%;
 		background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
 		padding: 10px 2%;
-		color: rgb(255, 255, 255);
+		color: rgb(255, 255, 255) /*#fff*/;
 	}
 	.txt {
 		padding-top: 2%;

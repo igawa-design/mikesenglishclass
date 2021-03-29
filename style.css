@@ -237,8 +237,10 @@ SP Portrait
 		.nav_middle_list_ja {
 			width: auto;
 			border-bottom: none;
+			margin: 0;
 			font-size: 1rem;
 			text-align: center;
+			letter-spacing: 0;
 		}
 		.nav_list_ja::before,
 		.nav_list_ja::after,
@@ -1042,7 +1044,8 @@ SP Portrait
 		.sec_01_txt {
 			order: 4;
 			margin-top: 10px;
-			padding: 2%;
+			padding: 10px 2% 0;
+			font-weight: bold;
 		}
 		.sec_01_a {
 			order: 5;
@@ -1134,6 +1137,10 @@ SP Portrait
 	@media screen and (min-width: 667px){
 		.flex {
 			flex-direction: row;
+		}
+		.nav_middle_list_en,
+		.nav_middle_list_ja {
+			letter-spacing: 0.1rem;
 		}
 	}
 

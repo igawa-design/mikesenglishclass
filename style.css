@@ -27,7 +27,7 @@ html {
 	width: 100px;
 	height: 100px;
 	margin: 200px auto;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255)/* #fff */;
 	border-radius: 100%;
 	animation: sk-scaleout 1.0s infinite ease-in-out;
 }
@@ -577,7 +577,7 @@ html {
 		margin-bottom: 20px;
 		font-size: 2.5rem;
 		font-weight: 900;
-		text-shadow: 0 0 1px rgba(0,0,0,0.5) /* 000 */;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 		line-height: 1.2;
 	}
 	.fnc-slide__heading-line:nth-child(2) {
@@ -598,7 +598,7 @@ html {
 		display: block;
 		margin-bottom: 2%;
 		font-size: 1.8rem;
-		text-shadow: 0 0 1px rgba(0,0,0,0.9);
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
 	}
 	.m--before-sliding .fnc-slide__heading-line .top_txt {
 		transform: translateY(-100%);
@@ -618,7 +618,7 @@ html {
 		line-height: 1;
 		color: transparent;
 		border: none;
-		background: rgb(255, 255, 255) /* fff */;
+		background: rgba(255, 255, 255, 0);
 		cursor: pointer;
 		text-align: center;
 		outline: none;
@@ -633,10 +633,10 @@ html {
 		transform-origin: 50% 0;
 		background: rgb(31, 40, 51);
 		padding: 1% 2%;
-		color: #fff;
+		color: rgb(255, 255, 255) /* fff */;
 		letter-spacing: 0.2rem;
 		line-height: 30px;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /* 000 */;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 		text-align: center;
 	}
 	.fnc-slide__action-btn span:before {
@@ -838,7 +838,7 @@ html {
 		padding: 15px 0;
 		font-size: 2.2rem;
 		color: rgb(255, 255, 255) /*#fff*/;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.1) /*#000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 	}
 	.fnc-cont__credits-blend {
 		font-size: 30px;
@@ -932,7 +932,7 @@ html {
 		border-style: solid;
 		border-color: transparent #fff #fff transparent;
 		border-width: 1px;
-		background: rgb(255, 255, 255) /*#fff*/;
+		background: rgba(255, 255, 255, 0) /*#fff don't rgb and hex color*/;
 		transform: rotate(45deg) translateX(-70%);
 		animation: arrow 2.5s linear alternate infinite;
 	}
@@ -988,7 +988,7 @@ html {
 		font-weight: bold;
 		color: rgb(255, 255, 255) /*#fff*/;
 		letter-spacing: 0.05rem;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 	}
 	.nav_middle_list_en {
 		display: flex;
@@ -1073,10 +1073,10 @@ html {
 		margin: 10px auto;
 		padding: 7px 10px;
 		border: 3px solid rgb(238, 139, 103) /*#ee8b67*/;
-		border-radius: 15px;
+		border-radius: 20px;
 		position: relative;
 		cursor: pointer;
-		background-color: #fff;
+		background-color: rgb(255, 255, 255) /*#fff*/;
 		color: rgb(238, 139, 103) /*#ee8b67*/;
 		text-align: center;
 		perspective: 300px;
@@ -1094,12 +1094,13 @@ html {
 		left: 0;
 		display:block;
 		box-sizing: border-box;
-		width: 144px;
+		width: 194px;
 		height: 100%;
 		content: 'more...';
 		background:rgb(238, 139, 103) /*#ee8b67*/;
+		border-radius: 15px;
 		padding: 5px 10px;
-		color: rgb(255, 255, 255) /*#fff*/;
+		color: #fff;
 		transform-origin: 0 50%;
 		transform: rotateY(-70deg);
 		transition: .4s all;
@@ -1117,19 +1118,19 @@ html {
 	.sec_txt_01 {
 		order: 1;
 	}
-	.sec_picture_01 {
+	.sec_pic_src_01 {
 		display: block;
 		width: 94%;
 		height: 100%;
 		margin: auto;
 		border: 4px double rgb(255, 255, 255) /*#fff*/;
-		border-radius: 2px;
+		border-radius: 5px;
 	}
 	.sec_img_02 {
 		order: 3;
 		width: 100%;
 		height: 100%;
-		border-radius: 2px;
+		border-radius: 5px;
 	}
 
 	/********************************************************************************************
@@ -1247,7 +1248,7 @@ html {
 		}
 		.sec_01_a {
 			margin: 10px 3% 0 auto;
-			font-size: 1.4rem;
+			font-size: 1.6rem;
 		}
 	}
 
@@ -1324,7 +1325,7 @@ html {
 		}
 		.nav_list_en {
 			font-size: 1.6rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
@@ -1445,14 +1446,14 @@ html {
 		}
 		.fnc-slide__heading-line .top_txt {
 			font-size: 2rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*#000*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 		}
 		.fnc-cont__credits {
 			top: 100px; /* header height */
 		}
 		.sec_01_h2 {
 			font-size: 1.7rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
 		}
 	}
 

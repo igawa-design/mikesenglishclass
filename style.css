@@ -1014,154 +1014,173 @@ html {
 		padding: 10px 2%;
 		color: rgb(255, 255, 255) /*#fff*/;
 	}
-	.txt {
-		padding-top: 2%;
-	}
 	.sec_h2 {
 		order: 0;
 		background: rgb(243, 130, 33) /*#f38221*/;
-		margin-top: 20px;
-		border-radius: 5px 5px 0 0;
-		padding: 5px 2%;
+		padding: 10px;
 		font-size: 1.6rem;
 	}
+	.sec_h2_about_mike {
+		background: rgba(57, 82, 111, 0.9) /*#39526f*/;
+	}
+	.sec_h2_one_to_one {
+		background: rgba(68, 118, 107, 0.9) /*#44766b*/;
+	}
+	.sec_h2_about_mike .small {
+		font-size: 1.3rem;
+	}
+	.sec_div_about_mike {
+		background: rgba(57, 82, 111, 0.7) /*#39526f*/;
+		padding: 10px;
+	}
+	.sec_box_one_to_one {
+			background: rgba(68, 118, 107, 0.8) /*#44766b*/;
+		}
 	.sec_h3 {
 		order: -2;
 	}
-	.sec_txt_head {
+	.sec_txt_lead {
 		order: -1;
 		border-bottom: 10px double rgb(255, 255, 255) /*#fff*/;
-		border-radius: 2px;
-		padding: 5px 2%;
+		border-radius: 5px 5px 0 0;
+		padding: 10px;
 		font-size: 1.6rem;
 		font-weight: bold;
 		color: rgb(255, 255, 255) /*#fff*/;
 		text-align: center;
 	}
-	.sec_txt_head.about_mike_head {
+	.sec_txt_lead.about_mike_lead {
 		background: rgb(57, 82, 111) /*#39526f*/;
 	}
-	.sec_txt_head.one_to_one,
-	.sec_txt_head.online {
+	.sec_txt_lead.one_to_one_lead,
+	.sec_txt_lead.online_lead {
 		background: rgb(68, 118, 107) /*#44766b*/;
 	}
-	.sec_txt_head.gallery_head {
+	.sec_txt_lead.gallery_lead {
 		background: rgb(91, 121, 92) /*#5b795c*/;
 	}
-	.sec_txt_head.translations_head {
+	.sec_txt_lead.translations_lead {
 		background: rgb(114, 127, 78) /*#727f4e*/;
 	}
-	.sec_txt_head.location_head {
+	.sec_txt_lead.location_lead {
 		background: rgb(165, 132, 54) /*#a58436*/;
 	}
-	.sec_txt_head.reviews_head {
+	.sec_txt_lead.reviews_lead {
 		background: rgb(157, 108, 47) /*#9d6c2f*/;
 	}
-	.sec_txt_head.mikes_posts_head {
+	.sec_txt_lead.mikes_posts_lead {
 		background: rgb(112, 41, 36) /*#702924*/;
 	}
-	.sec_txt_head.contact_head {
+	.sec_txt_lead.contact_lead {
 		background: rgb(125, 53, 28) /*#7d351c*/;
-
 	}
-	.sec_01_icon {
+	.sec_icon {
 		display: block;
 		width: 80px;
 		height: 80px;
 		opacity: 0.9;
 		margin: auto;
 	}
-	.sec_box_01 {
-		background: rgba(238, 139, 103, 0.9) /*#ee8b67*/;
+	.txt {
+		padding-top: 2%;
+		}	.sec_txt_01,
+		.sec_txt_02,
+		.sec_txt_03 {
+			margin-top: 10px;
+			padding: 10px 2% 0;
+			font-weight: bold;
+		}
+		.sec_txt_01 {
+			order: 1;
+		}
+		.sec_txt_02 {
+			order: 2;
+		}
+		.sec_txt_03 {
+			order: 3;
+		}
+		.sec_a {
+			order: 5;
+			animation: pulse 2s infinite;
+			box-sizing:border-box;
+			width: 200px;
+			display: block;
+			margin: 10px auto;
+			padding: 7px 10px;
+			border: 3px solid rgb(238, 139, 103) /*#ee8b67*/;
+			border-radius: 20px;
+			position: relative;
+			cursor: pointer;
+			background: rgba(255, 255, 255, 0.5) url(common/img/bg_from_nipponcolors_texture.png);
+			color: rgb(238, 139, 103) /*#ee8b67*/;
+			text-align: center;
+			perspective: 300px;
+			transform-style: preserve-3d;
+			font-size: 1.5rem;
+		}
+		@keyframes pulse {
+			from { background-color: #fff; box-shadow: 0 0 3px #aaa; }
+			50% { background-color: #fff; box-shadow: 0 0 7px #fff; }
+			to { background-color: #fff; box-shadow: 0 0 3px #aaa; }
+		}
+		.sec_a::after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display:block;
+			box-sizing: border-box;
+			width: 194px;
+			height: 100%;
+			content: 'more...';
+			background: rgb(238, 139, 103) /*#ee8b67*/;
+			border: 3px solid rgb(238, 139, 103) /*#ee8b67; */;
+			border-radius: 15px;
+			padding: 5px 10px;
+			color: rgba(255, 255, 255) /*#fff*/;
+			transform-origin: 0 50%;
+			transform: rotateY(-70deg);
+			transition: .4s all;
+			opacity: 0;
+		}
+		.sec_a:hover::after {
+			transform: rotateY(0);
+			opacity: 1;
+		}
+		.sec_div_about_mike li:last-child {
+			margin-top: 10px;
+		}
+		.sec_div_about_mike .sec_a {
+			border-color: rgb(57, 82, 111) /*#39526f*/;
+		}
+		.sec_div_about_mike .sec_a::after {
+			background: rgb(57, 82, 111) /*#39526f*/;
+		}
+		.sec_txt_01,
+		.sec_txt_02,
+		.sec_txt_03 {
+			padding: 20px 10px;
+		}
+		.sec_txt_01 {
+			order: 1;
+		}
+		.sec_pic_src_01 {
+			display: block;
+			width: 94%;
+			height: 100%;
+			margin: auto;
+			border: 4px double rgb(255, 255, 255) /*#fff*/;
+			border-radius: 5px;
+		}
+		.sec_pic_src_02 {
+			order: 3;
+		}
+		.sec_img_02 {
+			order: 3;
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+		}
 	}
-	.sec_txt_01,
-	.sec_txt_02,
-	.sec_txt_03 {
-		margin-top: 10px;
-		padding: 10px 2% 0;
-		font-weight: bold;
-	}
-	.sec_txt_01 {
-		order: 1;
-	}
-	.sec_txt_02 {
-		order: 2;
-	}
-	.sec_txt_03 {
-		order: 3;
-	}
-	.sec_01_a {
-		order: 5;
-		animation: pulse 2s infinite;
-		box-sizing:border-box;
-		width: 200px;
-		display: inline-block;
-		margin: 10px auto;
-		padding: 7px 10px;
-		border: 3px solid rgb(238, 139, 103) /*#ee8b67*/;
-		border-radius: 20px;
-		position: relative;
-		cursor: pointer;
-		background-color: rgb(255, 255, 255) /*#fff*/;
-		color: rgb(238, 139, 103) /*#ee8b67*/;
-		text-align: center;
-		perspective: 300px;
-		transform-style: preserve-3d;
-		font-size: 1.5rem;
-	}
-	@keyframes pulse {
-		from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
-		50% { background-color: #fff; box-shadow: 0 0 10px #fff; }
-		to { background-color: #fff; box-shadow: 0 0 5px #aaa; }
-	}
-	.sec_01_a::after {
-		position: absolute;
-		top: 0;
-		left: 0;
-		display:block;
-		box-sizing: border-box;
-		width: 194px;
-		height: 100%;
-		content: 'more...';
-		background:rgb(238, 139, 103) /*#ee8b67*/;
-		border-radius: 15px;
-		padding: 5px 10px;
-		color: #fff;
-		transform-origin: 0 50%;
-		transform: rotateY(-70deg);
-		transition: .4s all;
-		opacity: 0;
-	}
-	.sec_01_a:hover::after {
-		transform: rotateY(0);
-		opacity: 1;
-	}
-	.sec_txt_01,
-	.sec_txt_02,
-	.sec_txt_03 {
-		padding: 20px 2%;
-	}
-	.sec_txt_01 {
-		order: 1;
-	}
-	.sec_pic_src_01 {
-		display: block;
-		width: 94%;
-		height: 100%;
-		margin: auto;
-		border: 4px double rgb(255, 255, 255) /*#fff*/;
-		border-radius: 5px;
-	}
-	.sec_pic_src_02 {
-		order: 3;
-}
-	.sec_img_02 {
-		order: 3;
-		width: 100%;
-		height: 100%;
-		border-radius: 5px;
-	}
-}
 
 	/********************************************************************************************
 	SP Portrait
@@ -1276,7 +1295,7 @@ html {
 		.nav_sp_middle {
 			display: none;
 		}
-		.sec_01_a {
+		.sec_a {
 			margin: 10px 3% 0 auto;
 			font-size: 1.6rem;
 		}

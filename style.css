@@ -313,12 +313,12 @@ html {
 	.Mikes_Posts.first_letter,
 	.Mikes_Posts::first-letter,
 	.middle_Mikes_Posts.first_letter {
-		color: rgb(112, 41, 36) /*#702924*/;
+		color: rgb(228, 83, 80) /*#e45350*/;
 	}
 	.Contact.first_letter,
 	.Contact::first-letter,
 	.middle_Contact.first_letter {
-		color: rgb(125, 53, 28) /*#7d351c*/;
+		color: rgb(255, 112, 67) /*#ff7043*/;
 	}
 	.English.first_letter,
 	.English::first-letter,

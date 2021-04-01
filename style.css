@@ -12,7 +12,7 @@ SP Portrait
 /*
 --------------------------------------------------------------------------------------------*/
 html {
-	background: rgba(233, 231, 225, 1) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
+	background: rgba(255, 255, 255, 0.9) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
 	color: rgb(53, 87, 129) /*#355781*/;
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, sans-serif;
 	font-size: 10px;
@@ -232,7 +232,7 @@ html {
 		border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*fff*/;
 		padding-bottom: 15px;
 		color: rgba(255, 255, 255, 0.9) /*fff*/;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*000*/;
 	}
 	.nav_middle_list_ja {
 		width: auto;
@@ -1001,41 +1001,39 @@ html {
 		margin: 0 10px 0 0;
 	}
 	.section {
-		padding: 2%;
-	}
-	.sec_01,
-	.sec_02 {
 		position: relative;
 		z-index: 100;
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 		background: rgba(255, 255, 255, 0.5) /*#fff*/ url(common/img/bg_from_nipponcolors_texture.png);
-		padding: 10px 2%;
+		padding: 20px 2%;
 		color: rgb(255, 255, 255) /*#fff*/;
 	}
 	.sec_h2 {
 		order: 0;
 		background: rgb(243, 130, 33) /*#f38221*/;
 		padding: 10px;
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 	.sec_h2_about_mike {
 		background: rgba(57, 82, 111, 0.9) /*#39526f*/;
 	}
 	.sec_h2_one_to_one {
 		background: rgba(68, 118, 107, 0.9) /*#44766b*/;
+		color: rgb(255, 255, 255) /*#fff*/;
 	}
 	.sec_h2_about_mike .small {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 	.sec_div_about_mike {
 		background: rgba(57, 82, 111, 0.7) /*#39526f*/;
 		padding: 10px;
+		font-weight: bold;
 	}
-	.sec_box_one_to_one {
-			background: rgba(68, 118, 107, 0.8) /*#44766b*/;
-		}
+	.sec_box {
+		background: rgba(68, 118, 107, 0.8) /*#44766b*/;
+	}
 	.sec_h3 {
 		order: -2;
 	}
@@ -1074,6 +1072,10 @@ html {
 	.sec_txt_lead.contact_lead {
 		background: rgb(125, 53, 28) /*#7d351c*/;
 	}
+	.sec_txt_lead::before {
+		content: "●";
+		padding-right: 3px;
+	}
 	.sec_icon {
 		display: block;
 		width: 80px;
@@ -1083,103 +1085,103 @@ html {
 	}
 	.txt {
 		padding-top: 2%;
-		}	.sec_txt_01,
-		.sec_txt_02,
-		.sec_txt_03 {
-			margin-top: 10px;
-			padding: 10px 2% 0;
-			font-weight: bold;
-		}
-		.sec_txt_01 {
-			order: 1;
-		}
-		.sec_txt_02 {
-			order: 2;
-		}
-		.sec_txt_03 {
-			order: 3;
-		}
-		.sec_a {
-			order: 5;
-			animation: pulse 2s infinite;
-			box-sizing:border-box;
-			width: 200px;
-			display: block;
-			margin: 10px auto;
-			padding: 7px 10px;
-			border: 3px solid rgb(238, 139, 103) /*#ee8b67*/;
-			border-radius: 20px;
-			position: relative;
-			cursor: pointer;
-			background: rgba(255, 255, 255, 0.5) url(common/img/bg_from_nipponcolors_texture.png);
-			color: rgb(238, 139, 103) /*#ee8b67*/;
-			text-align: center;
-			perspective: 300px;
-			transform-style: preserve-3d;
-			font-size: 1.5rem;
-		}
-		@keyframes pulse {
-			from { background-color: #fff; box-shadow: 0 0 3px #aaa; }
-			50% { background-color: #fff; box-shadow: 0 0 7px #fff; }
-			to { background-color: #fff; box-shadow: 0 0 3px #aaa; }
-		}
-		.sec_a::after {
-			position: absolute;
-			top: 0;
-			left: 0;
-			display:block;
-			box-sizing: border-box;
-			width: 194px;
-			height: 100%;
-			content: 'more...';
-			background: rgb(238, 139, 103) /*#ee8b67*/;
-			border: 3px solid rgb(238, 139, 103) /*#ee8b67; */;
-			border-radius: 15px;
-			padding: 5px 10px;
-			color: rgba(255, 255, 255) /*#fff*/;
-			transform-origin: 0 50%;
-			transform: rotateY(-70deg);
-			transition: .4s all;
-			opacity: 0;
-		}
-		.sec_a:hover::after {
-			transform: rotateY(0);
-			opacity: 1;
-		}
-		.sec_div_about_mike li:last-child {
-			margin-top: 10px;
-		}
-		.sec_div_about_mike .sec_a {
-			border-color: rgb(57, 82, 111) /*#39526f*/;
-		}
-		.sec_div_about_mike .sec_a::after {
-			background: rgb(57, 82, 111) /*#39526f*/;
-		}
-		.sec_txt_01,
-		.sec_txt_02,
-		.sec_txt_03 {
-			padding: 20px 10px;
-		}
-		.sec_txt_01 {
-			order: 1;
-		}
-		.sec_pic_src_01 {
-			display: block;
-			width: 94%;
-			height: 100%;
-			margin: auto;
-			border: 4px double rgb(255, 255, 255) /*#fff*/;
-			border-radius: 5px;
-		}
-		.sec_pic_src_02 {
-			order: 3;
-		}
-		.sec_img_02 {
-			order: 3;
-			width: 100%;
-			height: 100%;
-			border-radius: 5px;
-		}
+	}
+	.sec_txt_01,
+	.sec_txt_02,
+	.sec_txt_03 {
+		margin-top: 10px;
+		padding: 10px 2% 0;
+		font-weight: bold;
+	}
+	.sec_txt_01 {
+		order: 1;
+	}
+	.sec_txt_02 {
+		order: 2;
+	}
+	.sec_txt_03 {
+		order: 3;
+	}
+	.sec_a {
+		order: 5;
+		animation: pulse 2s infinite;
+		box-sizing:border-box;
+		width: 100%;
+		display: block;
+		margin: 10px auto;
+		padding: 7px 10px;
+		border: 6px double rgb(238, 139, 103) /*#ee8b67*/;
+		border-radius: 45px 5px 25px  0;
+		position: relative;
+		cursor: pointer;
+		background: rgba(255, 255, 255, 0.5) url(common/img/bg_from_nipponcolors_texture.png);
+		color: rgb(238, 139, 103) /*#ee8b67*/;
+		text-align: center;
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
+	@keyframes pulse {
+		from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
+		50% { background-color: #fff; box-shadow: 0 0 15px #fff; }
+		to { background-color: #fff; box-shadow: 0 0 5px #aaa; }
+	}
+	.sec_a::after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display:block;
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		content: 'more...';
+		background: rgb(238, 139, 103) /*#ee8b67*/;
+		border: 6px double rgb(238, 139, 103) /*#ee8b67*/;
+		border-radius: 45px 5px 25px  0;
+		padding: 5px 10px;
+		color: rgba(255, 255, 255) /*#fff*/;
+		transform-origin: 0 50%;
+		transform: rotateY(-70deg);
+		transition: .4s all;
+		opacity: 0;
+	}
+	.sec_a:hover::after {
+		transform: rotateY(0);
+		opacity: 1;
+	}
+	.sec_div_about_mike li:last-child {
+		margin-top: 10px;
+	}
+	.sec_div_about_mike .sec_a {
+		border-color: rgb(57, 82, 111) /*#39526f*/;
+	}
+	.sec_div_about_mike .sec_a::after {
+		background: rgb(57, 82, 111) /*#39526f*/;
+	}
+	.sec_txt_01,
+	.sec_txt_02,
+	.sec_txt_03 {
+		padding: 20px 10px;
+	}
+	.sec_txt_01 {
+		order: 1;
+	}
+	.sec_pic_src_01,
+	.sec_pic_src_02 {
+		display: block;
+		width: 94%;
+		height: 100%;
+		margin: auto;
+		border: 4px double rgb(255, 255, 255) /*#fff*/;
+		border-radius: 10px;
+	}
+	.sec_pic_src_02 {
+		order: 3;
+	}
+	.sec_img {
+		order: 3;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
 	}
 
 	/********************************************************************************************
@@ -1298,6 +1300,14 @@ html {
 		.sec_a {
 			margin: 10px 3% 0 auto;
 			font-size: 1.6rem;
+		}
+		.sec_pic_src_01,
+		.sec_pic_src_02 {
+			border-width: 7px;
+			border-radius: 10px;
+		}
+		.sec_img {
+			border-radius: 5px;
 		}
 	}
 

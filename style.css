@@ -1056,7 +1056,7 @@ html {
 		background: rgba(165, 132, 54, 0.8) /*#a58436*/;
 	}
 	.sec_box.contact {
-		background: rgba(112, 41, 36, 0.8) /*#702924*/;
+		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 	}
 	.sec_txt_lead {
 		order: -1;
@@ -1091,7 +1091,7 @@ html {
 		background: rgb(112, 41, 36) /*#702924*/;
 	}
 	.sec_txt_lead.contact_lead {
-		background: rgb(125, 53, 28) /*#7d351c*/;
+		background: rgb(89, 145, 216) /*#5991d8*/;
 	}
 	.sec_txt_lead::before {
 		content: "●";
@@ -1204,6 +1204,9 @@ html {
 		width: 100%;
 		height: 100%;
 		border-radius: 5px;
+	}
+	.copyright {
+		text-align: center;
 	}
 
 	/********************************************************************************************

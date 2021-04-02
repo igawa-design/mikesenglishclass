@@ -1020,6 +1020,7 @@ html {
 		background: rgb(243, 130, 33) /*#f38221*/;
 		padding: 10px;
 		font-size: 1.5rem;
+		color: rgb(255, 255, 255) /*#fff*/;
 		letter-spacing: 0.15rem;
 	}
 	.sec_h2_about_mike {
@@ -1027,7 +1028,24 @@ html {
 	}
 	.sec_h2_one_to_one {
 		background: rgba(68, 118, 107, 0.9) /*#44766b*/;
-		color: rgb(255, 255, 255) /*#fff*/;
+	}
+	.sec_h2_garelly {
+		background: rgba(91, 121, 92, 0.9) /*#5b795c*/;
+	}
+	.sec_h2_translations {
+		background: rgba(114, 127, 78, 0.9) /*#727f4e*/;
+	}
+	.sec_h2_location {
+		background: rgba(165, 132, 54, 0.9) /*#a58436*/;
+	}
+	.sec_h2_reviews {
+		background: rgba(157, 108, 47, 0.9) /*#9d6c2f*/;
+	}
+	.sec_h2_mikes_posts {
+		background: rgba(125, 53, 28, 0.9) /*#7d351c*/;
+	}
+	.sec_h2_contact {
+		background: rgba(89, 145, 216, 0.9) /*#5991d8*/;
 	}
 	.sec_h2_about_mike .small {
 		font-size: 1.3rem;
@@ -1054,6 +1072,9 @@ html {
 	}
 	.sec_box.reviews {
 		background: rgba(165, 132, 54, 0.8) /*#a58436*/;
+	}
+	.sec_box.mikes_posts {
+		background: rgba(125, 53, 28, 0.8) /*#7d351c*/;
 	}
 	.sec_box.contact {
 		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;

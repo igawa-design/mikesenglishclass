@@ -187,14 +187,13 @@ document.querySelector(".fnc-cont__credits-close").addEventListener("click", fun
   $demoCont.classList.remove("credits-active");
 });
 
-// by web-dev.tech /////////////////////////////////////////////////////////////
-// window height
-// 1.関数の定義
-function setHeight() {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-// 2.初期化
-setHeight();
-// 3.ブラウザのサイズが変更された時・画面の向きを変えた時に再計算する
-window.addEventListener('resize', setHeight);
+
+// scroll add class fade bar /////////////////////////////////////////////////////////////
+
+$(window).scroll(function () {
+  if($(window).scrollTop() > 1) {
+    $('.arrow_9ineBB').addClass('fade');
+  } else {
+    $('.arrow_9ineBB').removeClass('fade');
+  }
+});

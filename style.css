@@ -217,7 +217,7 @@ html {
 		font-weight: bold;
 		font-size: 2.2rem;
 		color: rgb(255, 255, 255) /*fff*/;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 	}
 	.nav_middle_list_en {
 		font-size: 1.2rem;
@@ -232,7 +232,7 @@ html {
 		border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*fff*/;
 		padding-bottom: 15px;
 		color: rgba(255, 255, 255, 0.9) /*fff*/;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*#000*/;
 	}
 	.nav_middle_list_ja {
 		width: auto;
@@ -332,7 +332,7 @@ html {
 	.vertical_bar {
 		padding: 0 2px;
 		font-weight: normal;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 	}
 	.nav_icon,
 	.nav_middle_icon {
@@ -577,7 +577,7 @@ html {
 		margin-bottom: 20px;
 		font-size: 2.5rem;
 		font-weight: 900;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 		line-height: 1.2;
 	}
 	.fnc-slide__heading-line:nth-child(2) {
@@ -598,7 +598,7 @@ html {
 		display: block;
 		margin-bottom: 2%;
 		font-size: 1.8rem;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.9) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.9) /*#000*/;
 	}
 	.m--before-sliding .fnc-slide__heading-line .top_txt {
 		transform: translateY(-100%);
@@ -636,7 +636,7 @@ html {
 		color: rgb(255, 255, 255) /* fff */;
 		letter-spacing: 0.2rem;
 		line-height: 30px;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 		text-align: center;
 	}
 	.fnc-slide__action-btn span:before {
@@ -715,7 +715,7 @@ html {
 		font-size: 0;
 	}
 	.fnc-nav__controls a {
-		color: rgb(255, 255, 255) /* fff */;
+		color: rgb(255, 255, 255) /* #fff */;
 	}
 	.fnc-nav__control {
 		overflow: hidden;
@@ -725,7 +725,7 @@ html {
 		width: 25%;
 		height: 50px;
 		font-size: 1.4rem;
-		color: rgb(255, 255, 255) /* fff */;
+		color: rgb(255, 255, 255) /* #fff */;
 		background: transparent;
 		border: none;
 		outline: none;
@@ -741,7 +741,7 @@ html {
 		bottom: 0;
 		width: 100%;
 		height: 2px;
-		background: rgb(255, 255, 255) /* fff */;
+		background: rgb(255, 255, 255) /* #fff */;
 		transform-origin: 0 50%;
 		transform: scaleX(0);
 		transition-timing-function: linear !important;
@@ -836,7 +836,7 @@ html {
 		padding: 15px 0;
 		font-size: 2.2rem;
 		color: rgb(255, 255, 255) /*#fff*/;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.1) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.1) /*#000*/;
 	}
 	.fnc-cont__credits-blend {
 		font-size: 30px;
@@ -846,7 +846,7 @@ html {
 		margin: 30px 3% 10px;
 		font-size: 1.5rem;
 		font-weight: bold;
-		color: rgb(255, 255, 255) /* fff */;
+		color: rgb(255, 255, 255) /* #fff */;
 	}
 	.fancy-slider {
 		z-index: 2;
@@ -993,7 +993,7 @@ html {
 		font-weight: bold;
 		color: rgb(255, 255, 255) /*#fff*/;
 		letter-spacing: 0.05rem;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*000*/;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 	}
 	.nav_middle_list_en {
 		display: flex;
@@ -1004,6 +1004,10 @@ html {
 		width: 15px;
 		height: 15px;
 		margin: 0 10px 0 0;
+	}
+	#container {
+		width: 100%;
+		margin: auto;
 	}
 	.section {
 		position: relative;
@@ -1057,6 +1061,10 @@ html {
 	}
 	.sec_h3 {
 		order: -2;
+	}
+	.sec_h3 img {
+		max-width: 100%;
+		max-height: 100%;
 	}
 	.sec_div_about_mike {
 		background: rgba(57, 82, 111, 0.7) /*#39526f*/;
@@ -1323,6 +1331,9 @@ html {
 		.nav_middle_list_ja {
 			letter-spacing: 0.1rem;
 		}
+		.section {
+			width: calc(100% / 2);
+		}
 	}
 
 	/********************************************************************************************
@@ -1461,7 +1472,7 @@ html {
 		}
 		.nav_list_en {
 			font-size: 1.6rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*000*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 		}
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
@@ -1582,24 +1593,20 @@ html {
 		}
 		.fnc-slide__heading-line .top_txt {
 			font-size: 2rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*000*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*#000*/;
 		}
 		.fnc-cont__credits {
 			top: 100px; /* header height */
-		}
-		main {
-			display: flex;
-			flex-wrap: wrap;
-		}
-		.section {
-			width: 50%;
 		}
 		.arrow_9ineBB.fade {
 			opacity: 1;
 		}
 		.sec_01_h2 {
 			font-size: 1.7rem;
-			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*000*/;
+			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+		}
+		.section {
+			width: calc(100% / 3);
 		}
 	}
 

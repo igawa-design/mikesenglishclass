@@ -188,7 +188,7 @@ document.querySelector(".fnc-cont__credits-close").addEventListener("click", fun
 });
 
 
-// scroll add class fade bar /////////////////////////////////////////////////////////////
+// scroll add class arrow /////////////////////////////////////////////////////////////
 
 $(window).scroll(function () {
   if($(window).scrollTop() > 1) {
@@ -196,4 +196,67 @@ $(window).scroll(function () {
   } else {
     $('.arrow_9ineBB').removeClass('fade');
   }
+});
+
+// scroll add class sec_icon  /////////////////////////////////////////////////////////////
+
+$(window).scroll(function (){
+  $(".sec_icon").each(function(){
+    var hit		= $(this).offset().top;
+    var scroll	= $(window).scrollTop();
+    var wHeight	= $(window).height();
+
+    if (scroll > hit - wHeight + wHeight/100){
+      $(this).addClass("scale");
+    } else {
+     $(this).removeClass("scale");
+    }
+  });
+});
+
+// scroll add class section   /////////////////////////////////////////////////////////////
+
+$(window).scroll(function (){
+  $(".section").each(function(){
+    var hit		= $(this).offset().top;
+    var scroll	= $(window).scrollTop();
+    var wHeight	= $(window).height();
+
+    if (scroll > hit - wHeight + wHeight/100){
+      $(this).addClass("sec_fade");
+    } else {
+     $(this).removeClass("sec_fade");
+    }
+  });
+});
+
+// scroll add class footer  /////////////////////////////////////////////////////////////
+
+$(window).scroll(function (){
+  $("footer").each(function(){
+    var hit		= $(this).offset().top;
+    var scroll	= $(window).scrollTop();
+    var wHeight	= $(window).height();
+
+    if (scroll > hit - wHeight + wHeight/200){
+      $(this).addClass("footer_fade");
+    } else {
+     $(this).removeClass("footer_fade");
+    }
+  });
+});
+
+// masonry //////////////////////////////////////////////////////
+$(function(){
+    $('#container').imagesLoaded(function(){
+        $('#container').masonry({
+            itemSelector: '.section',//整理される要素のclassを指定
+            isAnimated: true,     //スムースアニメーション設定
+            isFitWidth: true,     //親要素の幅サイズがピッタリ
+            isRTL: false,         //整理される要素が左右逆になる（読み言語などに）
+            gutterWidth: 0,       //整理される要素間の溝の幅を指定
+            containerStyle: { position: 'relative' }, //親要素にスタイルを追加できる
+            isResizable: true     //ウィンドウサイズが変更された時に並び替え
+        });
+    });
 });

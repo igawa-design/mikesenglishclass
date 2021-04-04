@@ -1011,9 +1011,14 @@ html {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
+		opacity: 0;
+		transition: all 2s ease 0s;
 		background: rgba(255, 255, 255, 0.5) /*#fff*/ url(common/img/bg_from_nipponcolors_texture.png);
 		padding: 20px 2%;
 		color: rgb(255, 255, 255) /*#fff*/;
+	}
+	.section.sec_fade {
+		opacity: 1;
 	}
 	.sec_h2 {
 		order: 0;
@@ -1120,10 +1125,15 @@ html {
 	}
 	.sec_icon {
 		display: block;
-		width: 80px;
-		height: 80px;
+		width: 50px;
+		height: 50px;
+		opacity: 0;
+		margin: 0 auto 20px;
+		transition: all 1s ease 0s;
+	}
+	.sec_icon.scale {
+		transform: scale(1.5, 1.5);
 		opacity: 0.9;
-		margin: auto;
 	}
 	.txt {
 		padding-top: 2%;
@@ -1226,8 +1236,21 @@ html {
 		height: 100%;
 		border-radius: 5px;
 	}
+	footer {
+		transition: all 2s ease 0s;
+		opacity: 0;
+	}
+	footer.footer_fade {
+		opacity: 1;
+	}
 	.copyright {
+		margin: 5px auto 10px;
 		text-align: center;
+	}
+	#topcontrol {
+		width: 60px;
+		height: 60px;
+		z-index: 10000;
 	}
 
 	/********************************************************************************************

@@ -210,7 +210,7 @@ html {
 		opacity: 0.5;
 	}
 	.nav_list_en,
-	.nav_middle_list_en {
+	.nav_secondary_list_en {
 		display: block;
 		order: 1;
 		font-family: Helvetica, Arial, sans-serif;
@@ -219,12 +219,12 @@ html {
 		color: rgb(255, 255, 255) /*fff*/;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 	}
-	.nav_middle_list_en {
+	.nav_secondary_list_en {
 		font-size: 1.2rem;
 		font-weight: bold;
 	}
 	.nav_list_ja,
-	.nav_middle_list_ja {
+	.nav_secondary_list_ja {
 		display: block;
 		width: 100vw;
 		order: 2;
@@ -234,7 +234,7 @@ html {
 		color: rgba(255, 255, 255, 0.9) /*fff*/;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*#000*/;
 	}
-	.nav_middle_list_ja {
+	.nav_secondary_list_ja {
 		width: auto;
 		border-bottom: none;
 		margin: 0;
@@ -244,8 +244,8 @@ html {
 	}
 	.nav_list_ja::before,
 	.nav_list_ja::after,
-	.nav_middle_list_ja::before,
-	.nav_middle_list_ja::after {
+	.nav_secondary_list_ja::before,
+	.nav_secondary_list_ja::after {
 		content: " - ";
 	}
 	.first_letter,
@@ -256,7 +256,7 @@ html {
 		0px 1px 0 #fff,  0 -1px 0 #fff,
 		-1px 0 0 #fff, 1px 0 0 #fff;
 	}
-	.nav_middle_list .first_letter {
+	.nav_secondary_list .first_letter {
 		padding-right: 1px;
 		font-size: 1.5rem;
 	}
@@ -335,14 +335,14 @@ html {
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 	}
 	.nav_icon,
-	.nav_middle_icon {
+	.nav_secondary_icon {
 		display: block;
 		opacity: 0.8;
 		width: 30px;
 		height: 30px;
 		margin: auto;
 	}
-	.nav_middle_icon {
+	.nav_secondary_icon {
 		display: none;
 	}
 	.area {
@@ -973,7 +973,7 @@ html {
 		justify-content: space-between;
 		align-items: stretch;
 	}
-	.nav_middle {
+	.nav_secondary {
 		position: relative;
 		z-index: 100;
 		top: -10px;
@@ -981,7 +981,7 @@ html {
 		flex-wrap: wrap;
 		background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
 	}
-	.nav_middle_list {
+	.nav_secondary_list {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -995,12 +995,12 @@ html {
 		letter-spacing: 0.05rem;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 	}
-	.nav_middle_list_en {
+	.nav_secondary_list_en {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 	}
-	.nav_middle_list_en	.nav_icon {
+	.nav_secondary_list_en	.nav_icon {
 		width: 15px;
 		height: 15px;
 		margin: 0 10px 0 0;
@@ -1019,7 +1019,6 @@ html {
 		transition: all 2s ease 0s;
 		background: rgba(255, 255, 255, 0.5) /*#fff*/ url(common/img/bg_from_nipponcolors_texture.png);
 		padding: 20px 2%;
-		color: rgb(255, 255, 255) /*#fff*/;
 	}
 	.section.sec_fade {
 		opacity: 1;
@@ -1033,10 +1032,13 @@ html {
 		letter-spacing: 0.15rem;
 	}
 	.sec_h2_about_mike {
-		background: rgba(57, 82, 111, 0.9) /*#39526f*/;
+		background: rgba(89, 145, 216, 0.9) /*#5991d8*/;
 	}
 	.sec_h2_one_to_one {
-		background: rgba(68, 118, 107, 0.9) /*#44766b*/;
+		background: rgba(30, 136, 168, 0.9) /*1e88a8*/;
+	}
+	.sec_h2_online {
+		background: rgba(89, 174, 203, 0.9) /*#59aecb*/;
 	}
 	.sec_h2_garelly {
 		background: rgba(91, 121, 92, 0.9) /*#5b795c*/;
@@ -1051,7 +1053,7 @@ html {
 		background: rgba(157, 108, 47, 0.9) /*#9d6c2f*/;
 	}
 	.sec_h2_mikes_posts {
-		background: rgba(125, 53, 28, 0.9) /*#7d351c*/;
+		background: rgba(181, 73, 91, 0.9) /*#b5495b*/;
 	}
 	.sec_h2_contact {
 		background: rgba(89, 145, 216, 0.9) /*#5991d8*/;
@@ -1063,30 +1065,13 @@ html {
 		order: -2;
 	}
 	.sec_div_about_mike {
-		background: rgba(57, 82, 111, 0.7) /*#39526f*/;
+		background: rgba(255, 255, 255, 0.5);
 		padding: 10px;
 		font-weight: bold;
 	}
 	.sec_box {
-		background: rgba(68, 118, 107, 0.8) /*#44766b*/;
-	}
-	.sec_box.garelly {
-		background: rgba(91, 121, 92, 0.8) /*#5b795c*/;
-	}
-	.sec_box.translations {
-		background: rgba(114, 127, 78, 0.8) /*#727f4e*/;
-	}
-	.sec_box.location {
-		background: rgba(165, 132, 54, 0.8) /*#a58436*/;
-	}
-	.sec_box.reviews {
-		background: rgba(165, 132, 54, 0.8) /*#a58436*/;
-	}
-	.sec_box.mikes_posts {
-		background: rgba(125, 53, 28, 0.8) /*#7d351c*/;
-	}
-	.sec_box.contact {
-		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
+		background: rgba(255, 255, 255, 0.5);
+		color: rgb(53, 87, 129) /*#355781*/;
 	}
 	.sec_txt_lead {
 		order: -1;
@@ -1099,11 +1084,13 @@ html {
 		text-align: center;
 	}
 	.sec_txt_lead.about_mike_lead {
-		background: rgb(57, 82, 111) /*#39526f*/;
+		background: rgb(89, 145, 216) /*#5991d8*/;
 	}
-	.sec_txt_lead.one_to_one_lead,
+	.sec_txt_lead.one_to_one_lead {
+		background: rgb(30, 136, 168) /*1e88a8*/;
+	}
 	.sec_txt_lead.online_lead {
-		background: rgb(68, 118, 107) /*#44766b*/;
+		background: rgb(89, 174, 203) /*#59aecb*/;
 	}
 	.sec_txt_lead.gallery_lead {
 		background: rgb(91, 121, 92) /*#5b795c*/;
@@ -1118,7 +1105,7 @@ html {
 		background: rgb(157, 108, 47) /*#9d6c2f*/;
 	}
 	.sec_txt_lead.mikes_posts_lead {
-		background: rgb(112, 41, 36) /*#702924*/;
+		background: rgb(181, 73, 91) /*#b5495b*/;
 	}
 	.sec_txt_lead.contact_lead {
 		background: rgb(89, 145, 216) /*#5991d8*/;
@@ -1141,6 +1128,7 @@ html {
 	}
 	.txt {
 		padding-top: 2%;
+		font-weight: bold;
 	}
 	.sec_txt_01,
 	.sec_txt_02,
@@ -1260,29 +1248,15 @@ html {
 	/********************************************************************************************
 	SP Portrait
 	*********************************************************************************************/
-	/* 360px
-	--------------------------------------------------------------------------------------------*/
-	@media screen and (min-width: 360px) {
-		.nav_middle_icon {
-			display: block;
-			width: 15px;
-			height: 15px;
-			margin: 0 7px 0 0;
-		}
-		.nav_middle_list {
-			height: 50px;
-			padding: 5px;
-		}
-	}
-
-	/********************************************************************************************
-	SP Portrait
-	*********************************************************************************************/
 	/* 375px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 375px) {
-		.nav_middle_list_en {
-			font-size: 1.3rem;
+		.nav_secondary_list {
+			height: 50px;
+			padding: 5px;
+		}
+		.nav_secondary_list_en {
+			font-size: 1.5rem;
 		}
 	}
 
@@ -1292,19 +1266,25 @@ html {
 	/* 568px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 568px){
+		.nav_secondary_icon {
+			display: block;
+			width: 15px;
+			height: 15px;
+			margin: 0 7px 0 0;
+		}
 		.sec_h2 {
 			letter-spacing: 0.2rem;
 		}
 		.fnc-slide__content {
 			top: 20%;
 		}
-		.nav_middle_list_en {
+		.nav_secondary_list_en {
 			font-size: 1.5rem;
 		}
-		.nav_middle_list_ja {
+		.nav_secondary_list_ja {
 			font-size: 1.2rem;
 		}
-		.nav_middle_icon {
+		.nav_secondary_icon {
 			width: 20px;
 			height: 20px;
 			margin: 0 10px 0 0;
@@ -1323,8 +1303,8 @@ html {
 		.flex {
 			flex-direction: row;
 		}
-		.nav_middle_list_en,
-		.nav_middle_list_ja {
+		.nav_secondary_list_en,
+		.nav_secondary_list_ja {
 			letter-spacing: 0.1rem;
 		}
 		.section {
@@ -1377,9 +1357,6 @@ html {
 		}
 		.fnc-cont__credits_txt {
 			font-size: 1.6rem;
-		}
-		.nav_middle {
-			display: none;
 		}
 		.sec_a {
 			margin: 10px 3% 0 auto;
@@ -1579,6 +1556,9 @@ html {
 		.close-btn {
 			display: none;
 		}
+		main .nav_secondary {
+			display: none;
+		}
 		.fnc-cont {
 			top: 0;
 			margin-top: 0;
@@ -1634,21 +1614,21 @@ html {
 		.nav_list {
 			font-size: 1.3rem;
 		}
-		.nav_middle_list {
+		.nav_secondary_list {
 			width: 46%;
 			margin: 0 2%;
 		}
 		.sec_01_h2 {
 			font-size: 2rem;
 		}
-		footer .nav_middle {
+		footer .nav_secondary {
 			display: flex;
 			justify-content: space-between;
 			width: 98%;
 			margin: 30px 1% 0;
 			background: none;
 		}
-		footer .nav_middle_list {
+		footer .nav_secondary_list {
 			width: 50%;
 			height: 55px;
 			margin: 0;

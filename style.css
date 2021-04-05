@@ -1062,10 +1062,6 @@ html {
 	.sec_h3 {
 		order: -2;
 	}
-	.sec_h3 img {
-		max-width: 100%;
-		max-height: 100%;
-	}
 	.sec_div_about_mike {
 		background: rgba(57, 82, 111, 0.7) /*#39526f*/;
 		padding: 10px;

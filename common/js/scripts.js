@@ -259,8 +259,8 @@ var masonry = new Macy({
 	},
 	columns: 6,
 	breakAt: {
-		1200: {columns: 3},
-		940: {columns: 2},
-		740: {columns: 1}
+		1919: {columns: 3},
+		1023: {columns: 2},
+		767: {columns: 1}
 	}
 });

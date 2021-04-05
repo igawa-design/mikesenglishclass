@@ -230,7 +230,6 @@ html {
 		order: 2;
 		margin: 0 20px;
 		border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*fff*/;
-		padding-bottom: 15px;
 		color: rgba(255, 255, 255, 0.9) /*fff*/;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*#000*/;
 	}
@@ -706,7 +705,7 @@ html {
 	}
 	.fnc-nav__controls {
 		position: absolute;
-		bottom: 0;
+		bottom: -10px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -976,7 +975,6 @@ html {
 	.nav_secondary {
 		position: relative;
 		z-index: 100;
-		top: -10px;
 		display: flex;
 		flex-wrap: wrap;
 		background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
@@ -987,7 +985,7 @@ html {
 		align-items: center;
 		width: 50%;
 		height: 55px;
-		background: rgba(238, 139, 103, 0.9) /*#ee8b67*/;
+		background: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
 		border: 1px dotted rgba(255, 255, 255, 0.5) /*#fff*/;
 		padding: 5px 0;
 		font-weight: bold;

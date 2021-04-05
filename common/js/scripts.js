@@ -247,16 +247,20 @@ $(window).scroll(function (){
 });
 
 // masonry //////////////////////////////////////////////////////
-$(function(){
-    $('#container').imagesLoaded(function(){
-        $('#container').masonry({
-            itemSelector: '.section',//整理される要素のclassを指定
-            isAnimated: true,     //スムースアニメーション設定
-            isFitWidth: true,     //親要素の幅サイズがピッタリ
-            isRTL: false,         //整理される要素が左右逆になる（読み言語などに）
-            gutterWidth: 0,       //整理される要素間の溝の幅を指定
-            containerStyle: { position: 'relative' }, //親要素にスタイルを追加できる
-            isResizable: true     //ウィンドウサイズが変更された時に並び替え
-        });
-    });
+
+var masonry = new Macy({
+	container: '#container',
+	trueOrder: false,
+	waitForImages: false,
+	useOwnImageLoader: false,
+	margin: {
+		x: 4,
+		y: 4
+	},
+	columns: 6,
+	breakAt: {
+		1200: {columns: 3},
+		940: {columns: 2},
+		740: {columns: 1}
+	}
 });

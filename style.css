@@ -567,16 +567,23 @@ html {
 		margin-bottom: 10px;
 	}
 	.fnc-slide__heading-line {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
 		overflow: hidden;
 		position: relative;
 		padding: 0 2%;
 		color: #fff;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 	}
-	.fnc-slide__heading-line .top_txt:first-of-type {
+	.fnc-slide__heading-line .top_txt {
+		order: 2;
+	}
+	.fnc-slide__heading-line .top_txt.first_txt {
+		order: 1;
 		margin-bottom: 20px;
 		font-size: 2.5rem;
 		font-weight: 900;
-		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 		line-height: 1.2;
 	}
 	.fnc-slide__heading-line:nth-child(2) {
@@ -898,6 +905,7 @@ html {
 	.fancy-slider .fnc-nav__control {
 		position: relative;
 		bottom: 10px;
+		margin-top: 30px;
 		font-family: Helvetica, Arial, sans-serif;
 	}
 	.arrow_9ineBB {
@@ -1315,7 +1323,7 @@ html {
 			position: fixed;
 			width: 100%;
 		}
-		.fnc-slide__heading-line .top_txt:first-of-type {
+		.fnc-slide__heading-line .top_txt.first_txt {
 			font-size: 5rem;
 		}
 		.fnc-slide__heading-line .top_txt {
@@ -1348,8 +1356,8 @@ html {
 		.fnc-cont__credits_txt {
 			font-size: 1.6rem;
 		}
-		.nav_secondary_list_en {
-			font-size: 1.6rem;
+		main .nav_secondary {
+			display: none;
 		}
 		.sec_a {
 			margin: 10px 3% 0 auto;
@@ -1431,6 +1439,7 @@ html {
 		.nav_list_en {
 			font-size: 1.6rem;
 			text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+			letter-spacing: 0.1rem;
 		}
 		.nav_list_en::first-letter {
 			font-size: 1.8rem;
@@ -1539,9 +1548,6 @@ html {
 			-0.5px 0 0 #fff, 0.5px 0 0 #fff;
 		}
 		.close-btn {
-			display: none;
-		}
-		main .nav_secondary {
 			display: none;
 		}
 		.section {

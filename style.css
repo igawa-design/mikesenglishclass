@@ -1545,7 +1545,7 @@ html {
 			display: none;
 		}
 		.section {
-			width: calc(50% - 2px);
+			width: calc(50% - 2px);/*same macy*/
 		}
 		.fnc-cont {
 			top: 0;
@@ -1604,7 +1604,7 @@ html {
 			margin: 0 2%;
 		}
 		.section {
-			width: calc(33.3333% - 2.66667px);
+			width: calc(33.3333% - 2.66667px);/*same macy*/
 		}
 		.sec_01_h2 {
 			font-size: 2rem;

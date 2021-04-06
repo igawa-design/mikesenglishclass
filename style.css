@@ -1274,9 +1274,6 @@ html {
 		.fnc-slide__content {
 			top: 20%;
 		}
-		.nav_secondary_list_en {
-			font-size: 1.5rem;
-		}
 		.nav_secondary_list_ja {
 			font-size: 1.2rem;
 		}
@@ -1349,6 +1346,9 @@ html {
 			background-image: url("common/img/contact_1920x1440.jpg");
 		}
 		.fnc-cont__credits_txt {
+			font-size: 1.6rem;
+		}
+		.nav_secondary_list_en {
 			font-size: 1.6rem;
 		}
 		.sec_a {

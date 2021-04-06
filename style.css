@@ -902,6 +902,7 @@ html {
 	}
 	.arrow_9ineBB {
 		position: absolute;
+		z-index: 1000;
 		bottom: 0;
 		left: 0;
 		width: 50%;
@@ -911,6 +912,9 @@ html {
 		transform: translateZ(0);
 		animation: foo 2.5s linear alternate infinite;
 		transition: all 0.3s ease 0s;
+	}
+	.arrow_9ineBB.fade {
+		opacity: 0;
 	}
 	.arrow_9ineBB:after,
 	.arrow_9ineBB:before {
@@ -962,9 +966,6 @@ html {
 		98%,100%{
 			top: 50px;
 		}
-	}
-	.arrow_9ineBB.fade {
-		opacity: 0;
 	}
 	.flex {
 		display: flex;
@@ -1217,7 +1218,13 @@ html {
 		max-height: 100%;
 		border-radius: 5px;
 	}
+	main {
+		position: relative;
+		z-index: 100;
+	}
 	footer {
+		position: relative;
+		z-index: 1000;
 		transition: all 2s ease 0s;
 		opacity: 0;
 	}

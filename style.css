@@ -1041,31 +1041,31 @@ html {
 		letter-spacing: 0.15rem;
 	}
 	.sec_h2_about_mike {
-		background: rgba(89, 145, 216, 0.9) /*#5991d8*/;
+		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 	}
 	.sec_h2_one_to_one {
-		background: rgba(30, 136, 168, 0.9) /*1e88a8*/;
+		background: rgba(30, 136, 168, 0.8) /*1e88a8*/;
 	}
 	.sec_h2_online {
-		background: rgba(89, 174, 203, 0.9) /*#59aecb*/;
+		background: rgba(89, 174, 203, 0.8) /*#59aecb*/;
 	}
 	.sec_h2_garelly {
-		background: rgba(91, 121, 92, 0.9) /*#5b795c*/;
+		background: rgba(91, 121, 92, 0.8) /*#5b795c*/;
 	}
 	.sec_h2_translations {
-		background: rgba(114, 127, 78, 0.9) /*#727f4e*/;
+		background: rgba(114, 127, 78, 0.8) /*#727f4e*/;
 	}
 	.sec_h2_location {
-		background: rgba(165, 132, 54, 0.9) /*#a58436*/;
+		background: rgba(165, 132, 54, 0.8) /*#a58436*/;
 	}
 	.sec_h2_reviews {
-		background: rgba(157, 108, 47, 0.9) /*#9d6c2f*/;
+		background: rgba(157, 108, 47, 0.8) /*#9d6c2f*/;
 	}
 	.sec_h2_mikes_posts {
-		background: rgba(181, 73, 91, 0.9) /*#b5495b*/;
+		background: rgba(181, 73, 91, 0.8) /*#b5495b*/;
 	}
 	.sec_h2_contact {
-		background: rgba(89, 145, 216, 0.9) /*#5991d8*/;
+		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 	}
 	.sec_h2_about_mike .small {
 		font-size: 1.3rem;
@@ -1078,7 +1078,7 @@ html {
 	}
 	.sec_box {
 		background: rgba(255, 255, 255, 0.5) /*#fff*/;
-		padding: 10px;
+		padding: 15px 10px 10px;
 		color: rgb(53, 87, 129) /*#355781*/;
 		font-weight: bold;
 	}
@@ -1147,6 +1147,12 @@ html {
 	.sec_txt_03,
 	.txt {
 		margin-bottom: 15px;
+		}
+	.sec_txt_01:last-child,
+	.sec_txt_02:last-child,
+	.sec_txt_03:last-child,
+	.txt:last-child {
+		margin-bottom: 0;
 		}
 	.sec_txt_01 {
 		order: 1;

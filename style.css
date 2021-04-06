@@ -1544,6 +1544,9 @@ html {
 		main .nav_secondary {
 			display: none;
 		}
+		.section {
+			width: calc(50% - 2px);
+		}
 		.fnc-cont {
 			top: 0;
 			margin-top: 0;
@@ -1599,6 +1602,9 @@ html {
 		.nav_secondary_list {
 			width: 46%;
 			margin: 0 2%;
+		}
+		.section {
+			width: calc(33.3333% - 2.66667px);
 		}
 		.sec_01_h2 {
 			font-size: 2rem;

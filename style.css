@@ -1359,6 +1359,9 @@ html {
 		main .nav_secondary {
 			display: none;
 		}
+		.section {
+			width: calc(50% - 2px);/*same macy*/
+		}
 		.sec_a {
 			margin: 10px 3% 0 auto;
 			font-size: 1.6rem;
@@ -1551,7 +1554,7 @@ html {
 			display: none;
 		}
 		.section {
-			width: calc(50% - 2px);/*same macy*/
+			width: calc(33.3333% - 2.66667px);/*same macy*/
 		}
 		.fnc-cont {
 			top: 0;
@@ -1608,9 +1611,6 @@ html {
 		.nav_secondary_list {
 			width: 46%;
 			margin: 0 2%;
-		}
-		.section {
-			width: calc(33.3333% - 2.66667px);/*same macy*/
 		}
 		.sec_01_h2 {
 			font-size: 2rem;

@@ -1266,7 +1266,7 @@ html {
 	footer.footer_fade {
 		opacity: 1;
 	}
-	.copyright {
+	.box_copyright {
 		margin: 5px auto;
 		text-align: center;
 	}
@@ -1287,10 +1287,6 @@ html {
 	/* 375px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 375px) {
-		.nav_secondary_list {
-			height: 50px;
-			padding: 5px;
-		}
 		.nav_secondary_list_en {
 			font-size: 1.5rem;
 		}
@@ -1339,6 +1335,9 @@ html {
 		.nav_secondary_list_en,
 		.nav_secondary_list_ja {
 			letter-spacing: 0.1rem;
+		}
+		.nav_secondary_list_ja {
+			padding-bottom: 0;
 		}
 		.section {
 			width: calc(50% - 2px);/*same macy*/

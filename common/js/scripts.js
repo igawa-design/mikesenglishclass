@@ -246,21 +246,13 @@ $(window).scroll(function (){
   });
 });
 
-// masonry //////////////////////////////////////////////////////
+// Grid rayout //////////////////////////////////////////////////////
 
-var masonry = new Macy({
-	container: '#container',
-	trueOrder: false,
-	waitForImages: false,
-	useOwnImageLoader: false,
-	margin: {
-		x: 4,
-		y: 4
-	},
-	columns: 6,
-	breakAt: {
-		1919: {columns: 3},
-		1023: {columns: 2},
-		767: {columns: 1}
-	}
+let magicGrid = new MagicGrid({
+  container: "#container", // Required. Can be a class, id, or an HTMLElement.
+  static: true, // Required for static content.
+  animate: true, // Optional.
+  gutter: 0, // Optional. Space between items. Default: 25(px).
 });
+
+magicGrid.listen();

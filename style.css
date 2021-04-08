@@ -1099,11 +1099,14 @@ html {
 	.sec_box_online {
 		background-image: linear-gradient(-45deg, rgba(89, 174, 203, 0.5) 25%, rgb(89, 174, 203, 0) 25%, rgba(89, 174, 203, 0) 50%, rgba(89, 174, 203, 0.5) 50%, rgba(89, 174, 203, 0.5) 75%, rgba(89, 174, 203, 0) 75%, rgba(89, 174, 203, 0))/*stripes*/;
 	}
+	.sec_box_garelly {
+		background-image: linear-gradient(-45deg, rgba(66, 191, 176, 0.5) 25%, rgb(66, 191, 176, 0) 25%, rgba(66, 191, 176, 0) 50%, rgba(66, 191, 176, 0.5) 50%, rgba(66, 191, 176, 0.5) 75%, rgba(66, 191, 176, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
+	}
 	.sec_box_translations {
 		background-image: linear-gradient(-45deg, rgba(211, 93, 135, 0.5) 25%, rgb(211, 93, 135, 0) 25%, rgba(211, 93, 135, 0) 50%, rgba(211, 93, 135, 0.5) 50%, rgba(211, 93, 135, 0.5) 75%, rgba(211, 93, 135, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 	}
-	.sec_box_garelly {
-		background-image: linear-gradient(-45deg, rgba(66, 191, 176, 0.5) 25%, rgb(66, 191, 176, 0) 25%, rgba(66, 191, 176, 0) 50%, rgba(66, 191, 176, 0.5) 50%, rgba(66, 191, 176, 0.5) 75%, rgba(66, 191, 176, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
+	.sec_box_location {
+		background-image: linear-gradient(-45deg, rgba(70, 172, 128, 0.5) 25%, rgb(70, 172, 128, 0) 25%, rgba(70, 172, 128, 0) 50%, rgba(70, 172, 128, 0.5) 50%, rgba(70, 172, 128, 0.5) 75%, rgba(70, 172, 128, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 	}
 	.sec_box_reviews {
 		background-image: linear-gradient(-45deg, rgba(242, 187, 3, 0.5) 25%, rgb(242, 187, 3, 0) 25%, rgba(242, 187, 3, 0) 50%, rgba(242, 187, 3, 0.5) 50%, rgba(242, 187, 3, 0.5) 75%, rgba(242, 187, 3, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
@@ -1118,7 +1121,7 @@ html {
 		background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 	}
 	.sec_box_inner {
-		background: rgb(255, 255, 255) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
+		background: rgb(255, 255, 255) /*#fff*/;
 		padding: 15px 10px;
 	}
 	.sec_box_a {

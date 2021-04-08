@@ -1074,8 +1074,8 @@ html {
 		background: rgba(195, 91, 91, 0.8) /*#c35b5b*/;
 	}
 	.sec_h2_online_reviews {
-	background: rgba(218, 185, 91, 0.8) /*b5a15b*/;
-}
+		background: rgba(218, 185, 91, 0.8) /*b5a15b*/;
+	}
 	.sec_h2_contact {
 		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 	}
@@ -1122,7 +1122,7 @@ html {
 	}
 	.sec_box_inner {
 		background: rgb(255, 255, 255) /*#fff*/;
-		padding: 15px 10px;
+		padding: 15px 10px 10px;
 	}
 	.sec_box_a {
 		width: 98%;
@@ -1184,27 +1184,37 @@ html {
 	}
 	.sec_icon.scale {
 		transform: scale(1.5, 1.5);
-		opacity: 0.9;
+		opacity: 1;
 	}
 	.sec_icon_google_maps,
 	.sec_icon_google_my_business {
 		display: block;
 		width: 100px;
 		height: 100px;
+		opacity: 0.9;
+		transition: all 0.3s ease 0s;
 		margin: 0 auto 20px;
+	}
+	.sec_icon_google_my_business {
+		margin-bottom: 5px;
+	}
+	.sec_icon_google_maps:hover,
+	.sec_icon_google_my_business:hover {
+		opacity: 1;
+		transform: scale(1.1, 1.1);
 	}
 	.sec_txt_01,
 	.sec_txt_02,
 	.sec_txt_03,
 	.txt {
 		margin-bottom: 15px;
-		}
+	}
 	.sec_txt_01:last-child,
 	.sec_txt_02:last-child,
 	.sec_txt_03:last-child,
 	.txt:last-child {
 		margin-bottom: 0;
-		}
+	}
 	.sec_txt_01 {
 		order: 1;
 	}
@@ -1294,6 +1304,9 @@ html {
 		max-height: 100%;
 		border-radius: 5px;
 	}
+	.sec_img_translations {
+		margin-bottom: 10px;
+	}
 	main {
 		position: relative;
 		z-index: 100;
@@ -1327,6 +1340,12 @@ html {
 		width: 60px;
 		height: 60px;
 		z-index: 10000;
+	}
+	.scrolltopcontrol {
+		transition: all 0.3s ease 0s;
+	}
+	.scrolltopcontrol:hover {
+		transform: scale(1.1, 1.1);
 	}
 
 	/********************************************************************************************

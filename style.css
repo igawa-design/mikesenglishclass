@@ -213,7 +213,7 @@ html {
 		opacity: 0.5;
 	}
 	.nav_list_en,
-	.nav_secondary_list_en {
+	.nav_local_list_en {
 		display: block;
 		order: 1;
 		font-family: Helvetica, Arial, sans-serif;
@@ -222,12 +222,12 @@ html {
 		color: rgb(255, 255, 255) /*fff*/;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 	}
-	.nav_secondary_list_en {
+	.nav_local_list_en {
 		font-size: 1.2rem;
 		font-weight: bold;
 	}
 	.nav_list_ja,
-	.nav_secondary_list_ja {
+	.nav_local_list_ja {
 		display: block;
 		width: 100vw;
 		order: 2;
@@ -237,7 +237,7 @@ html {
 		color: rgba(255, 255, 255, 0.9) /*fff*/;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*#000*/;
 	}
-	.nav_secondary_list_ja {
+	.nav_local_list_ja {
 		width: auto;
 		border-bottom: none;
 		margin: 0;
@@ -247,8 +247,8 @@ html {
 	}
 	.nav_list_ja::before,
 	.nav_list_ja::after,
-	.nav_secondary_list_ja::before,
-	.nav_secondary_list_ja::after {
+	.nav_local_list_ja::before,
+	.nav_local_list_ja::after {
 		content: " - ";
 	}
 	.first_letter,
@@ -259,7 +259,7 @@ html {
 		0px 1px 0 #fff,  0 -1px 0 #fff,
 		-1px 0 0 #fff, 1px 0 0 #fff;
 	}
-	.nav_secondary_list .first_letter {
+	.nav_local_list .first_letter {
 		padding-right: 1px;
 		font-size: 1.5rem;
 	}
@@ -343,14 +343,14 @@ html {
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 	}
 	.nav_icon,
-	.nav_secondary_icon {
+	.nav_local_icon {
 		display: block;
 		opacity: 0.8;
 		width: 40px;
 		height: 40px;
 		margin: auto;
 	}
-	.nav_secondary_icon {
+	.nav_local_icon {
 		display: none;
 	}
 	.area {
@@ -990,33 +990,33 @@ html {
 		justify-content: space-between;
 		align-items: stretch;
 	}
-	.nav_secondary {
+	.nav_local {
 		position: relative;
 		z-index: 100;
 		display: flex;
 		flex-wrap: wrap;
 		background: rgba(255, 156, 38, 0.9) /*#ff9c26*/ url(common/img/bg_from_nipponcolors_texture.png);
 	}
-	.nav_secondary_list {
+	.nav_local_list {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		width: 50%;
-		height: 55px;
+		height: 60px;
 		background: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
 		border: 1px dotted rgba(255, 255, 255, 0.5) /*#fff*/;
-		padding: 5px 0;
+		padding: 10px 0;
 		font-weight: bold;
 		color: rgb(255, 255, 255) /*#fff*/;
 		letter-spacing: 0.05rem;
 		text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 	}
-	.nav_secondary_list_en {
+	.nav_local_list_en {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 	}
-	.nav_secondary_list_en	.nav_icon {
+	.nav_local_list_en	.nav_icon {
 		width: 15px;
 		height: 15px;
 		margin: 0 10px 0 0;
@@ -1085,23 +1085,22 @@ html {
 	.sec_h3 {
 		order: -2;
 	}
-	.sec_box_about_mike {
-		background: rgba(255, 255, 255, 0.5) /*#fff*/;
-	}
 	.sec_box {
-		background: rgba(255, 255, 255, 0.5) /*#fff*/;
-		padding: 15px 10px 10px;
+		background-image: linear-gradient(-45deg, rgba(53, 87, 129, 0.1) 25%, rgb(53, 87, 129, 0) 25%, rgb(53, 87, 129, 0) 50%, rgba(53, 87, 129, 0.1) 50%, rgba(53, 87, 129, 0.1) 75%, rgba(53, 87, 129, 0) 75%, rgba(53, 87, 129, 0))/*stripes*/;
+		background-size: 7px 7px;
+		background-color: rgb(255, 255, 255) /*#fff*/;
+		padding: 0 10px 10px;
 		color: rgb(53, 87, 129) /*#355781*/;
 		font-weight: bold;
 	}
-	.sec_box:nth-of-type(2) {
-		padding-top: 5px;
+	.sec_box_inner {
+		background: rgba(255, 255, 255, 0.9) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
+		padding: 15px 10px;
 	}
 	.sec_box_a {
 		width: 98%;
 		background: rgba(255, 255, 255, 0.5) /*#fff*/;
 		margin: auto;
-		padding-bottom: 20px;
 	}
 	.sec_txt_lead {
 		order: -1;
@@ -1210,13 +1209,13 @@ html {
 		left: 0;
 		display:block;
 		box-sizing: border-box;
-		width: calc(100% + 3px);
+		width: 100%;
 		height: 100%;
 		content: 'more...';
 		background: rgb(238, 139, 103) /*#ee8b67*/;
 		border: 6px double rgb(238, 139, 103) /*#ee8b67*/;
 		border-radius: 45px 5px 25px  0;
-		padding: 7px 10px;
+		padding: 0 10px;
 		color: rgba(255, 255, 255) /*#fff*/;
 		transform-origin: 0 50%;
 		transform: rotateY(-70deg);
@@ -1224,8 +1223,10 @@ html {
 		opacity: 0;
 	}
 	.sec_a:hover::after {
+		width: 100%;
 		transform: rotateY(0);
 		opacity: 1;
+		border-radius: 45px 2px 22px  0;
 	}
 	.sec_box_about_mike li {
 		margin-top: 10px;
@@ -1275,6 +1276,10 @@ html {
 	.sincerely {
 		padding: 20px calc(2% + 10px) 15px;
 	}
+	.info {
+		padding: 15px calc(2% + 10px);
+		font-size: 1.4rem;
+	}
 	.box_copyright {
 		margin: 5px auto;
 		text-align: center;
@@ -1296,7 +1301,7 @@ html {
 	/* 375px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 375px) {
-		.nav_secondary_list_en {
+		.nav_local_list_en {
 			font-size: 1.5rem;
 		}
 	}
@@ -1307,7 +1312,7 @@ html {
 	/* 568px
 	--------------------------------------------------------------------------------------------*/
 	@media screen and (min-width: 568px){
-		.nav_secondary_icon {
+		.nav_local_icon {
 			display: block;
 			width: 15px;
 			height: 15px;
@@ -1319,10 +1324,10 @@ html {
 		.fnc-slide__content {
 			top: 20%;
 		}
-		.nav_secondary_list_ja {
+		.nav_local_list_ja {
 			font-size: 1.2rem;
 		}
-		.nav_secondary_icon {
+		.nav_local_icon {
 			width: 20px;
 			height: 20px;
 			margin: 0 10px 0 0;
@@ -1341,11 +1346,11 @@ html {
 		.flex {
 			flex-direction: row;
 		}
-		.nav_secondary_list_en,
-		.nav_secondary_list_ja {
+		.nav_local_list_en,
+		.nav_local_list_ja {
 			letter-spacing: 0.1rem;
 		}
-		.nav_secondary_list_ja {
+		.nav_local_list_ja {
 			padding-bottom: 0;
 		}
 		.section {
@@ -1399,7 +1404,7 @@ html {
 		.fnc-cont__credits_txt {
 			font-size: 1.6rem;
 		}
-		main .nav_secondary {
+		main .nav_local {
 			display: none;
 		}
 		.sec_a {
@@ -1648,21 +1653,21 @@ html {
 		.nav_list {
 			font-size: 1.3rem;
 		}
-		.nav_secondary_list {
+		.nav_local_list {
 			width: 46%;
 			margin: 0 2%;
 		}
 		.sec_01_h2 {
 			font-size: 2rem;
 		}
-		footer .nav_secondary {
+		footer .nav_local {
 			display: flex;
 			justify-content: space-between;
 			width: 98%;
 			margin: 30px 1% 0;
 			background: none;
 		}
-		footer .nav_secondary_list {
+		footer .nav_local_list {
 			width: 50%;
 			height: 55px;
 			margin: 0;

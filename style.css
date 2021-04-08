@@ -1210,13 +1210,13 @@ html {
 		left: 0;
 		display:block;
 		box-sizing: border-box;
-		width: 100%;
+		width: calc(100% + 3px);
 		height: 100%;
 		content: 'more...';
 		background: rgb(238, 139, 103) /*#ee8b67*/;
 		border: 6px double rgb(238, 139, 103) /*#ee8b67*/;
 		border-radius: 45px 5px 25px  0;
-		padding: 5px 10px;
+		padding: 7px 10px;
 		color: rgba(255, 255, 255) /*#fff*/;
 		transform-origin: 0 50%;
 		transform: rotateY(-70deg);

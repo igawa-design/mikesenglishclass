@@ -1381,7 +1381,8 @@ html {
 			padding-bottom: 0;
 		}
 		.section {
-			width: calc(50% - 2px);/*same macy*/
+			width: calc(100% / 2);
+			padding: 30px 2%;
 		}
 	}
 
@@ -1626,7 +1627,7 @@ html {
 			display: none;
 		}
 		.section {
-			width: calc(33.3333% - 2.66667px);/*same macy*/
+			width: calc(100% / 3);
 		}
 		.fnc-cont {
 			top: 0;

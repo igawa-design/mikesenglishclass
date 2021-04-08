@@ -1073,6 +1073,9 @@ html {
 	.sec_h2_mikes_posts {
 		background: rgba(195, 91, 91, 0.8) /*#c35b5b*/;
 	}
+	.sec_h2_online_reviews {
+	background: rgba(218, 185, 91, 0.8) /*b5a15b*/;
+}
 	.sec_h2_contact {
 		background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 	}
@@ -1134,6 +1137,9 @@ html {
 	}
 	.sec_txt_lead.mikes_posts_lead {
 		background: rgb(195, 91, 91) /*#c35b5b*/;
+	}
+	.sec_txt_lead.online_reviews_lead {
+		background: rgb(218, 185, 91) /*dab95b*/;
 	}
 	.sec_txt_lead.contact_lead {
 		background: rgb(89, 145, 216) /*#5991d8*/;
@@ -1265,6 +1271,9 @@ html {
 	}
 	footer.footer_fade {
 		opacity: 1;
+	}
+	.sincerely {
+		padding: 20px calc(2% + 10px) 15px;
 	}
 	.box_copyright {
 		margin: 5px auto;

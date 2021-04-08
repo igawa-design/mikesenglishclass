@@ -1186,6 +1186,13 @@ html {
 		transform: scale(1.5, 1.5);
 		opacity: 0.9;
 	}
+	.sec_icon_google_maps,
+	.sec_icon_google_my_business {
+		display: block;
+		width: 100px;
+		height: 100px;
+		margin: 0 auto 20px;
+	}
 	.sec_txt_01,
 	.sec_txt_02,
 	.sec_txt_03,

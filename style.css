@@ -1348,6 +1348,9 @@ html {
 		padding-right: 3px;
 		color: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
 	}
+	.tel {
+		color: rgb(53, 87, 129) /*#355781*/;
+	}
 	.info_a {
 		display: inline-block;
 		height: 20px;

@@ -1213,7 +1213,7 @@ html {
 	.sec_txt_02:last-child,
 	.sec_txt_03:last-child,
 	.txt:last-child {
-		margin-bottom: 0;
+		margin-bottom: 5px;
 	}
 	.sec_txt_01 {
 		order: 1;
@@ -1328,9 +1328,26 @@ html {
 		padding: 15px calc(2% + 10px);
 		font-size: 1.4rem;
 	}
+	.info_h2 {
+		color: rgb(89, 145, 216) /*#5991d8*/;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	.info_h2_logo {
+		display: block;
+		width: 70px;
+		height: auto;
+		margin: auto;
+		padding: 20px 0 10px;
+		transition: all 0.3s ease 0s;
+	}
+	.info_h2_logo:hover {
+		transform: scale(1.1);
+	}
 	.info_h3 {
 		display: flex;
 		flex-direction: column;
+		margin-top: 30px;
 		color: rgb(89, 145, 216) /*#5991d8*/;
 	}
 	.info_h3 em {
@@ -1354,7 +1371,7 @@ html {
 	.info_a {
 		display: inline-block;
 		height: 20px;
-		background: url('common/img/arrow_right_blue.svg') no-repeat center right / 20px;
+		background: url("common/img/arrow.svg") no-repeat center right / 20px;
 		transition: all 0.3s ease 0s;
 		margin-top: 15px;
 		padding-right: 15px;
@@ -1365,6 +1382,20 @@ html {
 	.info_a:hover {
 		padding-right: 20px;
 	}
+	.arrow_top {
+		display: block;
+		width: 50px;
+		height: 70px;
+		transform: rotate(-90deg);
+		margin: auto;
+	}
+	.arrow_top:hover {
+		transform: rotate(-90deg) scale(1.1);
+	}
+	.cloud {
+		height: 150px;
+		background: url("common/img/bg_cloud.svg") no-repeat center;
+	}
 	.box_copyright {
 		margin: 5px auto;
 		text-align: center;
@@ -1374,9 +1405,10 @@ html {
 		height: 10px;
 		background: rgb(49, 66, 57) /*#314239*/;
 	}
+
 	#topcontrol {
-		width: 60px;
-		height: 60px;
+		width: 70px;
+		height: 70px;
 		z-index: 10000;
 	}
 	.scrolltopcontrol {

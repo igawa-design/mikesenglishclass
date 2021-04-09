@@ -1382,16 +1382,6 @@ html {
 	.info_a:hover {
 		padding-right: 20px;
 	}
-	.arrow_top {
-		display: block;
-		width: 50px;
-		height: 70px;
-		transform: rotate(-90deg);
-		margin: auto;
-	}
-	.arrow_top:hover {
-		transform: rotate(-90deg) scale(1.1);
-	}
 	.cloud {
 		height: 150px;
 		background: url("common/img/bg_cloud.svg") no-repeat center;

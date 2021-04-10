@@ -198,10 +198,10 @@ $(window).scroll(function () {
   }
 });
 
-// scroll add class sec_icon  /////////////////////////////////////////////////////////////
+// scroll add class scale  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".sec_icon").each(function(){
+  $(".sec_icon, .sec_img, .cloud").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();
@@ -214,34 +214,18 @@ $(window).scroll(function (){
   });
 });
 
-// scroll add class section   /////////////////////////////////////////////////////////////
+// scroll add class fade   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".section").each(function(){
+  $(".section, .sec_box, .info, .nav_local").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();
 
     if (scroll > hit - wHeight + wHeight/100){
-      $(this).addClass("sec_fade");
+      $(this).addClass("fade");
     } else {
-     $(this).removeClass("sec_fade");
-    }
-  });
-});
-
-// scroll add class footer  /////////////////////////////////////////////////////////////
-
-$(window).scroll(function (){
-  $("footer").each(function(){
-    var hit		= $(this).offset().top;
-    var scroll	= $(window).scrollTop();
-    var wHeight	= $(window).height();
-
-    if (scroll > hit - wHeight + wHeight/200){
-      $(this).addClass("footer_fade");
-    } else {
-     $(this).removeClass("footer_fade");
+     $(this).removeClass("fade");
     }
   });
 });

@@ -43,7 +43,12 @@ html {
 		}
 	}
 	body {
-		font-size: 1.5rem;
+	font-size: 1.5rem;
+	animation: fadeIn 2s ease 0s 1 normal;
+	}
+	@keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
 	}
 	header {
 		display: flex;
@@ -1037,7 +1042,7 @@ html {
 		margin: 20px 0;
 		padding: 20px 2%;
 	}
-	.section.sec_fade {
+	.section.fade {
 		opacity: 1;
 	}
 	.sec_h2 {
@@ -1183,7 +1188,7 @@ html {
 		transition: all 1s ease 0s;
 	}
 	.sec_icon.scale {
-		transform: scale(1.5, 1.5);
+		transform: scale(1.5);
 		opacity: 1;
 	}
 	.sec_icon_google_maps,
@@ -1287,25 +1292,31 @@ html {
 	.sec_txt_01 {
 		order: 1;
 	}
-	.sec_pic_src_01,
-	.sec_pic_src_02 {
+	.sec_pic {
 		display: block;
 		width: 100%;
 		height: 100%;
+		overflow: hidden;
 		margin: 0 auto 15px;
 		border-radius: 10px;
 	}
-	.sec_pic_src_02 {
+	.sec_pic_03 {
 		order: 3;
 	}
 	.sec_img {
 		order: 3;
 		width: 100%;
 		max-height: 100%;
+		opacity: 0;
+		transition: all 2s ease 0s;
 		border-radius: 5px;
 	}
 	.sec_img_translations {
 		margin-bottom: 10px;
+	}
+	.sec_img.scale {
+		opacity: 1;
+		transform: scale(1.1);
 	}
 	main {
 		position: relative;
@@ -1314,10 +1325,16 @@ html {
 	footer {
 		position: relative;
 		z-index: 1000;
+	}
+	.sec_box,
+	.nav_local,
+	.info {
 		transition: all 2s ease 0s;
 		opacity: 0;
 	}
-	footer.footer_fade {
+	.sec_box.fade,
+	.nav_local.fade,
+	.info.fade {
 		opacity: 1;
 	}
 	.sincerely {
@@ -1359,7 +1376,7 @@ html {
 	}
 	.info_ul li {
 		padding-bottom: 5px;
-		}
+	}
 	.info_ul li::before {
 		content: "●";
 		padding-right: 3px;
@@ -1368,7 +1385,7 @@ html {
 	.tel {
 		color: rgb(53, 87, 129) /*#355781*/;
 	}
-	.info_a {
+	.info_a_sitemap {
 		display: inline-block;
 		height: 20px;
 		background: url("common/img/arrow.svg") no-repeat center right / 20px;
@@ -1379,12 +1396,17 @@ html {
 		line-height: 20px;
 		color: rgb(89, 145, 216) /*#5991d8*/;
 	}
-	.info_a:hover {
+	.info_a_sitemap:hover {
 		padding-right: 20px;
 	}
 	.cloud {
 		height: 150px;
 		background: url("common/img/bg_cloud.svg") no-repeat center;
+		opacity: 0;
+	}
+	.cloud.scale {
+		opacity: 1;
+		transform: scale(1.1);
 	}
 	.box_copyright {
 		margin: 5px auto;

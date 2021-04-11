@@ -133,7 +133,7 @@ html {
 	.sidenavs {
 		height: 100%;
 		width: 0;
-		background: rgba(200, 227, 91, 0.95) /*#c8e35b*/ url(common/img/bg_from_nipponcolors_texture.png);
+		background: linear-gradient(-45deg, rgba(200, 227, 91, 1) 30%, rgba(200, 227, 91, 0.8) 100%) /*#c8e35b*/;
 		position: fixed;
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
@@ -286,12 +286,12 @@ html {
 	.Gallery.first_letter,
 	.Gallery::first-letter,
 	.middle_Gallery.first_letter {
-		color: rgb(70, 172, 128) /*#46ac80*/;
+		color: rgb(66, 191, 176) /*#42bfb0*/;
 	}
 	.Gallery_Lessonpix.first_letter,
 	.Gallery_Lessonpix::first-letter,
 	.middle_Gallery_Lessonpix.first_letter {
-		color: rgb(70, 172, 128) /*#46ac80*/;
+		color: rgb(66, 191, 176) /*#42bfb0*/;
 	}
 	.Gallery_Scrapbook.first_letter,
 	.Gallery_Scrapbook::first-letter,
@@ -370,7 +370,7 @@ html {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	.circles li {
 		position: absolute;
@@ -382,7 +382,8 @@ html {
 		height: 20px;
 		background: rgba(255, 255, 255, 0.5) /* fff */;
 		animation: animate 25s linear infinite;
-		color: rgb(255, 255, 255) /* fff */;
+		color: rgb(200, 227, 91) /*#c8e35b*/;
+		text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.1) /*#000*/;
 		bottom: -150px;
 	}
 	.fnc-cont__credits .circles li {
@@ -390,8 +391,8 @@ html {
 	}
 	.circles li:nth-child(1) {
 		left: 25%;
-		width: 80px;
-		height: 80px;
+		width: 100px;
+		height: 100px;
 		animation-delay: 0s;
 	}
 	.circles li:nth-child(2) {
@@ -403,8 +404,8 @@ html {
 	}
 	.circles li:nth-child(3) {
 		left: 70%;
-		width: 20px;
-		height: 20px;
+		width: 100px;
+		height: 100px;
 		animation-delay: 4s;
 	}
 	.circles li:nth-child(4) {
@@ -422,14 +423,14 @@ html {
 	}
 	.circles li:nth-child(6) {
 		left: 75%;
-		width: 110px;
-		height: 110px;
+		width: 170px;
+		height: 170px;
 		animation-delay: 3s;
 	}
 	.circles li:nth-child(7) {
 		left: 35%;
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		animation-delay: 7s;
 	}
 	.circles li:nth-child(8) {
@@ -796,7 +797,7 @@ html {
 		width: auto;
 		height: 100%;
 		padding: 150px 2% 30px;
-		background: rgba(243, 130, 33, 0.5) /*#f38221*/ url(common/img/bg_from_nipponcolors_texture.png);
+		background: linear-gradient(-45deg, rgba(243, 130, 33, 1) 0%, rgba(243, 130, 33, 0.8) 100%) /*#c8e35b*/;
 		font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
 		transition: transform 0.7s;
@@ -1037,7 +1038,7 @@ html {
 		flex-direction: column;
 		width: 100%;
 		opacity: 0;
-		transition: all 2s ease 0s;
+		transition: all 1.5s ease 0s;
 		background: rgba(255, 255, 255, 0.5) /*#fff*/ url(common/img/bg_from_nipponcolors_texture.png);
 		margin: 20px 0;
 		padding: 20px 2%;
@@ -1308,7 +1309,7 @@ html {
 		width: 100%;
 		max-height: 100%;
 		opacity: 0;
-		transition: all 2s ease 0s;
+		transition: all 1.5s ease 0s;
 		border-radius: 5px;
 	}
 	.sec_img_translations {

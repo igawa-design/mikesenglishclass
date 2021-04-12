@@ -1403,7 +1403,7 @@ html {
 			}
 			.sincerely {
 				transition: all 2s ease 0s;
-				padding: 15px calc(2% + 10px);
+				padding: 30px calc(2% + 10px);
 				font-weight: bold;
 			}
 			.info {
@@ -1422,7 +1422,7 @@ html {
 				height: auto;
 				margin: 0 auto 10px;
 				padding: 10px 0;
-				transition: all 0.3s ease 0s;
+				transition: all 1s ease 0s;
 			}
 			.info_h2_logo:hover {
 				transform: rotate(-10deg) scale(1.1);
@@ -1492,17 +1492,19 @@ html {
 			@keyframes slideUp {
 				0% {
 					opacity: 0;
-					transform: translateY(50px);
+					transform: translateY(0);
+					transform: scale(0.5);
 				}
 				100% {
 					opacity: 1;
-					transform: translateY(0);
+					transform: translateY(100px);
+					transform: scale(1);
 				}
 			}
 			.cloud {
 				height: 150px;
 				background: url("common/img/bg_cloud.svg") no-repeat center;
-				animation: slideUp 5s ease 0s 1 normal;
+				animation: slideUp 10s ease 0s 1 normal;
 			}
 			.box_copyright {
 				margin: 5px auto;

@@ -1622,7 +1622,7 @@ html {
 				header {
 					position: fixed;
 					width: 98%;
-					background: rgba(0, 0, 0, 0.5);
+					background: none;
 					margin: 1%;
 					border-radius: 5px;
 					padding: 1% 1.5%;
@@ -1682,6 +1682,7 @@ html {
 					align-items: center;
 					width: 98%;
 					height: 120px;
+					background: rgba(0, 0, 0, 0.5);
 				}
 				h1 {
 					width: 140px;

@@ -1684,7 +1684,7 @@ html {
 					width: 98%;
 					height: 120px;
 					background: rgba(0, 0, 0, 0.5);
-					box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2) /*#000*/;
+					box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
 				}
 				h1 {
 					width: 140px;

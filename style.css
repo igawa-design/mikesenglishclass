@@ -31,21 +31,21 @@ html {
 			opacity: 0;
 		}
 	}
-.spinner {
-	width: 100px;
-	height: 100px;
-	margin: 200px auto;
-	background-color: rgba(255, 255, 255)/* #fff */;
-	border-radius: 100%;
-	animation: sk-scaleout 1.0s infinite ease-in-out;
-	text-align: center;
-	line-height: 100px;
-	font-size: 2rem;
-}
-@keyframes fadeIn {
-	0% {opacity: 0}
-	100% {opacity: 1}
-}
+	.spinner {
+		width: 100px;
+		height: 100px;
+		margin: 200px auto;
+		background-color: rgba(255, 255, 255)/* #fff */;
+		border-radius: 100%;
+		animation: sk-scaleout 1.0s infinite ease-in-out;
+		text-align: center;
+		line-height: 100px;
+		font-size: 2rem;
+	}
+	@keyframes fadeIn {
+		0% {opacity: 0}
+		100% {opacity: 1}
+	}
 	body {
 		font-size: 1.5rem;
 		animation: fadeIn 2s ease 0s 1 normal;
@@ -1058,18 +1058,37 @@ html {
 				background: rgba(255, 156, 38, 0.9) /*#ff9c26*/ url(common/img/bg_from_nipponcolors_texture.png);
 			}
 			.nav_local_list {
+				position: relative;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				width: 50%;
 				height: 60px;
 				background: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
+				transition: all 1s ease 0s;
 				border: 1px dotted rgba(255, 255, 255, 0.5) /*#fff*/;
 				padding: 10px 0;
 				font-weight: bold;
 				color: rgb(255, 255, 255) /*#fff*/;
 				letter-spacing: 0.05rem;
 				text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+			}
+			.nav_local_list::before {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: -1;
+				content: '';
+				background: rgb(243, 130, 33) /*f38221*/;
+				transform-origin: right top;
+				transform: scale(0, 1);
+				transition: transform .3s;
+			}
+			.nav_local_list:hover::before {
+				transform-origin: left top;
+				transform: scale(1, 1);
 			}
 			.nav_local_list_en {
 				display: flex;
@@ -1438,7 +1457,7 @@ html {
 			.info_h3.fade,
 			.info_ul.fade,
 			.info_a_sitemap.fade {
- 			animation: slideIn 1s ease 0s 1 normal;
+				animation: slideIn 1s ease 0s 1 normal;
 			}
 			.info_h3 em {
 				order: 2;

@@ -925,6 +925,7 @@ html {
 			}
 			.fnc-cont__credits_txt {
 				margin: 30px 3% 10px;
+				padding-bottom: 20px;
 				font-size: 1.5rem;
 				font-weight: bold;
 				color: rgb(255, 255, 255) /* #fff */;
@@ -1165,12 +1166,60 @@ html {
 				order: -2;
 			}
 			.sec_box {
-				background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
-				background-size: 7px 7px;
+				background-image:
+				repeating-linear-gradient(
+					-5deg,
+					rgba(245, 241, 213, 0.20),
+					rgba(245, 241, 213, 0.20) 50px,
+					rgba(24, 46, 56, 0) 50px,
+					rgba(24, 46, 56, 0) 58px,
+					rgba(255, 77, 97, 0.20) 58px,
+					rgba(255, 77, 97, 0.20) 66px,
+					rgba(245, 241, 213, 0.20) 66px,
+					rgba(245, 241, 213, 0.20) 74px,
+					rgba(255, 77, 97, 0.20) 74px,
+					rgba(255, 77, 97, 0.20) 114px,
+					rgba(180, 214, 198, 0.20) 114px,
+					rgba(180, 214, 198, 0.20) 154px,
+					rgba(24, 46, 56, 0) 154px,
+					rgba(24, 46, 56, 0) 162px,
+					rgba(245, 241, 213, 0.20) 162px,
+					rgba(245, 241, 213, 0.20) 170px,
+					rgba(255, 77, 97, 0.20) 170px,
+					rgba(255, 77, 97, 0.20) 178px
+					),
+					repeating-linear-gradient(
+						90deg,
+						rgba(245, 241, 213, 0.20),
+						rgba(245, 241, 213, 0.20) 50px,
+						rgba(24, 46, 56, 0) 50px,
+						rgba(24, 46, 56, 0) 58px,
+						rgba(255, 77, 97, 0.20) 58px,
+						rgba(255, 77, 97, 0.20) 66px,
+						rgba(245, 241, 213, 0.20) 66px,
+						rgba(245, 241, 213, 0.20) 74px,
+						rgba(255, 77, 97, 0.20) 74px,
+						rgba(255, 77, 97, 0.20) 114px,
+						rgba(180, 214, 198, 0.20) 114px,
+						rgba(180, 214, 198, 0.20) 154px,
+						rgba(24, 46, 56, 0) 154px,
+						rgba(24, 46, 56, 0) 162px,
+						rgba(245, 241, 213, 0.20) 162px,
+						rgba(245, 241, 213, 0.20) 170px,
+						rgba(255, 77, 97, 0.20) 170px,
+						rgba(255, 77, 97, 0.20) 178px
+						);
 				background-color: rgb(255, 255, 255) /*#fff*/;
+				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				padding: 0 10px 10px;
 				color: rgb(53, 87, 129) /*#355781*/;
 				font-weight: bold;
+			}
+			.sec_box:last-child {
+				border-radius: 0 0 5px 5px;
+			}
+			.sec_box_about_mike {
+				background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 			}
 			.sec_box.sec_box_one_to_one {
 				background-image: linear-gradient(-45deg, rgba(30, 136, 168, 0.5) 25%, rgb(30, 136, 168, 0) 25%, rgba(30, 136, 168, 0) 50%, rgba(30, 136, 168, 0.5) 50%, rgba(30, 136, 168, 0.5) 75%, rgba(30, 136, 168, 0) 75%, rgba(30, 136, 168, 0))/*stripes*/;
@@ -1210,7 +1259,7 @@ html {
 			}
 			.sec_txt_lead {
 				order: -1;
-				box-shadow: 0 0 5px #aaa;
+				box-shadow: 0 0 5px rgb(170, 170, 170) /*#aaa*/;
 				border-bottom: 10px double rgb(255, 255, 255) /*#fff*/;
 				border-radius: 5px 5px 0 0;
 				padding: 10px;
@@ -1324,9 +1373,9 @@ html {
 				font-weight: bold;
 			}
 			@keyframes pulse {
-				from { background-color: #fff; box-shadow: 0 0 5px #aaa; }
-				50% { background-color: #fff; box-shadow: 0 0 15px #fff; }
-				to { background-color: #fff; box-shadow: 0 0 5px #aaa; }
+				0% { background-color: rgba(255, 255, 255, 1) /*#fff*/; box-shadow: 0 0 5px rgba(255, 0, 0, 0.5) /*#ff0000*/; }
+				50% { background-color: rgba(255, 255, 255, 1) /*#fff*/; box-shadow: 0 0 20px rgba(255, 255, 255, 1) /*#fff*/; }
+				100% { background-color: rgba(255, 255, 255, 1) /*#fff*/; box-shadow: 0 0 5px rgba(255, 0, 0, 0.5) /*#ff0000*/; }
 			}
 			.sec_a::after {
 				position: absolute;
@@ -1342,9 +1391,8 @@ html {
 				border-radius: 45px 5px 25px  0;
 				padding: 0 10px;
 				color: rgba(255, 255, 255) /*#fff*/;
-				transform-origin: 0 50%;
 				transform: rotateY(-70deg);
-				transition: .4s all;
+				transition: .3s all;
 				opacity: 0;
 			}
 			.sec_a:hover::after {
@@ -1396,15 +1444,18 @@ html {
 			}
 			.sec_list li::before {
 				content: "●";
-				padding-right: 3px;
+				padding-right: 2px;
+				color: rgb(218, 185, 91) /*dab95b*/;
 			}
 			.txt.star::before {
 				content: "★";
-				padding-left: 3px;
+				margin-right: -5px;
+				color: rgb(218, 185, 91) /*dab95b*/;
 			}
 			.txt.star::after {
 				content: "★";
-				padding-right: 3px;
+				padding-left: 2px;
+				color: rgb(218, 185, 91) /*dab95b*/;
 			}
 			footer {
 				position: relative;
@@ -1919,6 +1970,18 @@ html {
 					width: 46%;
 					margin: 0 2%;
 				}
+				.nav_local_list:first-of-type {
+					border-radius: 5px 0 0 0;
+				}
+				.nav_local_list:nth-of-type(2) {
+					border-radius: 0 5px 0 0;
+				}
+				.nav_local_list:nth-of-type(13) {
+					border-radius: 0 0 0 5px;
+				}
+				.nav_local_list:last-of-type {
+					border-radius: 0 0 5px 0;
+				}
 				.sec_01_h2 {
 					font-size: 2rem;
 				}
@@ -1926,8 +1989,10 @@ html {
 					display: flex;
 					justify-content: space-between;
 					width: 98%;
-					margin: 30px 1% 0;
 					background: none;
+					box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05) /*#000*/;
+					margin: 30px 1% 0;
+					border-radius: 5px;
 				}
 				footer .nav_local_list {
 					width: 50%;

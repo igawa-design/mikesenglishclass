@@ -476,39 +476,39 @@ html {
 			}
 			.circles li:nth-child(3) {
 				left: 70%;
-				width: 100px;
-				height: 100px;
+				width: 110px;
+				height: 110px;
 				animation-delay: 4s;
 			}
 			.circles li:nth-child(4) {
 				left: 40%;
-				width: 60px;
-				height: 60px;
+				width: 120px;
+				height: 120px;
 				animation-delay: 0s;
 				animation-duration: 18s;
 			}
 			.circles li:nth-child(5) {
 				left: 65%;
-				width: 20px;
-				height: 20px;
+				width: 130px;
+				height: 130px;
 				animation-delay: 0s;
 			}
 			.circles li:nth-child(6) {
 				left: 75%;
-				width: 170px;
-				height: 170px;
+				width: 190px;
+				height: 190px;
 				animation-delay: 3s;
 			}
 			.circles li:nth-child(7) {
 				left: 35%;
-				width: 200px;
-				height: 200px;
+				width: 170px;
+				height: 170px;
 				animation-delay: 7s;
 			}
 			.circles li:nth-child(8) {
 				left: 50%;
-				width: 25px;
-				height: 25px;
+				width: 100px;
+				height: 100px;
 				animation-delay: 15s;
 				animation-duration: 45s;
 			}
@@ -1422,10 +1422,10 @@ html {
 				height: auto;
 				margin: 0 auto 10px;
 				padding: 10px 0;
-				transition: all 1s ease 0s;
+				transition: all 0.3s ease 0s;
 			}
 			.info_h2_logo:hover {
-				transform: rotate(-10deg) scale(1.1);
+				transform: rotate(-10deg) scale(1.7);
 			}
 			.info_h3 {
 				display: flex;

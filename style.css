@@ -1986,4 +1986,13 @@ html {
 					height: 55px;
 					margin: 0;
 				}
+				.info_h3 {
+					font-size: 2.5rem;
+				}
+				.info_ul li {
+					font-size: 1.5rem;
+				}
+				.info_a_sitemap {
+					font-size: 2rem;
+				}
 			}

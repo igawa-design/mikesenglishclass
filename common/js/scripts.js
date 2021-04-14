@@ -25,6 +25,14 @@ $(window).scroll(function(){
   }
 });
 
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 668) {
+    $('header').addClass('fade');
+  } else {
+    $('header').removeClass('fade');
+  }
+});
+
 // scroll add class scale  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){

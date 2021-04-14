@@ -1427,9 +1427,6 @@ html {
 				.section {
 					width: calc(100% / 3);
 				}
-				.arrow_9ineBB.fade {
-					opacity: 1;
-				}
 				.sec_01_h2 {
 					font-size: 1.7rem;
 					text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;

@@ -113,7 +113,6 @@ html {
 				box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05) /*#000*/;
 				margin: 0 3% 0 0;
 				border-radius: 0 0 10px;
-				margin-bottom: -80px;
 				padding: 0 3%;
 			}
 			@keyframes slideOut {

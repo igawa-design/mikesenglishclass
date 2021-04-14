@@ -386,12 +386,12 @@ html {
 			.Mikes_Posts.first_letter,
 			.Mikes_Posts::first-letter,
 			.middle_Mikes_Posts.first_letter {
-				color: rgb(195, 91, 91) /*#c35b5b*/;
+				color: rgb(246, 114, 128) /*#f67280*/;
 			}
 			.Contact.first_letter,
 			.Contact::first-letter,
 			.middle_Contact.first_letter {
-				color: rgb(89, 145, 216) /*#5991d8*/;
+				color: rgb(147, 188, 52) /*#93bc34*/;
 			}
 			.English.first_letter,
 			.English::first-letter,
@@ -1151,13 +1151,13 @@ html {
 				background: rgba(242, 187, 3, 0.8) /*#ff9c26*/;
 			}
 			.sec_h2_mikes_posts {
-				background: rgba(195, 91, 91, 0.8) /*#c35b5b*/;
+				background: rgba(246, 114, 128, 0.8) /*#f67280*/;
 			}
 			.sec_h2_online_reviews {
 				background: rgba(218, 185, 91, 0.8) /*b5a15b*/;
 			}
 			.sec_h2_contact {
-				background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
+				background: rgba(147, 188, 52, 0.8) /*#93bc34*/;
 			}
 			.sec_h2_about_mike .small {
 				font-size: 1.3rem;
@@ -1219,7 +1219,7 @@ html {
 				border-radius: 0 0 5px 5px;
 			}
 			.sec_box_about_mike {
-				background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
+				background-image: linear-gradient(-45deg, rgba(147, 188, 52, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 			}
 			.sec_box.sec_box_one_to_one {
 				background-image: linear-gradient(-45deg, rgba(30, 136, 168, 0.5) 25%, rgb(30, 136, 168, 0) 25%, rgba(30, 136, 168, 0) 50%, rgba(30, 136, 168, 0.5) 50%, rgba(30, 136, 168, 0.5) 75%, rgba(30, 136, 168, 0) 75%, rgba(30, 136, 168, 0))/*stripes*/;
@@ -1243,10 +1243,10 @@ html {
 				background-image: linear-gradient(-45deg, rgba(218, 185, 91, 0.5) 25%, rgb(218, 185, 91, 0) 25%, rgba(218, 185, 91, 0) 50%, rgba(218, 185, 91, 0.5) 50%, rgba(218, 185, 91, 0.5) 75%, rgba(218, 185, 91, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
 			}
 			.sec_box_mikes_posts {
-				background-image: linear-gradient(-45deg, rgba(195, 91, 91, 0.5) 25%, rgb(195, 91, 91, 0) 25%, rgba(195, 91, 91, 0) 50%, rgba(195, 91, 91, 0.5) 50%, rgba(195, 91, 91, 0.5) 75%, rgba(195, 91, 91, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
+				background-image: linear-gradient(-45deg, rgba(246, 114, 128, 0.5) 25%, rgb(195, 91, 91, 0) 25%, rgba(246, 114, 128, 0) 50%, rgba(246, 114, 128, 0.5) 50%, rgba(246, 114, 128, 0.5) 75%, rgba(246, 114, 128, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
 			}
 			.sec_box_contact {
-				background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
+				background-image: linear-gradient(-45deg, rgba(147, 188, 52, 0.5) 25%, rgb(147, 188, 52, 0) 25%, rgba(147, 188, 52, 0) 50%, rgba(147, 188, 52, 0.5) 50%, rgba(147, 188, 52, 0.5) 75%, rgba(147, 188, 52, 0) 75%, rgba(147, 188, 52, 0))/*stripes*/;
 			}
 			.sec_box_inner {
 				background: rgb(255, 255, 255) /*#fff*/;
@@ -1290,13 +1290,13 @@ html {
 				background: rgb(242, 187, 3) /*#f2bb03*/;
 			}
 			.sec_txt_lead.mikes_posts_lead {
-				background: rgb(195, 91, 91) /*#c35b5b*/;
+				background: rgb(246, 114, 128) /*#f67280*/;
 			}
 			.sec_txt_lead.online_reviews_lead {
 				background: rgb(218, 185, 91) /*dab95b*/;
 			}
 			.sec_txt_lead.contact_lead {
-				background: rgb(89, 145, 216) /*#5991d8*/;
+				background: rgb(147, 188, 52) /*#93bc34*/;
 			}
 			.sec_txt_lead::before {
 				content: "●";
@@ -1877,10 +1877,10 @@ html {
 					background: rgb(70, 172, 128) /*#46ac80*/;
 				}
 				.no_drop li.cat_Mikes_Posts:hover {
-					background: rgb(195, 91, 91) /*#c35b5b*/;
+					background: rgb(246, 114, 128) /*#f67280*/;
 				}
 				.no_drop li.cat_Contact:hover {
-					background: rgb(89, 145, 216) /*#5991d8*/;
+					background: rgb(147, 188, 52) /*#93bc34*/;
 				}
 				.no_drop li.cat_English:hover {
 					background: rgb(158, 115, 187) /*#9e73bb*/;
@@ -1985,14 +1985,5 @@ html {
 					width: 50%;
 					height: 55px;
 					margin: 0;
-				}
-				.info_h3 {
-					font-size: 2.5rem;
-				}
-				.info_ul li {
-					font-size: 1.5rem;
-				}
-				.info_a_sitemap {
-					font-size: 2rem;
 				}
 			}

@@ -198,6 +198,16 @@ $(window).scroll(function () {
   }
 });
 
+// scroll add class scroll   /////////////////////////////////////////////////////////////
+
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 500) {
+    $('header').addClass('scroll');
+  } else {
+    $('header').removeClass('scroll');
+  }
+});
+
 // scroll add class scale  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){

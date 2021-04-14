@@ -11,8 +11,10 @@
 <link rel="alternate" href="https://mikesenglishclass.jp" hreflang="ja">
 <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
+<link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/fancy_slider.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_uri(); ?>" as="style">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/fancy_slider.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 <meta name="robots" content="noindex, nofollow">
 <style>

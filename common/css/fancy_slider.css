@@ -315,22 +315,11 @@
  transform: scaleX(0) !important;
 }
 .fnc-cont {
- top: 0;
- margin-top: 0;
  overflow: hidden;
  position: relative;
  perspective: 3500px;
 }
-.fnc-slide__content {
- left: 5%;
- top: 20%;
-}
-.fnc-slide__heading-line .top_txt {
- font-size: 2rem;
- text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*#000*/;
-}
 .fnc-cont__credits {
- top: 100px; /* header height */
  box-sizing: border-box;
  overflow-y: auto;
  z-index: 10;
@@ -423,17 +412,17 @@
 }
 .fancy-slider .fnc-slide-1 .fnc-slide__inner,
 .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/aboutmike_1400x1867.jpg");
+ background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1400x1867.jpg");
  background-size: cover;
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/one_to_one_1400x1867.jpg");
+ background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_one_to_one_1400x1867.jpg");
  background-size: cover;
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner,
 .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/location_1400x1050.jpg");
+ background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_location_1400x1050.jpg");
  background-size: cover;
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner:before {
@@ -447,7 +436,7 @@
 }
 .fancy-slider .fnc-slide-4 .fnc-slide__inner,
 .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("../img/contact_1400x1050.jpg");
+ background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("../img/fnc_contact_1400x1050.jpg");
  background-size: cover;
 }
 .fancy-slider .fnc-slide-4 .fnc-slide__inner:before {
@@ -469,58 +458,6 @@
 }
 
 /********************************************************************************************
-SP（iPhone 6） Landscape
-*********************************************************************************************/
-/* 568px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 568px){
- .fnc-slide__content {
-  top: 20%;
- }
-}
-
-/********************************************************************************************
-Tablet Portrait
-*********************************************************************************************/
-/* 768px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 768px){
- .fnc-slide__heading-line .top_txt.first_txt {
-  font-size: 5rem;
- }
- .fnc-slide__heading-line .top_txt {
-  font-size: 2rem;
-  margin-bottom: 15px;
- }
- .fnc-slide__action-btn {
-  font-size: 2rem;
- }
- .fnc-nav__control {
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
- }
- .fancy-slider .fnc-slide-1 .fnc-slide__inner,
- .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-image: url("../img/aboutmike_1920x2560.jpg");
- }
- .fancy-slider .fnc-slide-2 .fnc-slide__inner,
- .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background-image: url("../img/one_to_one_1920x2560.jpg");
- }
- .fancy-slider .fnc-slide-3 .fnc-slide__inner,
- .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background-image: url("../img/location_1920x1440.jpg");
- }
- .fancy-slider .fnc-slide-4 .fnc-slide__inner,
- .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background-image: url("../img/contact_1920x1440.jpg");
- }
- .fnc-cont__credits_txt {
-  font-size: 1.6rem;
- }
-}
-
-/********************************************************************************************
 PC
 *********************************************************************************************/
 /* 1280px
@@ -528,18 +465,31 @@ PC
 @media screen and (min-width: 1280px){
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-image: url("../img/aboutmike_2800x3734.jpg");
+  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1920x2560.jpg");
+  background-size: cover;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background-image: url("../img/one_to_one_2800x3734.jpg");
+  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_one_to_one_1920x2560.jpg");
+  background-size: cover;
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background-image: url("../img/location_1920x1440.jpg");
+  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_location_1920x1440.jpg");
+  background-size: cover;
+ }
+ .fancy-slider .fnc-slide-3 .fnc-slide__inner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
  }
  .fancy-slider .fnc-slide-4 .fnc-slide__inner,
  .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background-image: url("../img/contact_1920x1440.jpg");
+  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("../img/fnc_contact_1920x1440.jpg");
+  background-size: cover;
  }
 }

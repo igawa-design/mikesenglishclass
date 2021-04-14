@@ -60,6 +60,14 @@ html {
 			transform: translateX(0);
 		}
 	}
+	@keyframes slideOut {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
 	header {
 		display: flex;
 		position: fixed;
@@ -117,17 +125,18 @@ html {
 			}
 			@keyframes slideOut {
 				0% {
-					opacity: 1;
 					transform: translateX(0);
 				}
 				100% {
-					opacity: 0;
-					transform: translateX(-50px);
+					transform: translateX(-668px);
 				}
 			}
 			header.scroll {
-				position: relative;
+				animation: slideIn 1s ease 0s 1 normal;
+			}
+			header.fade {
 				animation: slideOut 1s ease 0s 1 normal;
+				opacity: 0;
 			}
 			h1 {
 				position: relative;
@@ -966,6 +975,7 @@ html {
 			}
 			.sec_box_about_mike li::before {
 				content: "・";
+				color: rgb(89, 145, 216) /*#5991d8*/;
 			}
 			.sec_box_about_mike .sec_txt_01 {
 				margin-top: 15px;

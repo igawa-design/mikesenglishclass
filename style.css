@@ -1930,6 +1930,15 @@ html {
 					font-size: 1.7rem;
 					text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 				}
+				.info_h3 {
+					font-size: 2rem;
+				}
+				.info_ul li {
+					font-size: 1.5rem;
+				}
+				.info_a_sitemap {
+					font-size: 1.6rem;
+				}
 			}
 
 			/********************************************************************************************

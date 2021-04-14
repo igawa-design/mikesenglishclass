@@ -67,7 +67,6 @@ html {
 		width: 97%;
 		animation: slideIn 1s ease 0s 1 normal;
 		transition: all 1s ease 0s;
-		opacity: 1;
 		background-image:
 		repeating-linear-gradient(
 			-5deg,
@@ -117,9 +116,19 @@ html {
 				margin-bottom: -80px;
 				padding: 0 3%;
 			}
+			@keyframes slideOut {
+				0% {
+					opacity: 1;
+					transform: translateX(0);
+				}
+				100% {
+					opacity: 0;
+					transform: translateX(-50px);
+				}
+			}
 			header.scroll {
 				position: relative;
-				opacity: 0;
+				animation: slideOut 1s ease 0s 1 normal;
 			}
 			h1 {
 				position: relative;
@@ -1675,6 +1684,7 @@ html {
 				}
 				header.scroll {
 					position: fixed;
+					animation: none;
 					opacity: 1;
 				}
 				.fnc-slide__heading-line .top_txt.first_txt {

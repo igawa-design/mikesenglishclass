@@ -62,9 +62,12 @@ html {
 	}
 	header {
 		display: flex;
-		position: relative;
+		position: fixed;
 		z-index: 1001;
+		width: 97%;
 		animation: slideIn 1s ease 0s 1 normal;
+		transition: all 1s ease 0s;
+		opacity: 1;
 		background-image:
 		repeating-linear-gradient(
 			-5deg,
@@ -113,6 +116,10 @@ html {
 				border-radius: 0 0 10px;
 				margin-bottom: -80px;
 				padding: 0 3%;
+			}
+			header.scroll {
+				position: relative;
+				opacity: 0;
 			}
 			h1 {
 				position: relative;

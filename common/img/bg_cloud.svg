@@ -1,0 +1,41 @@
+<svg width="200" height="87.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style type="text/css">.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:rgba(210, 225, 239, 0.3);}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{fill:rgba(255, 255, 255, 0.7);}</style>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_2">
+    <defs>
+     <rect height="68.6" width="156.7" y="18.9" x="9.1" id="SVGID_1_"/>
+    </defs>
+    <clipPath id="SVGID_2_">
+     <use id="svg_3" xlink:href="#SVGID_1_"/>
+    </clipPath>
+    <g id="svg_4" class="st0">
+     <ellipse id="svg_5" ry="18.8" rx="20.8" cy="88.1" cx="29.9" class="st1"/>
+     <ellipse id="svg_6" ry="18.8" rx="23.9" cy="82.2" cx="64.1" class="st1"/>
+     <ellipse id="svg_7" ry="26.9" rx="33.2" cy="80.1" cx="97" class="st1"/>
+     <ellipse id="svg_8" ry="23.7" rx="26.2" cy="88.1" cx="139.6" class="st1"/>
+    </g>
+   </g>
+   <g id="svg_9">
+    <defs>
+     <rect height="87.5" width="200" y="0" x="0" id="SVGID_3_"/>
+    </defs>
+    <clipPath id="SVGID_4_">
+     <use id="svg_10" xlink:href="#SVGID_3_"/>
+    </clipPath>
+    <g id="svg_11" class="st2">
+     <g id="svg_12">
+      <ellipse id="svg_13" ry="24" rx="26.5" cy="87.3" cx="173.5" class="st3"/>
+      <ellipse id="svg_14" ry="24" rx="30.5" cy="95" cx="129.9" class="st3"/>
+      <ellipse id="svg_15" ry="34.3" rx="42.4" cy="97.6" cx="87.8" class="st3"/>
+      <ellipse id="svg_16" ry="30.2" rx="33.5" cy="87.3" cx="33.5" class="st3"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

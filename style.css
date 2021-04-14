@@ -1451,7 +1451,6 @@ html {
 			/* 1280px
 			--------------------------------------------------------------------------------------------*/
 			@media screen and (min-width: 1280px){
-				}
 				.navigation {
 					margin-left: auto;
 				}
@@ -1488,7 +1487,6 @@ html {
 				}
 				footer .nav_local_list {
 					width: 50%;
-					height: 55px;
 					margin: 0;
 				}
 			}

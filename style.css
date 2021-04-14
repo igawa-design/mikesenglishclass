@@ -1673,6 +1673,10 @@ html {
 					border-radius: 5px;
 					padding: 1% 1.5%;
 				}
+				header.scroll {
+					position: fixed;
+					opacity: 1;
+				}
 				.fnc-slide__heading-line .top_txt.first_txt {
 					font-size: 5rem;
 				}

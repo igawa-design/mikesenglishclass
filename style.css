@@ -670,7 +670,7 @@ html {
 				height: 15px;
 				margin: 0 10px 0 0;
 			}
-			#container {
+			.container {
 				width: 100%;
 				margin: auto;
 			}
@@ -1144,7 +1144,7 @@ html {
 				height: 10px;
 				background: rgb(49, 66, 57) /*#314239*/;
 			}
-			#topcontrol {
+			.topcontrol {
 				width: 70px;
 				height: 70px;
 				z-index: 10000;

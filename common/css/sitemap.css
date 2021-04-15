@@ -4,9 +4,24 @@ SP Portrait
 /*
 --------------------------------------------------------------------------------------------*/
 main {
- top: 100px;
+ position: relative;
+ top: 80px; /* = header height */
+ margin-bottom: 80px; /* = header height */
 }
-
-.section {
- 
+.li_a {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: rgb(53, 87, 129) /*#355781*/;
+}
+.li_a_en {
+ order: 1;
+}
+.li_a_ja {
+ order: 2;
+}
+.sitemap_icon {
+ display: inline-block;
+ width: 30px;
+ height: 30px;
 }

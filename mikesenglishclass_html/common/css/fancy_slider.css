@@ -210,7 +210,7 @@
  font-size: 1.8rem;
  padding: 1% 2%;
  line-height: 30px;
- background: #1F2833;
+ background: rgb(31, 40, 51) /*#1f2833*/;
  opacity: 0;
  transform-origin: 50% 0;
  transform: translateY(100%) rotateX(-90deg);
@@ -286,7 +286,7 @@
  transition: background-color 0.5s;
 }
 .fnc-nav__control.m--active-control {
- background: #1F2833;
+ background: rgb(31, 40, 51) /*#1f2833*/;
 }
 .fnc-nav__control-progress {
  position: absolute;
@@ -455,6 +455,36 @@
  bottom: 10px;
  margin-top: 30px;
  font-family: Helvetica, Arial, sans-serif;
+}
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+ .fnc-nav__control:hover {
+  background: rgb(31, 40, 51) /*#1f2833*/;
+ }
+ .fnc-cont__credits {
+  padding-top: 200px;
+ }
+ .fnc-cont__credits-close {
+  top: 100px;
+  right: 3.5%;
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1024px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+ .fnc-cont__credits-close {
+  top: 150px;
+  right: 4.5%;
+ }
 }
 
 /********************************************************************************************

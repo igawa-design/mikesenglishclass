@@ -255,6 +255,10 @@ html {
 				cursor: pointer;
 				transition: all 0.3s ease 0s;
 			}
+			.fnc-cont__credits-close {
+				top: 100px;
+				right: 6.5%;
+			}
 			.sidenavs .close-btn:before,
 			.sidenavs .close-btn:after,
 			.fnc-cont__credits-close:before,

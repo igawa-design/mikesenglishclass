@@ -12,6 +12,10 @@
 <link rel="icon" type="image/svg+xml" href="<?php echo get_template_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/fancy_slider.css" as="style">
+<link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/js/fnc_aboutmike_1400x1867.jpg" as="image">
+<link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/js/fnc_one_to_one_1400x1867.jpg" as="image">
+<link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/js/fnc_location_1400x1050.jpg" as="image">
+<link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/js/fnc_contact_1400x1050.jpg" as="image">
 <link rel="preload" href="<?php echo get_stylesheet_uri(); ?>" as="style">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/fancy_slider.css">

@@ -248,7 +248,7 @@ html {
 			.fnc-cont__credits-close {
 				position: absolute;
 				z-index: 100;
-				right: 3.5%;
+				right: 25px;
 				top: 3%;
 				width: 35px;
 				height: 35px;
@@ -257,7 +257,6 @@ html {
 			}
 			.fnc-cont__credits-close {
 				top: 100px;
-				right: 6.5%;
 			}
 			.sidenavs .close-btn:before,
 			.sidenavs .close-btn:after,

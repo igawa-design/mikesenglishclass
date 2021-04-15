@@ -52,7 +52,7 @@ $(window).scroll(function (){
 // scroll add class fade   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".section, .sec_box, .nav_local, .sincerely, .info_h3, .info_ul, .info_a_sitemap").each(function(){
+  $(".section, .sec_box, .nav_local, .sincerely, .info_h3, .info_ul, .info_a_sitemap, .rainbow").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();

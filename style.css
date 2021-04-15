@@ -73,6 +73,7 @@ html {
 		position: fixed;
 		z-index: 1001;
 		width: 97%;
+		height: 80px;
 		animation: slideIn 1s ease 0s 1 normal;
 		transition: all 1s ease 0s;
 		background-image:

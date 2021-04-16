@@ -3,10 +3,16 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-main {
- position: relative;
- top: 80px; /* = header height */
- margin-bottom: 80px; /* = header height */
+.section,
+.sec_box {
+ opacity: 1;
+}
+.sec_box {
+ background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
+ background-color: rgb(255, 255, 255) /*#fff*/;
+ box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
+ padding: 0 10px 10px;
+ color: rgb(53, 87, 129) /*#355781*/;
 }
 .li_a {
  display: flex;
@@ -24,4 +30,22 @@ main {
  display: inline-block;
  width: 30px;
  height: 30px;
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1024px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+ header {
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+ }
 }

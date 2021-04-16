@@ -1198,15 +1198,6 @@ html {
 				body {
 					font-size: 1.6rem;
 				}
-				header {
-					position: fixed;
-					width: 98%;
-					background: none;
-					box-shadow: none;
-					margin: 1%;
-					border-radius: 5px;
-					padding: 1% 1.5%;
-				}
 				header.scroll {
 					position: fixed;
 					animation: none;
@@ -1236,6 +1227,9 @@ html {
 					height: 120px;
 					background: rgba(0, 0, 0, 0.5);
 					box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+					margin: 1%;
+					border-radius: 5px;
+					padding: 1% 1.5%;
 				}
 				h1 {
 					width: 140px;

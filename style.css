@@ -736,49 +736,6 @@ html {
 				order: -2;
 			}
 			.sec_box {
-				background-image:
-				repeating-linear-gradient(
-					-5deg,
-					rgba(245, 241, 213, 0.20),
-					rgba(245, 241, 213, 0.20) 50px,
-					rgba(24, 46, 56, 0) 50px,
-					rgba(24, 46, 56, 0) 58px,
-					rgba(255, 77, 97, 0.20) 58px,
-					rgba(255, 77, 97, 0.20) 66px,
-					rgba(245, 241, 213, 0.20) 66px,
-					rgba(245, 241, 213, 0.20) 74px,
-					rgba(255, 77, 97, 0.20) 74px,
-					rgba(255, 77, 97, 0.20) 114px,
-					rgba(180, 214, 198, 0.20) 114px,
-					rgba(180, 214, 198, 0.20) 154px,
-					rgba(24, 46, 56, 0) 154px,
-					rgba(24, 46, 56, 0) 162px,
-					rgba(245, 241, 213, 0.20) 162px,
-					rgba(245, 241, 213, 0.20) 170px,
-					rgba(255, 77, 97, 0.20) 170px,
-					rgba(255, 77, 97, 0.20) 178px
-					),
-					repeating-linear-gradient(
-						90deg,
-						rgba(245, 241, 213, 0.20),
-						rgba(245, 241, 213, 0.20) 50px,
-						rgba(24, 46, 56, 0) 50px,
-						rgba(24, 46, 56, 0) 58px,
-						rgba(255, 77, 97, 0.20) 58px,
-						rgba(255, 77, 97, 0.20) 66px,
-						rgba(245, 241, 213, 0.20) 66px,
-						rgba(245, 241, 213, 0.20) 74px,
-						rgba(255, 77, 97, 0.20) 74px,
-						rgba(255, 77, 97, 0.20) 114px,
-						rgba(180, 214, 198, 0.20) 114px,
-						rgba(180, 214, 198, 0.20) 154px,
-						rgba(24, 46, 56, 0) 154px,
-						rgba(24, 46, 56, 0) 162px,
-						rgba(245, 241, 213, 0.20) 162px,
-						rgba(245, 241, 213, 0.20) 170px,
-						rgba(255, 77, 97, 0.20) 170px,
-						rgba(255, 77, 97, 0.20) 178px
-						);
 				background-color: rgb(255, 255, 255) /*#fff*/;
 				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				padding: 0 10px 10px;
@@ -902,6 +859,19 @@ html {
 				opacity: 1;
 				transform: scale(1.1);
 			}
+			.sec_box.sec_box_one_to_one h4 {
+				font-size: 1.6rem;
+			}
+			.sec_box.sec_box_one_to_one h4:before {
+				content: "★";
+				margin-right: 2px;
+				color: rgb(30, 136, 168) /*#1e88a8*/;
+			}
+			.sec_box.sec_box_one_to_one h4::after {
+				content: "★";
+				padding-left: 2px;
+				color: rgb(30, 136, 168) /*#1e88a8*/;
+			}
 			.sec_txt_01,
 			.sec_txt_02,
 			.sec_txt_03,
@@ -917,6 +887,7 @@ html {
 			}
 			.sec_txt_01 {
 				order: 1;
+				margin: 15px 0;
 			}
 			.sec_txt_02 {
 				order: 2;

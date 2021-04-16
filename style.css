@@ -1133,7 +1133,7 @@ html {
 			}
 			.rainbow {
 				height: 150px;
-				background: url("common/img/rainbow.svg") no-repeat center;
+				background: url("common/img/rainbow.svg") no-repeat center / 330px;
 				margin-top: 100px;
 			}
 			.box_copyright {
@@ -1455,6 +1455,9 @@ html {
 				}
 				.info_a_sitemap {
 					font-size: 1.6rem;
+				}
+				.rainbow {
+					background-size: 400px;
 				}
 			}
 

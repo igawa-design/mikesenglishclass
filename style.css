@@ -429,7 +429,7 @@ html {
 			}
 			.Site_Map.first_letter,
 			.Site_Map::first-letter {
-				color: rgb(89, 145, 216) /*#5991d8*/;
+				color: rgb(53, 201, 235) /*#00aeeb*/;
 			}
 			.vertical_bar {
 				padding: 0 2px;
@@ -727,8 +727,11 @@ html {
 			.sec_h2_online_reviews {
 				background: rgba(218, 185, 91, 0.8) /*b5a15b*/;
 			}
-			.sec_h2_contact {
+			.sec_h2_contact{
 				background: rgba(147, 188, 52, 0.8) /*#93bc34*/;
+			}
+			.sec_h2_sitemap {
+				background: rgba(53, 201, 235, 0.8) /*#00aeeb*/;
 			}
 			.sec_h2_about_mike .small {
 				font-size: 1.3rem;
@@ -775,6 +778,9 @@ html {
 			}
 			.sec_box_contact {
 				background-image: linear-gradient(-45deg, rgba(147, 188, 52, 0.5) 25%, rgb(147, 188, 52, 0) 25%, rgba(147, 188, 52, 0) 50%, rgba(147, 188, 52, 0.5) 50%, rgba(147, 188, 52, 0.5) 75%, rgba(147, 188, 52, 0) 75%, rgba(147, 188, 52, 0))/*stripes*/;
+			}
+			.sec_box_sitemap {
+				background-image: linear-gradient(-45deg, rgba(53, 201, 235, 0.5) 25%, rgb(53, 201, 235, 0) 25%, rgba(53, 201, 235, 0) 50%, rgba(53, 201, 235, 0.5) 50%, rgba(53, 201, 235, 0.5) 75%, rgba(53, 201, 235, 0) 75%, rgba(53, 201, 235, 0))/*stripes*/;
 			}
 			.sec_box_inner {
 				background: rgb(255, 255, 255) /*#fff*/;
@@ -825,6 +831,9 @@ html {
 			}
 			.sec_txt_lead.contact_lead {
 				background: rgb(147, 188, 52) /*#93bc34*/;
+			}
+			.sec_txt_lead.sitemap_lead {
+				background: rgb(53, 201, 235) /*#00aeeb*/;
 			}
 			.sec_txt_lead::before {
 				content: "●";
@@ -1393,7 +1402,7 @@ html {
 					background: rgb(158, 115, 187) /*#9e73bb*/;
 				}
 				.no_drop li.cat_Site_Map:hover {
-					background: rgb(89, 145, 216) /*#5991d8*/;
+					background: rgb(53, 201, 235) /*#00aeeb*/;
 				}
 				.nav_list_en::first-letter {
 					font-size: 1.8rem;

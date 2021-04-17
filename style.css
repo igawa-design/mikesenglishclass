@@ -71,6 +71,7 @@ html {
 	header {
 		display: flex;
 		position: fixed;
+		top: 0;
 		z-index: 1001;
 		width: 97%;
 		height: 80px;
@@ -1219,7 +1220,6 @@ html {
 			--------------------------------------------------------------------------------------------*/
 			@media screen and (min-width: 1024px){
 				header {
-					top: 0;
 					z-index: 1000;
 					justify-content: space-between;
 					align-items: center;

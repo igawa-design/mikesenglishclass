@@ -3,7 +3,7 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-figure {
+.fig {
  position: relative;
  width: 100%;
  height: auto;
@@ -12,7 +12,7 @@ figure {
  align-items: center;
  margin: 0;
 }
-figcaption {
+.figcaption {
  position: absolute;
  bottom: 0;
  left: 0;
@@ -38,7 +38,8 @@ figcaption {
 }
 #sitemap h4,
 #sitemap h5 {
- margin-bottom: 20px;
+ transition: all 0.3s ease 0s;
+ margin: 20px 10px;
 }
 #sitemap h4:first-child {
  margin-top: 10px;
@@ -100,5 +101,40 @@ PC & Tablet Landscape
   height: 120px;
   background: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+ }
+ .sec_box_inner {
+  padding: 15px 20px;
+ }
+ .sec_h2 {
+  font-size: 1.6rem;
+ }
+ #sitemap h4,
+ #sitemap h5 {
+  padding: 10px;
+ }
+ #sitemap h4:hover,
+ #sitemap h5:hover {
+  background: rgba(53, 201, 235, 0.3) /*#00aeeb*/;
+  border-radius: 5px;
+  color: #fff;
+ }
+ .li_a {
+  flex-direction: row;
+  align-items: baseline;
+ }
+ .li_a_ja {
+  margin-left: 10px;
+ }
+ .li_a_ja::before {
+  content: "-";
+  margin-right: 10px;
+ }
+ #sitemap h5 .li_a_ja {
+  margin-left: 10px;
+ }
+ .sitemap_icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
  }
 }

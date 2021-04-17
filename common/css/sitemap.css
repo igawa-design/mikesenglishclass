@@ -36,14 +36,18 @@ figcaption {
  padding: 0 10px 10px;
  color: rgb(53, 87, 129) /*#355781*/;
 }
-section#sitemap h4,
-section#sitemap h5 {
- margin-bottom: 10px;
+#sitemap h4,
+#sitemap h5 {
+ margin-bottom: 20px;
 }
-section#sitemap h5 {
- margin-left: calc(30px + 15px); /*icon-size + margin*/
+#sitemap h4:first-child {
+ margin-top: 10px;
 }
-section#sitemap h5 .sitemap_icon {
+#sitemap h5 {
+ margin-left: calc(30px + 45px); /*icon-size + margin*/
+ font-size: 1.5rem;
+}
+#sitemap h5 .sitemap_icon {
  display: none;
 }
 .li_a {
@@ -57,6 +61,10 @@ section#sitemap h5 .sitemap_icon {
 }
 .li_a_ja {
  order: 2;
+ margin-left: calc(30px + 15px); /*icon-size + margin*/
+}
+#sitemap h5 .li_a_ja {
+ margin-left: 0;
 }
 .sitemap_icon {
  display: inline-block;

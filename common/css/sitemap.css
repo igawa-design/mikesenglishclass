@@ -54,7 +54,7 @@ SP Portrait
 .li_a {
  display: flex;
  flex-direction: column;
- align-items: left;
+ align-items: flex-start;
  color: rgb(53, 87, 129) /*#355781*/;
 }
 .li_a_en {

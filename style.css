@@ -696,7 +696,7 @@ html {
 				background: rgb(243, 130, 33) /*#f38221*/;
 				box-shadow: 0 0 5px #aaa;
 				padding: 10px;
-				font-size: 1.5rem;
+				font-size: 1.7rem;
 				color: rgb(255, 255, 255) /*#fff*/;
 				letter-spacing: 0.15rem;
 			}
@@ -888,6 +888,7 @@ html {
 			.txt,
 			.sec_list {
 				margin-bottom: 15px;
+				font-size: 1.6rem;
 			}
 			.sec_txt_01:last-child,
 			.sec_txt_02:last-child,
@@ -952,13 +953,16 @@ html {
 				opacity: 1;
 				border-radius: 45px 2px 22px  0;
 			}
-			.sec_box_about_mike li {
+			.sec_box_about_mike h3 {
+				width: 100%;
 				margin-top: 10px;
+				font-size: 1.6rem;
+				text-align: left;
 			}
-			.sec_box_about_mike li:first-child {
+			.sec_box_about_mike h3:first-child {
 				margin-top: 0;
 			}
-			.sec_box_about_mike li::before {
+			.sec_box_about_mike h3::before {
 				content: "・";
 				color: rgb(89, 145, 216) /*#5991d8*/;
 			}

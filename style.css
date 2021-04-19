@@ -47,7 +47,7 @@ html {
 		100% {opacity: 1}
 	}
 	body {
-		font-size: 1.5rem;
+		font-size: 1.6rem;
 		animation: fadeIn 2s ease 0s 1 normal;
 	}
 	@keyframes slideIn {
@@ -797,7 +797,7 @@ html {
 				border-bottom: 10px double rgb(255, 255, 255) /*#fff*/;
 				border-radius: 5px 5px 0 0;
 				padding: 10px;
-				font-size: 1.6rem;
+				font-size: 1.8rem;
 				font-weight: bold;
 				color: rgb(255, 255, 255) /*#fff*/;
 				text-align: center;
@@ -869,9 +869,6 @@ html {
 				opacity: 1;
 				transform: scale(1.1);
 			}
-			.sec_box.sec_box_one_to_one h4 {
-				font-size: 1.6rem;
-			}
 			.sec_box.sec_box_one_to_one h4:before {
 				content: "★";
 				margin-right: 2px;
@@ -888,13 +885,15 @@ html {
 			.txt,
 			.sec_list {
 				margin-bottom: 15px;
-				font-size: 1.6rem;
 			}
 			.sec_txt_01:last-child,
 			.sec_txt_02:last-child,
 			.sec_txt_03:last-child,
 			.txt:last-child {
 				margin-bottom: 5px;
+			}
+			h3.txt {
+				font-size: 1.6rem;
 			}
 			.sec_txt_01 {
 				order: 1;
@@ -921,7 +920,6 @@ html {
 				background: rgba(255, 255, 255, 0.5) url(common/img/bg_from_nipponcolors_texture.png);
 				color: rgb(255, 156, 38) /*#ff9c26*/;
 				text-align: center;
-				font-size: 1.6rem;
 				font-weight: bold;
 			}
 			@keyframes pulse {
@@ -1015,7 +1013,7 @@ html {
 			}
 			footer {
 				position: relative;
-				z-index: 1000;
+				z-index: 100;
 			}
 			.sec_box,
 			.nav_local,
@@ -1029,9 +1027,29 @@ html {
 				opacity: 1;
 			}
 			.sincerely {
+				background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
+				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				transition: all 2s ease 0s;
-				padding: 20px calc(2% + 10px);
+				margin: 20px 2%;
+				padding: 10px;
+				border-radius: 5px;
 				font-weight: bold;
+				color: rgb(255, 255, 255) /*fff*/;
+			}
+			.sincerely_h3 {
+				margin-bottom: 15px;
+				font-size: 2.5rem;
+			}
+			.box_sincerely_en {
+				background: rgb(89, 145, 216) /*#5991d8*/;
+				padding: calc(15px + 1%);
+				border-radius: 10px;
+			}
+			.box_sincerely_ja {
+				background: rgb(255, 255, 255) /*fff*/;
+				border-radius: 0 0 10px 10px;
+				padding: calc(15px + 1%);
+				color: rgb(89, 145, 216) /*#5991d8*/;
 			}
 			.info {
 				padding: 15px calc(2% + 10px);
@@ -1057,9 +1075,13 @@ html {
 			.info_h3 {
 				display: flex;
 				flex-direction: column;
+				background: linear-gradient(45deg, rgba(89,145,216,1) 0%, rgba(89,145,216,1) 40%, rgba(30,136,168,0.9) 100%);
+				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				margin-top: 30px;
+				border-radius: 5px;
+				padding: 15px;
 				font-size: 1.8rem;
-				color: rgb(89, 145, 216) /*#5991d8*/;
+				color: rgb(255, 255, 255) /*#fff*/;
 			}
 			.sincerely.fade,
 			.info_h3.fade,
@@ -1097,6 +1119,10 @@ html {
 			.info_a_sitemap:hover {
 				margin-left: 10px;
 				color: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
+			}
+			.info_a_sitemap:active,
+			.info_a_sitemap:visited {
+				color: rgb(89, 145, 216) /*#5991d8*/;
 			}
 			.arrow {
 				position: relative;
@@ -1209,9 +1235,6 @@ html {
 			/* 768px
 			--------------------------------------------------------------------------------------------*/
 			@media screen and (min-width: 768px){
-				body {
-					font-size: 1.6rem;
-				}
 				header.scroll {
 					position: fixed;
 					animation: none;
@@ -1222,7 +1245,6 @@ html {
 				}
 				.sec_a {
 					margin: 10px 3% 0 auto;
-					font-size: 1.6rem;
 				}
 			}
 
@@ -1299,7 +1321,6 @@ html {
 					content: none;
 				}
 				.nav_list_en {
-					font-size: 1.6rem;
 					text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 					letter-spacing: 0.1rem;
 				}
@@ -1430,9 +1451,6 @@ html {
 				}
 				.info_ul li {
 					font-size: 1.5rem;
-				}
-				.info_a_sitemap {
-					font-size: 1.6rem;
 				}
 				.rainbow {
 					background-size: 400px;

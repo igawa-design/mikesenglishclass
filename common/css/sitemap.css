@@ -62,6 +62,7 @@ SP Portrait
 }
 .li_a_ja {
  order: 2;
+ min-width: 50%;
  margin-left: calc(30px + 15px); /*icon-size + margin*/
 }
 #sitemap h5 .li_a_ja {

@@ -460,6 +460,14 @@ Tablet Portrait
 /* 768px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 768px){
+ .fancy-slider .fnc-slide__heading,
+ .fancy-slider .fnc-slide__action-btn,
+ .fancy-slider .fnc-nav__control {
+  margin-top: 80px;
+ }
+ .fnc-slide__heading-line .top_txt.first_txt {
+  font-size: 3rem;
+ }
  .fnc-nav__control:hover {
   background: rgb(31, 40, 51) /*#1f2833*/;
  }

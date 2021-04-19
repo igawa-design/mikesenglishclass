@@ -869,12 +869,12 @@ html {
 				opacity: 1;
 				transform: scale(1.1);
 			}
-			.sec_box.sec_box_one_to_one h4:before {
+			.sec_box.sec_box_one_to_one h3.txt:before {
 				content: "★";
 				margin-right: 2px;
 				color: rgb(30, 136, 168) /*#1e88a8*/;
 			}
-			.sec_box.sec_box_one_to_one h4::after {
+			.sec_box.sec_box_one_to_one h3.txt::after {
 				content: "★";
 				padding-left: 2px;
 				color: rgb(30, 136, 168) /*#1e88a8*/;

@@ -862,7 +862,7 @@ html {
 				margin: 0 auto 20px;
 			}
 			.sec_icon_google_my_business {
-				margin-bottom: 5px;
+				margin-bottom: 15px;
 			}
 			.sec_icon_google_maps:hover,
 			.sec_icon_google_my_business:hover {
@@ -1048,7 +1048,7 @@ html {
 			.box_sincerely_en {
 				background: rgb(89, 145, 216) /*#5991d8*/;
 				padding: calc(15px + 1%);
-				border-radius: 10px;
+				border-radius: 10px 10px 0 0;
 			}
 			.box_sincerely_ja {
 				background: rgb(255, 255, 255) /*fff*/;

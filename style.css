@@ -1044,7 +1044,7 @@ html {
 				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				transition: all 2s ease 0s;
 				margin: 20px 2%;
-				padding: 10px;
+				padding: 10px !important;
 				border-radius: 5px;
 				font-weight: bold;
 				color: rgb(255, 255, 255) /*fff*/;

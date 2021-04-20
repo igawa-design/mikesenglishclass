@@ -1057,6 +1057,7 @@ html {
 				background: rgb(89, 145, 216) /*#5991d8*/;
 				padding: calc(15px + 1%);
 				border-radius: 10px 10px 0 0;
+				color: rgb(255, 255, 255) /*fff*/;
 			}
 			.box_sincerely_ja {
 				background: rgb(255, 255, 255) /*fff*/;

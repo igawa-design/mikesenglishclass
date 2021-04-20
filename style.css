@@ -47,7 +47,7 @@ html {
 		100% {opacity: 1}
 	}
 	body {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 		animation: fadeIn 2s ease 0s 1 normal;
 	}
 	@keyframes slideIn {
@@ -785,6 +785,10 @@ html {
 			.sec_box_inner {
 				background: rgb(255, 255, 255) /*#fff*/;
 				padding: 15px 10px 10px;
+				border-radius: 0 0 5px 5px;
+			}
+			.inner_radius {
+				border-radius: 5px;
 			}
 			.sec_box_a {
 				width: 98%;
@@ -907,7 +911,7 @@ html {
 				order: 3;
 			}
 			small {
-				font-size: 1.3rem;
+				font-size: 1.4rem;
 			}
 			.sec_a {
 				order: 5;
@@ -1065,6 +1069,7 @@ html {
 				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				margin: 20px 2%;
 				padding: 10px;
+				border-radius: 5px;
 				font-size: 1.4rem;
 			}
 			.info_h2 {

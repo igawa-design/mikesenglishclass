@@ -882,9 +882,11 @@ html {
 			.sec_txt_01,
 			.sec_txt_02,
 			.sec_txt_03,
-			.txt,
 			.sec_list {
 				margin-bottom: 15px;
+			}
+			.txt {
+				margin: 15px 0;
 			}
 			.sec_txt_01:last-child,
 			.sec_txt_02:last-child,
@@ -892,18 +894,20 @@ html {
 			.txt:last-child {
 				margin-bottom: 5px;
 			}
-			h3.txt {
+			.sec_h3_lead {
 				font-size: 1.6rem;
 			}
 			.sec_txt_01 {
 				order: 1;
-				margin: 15px 0;
 			}
 			.sec_txt_02 {
 				order: 2;
 			}
 			.sec_txt_03 {
 				order: 3;
+			}
+			small {
+				font-size: 1.3rem;
 			}
 			.sec_a {
 				order: 5;
@@ -967,16 +971,16 @@ html {
 			.sec_box_about_mike .sec_txt_01 {
 				margin-top: 15px;
 			}
-			.sec_txt_01 {
-				order: 1;
-			}
 			.sec_pic {
 				display: block;
 				width: 100%;
 				height: 100%;
 				overflow: hidden;
-				margin: 0 auto 15px;
+				margin: 15px auto;
 				border-radius: 10px;
+			}
+			.sec_pic_02 {
+				margin-top: 0;
 			}
 			.sec_pic_03 {
 				order: 3;

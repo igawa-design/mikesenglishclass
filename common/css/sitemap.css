@@ -36,19 +36,22 @@ SP Portrait
  padding: 0 10px 10px;
  color: rgb(53, 87, 129) /*#355781*/;
 }
-#sitemap h4,
-#sitemap h5 {
+.sec_h2_sitemap {
+ border-radius: 0 0 5px 5px;
+}
+h4,
+h5 {
  transition: all 0.3s ease 0s;
  margin: 20px 10px;
 }
-#sitemap h4:first-child {
+h4:first-child {
  margin-top: 10px;
 }
-#sitemap h5 {
+h5 {
  margin-left: calc(30px + 45px); /*icon-size + margin*/
  font-size: 1.5rem;
 }
-#sitemap h5 .sitemap_icon {
+h5 .sitemap_icon {
  display: none;
 }
 .li_a {
@@ -65,7 +68,7 @@ SP Portrait
  min-width: 50%;
  margin-left: calc(30px + 15px); /*icon-size + margin*/
 }
-#sitemap h5 .li_a_ja {
+h5 .li_a_ja {
  margin-left: 0;
 }
 .sitemap_icon {
@@ -109,12 +112,12 @@ PC & Tablet Landscape
  .sec_h2 {
   font-size: 1.6rem;
  }
- #sitemap h4,
- #sitemap h5 {
+  h4,
+  h5 {
   padding: 10px;
  }
- #sitemap h4:hover,
- #sitemap h5:hover {
+  h4:hover,
+  h5:hover {
   background: rgba(53, 201, 235, 0.3) /*#00aeeb*/;
   border-radius: 5px;
   color: #fff;
@@ -130,7 +133,7 @@ PC & Tablet Landscape
   content: "-";
   margin-right: 10px;
  }
- #sitemap h5 .li_a_ja {
+  h5 .li_a_ja {
   margin-left: 10px;
  }
  .sitemap_icon {

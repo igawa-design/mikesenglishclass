@@ -715,7 +715,8 @@ html {
 			.sec_h2_translations {
 				background: rgba(211, 93, 135, 0.8) /*#d35d87*/;
 			}
-			.sec_h2_location {
+			.sec_h2_location,
+			.sec_h3_location {
 				background: rgba(70, 172, 128, 0.8) /*#46ac80*/;
 			}
 			.sec_h2_reviews {
@@ -736,7 +737,13 @@ html {
 			.sec_h2_about_mike .small {
 				font-size: 1.3rem;
 			}
+			.sec_h2,
 			.sec_h3 {
+				padding: 10px;
+				border-radius: 5px;
+				color: rgb(255, 255, 255) /*#fff*/;
+		}
+			.sec_h3_02 {
 				order: -2;
 			}
 			.sec_box {
@@ -897,6 +904,9 @@ html {
 			.sec_txt_03:last-child,
 			.txt:last-child {
 				margin-bottom: 5px;
+			}
+			.txt.last {
+				margin-bottom: 0;
 			}
 			.sec_h3_lead {
 				font-size: 1.6rem;

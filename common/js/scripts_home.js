@@ -1,3 +1,20 @@
+// by webcreatorbox.com /////////////////////////////////////////////////////////////
+// loading
+window.onload = function() {
+  const spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+};
+
+// scroll add class arrow /////////////////////////////////////////////////////////////
+
+$(window).scroll(function () {
+  if($(window).scrollTop() > 1) {
+    $('.arrow_9ineBB').addClass('fade');
+  } else {
+    $('.arrow_9ineBB').removeClass('fade');
+  }
+});
+
 // scroll add class scroll   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function(){

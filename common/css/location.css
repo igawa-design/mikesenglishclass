@@ -70,6 +70,11 @@ td {
  padding: 5px 15px;
  text-align: left;
 }
+dl {
+ border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
+ border-radius: 5px;
+ padding: 10px;
+}
 dl:nth-of-type(2) {
  margin-top: 15px;
 }
@@ -87,6 +92,14 @@ dd:nth-of-type(2)::before {
  content: "○";
  padding-right: 2px;
  color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+li::before {
+ content: "・";
+ padding-right: 2px;
+ color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+li {
+ margin-bottom: 10px;
 }
 
 /********************************************************************************************
@@ -116,6 +129,13 @@ PC & Tablet Landscape
   height: 120px;
   background: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+ }
+ .section {
+  width: calc(100% / 2);
+  padding: 30px 2%;
+ }
+ #section {
+  width: 100%;
  }
  .sec_box_inner {
   padding: 15px 20px;

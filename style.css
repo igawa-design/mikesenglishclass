@@ -848,7 +848,7 @@ html {
 			}
 			.sec_txt_lead::before {
 				content: "●";
-				padding-right: 3px;
+				padding-right: 2px;
 			}
 			.sec_icon {
 				display: block;
@@ -1059,7 +1059,7 @@ html {
 				font-weight: bold;
 				color: rgb(255, 255, 255) /*fff*/;
 			}
-			.sincerely_h3 {
+			.sincerely_h2 {
 				margin-bottom: 15px;
 				font-size: 2.5rem;
 			}
@@ -1130,7 +1130,7 @@ html {
 			}
 			.info_ul li::before {
 				content: "●";
-				padding-right: 3px;
+				padding-right: 2px;
 				color: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
 			}
 			.tel {

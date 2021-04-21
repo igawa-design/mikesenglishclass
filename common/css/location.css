@@ -70,7 +70,8 @@ td {
  padding: 5px 15px;
  text-align: left;
 }
-dl {
+dl,
+ul {
  border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
  border-radius: 5px;
  padding: 10px;

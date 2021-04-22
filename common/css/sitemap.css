@@ -39,6 +39,9 @@ SP Portrait
 .sec_h2_sitemap {
  border-radius: 0 0 5px 5px;
 }
+.sec_icon {
+ opacity: 1
+}
 h4,
 h5 {
  transition: all 0.3s ease 0s;

@@ -38,6 +38,9 @@ SP Portrait
  padding: 0 10px 10px;
  color: rgb(53, 87, 129) /*#355781*/;
 }
+.sec_icon {
+ opacity: 1
+}
 h4 {
  margin-top: 20px;
  border: 4px double rgb(70, 172, 128) /*#46ac80*/;

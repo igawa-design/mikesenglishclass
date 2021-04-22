@@ -68,6 +68,9 @@ html {
 			opacity: 0;
 		}
 	}
+	a {
+		color: rgb(53, 87, 129) /*#355781*/;
+	}
 	header {
 		display: flex;
 		position: fixed;

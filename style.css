@@ -745,7 +745,10 @@ html {
 				padding: 10px;
 				border-radius: 5px;
 				color: rgb(255, 255, 255) /*#fff*/;
-		}
+			}
+			.sec_h2 {
+				border-radius: 0;
+			}
 			.sec_h3_02 {
 				order: -2;
 			}
@@ -796,9 +799,6 @@ html {
 				background: rgb(255, 255, 255) /*#fff*/;
 				padding: 15px 10px 10px;
 				border-radius: 0 0 5px 5px;
-			}
-			.inner_radius {
-				border-radius: 5px;
 			}
 			.sec_box_a {
 				width: 98%;
@@ -1008,7 +1008,6 @@ html {
 				max-height: 100%;
 				opacity: 0;
 				transition: all 1.5s ease 0s;
-				border-radius: 5px;
 			}
 			.sec_img_translations {
 				margin-bottom: 10px;

@@ -1,0 +1,156 @@
+/********************************************************************************************
+SP Portrait
+*********************************************************************************************/
+/*
+--------------------------------------------------------------------------------------------*/
+.fig {
+ position: relative;
+ width: 100%;
+ height: auto;
+ z-index: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+}
+.figcaption {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ z-index: 1;
+ background: rgb(70, 172, 128) /*#46ac80*/;
+ box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.05) /*#000*/;
+ padding: 10px;
+ border-radius: 0 10px 0 0;
+ color: rgb(255, 255, 255) /*#fff*/;
+}
+.section {
+ margin: 30px 0 0;
+ padding: 0 2%;
+}
+.section,
+.sec_box {
+ opacity: 1;
+ font-weight: normal;
+}
+.sec_box {
+ background-color: rgb(255, 255, 255) /*#fff*/;
+ box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
+ padding: 0 10px 10px;
+ color: rgb(53, 87, 129) /*#355781*/;
+}
+.sec_icon {
+ opacity: 1
+}
+h4 {
+ margin-top: 20px;
+ border: 4px double rgb(70, 172, 128) /*#46ac80*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(70, 172, 128) /*#46ac80*/;
+ font-size: 1.6rem;
+}
+h4:first-child {
+ margin-top: 5px;
+}
+h5 {
+ margin: 15px 0;
+ font-size: 1.5rem;
+}
+iframe {
+ height: 500px;
+}
+table {
+ width: 100%;
+ margin: 15px 0;
+ border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
+}
+th {
+ width: 25%;
+ background: rgb(70, 172, 128) /*#46ac80*/;
+ color: rgb(255, 255, 255) /*#fff*/;
+}
+td {
+ border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
+ padding: 5px 15px;
+ text-align: left;
+}
+dl,
+.ul {
+ border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
+ border-radius: 5px;
+ padding: 10px;
+}
+dl:nth-of-type(2) {
+ margin-top: 15px;
+}
+dt::before {
+ content: "●";
+ padding-right: 2px;
+ color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+dd::before {
+ content: "◎";
+ padding-right: 2px;
+ color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+dd:nth-of-type(2)::before {
+ content: "○";
+ padding-right: 2px;
+ color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+.ul li::before {
+ content: "・";
+ padding-right: 2px;
+ color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+.ul li {
+ margin-bottom: 10px;
+}
+.link_site {
+ border-bottom: 1px dotted rgb(89, 145, 216) /*#5991d8*/;
+ padding-bottom: 2px;
+}
+
+/********************************************************************************************
+SP Landscape
+*********************************************************************************************/
+/* 667px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 667px){
+ .section {
+  width: 100%;
+  padding: 30px 2%;
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1024px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+ header {
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+ }
+ .section {
+  width: calc(100% / 2);
+  padding: 30px 2%;
+ }
+ #section {
+  width: 100%;
+ }
+ .sec_box_inner {
+  padding: 15px 20px;
+ }
+ .sec_h2 {
+  font-size: 1.6rem;
+ }
+}

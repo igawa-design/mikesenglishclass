@@ -57,6 +57,7 @@ iframe {
  height: 500px;
 }
 table {
+ width: 100%;
  margin: 15px 0;
  border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
 }
@@ -71,7 +72,7 @@ td {
  text-align: left;
 }
 dl,
-ul {
+.ul {
  border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
  border-radius: 5px;
  padding: 10px;
@@ -94,12 +95,12 @@ dd:nth-of-type(2)::before {
  padding-right: 2px;
  color: rgb(242, 187, 3) /*#f2bb03*/;
 }
-li::before {
+.ul li::before {
  content: "・";
  padding-right: 2px;
  color: rgb(242, 187, 3) /*#f2bb03*/;
 }
-li {
+.ul li {
  margin-bottom: 10px;
 }
 
@@ -143,5 +144,16 @@ PC & Tablet Landscape
  }
  .sec_h2 {
   font-size: 1.6rem;
+ }
+}
+
+/********************************************************************************************
+PC
+*********************************************************************************************/
+/* 1920px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1920px){
+.section {
+ width: 100%;
  }
 }

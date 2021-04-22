@@ -30,14 +30,11 @@ SP Portrait
 .sec_box {
  opacity: 1;
 }
-.sec_box {
- background-color: rgb(255, 255, 255) /*#fff*/;
- box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
- padding: 0 10px 10px;
- color: rgb(53, 87, 129) /*#355781*/;
-}
 .sec_icon {
  opacity: 1
+}
+.sec_h2 {
+ background: rgba(53, 201, 235, 0.8) /*#00aeeb*/;
 }
 h4,
 h5 {

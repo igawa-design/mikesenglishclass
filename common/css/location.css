@@ -31,6 +31,7 @@ SP Portrait
 .section,
 .sec_box {
  opacity: 1;
+ font-weight: normal;
 }
 .sec_box {
  background-color: rgb(255, 255, 255) /*#fff*/;
@@ -40,6 +41,9 @@ SP Portrait
 }
 .sec_icon {
  opacity: 1
+}
+.sec_h2 {
+ background: rgba(70, 172, 128, 0.8) /*#46ac80*/;
 }
 h4 {
  margin-top: 20px;
@@ -105,6 +109,10 @@ dd:nth-of-type(2)::before {
 }
 .ul li {
  margin-bottom: 10px;
+}
+.link_site {
+ border-bottom: 1px dotted rgb(89, 145, 216) /*#5991d8*/;
+ padding-bottom: 2px;
 }
 
 /********************************************************************************************

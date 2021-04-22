@@ -718,8 +718,7 @@ html {
 			.sec_h2_translations {
 				background: rgba(211, 93, 135, 0.8) /*#d35d87*/;
 			}
-			.sec_h2_location,
-			.sec_h3_location {
+			.sec_h2_location {
 				background: rgba(70, 172, 128, 0.8) /*#46ac80*/;
 			}
 			.sec_h2_reviews {

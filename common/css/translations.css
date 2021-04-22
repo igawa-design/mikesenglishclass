@@ -25,6 +25,7 @@ SP Portrait
  color: rgb(255, 255, 255) /*#fff*/;
 }
 .section {
+ width: 100%;
  margin: 30px 0 0;
  padding: 0 2%;
 }
@@ -42,12 +43,41 @@ SP Portrait
 .sec_icon {
  opacity: 1
 }
+.sec_h2 {
+ background: rgba(211, 93, 135, 0.8) /*#d35d87*/;
+}
+.sec_h3_translations {
+ display: flex;
+ flex-direction: column;
+ background: rgb(211, 93, 135) /*#d35d87*/;
+ border-radius: 5px 5px 0 0;
+ padding: 10px;
+ color: rgb(255, 255, 255) /*fff*/;
+ text-align: center;
+}
+.sec_h3_ja {
+ display: block;
+ width: 100%;
+ order: 2;
+ font-size: 1.5rem;
+}
+.sec_h3_en {
+ display: block;
+ width: 100%;
+ order: 1;
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 1.7rem;
+}
+.sec_h3_ja::before,
+.sec_h3_ja::after {
+ content: " - ";
+}
 h4 {
- margin-top: 20px;
- border: 4px double rgb(70, 172, 128) /*#46ac80*/;
+ margin: 20px 0;
+ border: 4px double rgb(211, 93, 135) /*#d35d87*/;
  padding: 10px;
  border-radius: 5px;
- color: rgb(70, 172, 128) /*#46ac80*/;
+ color: rgb(211, 93, 135) /*#d35d87*/;
  font-size: 1.6rem;
 }
 h4:first-child {
@@ -58,58 +88,16 @@ h5 {
  font-size: 1.5rem;
 }
 iframe {
- height: 500px;
+ height: 250px;
 }
-table {
- width: 100%;
- margin: 15px 0;
- border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
+li {
+ font-size: 1.5rem;
+ margin-bottom: 10px;
 }
-th {
- width: 25%;
- background: rgb(70, 172, 128) /*#46ac80*/;
- color: rgb(255, 255, 255) /*#fff*/;
-}
-td {
- border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
- padding: 5px 15px;
- text-align: left;
-}
-dl,
-.ul {
- border: 1px solid rgb(70, 172, 128) /*#46ac80*/;
- border-radius: 5px;
- padding: 10px;
-}
-dl:nth-of-type(2) {
- margin-top: 15px;
-}
-dt::before {
+li::before {
  content: "●";
  padding-right: 2px;
  color: rgb(242, 187, 3) /*#f2bb03*/;
-}
-dd::before {
- content: "◎";
- padding-right: 2px;
- color: rgb(242, 187, 3) /*#f2bb03*/;
-}
-dd:nth-of-type(2)::before {
- content: "○";
- padding-right: 2px;
- color: rgb(242, 187, 3) /*#f2bb03*/;
-}
-.ul li::before {
- content: "・";
- padding-right: 2px;
- color: rgb(242, 187, 3) /*#f2bb03*/;
-}
-.ul li {
- margin-bottom: 10px;
-}
-.link_site {
- border-bottom: 1px dotted rgb(89, 145, 216) /*#5991d8*/;
- padding-bottom: 2px;
 }
 
 /********************************************************************************************
@@ -118,9 +106,16 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
- .section {
-  width: 100%;
-  padding: 30px 2%;
+}
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+ iframe {
+  height: 500px;
  }
 }
 
@@ -139,10 +134,6 @@ PC & Tablet Landscape
   height: 120px;
   background: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
- }
- .section {
-  width: calc(100% / 2);
-  padding: 30px 2%;
  }
  #section {
   width: 100%;

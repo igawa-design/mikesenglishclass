@@ -14,7 +14,7 @@ SP Portrait
 html {
 	background: rgba(255, 255, 255, 0.9) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
 	color: rgb(53, 87, 129) /*#355781*/;
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, sans-serif;
+	font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro", Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	letter-spacing: 0.2rem;
 	line-height: 1.5;
@@ -297,7 +297,7 @@ html {
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
-				min-width: 100vw;
+				min-width: 100%;
 				padding: 2% 3%;
 				text-decoration: none;
 				font-size: 1.4rem;
@@ -326,7 +326,7 @@ html {
 			.nav_list_ja,
 			.nav_local_list_ja {
 				display: block;
-				width: 100vw;
+				width: 100%;
 				order: 2;
 				margin: 0 20px;
 				border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*fff*/;

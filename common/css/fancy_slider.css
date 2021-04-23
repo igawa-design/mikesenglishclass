@@ -161,65 +161,47 @@
  transition: transform 1.5s;
  transform: translateY(100%);
 }
-.fnc-slide__action-btn {
+.fnc_slide_link {
  position: relative;
- width: 100%;
- font-size: 1.4rem;
- line-height: 1;
- color: transparent;
- border: none;
- background: rgba(255, 255, 255, 0);
- cursor: pointer;
- text-align: center;
- outline: none;
-}
-.fnc-slide__action-btn span {
- position: absolute;
- left: 0;
- top: 0;
- perspective: 1000px;
- transform-style: preserve-3d;
- transition: transform 0.3s;
- transform-origin: 50% 0;
- background: rgb(31, 40, 51);
- padding: 1% 2%;
- color: rgb(255, 255, 255) /* fff */;
- letter-spacing: 0.2rem;
- line-height: 30px;
- text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
- text-align: center;
-}
-.fnc-slide__action-btn span:before {
- content: "";
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- height: 100%;
-}
-.fnc-slide__action-btn span:after {
- content: attr(data-text);
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- height: 100%;
- font-size: 1.8rem;
- padding: 1% 2%;
- line-height: 30px;
+ z-index: 2;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100px;
+ height: 40px;
  background: rgb(31, 40, 51) /*#1f2833*/;
- opacity: 0;
- transform-origin: 50% 0;
- transform: translateY(100%) rotateX(-90deg);
- transition: opacity 0.15s 0.15s;
+ overflow: hidden;
+ box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) /*#000*/;
+ border-radius: 3px;
+ padding: 5px 2%;
+ font-size: 1.5rem;
+ color: rgb(255, 255, 255) /*#fff*/;
+ cursor: pointer;
 }
-.fnc-slide__action-btn:hover span {
- transform: rotateX(90deg);
- padding: 1% 2%;
+.fnc_slide_link::before,
+.fnc_slide_link::after {
+ position: absolute;
+ z-index: -1;
+ display: block;
+ content: '';
 }
-.fnc-slide__action-btn:hover span:after {
- opacity: 1;
- transition: opacity 0.15s;
+.fnc_slide_link,
+.fnc_slide_link::before,
+.fnc_slide_link::after {
+ transition: all .3s;
+}
+.fnc_slide_link:hover {
+ color: rgb(53, 87, 129) /*#355781*/;
+}
+.fnc_slide_link::after {
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+.fnc_slide_link:hover::after {
+ transform: scale(2) rotate(180deg);
+ background: rgb(255, 255, 255) /*#fff*/;
 }
 .fnc-nav {
  z-index: 5;
@@ -284,6 +266,7 @@
 }
 .fnc-nav__control.m--active-control {
  background: rgb(31, 40, 51) /*#1f2833*/;
+ border-radius: 3px 3px 0 0;
 }
 .fnc-nav__control-progress {
  position: absolute;
@@ -447,6 +430,7 @@
 }
 .fancy-slider .fnc-slide__heading,
 .fancy-slider .fnc-slide__action-btn,
+.fnc_slide_link,
 .fancy-slider .fnc-nav__control {
  position: relative;
  bottom: 10px;
@@ -462,6 +446,7 @@ Tablet Portrait
 @media screen and (min-width: 768px){
  .fancy-slider .fnc-slide__heading,
  .fancy-slider .fnc-slide__action-btn,
+ .fnc_slide_link,
  .fancy-slider .fnc-nav__control {
   margin-top: 80px;
  }

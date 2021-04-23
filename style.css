@@ -1166,11 +1166,14 @@ html {
 				content: '';
 				width: 10px;
 				height: 10px;
-				margin-top: -10px;
+				margin-top: -12px;
 				border: 0px;
 				border-top: solid 2px rgb(89, 145, 216) /*#5991d8*/;
 				border-right: solid 2px rgb(89, 145, 216) /*#5991d8*/;
 				transform: rotate(45deg);
+			}
+			.info_a_sitemap .arrow::before {
+				margin-top: -11px;
 			}
 			.rainbow {
 				height: 150px;

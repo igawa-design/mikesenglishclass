@@ -218,7 +218,7 @@ html {
 			.sidenavs {
 				height: 100%;
 				width: 0;
-				background: linear-gradient(-45deg, rgba(200, 227, 91, 1) 30%, rgba(200, 227, 91, 0.8) 100%) /*#c8e35b*/;
+				background: rgb(200, 227, 91) /*#c8e35b*/;
 				position: fixed;
 				scroll-behavior: smooth;
 				-webkit-overflow-scrolling: touch;

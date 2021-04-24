@@ -675,7 +675,7 @@ html {
 				height: 15px;
 				margin: 0 10px 0 0;
 			}
-			.container {
+			#container {
 				width: 100%;
 				margin: auto;
 			}

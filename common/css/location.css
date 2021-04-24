@@ -3,6 +3,9 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
+main {
+ padding: 0 2%;
+}
 .fig {
  position: relative;
  width: 100%;
@@ -25,13 +28,17 @@ SP Portrait
  color: rgb(255, 255, 255) /*#fff*/;
 }
 .section {
+ width: 100%;
  margin: 30px 0 0;
- padding: 0 2%;
+ padding: 0;
 }
 .section,
 .sec_box {
  opacity: 1;
  font-weight: normal;
+}
+.sec_box {
+ background: rgb(255, 255, 255) /*#fff*/;
 }
 .sec_icon {
  opacity: 1
@@ -115,9 +122,21 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
- .section {
+ .sec_box_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
-  padding: 30px 2%;
+  padding: 0;
+ }
+.section {
+  width: calc(100% / 2);
+  margin: 0 auto 10px;
+  padding: 0 2% 30px;
+ }
+.section.first {
+  width: 100%;
+  margin: 15px 0;
  }
 }
 
@@ -137,12 +156,9 @@ PC & Tablet Landscape
   background: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
  }
- .section {
-  width: calc(100% / 2);
-  padding: 30px 2%;
- }
- #section {
-  width: 100%;
+ main {
+  max-width: 1920px;
+  margin: auto;
  }
  .sec_box_inner {
   padding: 15px 20px;

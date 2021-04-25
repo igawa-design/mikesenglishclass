@@ -1033,6 +1033,7 @@ html {
 			footer {
 				position: relative;
 				z-index: 100;
+				overflow: hidden;
 			}
 			.sec_box,
 			.nav_local,
@@ -1054,7 +1055,7 @@ html {
 				background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
 				transition: all 2s ease 0s;
-				margin: 20px 2%;
+				margin: 20px 1%;
 				padding: 10px !important;
 				border-radius: 5px;
 				font-weight: bold;
@@ -1079,7 +1080,7 @@ html {
 			.info {
 				background-image: linear-gradient(-45deg, rgba(218, 185, 91, 0.5) 25%, rgb(218, 185, 91, 0) 25%, rgba(218, 185, 91, 0) 50%, rgba(218, 185, 91, 0.5) 50%, rgba(218, 185, 91, 0.5) 75%, rgba(218, 185, 91, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/;
 				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
-				margin: 20px 2%;
+				margin: 20px 1%;
 				padding: 10px;
 				border-radius: 5px;
 				font-size: 1.4rem;
@@ -1177,8 +1178,12 @@ html {
 			}
 			.rainbow {
 				height: 150px;
+				width: 100%;
 				background: url("common/img/rainbow.svg") no-repeat center / 330px;
 				margin-top: 100px;
+			}
+			.rainbow.scale {
+				transform: scale(1.1) translateY(-20px);
 			}
 			.box_copyright {
 				margin: 5px auto;

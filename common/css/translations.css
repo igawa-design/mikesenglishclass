@@ -78,7 +78,7 @@ h4 {
  font-size: 1.6rem;
 }
 h4:first-child {
- margin-top: 5px;
+ margin-top: 0;
 }
 .article_h4 {
  margin: 15px 0;
@@ -104,7 +104,7 @@ iframe {
 }
 .article {
  border-bottom: 2px dotted rgb(38, 155, 143) /*#269b8f*/;
- padding: 15px 0;
+ padding: 15px;
 }
 .article:last-child {
  border-bottom: none;
@@ -123,7 +123,7 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
- .sec_box_flex {
+ .box_articles {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -133,6 +133,7 @@ SP Landscape
  .article {
   width: calc(50% - (15px * 2)) /* width - margin */;
   margin: 15px;
+  padding: 0;
  }
  iframe {
   height: 500px;

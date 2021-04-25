@@ -37,9 +37,6 @@ main {
  opacity: 1;
  font-weight: normal;
 }
-.sec_box {
- background: rgb(255, 255, 255) /*#fff*/;
-}
 .sec_icon {
  opacity: 1
 }
@@ -125,11 +122,12 @@ SP Landscape
 .section {
   width: calc(100% / 2);
   margin: 0 auto 10px;
-  padding: 0 2% 30px;
+  padding: 0 1% 30px;
  }
 .section.first {
   width: 100%;
   margin: 15px 0;
+  padding: 0 0 30px;
  }
 }
 

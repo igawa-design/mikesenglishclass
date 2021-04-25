@@ -10,6 +10,7 @@ main {
  position: relative;
  width: 100%;
  height: auto;
+ z-index: 0;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -19,6 +20,7 @@ main {
  position: absolute;
  bottom: 0;
  left: 0;
+ z-index: 1;
  background: rgb(53, 201, 235) /*#00aeeb*/;
  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.05) /*#000*/;
  padding: 10px;

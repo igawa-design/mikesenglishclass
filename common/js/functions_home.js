@@ -36,7 +36,7 @@ $(window).scroll(function(){
 // scroll add class scale  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".sec_icon, .sec_img, .info_h2_logo").each(function(){
+  $(".sec_icon, .sec_img, .info_h2_logo, .rainbow").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();
@@ -52,7 +52,7 @@ $(window).scroll(function (){
 // scroll add class fade   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".section, .sec_box, .nav_local, .sincerely, .info_h3, .info_ul, .info_a_sitemap, .rainbow").each(function(){
+ $(".section, .sec_box, .nav_local, .sincerely, .info_h3, .info_ul, .info_a_sitemap, .rainbow").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();

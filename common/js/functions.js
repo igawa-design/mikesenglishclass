@@ -19,7 +19,7 @@ $(window).scroll(function(){
 // scroll add class scale  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".sec_icon, .sec_img, .info_h2_logo").each(function(){
+ $(".sec_icon, .sec_img, .info_h2_logo, .rainbow").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();

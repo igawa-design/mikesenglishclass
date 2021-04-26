@@ -37,6 +37,7 @@ SP Portrait
 .section,
 .sec_box {
  opacity: 1;
+ font-weight: normal;
 }
 .sec_icon {
  opacity: 1

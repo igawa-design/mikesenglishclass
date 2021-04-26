@@ -791,6 +791,9 @@ html {
 			.sec_box_contact {
 				background-image: linear-gradient(-45deg, rgba(147, 188, 52, 0.5) 25%, rgb(147, 188, 52, 0) 25%, rgba(147, 188, 52, 0) 50%, rgba(147, 188, 52, 0.5) 50%, rgba(147, 188, 52, 0.5) 75%, rgba(147, 188, 52, 0) 75%, rgba(147, 188, 52, 0))/*stripes*/;
 			}
+			.sec_box_english {
+				background-image: linear-gradient(-45deg, rgba(158, 115, 187, 0.5) 25%, rgb(158, 115, 187, 0) 25%, rgba(158, 115, 187, 0) 50%, rgba(158, 115, 187, 0.5) 50%, rgba(158, 115, 187, 0.5) 75%, rgba(158, 115, 187, 0) 75%, rgba(158, 115, 187, 0))/*stripes*/;
+			}
 			.sec_box_sitemap {
 				background-image: linear-gradient(-45deg, rgba(53, 201, 235, 0.5) 25%, rgb(53, 201, 235, 0) 25%, rgba(53, 201, 235, 0) 50%, rgba(53, 201, 235, 0.5) 50%, rgba(53, 201, 235, 0.5) 75%, rgba(53, 201, 235, 0) 75%, rgba(53, 201, 235, 0))/*stripes*/;
 			}
@@ -844,6 +847,9 @@ html {
 			}
 			.sec_txt_lead.contact_lead {
 				background: rgb(147, 188, 52) /*#93bc34*/;
+			}
+			.sec_txt_lead.english_lead {
+				background: rgb(158, 115, 187) /*#9e73bb*/;
 			}
 			.sec_txt_lead.sitemap_lead {
 				background: rgb(53, 201, 235) /*#00aeeb*/;

@@ -23,7 +23,7 @@ SP Portrait
  bottom: 0;
  left: 0;
  z-index: 1;
- background: rgb(53, 201, 235) /*#00aeeb*/;
+ background: rgb(89, 145, 216) /*#5991d8*/;
  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.05) /*#000*/;
  padding: 10px;
  border-radius: 0 10px 0 0;
@@ -42,45 +42,7 @@ SP Portrait
  opacity: 1
 }
 .sec_h2 {
- background: rgba(53, 201, 235, 0.8) /*#00aeeb*/;
-}
-h4,
-h5 {
- transition: all 0.3s ease 0s;
- margin: 20px 10px;
-}
-h4:first-child {
- margin-top: 10px;
-}
-h5 {
- margin-left: calc(30px + 45px); /*icon-size + margin*/
- font-size: 1.5rem;
-}
-h5 .sitemap_icon {
- display: none;
-}
-.li_a {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- color: rgb(53, 87, 129) /*#355781*/;
-}
-.li_a_en {
- order: 1;
-}
-.li_a_ja {
- order: 2;
- min-width: 50%;
- margin-left: calc(30px + 15px); /*icon-size + margin*/
-}
-h5 .li_a_ja {
- margin-left: 0;
-}
-.sitemap_icon {
- display: inline-block;
- width: 30px;
- height: 30px;
- margin-right: 15px;
+ background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 }
 
 /********************************************************************************************
@@ -90,6 +52,7 @@ SP Landscape
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
 .section {
+  width: calc(100% / 2);
   margin: 0 auto 10px;
   padding: 0 1% 30px;
  }
@@ -122,40 +85,8 @@ PC & Tablet Landscape
  .fig.main_view img {
   height: 500px;
  }
- .sec_box_inner {
-  padding: 15px 20px;
- }
  .sec_h2 {
   font-size: 1.6rem;
- }
-  h4,
-  h5 {
-  padding: 10px;
- }
-  h4:hover,
-  h5:hover {
-  background: rgba(53, 201, 235, 0.3) /*#00aeeb*/;
-  border-radius: 5px;
-  color: #fff;
- }
- .li_a {
-  flex-direction: row;
-  align-items: baseline;
- }
- .li_a_ja {
-  margin-left: 10px;
- }
- .li_a_ja::before {
-  content: "-";
-  margin-right: 10px;
- }
-  h5 .li_a_ja {
-  margin-left: 10px;
- }
- .sitemap_icon {
-  width: 40px;
-  height: 40px;
-  vertical-align: bottom;
  }
 }
 

@@ -705,6 +705,7 @@ html {
 			}
 			.sec_h2_about_mike {
 				background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
+				font-size: 1.5rem;
 			}
 			.sec_h2_one_to_one {
 				background: rgba(30, 136, 168, 0.8) /*#1e88a8*/;
@@ -1286,6 +1287,9 @@ html {
 				}
 				main .nav_local {
 					display: none;
+				}
+				.sec_h2_about_mike {
+					font-size: 1.7rem;
 				}
 				.sec_a {
 					margin: 10px 3% 0 auto;

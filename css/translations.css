@@ -1,0 +1,190 @@
+/********************************************************************************************
+SP Portrait
+*********************************************************************************************/
+/*
+--------------------------------------------------------------------------------------------*/
+.fig {
+ position: relative;
+ width: 100%;
+ height: auto;
+ z-index: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+}
+.fig.main_view img {
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+}
+.figcaption {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ z-index: 1;
+ background: rgb(211, 93, 135) /*#d35d87*/;
+ box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.05) /*#000*/;
+ padding: 10px;
+ border-radius: 0 10px 0 0;
+ color: rgb(255, 255, 255) /*#fff*/;
+}
+.section {
+ width: 100%;
+ margin: 30px 0 0;
+ padding: 0 2%;
+}
+.section,
+.sec_box {
+ opacity: 1;
+ font-weight: normal;
+}
+.sec_icon {
+ opacity: 1
+}
+.sec_h2 {
+ background: rgba(211, 93, 135, 0.8) /*#d35d87*/;
+}
+.sec_h3_translations {
+ display: flex;
+ flex-direction: column;
+ background: rgb(211, 93, 135) /*#d35d87*/;
+ border-radius: 5px 5px 0 0;
+ padding: 10px;
+ color: rgb(255, 255, 255) /*fff*/;
+ text-align: center;
+}
+.sec_h3_ja {
+ display: block;
+ width: 100%;
+ order: 2;
+ font-size: 1.5rem;
+}
+.sec_h3_en {
+ display: block;
+ width: 100%;
+ order: 1;
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 1.7rem;
+}
+.sec_h3_ja::before,
+.sec_h3_ja::after {
+ content: " - ";
+}
+h4 {
+ margin: 20px 0;
+ border: 4px double rgb(211, 93, 135) /*#d35d87*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(211, 93, 135) /*#d35d87*/;
+ font-size: 1.6rem;
+}
+h4:first-child {
+ margin-top: 0;
+}
+.article_h4 {
+ margin: 15px 0;
+ border: none;
+ padding: 0;
+}
+h5 {
+ margin: 15px 0;
+ font-size: 1.5rem;
+}
+iframe {
+ height: 250px;
+ border-radius: 5px;
+}
+.ul li {
+ font-size: 1.5rem;
+ margin-bottom: 10px;
+}
+.ul li::before {
+ content: "●";
+ padding-right: 2px;
+ color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+.article {
+ border-bottom: 2px dotted rgb(38, 155, 143) /*#269b8f*/;
+ padding: 15px;
+}
+.article:last-child {
+ border-bottom: none;
+}
+.category {
+ display: block;
+ margin-top: 10px;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+ font-size: 1.3rem;
+ text-align: right;
+}
+
+/********************************************************************************************
+SP Landscape
+*********************************************************************************************/
+/* 667px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 667px){
+ .section {
+   margin: 0 auto 10px;
+   padding: 0 1% 30px;
+  }
+ .section.first {
+   width: 100%;
+   margin: 15px 0;
+  }
+  .box_articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+ }
+ .article {
+  width: calc(50% - (15px * 2)) /* width - margin */;
+  margin: 15px;
+  padding: 0;
+ }
+ iframe {
+  height: 500px;
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1024px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+ header {
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+ }
+ main {
+  max-width: 1920px;
+  margin: auto;
+ }
+ .fig.main_view img {
+  height: 500px;
+ }
+ .sec_h2 {
+  font-size: 1.6rem;
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1920px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1920px){
+ .section {
+  padding: 0;
+ }
+}

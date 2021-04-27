@@ -23,7 +23,7 @@ SP Portrait
  bottom: 0;
  left: 0;
  z-index: 1;
- background: rgb(30, 136, 168) /*#1e88a8*/;
+ background: rgb(246, 114, 128) /*#f67280*/;
  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.05) /*#000*/;
  padding: 10px;
  border-radius: 0 10px 0 0;
@@ -43,10 +43,7 @@ SP Portrait
  opacity: 1
 }
 .sec_h2 {
- background: rgba(30, 136, 168, 0.8) /*#1e88a8*/;
-}
-#nav_local {
- background: rgb(30, 136, 168) /*#1e88a8*/;
+ background: rgba(246, 114, 128, 0.8) /*#f67280*/;
 }
 
 /********************************************************************************************
@@ -63,9 +60,6 @@ SP Landscape
 .section.first {
   width: 100%;
   margin: 15px 0;
- }
- .fig.main_view img {
- object-position: 0px -350px;
  }
 }
 
@@ -91,7 +85,6 @@ PC & Tablet Landscape
  }
  .fig.main_view img {
   height: 500px;
-  object-position: 0px -450px;
  }
  .sec_h2 {
   font-size: 1.6rem;
@@ -99,26 +92,12 @@ PC & Tablet Landscape
 }
 
 /********************************************************************************************
-PC
-*********************************************************************************************/
-/* 1280px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 1280px){
- .fig.main_view img {
-  object-position: 0px -600px;
- }
-}
-
-/********************************************************************************************
-PC
+PC & Tablet Landscape
 *********************************************************************************************/
 /* 1920px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1920px){
  .section {
   padding: 0;
- }
- .fig.main_view img {
-  object-position: 0px -800px;
  }
 }

@@ -395,16 +395,19 @@
 .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1400x1867.jpg");
  background-size: cover;
+ background-position: center center;
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_one_to_one_1400x1867.jpg");
  background-size: cover;
+ background-position: center center;
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner,
 .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_location_1400x1050.jpg");
  background-size: cover;
+ background-position: center center;
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner:before {
  content: "";
@@ -419,6 +422,7 @@
 .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("../img/fnc_contact_1400x1050.jpg");
  background-size: cover;
+ background-position: center center;
 }
 .fancy-slider .fnc-slide-4 .fnc-slide__inner:before {
  content: "";
@@ -491,12 +495,13 @@ PC
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
   background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1920x2560.jpg");
   background-size: cover;
-  background-position: 0 -200px;
+  background-position: center -300px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
   background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_one_to_one_1920x2560.jpg");
   background-size: cover;
+  background-position: center -500px;
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {

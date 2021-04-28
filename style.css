@@ -317,6 +317,7 @@ html {
 				font-weight: bold;
 				font-size: 2.6rem;
 				color: rgb(255, 255, 255) /*fff*/;
+				letter-spacing: 0.1rem;
 				text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 			}
 			.nav_local_list_en {
@@ -352,7 +353,7 @@ html {
 			}
 			.first_letter,
 			.nav_list_en::first-letter {
-				font-size: 2.5rem;
+				font-size: 2.8rem;
 				text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff,
 				-1px 1px 0 #fff, 1px -1px 0 #fff,
 				0px 1px 0 #fff,  0 -1px 0 #fff,

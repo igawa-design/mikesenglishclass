@@ -395,7 +395,7 @@
 .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1400x1867.jpg");
  background-size: cover;
- background-position: center center;
+ background-position: center top;
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {

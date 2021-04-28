@@ -237,7 +237,7 @@ html {
 				transition: 0.3s;
 				transform: rotate(0deg);
 				padding: 10px;
-				font-size: 1.5rem;
+				font-size: 1.6rem;
 				text-decoration: none;
 				text-align: center;
 				font-weight:bold;
@@ -315,7 +315,7 @@ html {
 				order: 1;
 				font-family: Helvetica, Arial, sans-serif;
 				font-weight: bold;
-				font-size: 2.5rem;
+				font-size: 2.6rem;
 				color: rgb(255, 255, 255) /*fff*/;
 				text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 			}
@@ -333,6 +333,7 @@ html {
 				padding-bottom: 20px;
 				color: rgba(255, 255, 255, 0.9) /*fff*/;
 				font-weight: bold;
+				letter-spacing: 0.15rem;
 				text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*#000*/;
 			}
 			.nav_local_list_ja {

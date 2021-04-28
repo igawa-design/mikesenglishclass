@@ -889,6 +889,9 @@ html {
 				opacity: 1;
 				transform: scale(1.1);
 			}
+			.sec_box.sec_box_one_to_one h3.sec_h3_lead {
+				letter-spacing: 0.15rem;
+			}
 			.sec_box.sec_box_one_to_one h3.sec_h3_lead::before {
 				content: "★";
 				margin-right: 2px;

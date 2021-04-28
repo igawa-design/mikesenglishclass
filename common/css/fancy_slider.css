@@ -129,6 +129,7 @@
  font-size: 2.5rem;
  font-weight: 900;
  line-height: 1.2;
+ font-family: Helvetica, Arial, sans-serif;
 }
 .fnc-slide__heading-line:nth-child(2) {
  padding-left: 30px;
@@ -440,7 +441,6 @@
  position: relative;
  bottom: 10px;
  margin-top: 30px;
- font-family: Helvetica, Arial, sans-serif;
 }
 
 /********************************************************************************************

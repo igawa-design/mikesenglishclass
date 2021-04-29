@@ -493,33 +493,30 @@ PC
 @media screen and (min-width: 1280px){
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1920x2560.jpg");
-  background-size: cover;
   background-position: center -300px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_one_to_one_1920x2560.jpg");
-  background-size: cover;
   background-position: center -500px;
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_location_1920x1440.jpg");
   background-size: cover;
  }
- .fancy-slider .fnc-slide-3 .fnc-slide__inner:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.1);
+}
+
+/********************************************************************************************
+PC
+*********************************************************************************************/
+/* 1920px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1920px){
+ .fancy-slider .fnc-slide-1 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
+  background-position: center -600px;
  }
- .fancy-slider .fnc-slide-4 .fnc-slide__inner,
- .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("../img/fnc_contact_1920x1440.jpg");
-  background-size: cover;
+ .fancy-slider .fnc-slide-2 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+  background-position: center -600px;
  }
 }

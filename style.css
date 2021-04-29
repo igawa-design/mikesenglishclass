@@ -237,7 +237,6 @@ html {
 				transition: 0.3s;
 				transform: rotate(0deg);
 				padding: 10px;
-				font-size: 1.6rem;
 				text-decoration: none;
 				text-align: center;
 				font-weight:bold;
@@ -333,9 +332,16 @@ html {
 				border-bottom: 1px dotted rgba(255, 255, 255, 0.5) /*fff*/;
 				padding-bottom: 20px;
 				color: rgba(255, 255, 255, 0.9) /*fff*/;
+				font-size: 2rem;
 				font-weight: bold;
 				letter-spacing: 0.15rem;
 				text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) /*#000*/;
+			}
+			.nav_list_ja.small {
+				font-size: 1.7rem;
+			}
+			.nav_list:last-child .nav_list_ja {
+				border-bottom: none;
 			}
 			.nav_local_list_ja {
 				width: auto;
@@ -1241,6 +1247,9 @@ html {
 					width: 15px;
 					height: 15px;
 					margin: 0 7px 0 0;
+				}
+				.nav_list_ja.small {
+					font-size: 2rem;
 				}
 				.sec_h2 {
 					letter-spacing: 0.2rem;

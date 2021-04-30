@@ -45,6 +45,25 @@ SP Portrait
 .sec_h2 {
  background: rgba(158, 115, 187, 0.8) /*#9e73bb*/;
 }
+h4 {
+ margin: 20px 0;
+ border: 4px double rgb(218, 185, 91) /*dab95b*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(158, 115, 187) /*#9e73bb*/;
+ font-size: 1.6rem;
+}
+h4:first-child {
+ margin-top: 5px;
+}
+.announce h4,
+.announce .txt {
+ font-weight: bold;
+}
+h5 {
+ margin: 15px 0;
+ font-size: 1.5rem;
+}
 
 /********************************************************************************************
 SP Landscape
@@ -52,12 +71,15 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
+ main {
+  overflow: hidden;
+ }
 .section {
   width: calc(100% / 2);
   margin: 0 auto 10px;
   padding: 0 1% 30px;
  }
-.section.first {
+.section.w100 {
   width: 100%;
   margin: 15px 0;
  }

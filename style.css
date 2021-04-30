@@ -960,16 +960,40 @@ html {
 				font-weight: bold;
 				transition: all 0.5s ease 0s;
 			}
+			.sec_a {
+				position: relative;
+				z-index: 2;
+				order: 5;
+			 display: flex;
+			 align-items: center;
+			 justify-content: center;
+				width: 100%;
+				height: 50px;
+				overflow: hidden;
+				margin: 10px auto;
+				padding: 5px 2%;
+				border: 6px double;
+				border-radius: 45px 5px 25px  0;
+				position: relative;
+				cursor: pointer;
+				color: rgb(255, 255, 255) /*#fff*/;
+				text-align: center;
+				font-weight: bold;
+				transition: all 0.5s ease 0s;
+			}
+			.sec_a:hover {
+				background: rgb(255, 255, 255) /*#fff*/ !important;
+			}
 			@keyframes pulse_about_mike {
 				0% { background-color: rgba(89, 145, 216, 1) /*#5991d8*/; box-shadow: 0 0 5px rgba(89, 145, 216, 0.5) /*#5991d8*/; }
 				50% { background-color: rgba(89, 145, 216, 1) /*#5991d8*/; box-shadow: 0 0 10px rgba(89, 145, 216, 1) /*#5991d8*/; }
 				100% { background-color: rgba(89, 145, 216, 1) /*#5991d8*/; box-shadow: 0 0 5px rgba(89, 145, 216, 0.5) /*#5991d8*/; }
 			}
-			.sec_a_about_mike  {
+			.sec_a_about_mike {
+				background: rgb(89, 145, 216) /*#5991d8*/;
 				animation: pulse_about_mike 2s infinite;
-			}
+		}
 			.sec_a_about_mike:hover {
-				background: rgb(255, 255, 255) /*#fff*/ !important;
 				border-color: rgba(89, 145, 216, 0.5) /*#5991d8*/;
 				color: rgb(89, 145, 216) /*#5991d8*/;
 			}
@@ -978,8 +1002,13 @@ html {
 				50% { background-color: rgba(30, 136, 168, 1) /*#1e88a8*/; box-shadow: 0 0 10px rgba(30, 136, 168, 1) /*#1e88a8*/; }
 				100% { background-color: rgba(30, 136, 168, 1) /*#1e88a8*/; box-shadow: 0 0 5px rgba(30, 136, 168, 0.5) /*#1e88a8*/; }
 			}
-			.sec_a_one_to_one  {
+			.sec_a_one_to_one {
+				background: rgb(30, 136, 168) /*#1e88a8*/;
 				animation: pulse_one_to_one 2s infinite;
+		}
+			.sec_a_one_to_one:hover {
+				border-color: rgba(30, 136, 168, 0.5) /*#1e88a8*/;
+				color: rgb(30, 136, 168) /*#1e88a8*/;
 			}
 			@keyframes pulse_online {
 				0% { background-color: rgba(89, 174, 203, 1) /*#59aecb*/; box-shadow: 0 0 5px rgba(89, 174, 203, 0.5) /*#59aecb*/; }
@@ -987,15 +1016,25 @@ html {
 				100% { background-color: rgba(89, 174, 203, 1) /*#59aecb*/; box-shadow: 0 0 5px rgba(89, 174, 203, 0.5) /*#59aecb*/; }
 			}
 			.sec_a_online  {
+				background: rgb(89, 174, 203) /*#59aecb*/;
 				animation: pulse_online 2s infinite;
+		}
+			.sec_a_online:hover {
+				border-color: rgba(89, 174, 203, 0.5) /*#59aecb*/;
+				color: rgb(89, 174, 203) /*#59aecb*/;
 			}
 			@keyframes pulse_reviews {
 				0% { background-color: rgba(242, 187, 3, 1) /*#f2bb03*/; box-shadow: 0 0 5px rgba(242, 187, 3, 0.5) /*#f2bb03*/; }
 				50% { background-color: rgba(242, 187, 3, 1) /*#f2bb03*/; box-shadow: 0 0 10px rgba(242, 187, 3, 1) /*#f2bb03*/; }
 				100% { background-color: rgba(242, 187, 3, 1) /*#f2bb03*/; box-shadow: 0 0 5px rgba(242, 187, 3, 0.5) /*#f2bb03*/; }
 			}
-			.sec_a_reviews  {
+			.sec_a_reviews {
+				background: rgb(242, 187, 3) /*#f2bb03*/;
 				animation: pulse_reviews 2s infinite;
+		}
+			.sec_a_reviews:hover {
+				border-color: rgba(242, 187, 3, 0.5) /*#f2bb03*/;
+				color: rgb(242, 187, 3) /*#f2bb03*/;
 			}
 			@keyframes pulse_translations {
 				0% { background-color: rgba(211, 93, 135, 1) /*#d35d87*/; box-shadow: 0 0 5px rgba(211, 93, 135, 0.5) /*#d35d87*/; }
@@ -1003,23 +1042,38 @@ html {
 				100% { background-color: rgba(211, 93, 135, 1) /*#d35d87*/; box-shadow: 0 0 5px rgba(211, 93, 135, 0.5) /*#d35d87*/; }
 			}
 			.sec_a_translations {
+				background: rgb(211, 93, 135) /*#d35d87*/;
 				animation: pulse_translations 2s infinite;
+		}
+			.sec_a_translations:hover {
+				border-color: rgba(211, 93, 135, 0.5) /*#d35d87*/;
+				color: rgb(211, 93, 135) /*#d35d87*/;
 			}
 			@keyframes pulse_location {
 				0% { background-color: rgba(70, 172, 128, 1) /*#46ac80*/; box-shadow: 0 0 5px rgba(70, 172, 128, 0.5) /*#46ac80*/; }
 				50% { background-color: rgba(70, 172, 128, 1) /*#46ac80*/; box-shadow: 0 0 10px rgba(70, 172, 128, 1) /*#46ac80*/; }
 				100% { background-color: rgba(70, 172, 128, 1) /*#46ac80*/; box-shadow: 0 0 5px rgba(70, 172, 128, 0.5) /*#46ac80*/; }
 			}
-			.sec_a_location{
+			.sec_a_location {
+				background: rgb(70, 172, 128) /*#46ac80*/;
 				animation: pulse_location 2s infinite;
+		}
+			.sec_a_location:hover {
+				border-color: rgba(70, 172, 128, 0.5) /*#46ac80*/;
+				color: rgb(70, 172, 128) /*#46ac80*/;
 			}
 			@keyframes pulse_gallery {
 				0% { background-color: rgba(66, 191, 176, 1) /*#42bfb0*/; box-shadow: 0 0 5px rgba(66, 191, 176, 0.5) /*#42bfb0*/; }
 				50% { background-color: rgba(66, 191, 176, 1) /*#42bfb0*/; box-shadow: 0 0 10px rgba(66, 191, 176, 1) /*#42bfb0*/; }
 				100% { background-color: rgba(66, 191, 176, 1) /*#42bfb0*/; box-shadow: 0 0 5px rgba(66, 191, 176, 0.5) /*#42bfb0*/; }
 			}
-			.sec_a_gallery{
+			.sec_a_gallery {
+				background: rgb(66, 191, 176) /*#42bfb0*/;
 				animation: pulse_gallery 2s infinite;
+		}
+			.sec_a_gallery:hover {
+				border-color: rgba(66, 191, 176, 0.5) /*#42bfb0*/;
+				color: rgb(66, 191, 176) /*#42bfb0*/;
 			}
 			@keyframes pulse_mikes_posts {
 				0% { background-color: rgba(246, 114, 128, 1) /*#f67280*/; box-shadow: 0 0 5px rgba(246, 114, 128, 0.5) /*#f67280*/; }
@@ -1027,22 +1081,25 @@ html {
 				100% { background-color: rgba(246, 114, 128, 1) /*#f67280*/; box-shadow: 0 0 5px rgba(246, 114, 128, 0.5) /*#f67280*/; }
 			}
 			.sec_a_mikes_posts {
+				background: rgb(246, 114, 128) /*#f67280*/;
 				animation: pulse_mikes_posts 2s infinite;
+		}
+			.sec_a_mikes_posts:hover {
+				border-color: rgba(246, 114, 128, 0.5) /*#f67280*/;
+				color: rgb(246, 114, 128) /*#f67280*/;
 			}
 			@keyframes pulse_contact {
 				0% { background-color: rgba(147, 188, 52, 1) /*#93bc34*/; box-shadow: 0 0 5px rgba(147, 188, 52, 0.5) /*#93bc34*/; }
 				50% { background-color: rgba(147, 188, 52, 1) /*#93bc34*/; box-shadow: 0 0 10px rgba(147, 188, 52, 1) /*#93bc34*/; }
 				100% { background-color: rgba(147, 188, 52, 1) /*#93bc34*/; box-shadow: 0 0 5px rgba(147, 188, 52, 0.5) /*#93bc34*/; }
 			}
-			.sec_a_contact{
-				animation: pulse_contact 2s infinite;
+			.sec_a_contact {
 				background: rgb(147, 188, 52) /*#93bc34*/;
+				animation: pulse_contact 2s infinite;
 			}
-			.sec_a:hover::after {
-				width: 100%;
-				transform: rotateY(0);
-				opacity: 1;
-				border-radius: 45px 2px 22px  0;
+			.sec_a_contact:hover {
+				border-color: rgba(147, 188, 52, 0.5) /*#93bc34*/;
+				color: rgb(147, 188, 52) /*#93bc34*/;
 			}
 			.sec_box_about_mike h3 {
 				width: 100%;

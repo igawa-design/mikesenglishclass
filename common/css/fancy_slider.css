@@ -118,10 +118,11 @@
  position: relative;
  padding: 0 2%;
  color: #fff;
- text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
+ text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*#000*/;
 }
 .fnc-slide__heading-line .top_txt {
  order: 2;
+ font-family: Helvetica, Arial, sans-serif;
 }
 .fnc-slide__heading-line .top_txt.first_txt {
  order: 1;
@@ -390,19 +391,19 @@
 }
 .fancy-slider .fnc-slide-1 .fnc-slide__inner,
 .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
- background: url("../img/fnc_aboutmike_1400x1867.jpg");
+ background: url("../img/fnc_aboutmike_1200x1600.jpg");
  background-size: cover;
  background-position: center top;
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
- background: url("../img/fnc_one_to_one_1400x1867.jpg");
+ background: url("../img/fnc_one_to_one_1200x1600.jpg");
  background-size: cover;
  background-position: center center;
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner,
 .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
- background: url("../img/fnc_location_1400x1050.jpg");
+ background: url("../img/fnc_location_1200x900.jpg");
  background-size: cover;
  background-position: center center;
 }
@@ -417,7 +418,7 @@
 }
 .fancy-slider .fnc-slide-4 .fnc-slide__inner,
 .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
- background: url("../img/fnc_contact_1400x1050.jpg");
+ background: url("../img/fnc_contact_1200x900.jpg");
  background-size: cover;
  background-position: center center;
 }

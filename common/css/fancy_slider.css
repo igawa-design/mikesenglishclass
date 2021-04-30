@@ -390,19 +390,19 @@
 }
 .fancy-slider .fnc-slide-1 .fnc-slide__inner,
 .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_aboutmike_1400x1867.jpg");
+ background: url("../img/fnc_aboutmike_1400x1867.jpg");
  background-size: cover;
  background-position: center top;
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_one_to_one_1400x1867.jpg");
+ background: url("../img/fnc_one_to_one_1400x1867.jpg");
  background-size: cover;
  background-position: center center;
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner,
 .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../img/fnc_location_1400x1050.jpg");
+ background: url("../img/fnc_location_1400x1050.jpg");
  background-size: cover;
  background-position: center center;
 }
@@ -417,7 +417,7 @@
 }
 .fancy-slider .fnc-slide-4 .fnc-slide__inner,
 .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
- background: linear-gradient(130deg, rgba(0, 0, 0, 0.3), rgba(254, 225, 64, 0.1)), url("../img/fnc_contact_1400x1050.jpg");
+ background: url("../img/fnc_contact_1400x1050.jpg");
  background-size: cover;
  background-position: center center;
 }
@@ -479,6 +479,22 @@ PC & Tablet Landscape
   top: 150px;
   right: 4.5%;
  }
+ .fancy-slider .fnc-slide-1 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
+  background: url("../img/fnc_aboutmike_1920x2560.jpg");
+ }
+ .fancy-slider .fnc-slide-2 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+  background: url("../img/fnc_one_to_one_1920x2560.jpg");
+ }
+ .fancy-slider .fnc-slide-3 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
+  background: url("../img/fnc_location_1920x1440.jpg");
+ }
+ .fancy-slider .fnc-slide-4 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
+  background: url("../img/fnc_contact_1920x1440.jpg");
+ }
 }
 
 /********************************************************************************************
@@ -494,10 +510,6 @@ PC
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
   background-position: center -500px;
- }
- .fancy-slider .fnc-slide-3 .fnc-slide__inner,
- .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background-size: cover;
  }
 }
 

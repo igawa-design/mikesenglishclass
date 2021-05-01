@@ -47,7 +47,7 @@ SP Portrait
 }
 h4 {
  margin: 20px 0;
- border: 4px double rgb(218, 185, 91) /*dab95b*/;
+ border: 4px double rgb(158, 115, 187) /*#9e73bb*/;
  padding: 10px;
  border-radius: 5px;
  color: rgb(158, 115, 187) /*#9e73bb*/;
@@ -63,6 +63,9 @@ h4:first-child {
 h5 {
  margin: 15px 0;
  font-size: 1.5rem;
+}
+img {
+ border-radius: 5px;
 }
 
 /********************************************************************************************

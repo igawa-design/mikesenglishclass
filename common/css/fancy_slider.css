@@ -456,6 +456,9 @@ Tablet Portrait
  .fancy-slider .fnc-nav__control {
   margin-top: 80px;
  }
+ .fnc-slide__content .slide_01 {
+  top: 0;
+ }
  .fnc-slide__heading-line .top_txt.first_txt {
   font-size: 3rem;
  }

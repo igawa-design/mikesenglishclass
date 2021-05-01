@@ -241,6 +241,7 @@ html {
 			main {
 				position: relative;
 				z-index: 100;
+				overflow: hidden;
 			}
 			.sidenavs .close-btn,
 			.fnc-cont__credits-close {
@@ -448,6 +449,7 @@ html {
 				opacity: 0.8;
 				width: 40px;
 				height: 40px;
+				filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
 				margin: auto;
 			}
 			.nav_local_icon {
@@ -680,7 +682,6 @@ html {
 			}
 			#container {
 				width: 100%;
-				margin: auto;
 			}
 			.section {
 				position: relative;
@@ -874,6 +875,7 @@ html {
 			.info_h2_logo.scale {
 				transform: scale(1.5);
 				opacity: 1;
+				filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
 			}
 			.sec_icon_google_maps,
 			.sec_icon_google_my_business {

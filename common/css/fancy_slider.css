@@ -107,6 +107,10 @@
  width: 95%;
  padding: 0 3%;
 }
+.fnc-slide__content .slide_01 {
+ position: relative;
+ top: 200px;
+}
 .fnc-slide__heading {
  margin-bottom: 10px;
 }
@@ -483,10 +487,12 @@ PC & Tablet Landscape
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
   background: url("../img/fnc_aboutmike_1920x2560.jpg");
+  background-position: center -500px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
   background: url("../img/fnc_one_to_one_1920x2560.jpg");
+  background-position: center -700px;
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
@@ -522,10 +528,12 @@ PC
 @media screen and (min-width: 1920px){
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-position: center -500px;
+  background: url("../img/fnc_aboutmike_2800x3734.jpg");
+  background-position: center -700px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background-position: center -700px;
+  background: url("../img/fnc_one_to_one_2448x3264.jpg");
+  background-position: center -1000px;
  }
 }

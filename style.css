@@ -77,8 +77,6 @@ html {
 			-5deg,
 			rgba(245, 241, 213, 0.20),
 			rgba(245, 241, 213, 0.20) 50px,
-			rgba(24, 46, 56, 0) 50px,
-			rgba(24, 46, 56, 0) 58px,
 			rgba(255, 77, 97, 0.20) 58px,
 			rgba(255, 77, 97, 0.20) 66px,
 			rgba(245, 241, 213, 0.20) 66px,
@@ -87,8 +85,6 @@ html {
 			rgba(255, 77, 97, 0.20) 114px,
 			rgba(180, 214, 198, 0.20) 114px,
 			rgba(180, 214, 198, 0.20) 154px,
-			rgba(24, 46, 56, 0) 154px,
-			rgba(24, 46, 56, 0) 162px,
 			rgba(245, 241, 213, 0.20) 162px,
 			rgba(245, 241, 213, 0.20) 170px,
 			rgba(255, 77, 97, 0.20) 170px,
@@ -98,8 +94,6 @@ html {
 				90deg,
 				rgba(245, 241, 213, 0.20),
 				rgba(245, 241, 213, 0.20) 50px,
-				rgba(24, 46, 56, 0) 50px,
-				rgba(24, 46, 56, 0) 58px,
 				rgba(255, 77, 97, 0.20) 58px,
 				rgba(255, 77, 97, 0.20) 66px,
 				rgba(245, 241, 213, 0.20) 66px,
@@ -108,8 +102,6 @@ html {
 				rgba(255, 77, 97, 0.20) 114px,
 				rgba(180, 214, 198, 0.20) 114px,
 				rgba(180, 214, 198, 0.20) 154px,
-				rgba(24, 46, 56, 0) 154px,
-				rgba(24, 46, 56, 0) 162px,
 				rgba(245, 241, 213, 0.20) 162px,
 				rgba(245, 241, 213, 0.20) 170px,
 				rgba(255, 77, 97, 0.20) 170px,
@@ -212,7 +204,50 @@ html {
 			.sidenavs {
 				height: 100%;
 				width: 0;
-				background: rgb(200, 227, 91) /*#c8e35b*/;
+				background-color: rgb(200, 227, 91) /*#c8e35b*/;
+				background-image:
+				repeating-linear-gradient(
+					-5deg,
+					rgba(245, 241, 213, 0.10),
+					rgba(245, 241, 213, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 154px,
+					rgba(255, 255, 255, 0) 154px,
+					rgba(255, 255, 255, 0) 162px,
+					rgba(245, 241, 213, 0.10) 162px,
+					rgba(245, 241, 213, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 178px
+					),
+					repeating-linear-gradient(
+						-50deg,
+						rgba(245, 241, 213, 0.10),
+						rgba(245, 241, 213, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 178px
+						);
 				position: fixed;
 				scroll-behavior: smooth;
 				-webkit-overflow-scrolling: touch;
@@ -700,7 +735,50 @@ html {
 			}
 			.sec_h2 {
 				order: 0;
-				background: rgb(243, 130, 33) /*#f38221*/;
+				background-color: rgb(243, 130, 33) /*#f38221*/;
+				background-image:
+				repeating-linear-gradient(
+					-5deg,
+					rgba(245, 241, 213, 0.10),
+					rgba(245, 241, 213, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 154px,
+					rgba(255, 255, 255, 0) 154px,
+					rgba(255, 255, 255, 0) 162px,
+					rgba(245, 241, 213, 0.10) 162px,
+					rgba(245, 241, 213, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 178px
+					),
+					repeating-linear-gradient(
+						-50deg,
+						rgba(245, 241, 213, 0.10),
+						rgba(245, 241, 213, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 178px
+						);
 				box-shadow: 0 0 5px #aaa;
 				padding: 10px;
 				font-size: 1.7rem;
@@ -708,38 +786,38 @@ html {
 				letter-spacing: 0.15rem;
 			}
 			.sec_h2_about_mike {
-				background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
+				background-color: rgba(89, 145, 216, 0.8) /*#5991d8*/;
 				font-size: 1.5rem;
 			}
 			.sec_h2_one_to_one {
-				background: rgba(30, 136, 168, 0.8) /*#1e88a8*/;
+				background-color: rgba(30, 136, 168, 0.8) /*#1e88a8*/;
 			}
 			.sec_h2_online {
-				background: rgba(89, 174, 203, 0.8) /*#59aecb*/;
+				background-color: rgba(89, 174, 203, 0.8) /*#59aecb*/;
 			}
 			.sec_h2_garelly {
-				background: rgba(66, 191, 176, 0.8) /*#42bfb0*/;
+				background-color: rgba(66, 191, 176, 0.8) /*#42bfb0*/;
 			}
 			.sec_h2_translations {
-				background: rgba(211, 93, 135, 0.8) /*#d35d87*/;
+				background-color: rgba(211, 93, 135, 0.8) /*#d35d87*/;
 			}
 			.sec_h2_location {
-				background: rgba(70, 172, 128, 0.8) /*#46ac80*/;
+				background-color: rgba(70, 172, 128, 0.8) /*#46ac80*/;
 			}
 			.sec_h2_reviews {
-				background: rgba(242, 187, 3, 0.8) /*#ff9c26*/;
+				background-color: rgba(242, 187, 3, 0.8) /*#ff9c26*/;
 			}
 			.sec_h2_mikes_posts {
-				background: rgba(246, 114, 128, 0.8) /*#f67280*/;
+				background-color: rgba(246, 114, 128, 0.8) /*#f67280*/;
 			}
 			.sec_h2_online_reviews {
-				background: rgba(218, 185, 91, 0.8) /*b5a15b*/;
+				background-color: rgba(218, 185, 91, 0.8) /*b5a15b*/;
 			}
 			.sec_h2_contact{
-				background: rgba(147, 188, 52, 0.8) /*#93bc34*/;
+				background-color: rgba(147, 188, 52, 0.8) /*#93bc34*/;
 			}
 			.sec_h2_sitemap {
-				background: rgba(53, 201, 235, 0.8) /*#00aeeb*/;
+				background-color: rgba(53, 201, 235, 0.8) /*#00aeeb*/;
 			}
 			.sec_h2_about_mike .small {
 				font-size: 1.3rem;
@@ -814,6 +892,49 @@ html {
 			}
 			.sec_txt_lead {
 				order: -1;
+				background-image:
+				repeating-linear-gradient(
+					-5deg,
+					rgba(245, 241, 213, 0.10),
+					rgba(245, 241, 213, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 154px,
+					rgba(255, 255, 255, 0) 154px,
+					rgba(255, 255, 255, 0) 162px,
+					rgba(245, 241, 213, 0.10) 162px,
+					rgba(245, 241, 213, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 178px
+					),
+					repeating-linear-gradient(
+						-50deg,
+						rgba(245, 241, 213, 0.10),
+						rgba(245, 241, 213, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 178px
+						);
 				box-shadow: 0 0 5px rgb(170, 170, 170) /*#aaa*/;
 				border-bottom: 10px double rgb(255, 255, 255) /*#fff*/;
 				border-radius: 5px 5px 0 0;
@@ -824,40 +945,40 @@ html {
 				text-align: center;
 			}
 			.sec_txt_lead.about_mike_lead {
-				background: rgb(89, 145, 216) /*#5991d8*/;
+				background-color: rgb(89, 145, 216) /*#5991d8*/;
 			}
 			.sec_txt_lead.one_to_one_lead {
-				background: rgb(30, 136, 168) /*#1e88a8*/;
+				background-color: rgb(30, 136, 168) /*#1e88a8*/;
 			}
 			.sec_txt_lead.online_lead {
-				background: rgb(89, 174, 203) /*#59aecb*/;
+				background-color: rgb(89, 174, 203) /*#59aecb*/;
 			}
 			.sec_txt_lead.gallery_lead {
-				background: rgb(66, 191, 176) /*#42bfb0*/;
+				background-color: rgb(66, 191, 176) /*#42bfb0*/;
 			}
 			.sec_txt_lead.translations_lead {
-				background: rgb(211, 93, 135) /*#d35d87*/;
+				background-color: rgb(211, 93, 135) /*#d35d87*/;
 			}
 			.sec_txt_lead.location_lead {
-				background: rgb(70, 172, 128) /*#46ac80*/;
+				background-color: rgb(70, 172, 128) /*#46ac80*/;
 			}
 			.sec_txt_lead.reviews_lead {
-				background: rgb(242, 187, 3) /*#f2bb03*/;
+				background-color: rgb(242, 187, 3) /*#f2bb03*/;
 			}
 			.sec_txt_lead.mikes_posts_lead {
-				background: rgb(246, 114, 128) /*#f67280*/;
+				background-color: rgb(246, 114, 128) /*#f67280*/;
 			}
 			.sec_txt_lead.online_reviews_lead {
-				background: rgb(218, 185, 91) /*dab95b*/;
+				background-color: rgb(218, 185, 91) /*dab95b*/;
 			}
 			.sec_txt_lead.contact_lead {
-				background: rgb(147, 188, 52) /*#93bc34*/;
+				background-color: rgb(147, 188, 52) /*#93bc34*/;
 			}
 			.sec_txt_lead.english_lead {
-				background: rgb(158, 115, 187) /*#9e73bb*/;
+				background-color: rgb(158, 115, 187) /*#9e73bb*/;
 			}
 			.sec_txt_lead.sitemap_lead {
-				background: rgb(53, 201, 235) /*#00aeeb*/;
+				background-color: rgb(53, 201, 235) /*#00aeeb*/;
 			}
 			.sec_txt_lead::before {
 				content: "●";
@@ -1198,7 +1319,7 @@ html {
 				font-size: 2.5rem;
 			}
 			.box_sincerely_en {
-				background: rgb(89, 145, 216) /*#5991d8*/;
+				background: linear-gradient(30deg, rgba(89,145,216,1) 0%, rgba(89,145,216,1) 61.8%, rgba(30,136,168,0.9) 100%);
 				padding: calc(15px + 1%);
 				border-radius: 10px 10px 0 0;
 				color: rgb(255, 255, 255) /*fff*/;

@@ -126,4 +126,7 @@ PC & Tablet Landscape
  .section {
   padding: 0;
  }
+ .fig.main_view img {
+  object-position: 0 -1350px;
+ }
 }

@@ -39,6 +39,9 @@ SP Portrait
  opacity: 1;
  font-weight: normal;
 }
+#container .section:first-of-type {
+ margin-top: 0;
+}
 .section.last {
  width: 100%;
  margin: 10px 0 0;
@@ -60,6 +63,9 @@ h4 {
  border-radius: 5px;
  color: rgb(89, 145, 216) /*#5991d8*/;
  font-size: 1.6rem;
+}
+h4:first-child {
+ margin-top: 0;
 }
 
 /********************************************************************************************

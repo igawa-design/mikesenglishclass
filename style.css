@@ -1312,7 +1312,7 @@ html {
 				position: relative;
 				height: 228px;
 				width: 100%;
-				background: url("common/img/rainbow.svg") no-repeat center bottom;
+				background: url("common/img/rainbow.svg") no-repeat center bottom / 350px;
 				margin: 30px auto -10px;
 			}
 			.rainbow.scale {
@@ -1633,6 +1633,8 @@ html {
 				.info_ul li {
 					font-size: 1.5rem;
 				}
+				.rainbow {
+					background-size: 400px;
 			}
 
 			/********************************************************************************************

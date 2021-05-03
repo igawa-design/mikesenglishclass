@@ -126,14 +126,15 @@ SP Landscape
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
  .section {
-   margin: 0 auto 10px;
-   padding: 0 1% 30px;
-  }
- .section.first {
-   width: 100%;
-   margin: 15px 0;
-  }
-  .box_articles {
+  margin: 0 auto 10px;
+  padding: 0 1% 30px;
+ }
+ .section.w100 {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 1%;
+ }
+ .box_articles {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

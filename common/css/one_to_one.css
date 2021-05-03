@@ -60,9 +60,10 @@ SP Landscape
   margin: 0 auto 10px;
   padding: 0 1% 30px;
  }
-.section.first {
+ .section.w100 {
   width: 100%;
-  margin: 15px 0;
+  margin: 20px 0;
+  padding: 0 1%;
  }
  .fig.main_view img {
  object-position: 0px -350px;

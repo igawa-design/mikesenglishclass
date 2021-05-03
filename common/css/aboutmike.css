@@ -48,7 +48,7 @@ SP Portrait
  opacity: 1
 }
 .sec_h2 {
- background: rgba(89, 145, 216, 0.8) /*#5991d8*/;
+ background-color: rgb(89, 145, 216) /*#5991d8*/;
 }
 .sec_box_about_mike h3::before {
  content: none;

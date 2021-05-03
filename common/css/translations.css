@@ -43,7 +43,7 @@ SP Portrait
  opacity: 1
 }
 .sec_h2 {
- background: rgba(211, 93, 135, 0.8) /*#d35d87*/;
+ background-color: rgb(211, 93, 135) /*#d35d87*/;
 }
 .sec_h3_translations {
  display: flex;

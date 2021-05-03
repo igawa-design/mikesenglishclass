@@ -42,7 +42,7 @@ SP Portrait
  opacity: 1
 }
 .sec_h2 {
- background: rgba(53, 201, 235, 0.8) /*#00aeeb*/;
+ background-color: rgb(53, 201, 235) /*#00aeeb*/;
 }
 h4,
 h5 {

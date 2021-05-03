@@ -738,7 +738,7 @@ html {
 				background-color: rgb(243, 130, 33) /*#f38221*/;
 				background-image:
 				repeating-linear-gradient(
-					-5deg,
+					-10deg,
 					rgba(245, 241, 213, 0.10),
 					rgba(245, 241, 213, 0.10) 50px,
 					rgba(255, 255, 255, 0.10) 50px,
@@ -759,7 +759,7 @@ html {
 					rgba(255, 255, 255, 0.10) 178px
 					),
 					repeating-linear-gradient(
-						-50deg,
+						-15deg,
 						rgba(245, 241, 213, 0.10),
 						rgba(245, 241, 213, 0.10) 50px,
 						rgba(255, 255, 255, 0.10) 50px,

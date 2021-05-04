@@ -67,6 +67,12 @@ h5 {
 img {
  border-radius: 5px;
 }
+hr {
+ height: 8px;
+ background-image: repeating-linear-gradient(135deg, #5991d8 0, #5991d8 1px, transparent 0, transparent 50%);
+ background-size: 8px 8px;
+ margin: 15px 0;
+}
 
 /********************************************************************************************
 SP Landscape
@@ -85,7 +91,44 @@ SP Landscape
  .section.w100 {
   width: 100%;
   margin: 20px 0;
-  padding: 0 1%;
+ }
+ .box_articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+ }
+ .article {
+  width: calc(50% - (15px * 2)) /* width - margin */;
+  margin: 0 15px 15px 15px;
+  padding: 0;
+ }
+ .article:nth-child(1),
+ .article:nth-child(2) {
+  margin-top: -15px;
+ }
+}
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+ .right {
+  float: right;
+  width: 60%;
+  padding: 0 0 15px 15px;
+  border-radius: 5px;
+ }
+ .article:last-child {
+  width: 100%;
+ }
+ .article:last-child img {
+  float: left;
+  width: 50%;
+  margin: 0 15px 15px 0;
  }
 }
 
@@ -114,6 +157,12 @@ PC & Tablet Landscape
  }
  .sec_h2 {
   font-size: 1.6rem;
+ }
+ .sec_img {
+  transform: scale(0.975);
+ }
+ .sec_img.scale {
+  transform: scale(1);
  }
 }
 

@@ -132,7 +132,6 @@ SP Landscape
 .section.w100 {
  width: 100%;
  margin: 20px 0;
- padding: 0 1%;
  }
 }
 
@@ -160,20 +159,15 @@ PC & Tablet Landscape
   height: 500px;
  }
  .sec_box_inner {
-  padding: 15px 20px;
+  padding: 15px;
  }
  .sec_h2 {
   font-size: 1.6rem;
  }
-}
-
-/********************************************************************************************
-PC & Tablet Landscape
-*********************************************************************************************/
-/* 1920px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 1920px){
- .section {
-  padding: 0;
+ .sec_img {
+  transform: scale(0.975);
+ }
+ .sec_img.scale {
+  transform: scale(1);
  }
 }

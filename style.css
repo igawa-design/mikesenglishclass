@@ -716,6 +716,7 @@ html {
 				margin: 0 10px 0 0;
 			}
 			#container {
+				display: grid;
 				width: 100%;
 				margin-bottom: -20px;
 			}
@@ -739,7 +740,7 @@ html {
 				background-color: rgb(243, 130, 33) /*#f38221*/;
 				background-image:
 				repeating-linear-gradient(
-					-10deg,
+					14deg,
 					rgba(245, 241, 213, 0.10),
 					rgba(245, 241, 213, 0.10) 50px,
 					rgba(255, 255, 255, 0.10) 50px,
@@ -883,7 +884,7 @@ html {
 			}
 			.sec_box_inner {
 				background: rgb(255, 255, 255) /*#fff*/;
-				padding: 15px 10px 10px;
+				padding: 15px;
 				border-radius: 0 0 5px 5px;
 			}
 			.sec_box_a {

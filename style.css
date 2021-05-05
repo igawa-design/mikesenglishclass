@@ -1328,6 +1328,13 @@ html {
 				padding-left: 2px;
 				color: rgb(218, 185, 91) /*dab95b*/;
 			}
+			hr {
+			 height: 8px;
+			 background-image: repeating-linear-gradient(135deg, #5991d8 0, #5991d8 1px, transparent 0, transparent 50%);
+			 background-size: 10px 10px;
+				background-position: center;
+			 margin: 15px 0;
+			}
 			footer {
 				position: relative;
 				z-index: 100;

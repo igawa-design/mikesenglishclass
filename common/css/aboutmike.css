@@ -42,9 +42,6 @@ SP Portrait
  opacity: 1;
  font-weight: normal;
 }
-#container .section:first-of-type {
- margin-top: 0;
-}
 .section.last {
  width: 100%;
  margin: 10px 0 0;
@@ -70,6 +67,12 @@ h4 {
 h4:first-child {
  margin-top: 0;
 }
+.sec_img {
+ transform: scale(0.975);
+}
+.sec_img.scale {
+ transform: scale(1);
+}
 
 /********************************************************************************************
 SP Landscape
@@ -78,7 +81,6 @@ SP Landscape
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
 .section {
-  width: calc(100% / 2);
   margin: 0 auto 10px;
   padding: 0 1% 30px;
  }
@@ -86,7 +88,21 @@ SP Landscape
  .section.last {
   width: 100%;
   margin: 20px 0;
-  padding: 0 1%;
+ }
+ .left {
+  float: left;
+  width: 61.8%;
+  padding: 0 15px 15px 0;
+  border-radius: 5px;
+ }
+ .right {
+  float: right;
+  width: 61.8%;
+  padding: 0 0 15px 15px;
+  border-radius: 5px;
+ }
+ .aboutmike_h4 {
+  width: calc(38.2% - 15px);
  }
 }
 
@@ -115,16 +131,5 @@ PC & Tablet Landscape
  }
  .sec_h2 {
   font-size: 1.6rem;
- }
-}
-
-/********************************************************************************************
-PC & Tablet Landscape
-*********************************************************************************************/
-/* 1920px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 1920px){
- .section {
-  padding: 0;
  }
 }

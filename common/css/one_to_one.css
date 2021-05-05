@@ -45,8 +45,80 @@ SP Portrait
 .sec_h2 {
  background-color: rgb(30, 136, 168) /*#1e88a8*/;
 }
+h4 {
+ margin: 20px 0;
+ border: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(30, 136, 168) /*#1e88a8*/;
+ font-size: 1.6rem;
+}
 #nav_local {
- background: rgb(30, 136, 168) /*#1e88a8*/;
+ display: flex;
+ width: 100%;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+@keyframes border_radius {
+ 80%{
+  border-radius: 5px;
+ }
+ 98%,100%{
+  border-radius: 25px;
+ }
+}
+.arrow_h4 {
+width: calc((100% / 2) + (-5px * 2));
+position: relative;
+background-color: rgb(30, 136, 168) /*#1e88a8*/;
+margin: 0 10px 20px;
+padding: 5px;
+text-align: center;
+animation: border_radius 2.5s linear alternate infinite, pulse_one_to_one 2.5s linear alternate infinite;
+}
+.arrow_h4:nth-of-type(odd) {
+ margin-left: 0;
+}
+.arrow_h4:nth-of-type(even) {
+ margin-right: 0;
+}
+@keyframes arrow_bottom {
+ 80%{
+  border-width: 13px;
+ }
+ 98%,100%{
+  border-width: 15px;
+ }
+}
+.arrow_h4::after {
+width: 0;
+height: 0;
+position: absolute;
+top: 100%;
+left: 50%;
+transform: translateX(-50%);
+border: 15px solid transparent;
+border-top-color: rgb(30, 136, 168) /*#1e88a8*/;
+content: '';
+animation: arrow_bottom 2.5s linear alternate infinite;
+}
+.arrow_h4 a {
+ display: flex;
+ flex-direction: column;
+ color: rgb(255, 255, 255) /*#fff*/;
+}
+.em_en {
+ order: 1;
+}
+.em_ja {
+ order: 2;
+ font-size: 1.3rem;
+}
+.sec_img {
+ transform: scale(0.975);
+}
+.sec_img.scale {
+ transform: scale(1);
 }
 
 /********************************************************************************************
@@ -107,6 +179,15 @@ PC & Tablet Landscape
  }
  .sec_h2 {
   font-size: 1.6rem;
+ }
+ .arrow_h4 {
+  width: calc((100% / 4) + (-5px * 4));
+ }
+ .arrow_h4:first-of-type {
+  margin-left: 0;
+ }
+ .arrow_h4:last-of-type {
+  margin-right: 0;
  }
 }
 

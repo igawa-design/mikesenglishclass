@@ -50,9 +50,6 @@ html {
 		font-size: 1.5rem;
 		animation: fadeIn 2s ease 0s 1 normal;
 	}
-	a {
-		color: rgb(53, 87, 129) /*#355781*/;
-	}
 	@keyframes slideIn {
 		0% {
 			opacity: 0;
@@ -136,6 +133,34 @@ html {
 				height: 80px;
 				width: 80px;
 				font-size: 3rem;
+			}
+			p {
+				margin: 15px 0;
+			}
+			.txt_first {
+				margin-top: 0;
+				}
+			.p_last {
+				margin-bottom: 0;
+				}
+			a {
+				color: rgb(53, 87, 129) /*#355781*/;
+			}
+			ul {
+				margin: 15px 0;
+				padding: 10px;
+				font-weight: bold;
+			}
+			li {
+				margin-bottom: 10px;
+			}
+			li::before {
+				content: "●";
+				padding-right: 2px;
+				color: rgb(242, 187, 3) /*#f2bb03*/;
+			}
+			small {
+				font-size: 1.4rem;
 			}
 			.logo {
 				width: 80px;
@@ -1188,6 +1213,7 @@ html {
 																rgba(255, 255, 255, 0.05) 178px
 																);
 													box-shadow: 0 0 5px rgb(170, 170, 170) /*#aaa*/;
+													margin: 0;
 													border-bottom: 10px double rgb(255, 255, 255) /*#fff*/;
 													border-radius: 5px 5px 0 0;
 													padding: 10px;
@@ -1282,12 +1308,8 @@ html {
 												}
 												.sec_txt_01,
 												.sec_txt_02,
-												.sec_txt_03,
-												.sec_list {
+												.sec_txt_03 {
 													margin-bottom: 15px;
-												}
-												.txt {
-													margin: 15px 0;
 												}
 												.sec_txt_01:last-child,
 												.sec_txt_02:last-child,
@@ -1310,8 +1332,12 @@ html {
 												.sec_txt_03 {
 													order: 3;
 												}
-												small {
-													font-size: 1.4rem;
+												.sec_ul {
+													margin: 5px 0 0;
+												 padding: 0;
+												}
+												.sec_ul li::before {
+													color: rgb(218, 185, 91) /*dab95b*/;
 												}
 												.sec_a {
 													position: relative;
@@ -1632,6 +1658,9 @@ html {
 															padding: calc(15px + 1%);
 															color: rgb(89, 145, 216) /*#5991d8*/;
 														}
+														.sincerely_ja {
+															margin-top: 0;
+														}
 														.info {
 															background-image: linear-gradient(-45deg, rgba(218, 185, 91, 0.5) 25%, rgb(218, 185, 91, 0) 25%, rgba(218, 185, 91, 0) 50%, rgba(218, 185, 91, 0.5) 50%, rgba(218, 185, 91, 0.5) 75%, rgba(218, 185, 91, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/;
 															box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
@@ -1676,19 +1705,6 @@ html {
 														}
 														.info_h3 em {
 															order: 2;
-														}
-														.info_ul {
-															margin-top: 15px;
-															padding: 10px;
-															font-weight: bold;
-														}
-														.info_ul li {
-															padding-bottom: 5px;
-														}
-														.info_ul li::before {
-															content: "●";
-															padding-right: 2px;
-															color: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
 														}
 														.tel {
 															color: rgb(53, 87, 129) /*#355781*/;
@@ -1924,6 +1940,7 @@ html {
 																content: none;
 															}
 															.nav_list_en {
+																margin-top: 5px;
 																font-size: 1.6rem;
 																text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
 																letter-spacing: 0.1rem;
@@ -1940,6 +1957,8 @@ html {
 																position: relative;
 																list-style-type: none;
 																width: 130px;
+																height: 60px;
+																margin: 0;
 																padding: 0;
 															}
 															.drop li,
@@ -1948,13 +1967,18 @@ html {
 																display: flex;
 																flex-direction: column;
 																cursor: pointer;
-																top: 0px;
+																top: -10px;
 																left: 0px;
 																box-sizing: content-box;
 																width: 150px;
-																height: 50px;
+																height: 60px;
 																text-align: center;
 																transition: all 0.3s ease 0s;
+															}
+															.drop li::before,
+															.no_drop li::before {
+																content: none;
+																padding-left: 0;
 															}
 															.drop li.cat_Gallery:hover {
 																background: rgb(66, 191, 176) /*#42bfb0*/;
@@ -1989,12 +2013,12 @@ html {
 																}
 															}
 															.drop:hover li.category1 {
-																top: 50px;
+																top: 60px;
 																opacity: 1;
 																background: rgb(188, 180, 169) /*#bcb4a9*/;
 															}
 															.drop:hover li.category2 {
-																top: 100px;
+																top: 120px;
 																opacity: 1;
 																background: rgb(188, 180, 169) /*#bcb4a9*/;
 															}

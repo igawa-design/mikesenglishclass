@@ -392,7 +392,7 @@
 }
 .fancy-slider .fnc-slide-3 .fnc-slide__inner,
 .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
- background: url("../img/fnc_location_1200x900.jpg");
+ background: url("../img/fnc_location_1200x800.jpg");
  background-size: cover;
  background-position: center center;
 }
@@ -497,13 +497,15 @@ PC & Tablet Landscape
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background: url("../img/fnc_location_1920x1275.jpg");
+  background: url("../img/fnc_location_1920x1280.jpg");
+  background-size: cover;
 
  }
  .fancy-slider .fnc-slide-4 .fnc-slide__inner,
  .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
   background: url("../img/fnc_contact_1920x1440.jpg");
   background-position: center center;
+  background-size: cover;
  }
 }
 

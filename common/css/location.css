@@ -53,7 +53,8 @@ h4 {
  color: rgb(70, 172, 128) /*#46ac80*/;
  font-size: 1.6rem;
 }
-h4:first-child {
+h4:first-child,
+.txt:first-child {
  margin-top: 5px;
 }
 h5 {
@@ -121,17 +122,34 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
- main {
-  overflow: hidden;
+ .section {
+   margin: 0 auto 10px;
+   padding: 0 1% 30px;
+  }
+  .section.w100,
+  .section.last {
+   width: 100%;
+   margin: 20px 0;
+  }
+ .left {
+  float: left;
+  width: 61.8%;
+  padding: 0 15px 15px 0;
+  border-radius: 5px;
  }
-.section {
- width: calc(100% / 2);
- margin: 0 auto 10px;
- padding: 0 1% 30px;
+ .right {
+  float: right;
+  width: 61.8%;
+  padding: 0 0 15px 15px;
+  border-radius: 5px;
  }
-.section.w100 {
- width: 100%;
- margin: 20px 0;
+ .float_h4 {
+  width: calc(38.2% - 15px);
+ }
+ .right_h4 {
+  float: right;
+  margin-bottom: 15px;
+  padding: 10px;
  }
 }
 
@@ -169,5 +187,17 @@ PC & Tablet Landscape
  }
  .sec_img.scale {
   transform: scale(1);
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1920px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1920px){
+ .section,
+ .section.w100 {
+  padding: 0;
  }
 }

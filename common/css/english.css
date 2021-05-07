@@ -64,7 +64,7 @@ h5 {
  margin: 15px 0;
  font-size: 1.5rem;
 }
-img {
+section img {
  border-radius: 5px;
 }
 .sec_img {
@@ -166,7 +166,8 @@ PC & Tablet Landscape
 /* 1920px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1920px){
- .section {
+ .section,
+ .section.w100 {
   padding: 0;
  }
  .fig.main_view img {

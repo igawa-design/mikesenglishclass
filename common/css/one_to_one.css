@@ -31,7 +31,7 @@ SP Portrait
 }
 .section {
  width: 100%;
- margin: 30px 0 0;
+ margin: 15px ​0;
  padding: 0 2%;
 }
 .section,
@@ -47,6 +47,91 @@ SP Portrait
 }
 .sec_h3_one_to_one {
  background: rgb(30, 136, 168) /*#1e88a8*/;
+ background-image:
+ repeating-linear-gradient(
+  14deg,
+  rgba(245, 241, 213, 0.10),
+  rgba(245, 241, 213, 0.10) 50px,
+  rgba(255, 255, 255, 0.10) 50px,
+  rgba(255, 255, 255, 0.10) 58px,
+  rgba(255, 255, 255, 0.10) 58px,
+  rgba(255, 255, 255, 0.10) 66px,
+  rgba(245, 241, 213, 0.10) 66px,
+  rgba(245, 241, 213, 0.10) 74px,
+  rgba(255, 255, 255, 0.10) 74px,
+  rgba(255, 255, 255, 0.10) 114px,
+  rgba(180, 214, 198, 0.10) 114px,
+  rgba(180, 214, 198, 0.10) 154px,
+  rgba(255, 255, 255, 0.10) 154px,
+  rgba(255, 255, 255, 0.10) 162px,
+  rgba(245, 241, 213, 0.10) 162px,
+  rgba(245, 241, 213, 0.10) 170px,
+  rgba(255, 255, 255, 0.10) 170px,
+  rgba(255, 255, 255, 0.10) 178px
+  ),
+  repeating-linear-gradient(
+   -15deg,
+   rgba(245, 241, 213, 0.10),
+   rgba(245, 241, 213, 0.10) 50px,
+   rgba(255, 255, 255, 0.10) 50px,
+   rgba(255, 255, 255, 0.10) 58px,
+   rgba(255, 255, 255, 0.10) 58px,
+   rgba(255, 255, 255, 0.10) 66px,
+   rgba(245, 241, 213, 0.10) 66px,
+   rgba(245, 241, 213, 0.10) 74px,
+   rgba(255, 255, 255, 0.10) 74px,
+   rgba(255, 255, 255, 0.10) 114px,
+   rgba(180, 214, 198, 0.10) 114px,
+   rgba(180, 214, 198, 0.10) 154px,
+   rgba(255, 255, 255, 0.10) 154px,
+   rgba(255, 255, 255, 0.10) 162px,
+   rgba(245, 241, 213, 0.10) 162px,
+   rgba(245, 241, 213, 0.10) 170px,
+   rgba(255, 255, 255, 0.10) 170px,
+   rgba(255, 255, 255, 0.10) 178px
+   ),
+   repeating-linear-gradient(
+    -15deg,
+    rgba(245, 241, 213, 0.10),
+    rgba(245, 241, 213, 0.10) 50px,
+    rgba(255, 255, 255, 0.10) 50px,
+    rgba(255, 255, 255, 0.10) 58px,
+    rgba(255, 255, 255, 0.10) 58px,
+    rgba(255, 255, 255, 0.10) 66px,
+    rgba(245, 241, 213, 0.10) 66px,
+    rgba(245, 241, 213, 0.10) 74px,
+    rgba(255, 255, 255, 0.10) 74px,
+    rgba(255, 255, 255, 0.10) 114px,
+    rgba(180, 214, 198, 0.10) 114px,
+    rgba(180, 214, 198, 0.10) 154px,
+    rgba(255, 255, 255, 0.10) 154px,
+    rgba(255, 255, 255, 0.10) 162px,
+    rgba(245, 241, 213, 0.10) 162px,
+    rgba(245, 241, 213, 0.10) 170px,
+    rgba(255, 255, 255, 0.10) 170px,
+    rgba(255, 255, 255, 0.10) 178px
+    ),
+    repeating-linear-gradient(
+     -15deg,
+     rgba(245, 241, 213, 0.10),
+     rgba(245, 241, 213, 0.10) 50px,
+     rgba(255, 255, 255, 0.10) 50px,
+     rgba(255, 255, 255, 0.10) 58px,
+     rgba(255, 255, 255, 0.10) 58px,
+     rgba(255, 255, 255, 0.10) 66px,
+     rgba(245, 241, 213, 0.10) 66px,
+     rgba(245, 241, 213, 0.10) 74px,
+     rgba(255, 255, 255, 0.10) 74px,
+     rgba(255, 255, 255, 0.10) 114px,
+     rgba(180, 214, 198, 0.10) 114px,
+     rgba(180, 214, 198, 0.10) 154px,
+     rgba(255, 255, 255, 0.10) 154px,
+     rgba(255, 255, 255, 0.10) 162px,
+     rgba(245, 241, 213, 0.10) 162px,
+     rgba(245, 241, 213, 0.10) 170px,
+     rgba(255, 255, 255, 0.10) 170px,
+     rgba(255, 255, 255, 0.10) 178px
+     );
  padding: 10px;
  border-radius: 5px 5px 0 0;
  color: rgb(255, 255, 255) /*#fff*/;
@@ -61,6 +146,9 @@ h4 {
 }
 h4:first-child {
  margin-top: 5px;
+}
+.arrow_h4:first-child {
+ margin-top: 0;
 }
 h3.sec_h3_lead {
  font-size: 1.5rem;
@@ -83,8 +171,9 @@ h3.sec_h3_lead {
 .arrow_h4 {
  width: calc((100% / 2) + (-5px * 2));
  position: relative;
- background-color: rgb(30, 136, 168) /*#1e88a8*/;
+ background-color: rgba(30, 136, 168, 0.9) /*#1e88a8*/ !important;
  margin: 0 10px 20px;
+ border: none;
  padding: 5px;
  text-align: center;
  animation: border_radius 2.5s linear alternate infinite, pulse_one_to_one 2.5s linear alternate infinite;
@@ -111,7 +200,7 @@ h3.sec_h3_lead {
  left: 50%;
  transform: translateX(-50%);
  border: 15px solid transparent;
- border-top-color: rgb(30, 136, 168) /*#1e88a8*/;
+ border-top-color: rgba(30, 136, 168, 0.8) /*#1e88a8*/;
  content: '';
  animation: arrow_bottom 2.5s linear alternate infinite;
 }
@@ -170,6 +259,11 @@ SP Landscape
  }
  .float_h4 {
   width: calc(38.2% - 15px);
+ }
+ .right_h4 {
+  float: right;
+  margin-bottom: 15px;
+  padding: 10px;
  }
 }
 

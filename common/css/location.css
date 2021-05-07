@@ -31,7 +31,7 @@ SP Portrait
 }
 .section {
  width: 100%;
- margin: 30px 0 0;
+ margin: 15px ​0;
  padding: 0 2%;
 }
 .section,
@@ -44,6 +44,10 @@ SP Portrait
 }
 .sec_h2 {
  background-color: rgb(70, 172, 128) /*#46ac80*/;
+ border-radius: 5px 5px 0 0;
+}
+.sec_h2_first {
+ border-radius: 0;
 }
 h4 {
  margin-top: 20px;
@@ -115,6 +119,12 @@ dd:nth-of-type(2)::before {
  border-bottom: 1px dotted rgb(89, 145, 216) /*#5991d8*/;
  padding-bottom: 2px;
 }
+.txt_first {
+ margin-top: 10px;
+}
+.pic_first {
+ margin-top: 0;
+}
 
 /********************************************************************************************
 SP Landscape
@@ -124,7 +134,7 @@ SP Landscape
 @media screen and (min-width: 667px){
  .section {
    margin: 0 auto 10px;
-   padding: 0 1% 30px;
+   padding: 0 1%;
   }
   .section.w100,
   .section.last {
@@ -150,6 +160,10 @@ SP Landscape
   float: right;
   margin-bottom: 15px;
   padding: 10px;
+ }
+ .txt_first,
+ .pic_first {
+  margin-top: 5px;
  }
 }
 

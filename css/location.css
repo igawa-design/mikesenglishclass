@@ -108,7 +108,7 @@ dd:nth-of-type(2)::before {
  color: rgb(242, 187, 3) /*#f2bb03*/;
 }
 .ul li::before {
- content: "・";
+ content: "●";
  padding-right: 2px;
  color: rgb(242, 187, 3) /*#f2bb03*/;
 }
@@ -118,9 +118,6 @@ dd:nth-of-type(2)::before {
 .link_site {
  border-bottom: 1px dotted rgb(89, 145, 216) /*#5991d8*/;
  padding-bottom: 2px;
-}
-.txt_first {
- margin-top: 10px;
 }
 .pic_first {
  margin-top: 0;
@@ -161,7 +158,6 @@ SP Landscape
   margin-bottom: 15px;
   padding: 10px;
  }
- .txt_first,
  .pic_first {
   margin-top: 5px;
  }

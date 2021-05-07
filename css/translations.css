@@ -180,18 +180,15 @@ iframe {
  height: 250px;
  border-radius: 5px;
 }
-.ul li {
- font-size: 1.5rem;
- margin-bottom: 10px;
-}
-.ul li::before {
- content: "●";
- padding-right: 2px;
+.li::before {
  color: rgb(242, 187, 3) /*#f2bb03*/;
 }
 .article {
  border-bottom: 2px dotted rgb(38, 155, 143) /*#269b8f*/;
  padding: 15px;
+}
+.article:first-child {
+ padding-top: 0;
 }
 .article:last-child {
  border-bottom: none;
@@ -230,6 +227,9 @@ SP Landscape
   width: calc(50% - (15px * 2)) /* width - margin */;
   margin: 15px;
   padding: 0;
+ }
+ .category {
+  margin-bottom: 10px;
  }
  iframe {
   height: 500px;

@@ -1,4 +1,4 @@
-/********************************************************************************************
+inner_ja/********************************************************************************************
 SP Portrait
 *********************************************************************************************/
 /*
@@ -49,13 +49,10 @@ SP Portrait
  background: rgb(89, 145, 216) /*#5991d8*/ url("../img/ONE_TO_ONE/air_plain.svg") no-repeat center / contain;
  background-size: 80%;
  margin-top: 10px;
+ border-radius: 5px;
  color: rgb(255, 255, 255) /*#fff*/;
  text-align: left;
  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
-}
-#Tuition .inner_left,
-#Tuition .inner_right {
- padding: 15px;
 }
 .sec_icon {
  opacity: 1
@@ -240,6 +237,12 @@ h3.sec_h3_lead {
 .sec_img.scale {
  transform: scale(1);
 }
+#Tuition .inner_ja {
+ margin-bottom: 150px;
+}
+#Tuition .inner_en {
+ margin-top: 80px;
+}
 
 /********************************************************************************************
 SP Landscape
@@ -294,17 +297,20 @@ Tablet Portrait
  .fig.main_view img {
   object-position: 0px -400px;
  }
- #Tuition .inner_left,
- #Tuition .inner_right {
-  width: calc(50% - 7.5px);
+ #Tuition .inner_ja,
+ #Tuition .inner_en {
+  width: calc(50% - 30px);
   background: rgba(255, 255, 255, 0.1) /*#fff*/;
+  border-radius: 5px;
   padding: 15px;
  }
- #Tuition .inner_left {
-  margin-right: 5px;
+ #Tuition .inner_ja {
+  margin-right: 10px;
+  margin-bottom: 0;
  }
- #Tuition .inner_right {
-  margin-left: 5px;
+ #Tuition .inner_en {
+  margin-left: 10px;
+  margin-top: 0;
  }
 }
 
@@ -343,6 +349,9 @@ PC & Tablet Landscape
  }
  .arrow_h4:last-of-type {
   margin-right: 0;
+ }
+ #Tuition .sec_box_inner {
+  background-size: 500px;
  }
 }
 

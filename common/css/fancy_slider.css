@@ -111,6 +111,10 @@
  position: relative;
  top: 200px;
 }
+.fnc-slide__content .slide_03 {
+ position: relative;
+ top: 50px;
+}
 .fnc-slide__heading {
  margin-bottom: 10px;
 }
@@ -396,29 +400,11 @@
  background-size: cover;
  background-position: center center;
 }
-.fancy-slider .fnc-slide-3 .fnc-slide__inner:before {
- content: "";
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- height: 100%;
- background: rgba(255, 255, 255, 0.1);
-}
 .fancy-slider .fnc-slide-4 .fnc-slide__inner,
 .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
  background: url("../img/fnc_contact_1200x800.jpg");
  background-size: cover;
  background-position: center center;
-}
-.fancy-slider .fnc-slide-4 .fnc-slide__inner:before {
- content: "";
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- height: 100%;
- background: rgba(0, 0, 0, 0.2) /*#000*/;
 }
 .fancy-slider .fnc-slide__heading,
 .fancy-slider .fnc-slide__action-btn,
@@ -427,6 +413,18 @@
  position: relative;
  bottom: 10px;
  margin-top: 30px;
+}
+
+/********************************************************************************************
+SP Landscape
+*********************************************************************************************/
+/* 667px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 667px){
+ .fnc-slide__content .slide_01,
+ .fnc-slide__content .slide_03 {
+ top: 14%;
+ }
 }
 
 /********************************************************************************************
@@ -440,9 +438,6 @@ Tablet Portrait
  .fnc_slide_link,
  .fancy-slider .fnc-nav__control {
   margin-top: 80px;
- }
- .fnc-slide__content .slide_01 {
-  top: 0;
  }
  .fnc-slide__heading-line .top_txt.first_txt {
   font-size: 3rem;

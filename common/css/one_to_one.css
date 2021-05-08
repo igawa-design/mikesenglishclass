@@ -39,6 +39,24 @@ SP Portrait
  opacity: 1;
  font-weight: normal;
 }
+#Tuition .sec_box_inner {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 100%;
+ opacity: 0.95;
+ background: rgb(89, 145, 216) /*#5991d8*/ url("../img/ONE_TO_ONE/air_plain.svg") no-repeat center / contain;
+ background-size: 80%;
+ margin-top: 10px;
+ color: rgb(255, 255, 255) /*#fff*/;
+ text-align: left;
+ text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
+}
+#Tuition .inner_left,
+#Tuition .inner_right {
+ padding: 15px;
+}
 .sec_icon {
  opacity: 1
 }
@@ -275,6 +293,18 @@ Tablet Portrait
 @media screen and (min-width: 768px){
  .fig.main_view img {
   object-position: 0px -400px;
+ }
+ #Tuition .inner_left,
+ #Tuition .inner_right {
+  width: calc(50% - 7.5px);
+  background: rgba(255, 255, 255, 0.1) /*#fff*/;
+  padding: 15px;
+ }
+ #Tuition .inner_left {
+  margin-right: 5px;
+ }
+ #Tuition .inner_right {
+  margin-left: 5px;
  }
 }
 

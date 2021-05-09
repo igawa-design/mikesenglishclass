@@ -1,4 +1,4 @@
-inner_ja/********************************************************************************************
+/********************************************************************************************
 SP Portrait
 *********************************************************************************************/
 /*
@@ -52,7 +52,7 @@ SP Portrait
  border-radius: 5px;
  color: rgb(255, 255, 255) /*#fff*/;
  text-align: left;
- text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
+ text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*#000*/;
 }
 .sec_icon {
  opacity: 1
@@ -61,6 +61,8 @@ SP Portrait
  background-color: rgb(30, 136, 168) /*#1e88a8*/;
 }
 .sec_h3_one_to_one {
+ display: flex;
+ flex-direction: column;
  background: rgb(30, 136, 168) /*#1e88a8*/;
  background-image:
  repeating-linear-gradient(
@@ -149,7 +151,13 @@ SP Portrait
      );
  padding: 10px;
  border-radius: 5px 5px 0 0;
+ font-family: Helvetica, Arial, sans-serif;
  color: rgb(255, 255, 255) /*#fff*/;
+ text-align: center;
+}
+h3.sec_h3_lead {
+ font-size: 1.5rem;
+ letter-spacing: 0.1rem;
 }
 h4 {
  margin: 20px 0;
@@ -164,10 +172,6 @@ h4:first-child {
 }
 .arrow_h4:first-child {
  margin-top: 0;
-}
-h3.sec_h3_lead {
- font-size: 1.5rem;
- letter-spacing: 0.1rem;
 }
 #nav_local {
  display: flex;
@@ -190,6 +194,7 @@ h3.sec_h3_lead {
  margin: 0 10px 20px;
  border: none;
  padding: 5px;
+ font-family: Helvetica, Arial, sans-serif;
  text-align: center;
  animation: border_radius 2.5s linear alternate infinite, pulse_one_to_one 2.5s linear alternate infinite;
 }
@@ -224,12 +229,24 @@ h3.sec_h3_lead {
  flex-direction: column;
  color: rgb(255, 255, 255) /*#fff*/;
 }
+#LINE {
+ background: rgb(30, 136, 168) /*#1e88a8*/;
+ padding: 10px;
+ border-radius: 5px;
+ font-size: 1.5rem;
+ color: rgb(255, 255, 255) /*#fff*/;
+}
 .em_en {
  order: 1;
+ font-size: 1.7rem;
 }
 .em_ja {
  order: 2;
- font-size: 1.3rem;
+ font-size: 1.5rem;
+}
+.em_ja::before,
+.em_ja::before {
+ content: "-";
 }
 .sec_img {
  transform: scale(0.975);
@@ -242,6 +259,14 @@ h3.sec_h3_lead {
 }
 #Tuition .inner_en {
  margin-top: 80px;
+}
+th,
+td {
+ border-bottom: 1px dotted rgb(255, 255, 255) /*#fff*/;
+ padding: 10px 0;
+}
+tr:first-child th {
+ padding-top: 0;
 }
 
 /********************************************************************************************

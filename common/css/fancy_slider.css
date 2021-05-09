@@ -452,7 +452,7 @@ Tablet Portrait
   margin-top: 80px;
  }
  .fnc-slide__heading-line .top_txt.first_txt {
-  font-size: 3rem;
+  font-size: 3.5rem;
  }
  .fnc-cont__credits {
   padding-top: 200px;
@@ -524,11 +524,11 @@ PC
 @media screen and (min-width: 1280px){
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-position: center -300px;
+  background-position: center -500px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background-position: center -500px;
+  background-position: center -700px;
  }
 }
 

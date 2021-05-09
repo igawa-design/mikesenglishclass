@@ -1,4 +1,21 @@
 /* fancy_slider */
+@keyframes scale_fnc {
+	0% {
+  transition: all 2s ease 0s;
+		transform: scale(1.1);
+  opacity: 0;
+		}
+ 100% {
+			transform: scale(1.0);
+			opacity: 1;
+		}
+	}
+.fnc-cont {
+ overflow: hidden;
+ position: relative;
+ perspective: 3500px;
+ animation: scale_fnc 1.0s ease-in-out;
+}
 .fnc-slider {
  overflow: hidden;
  box-sizing: border-box;
@@ -285,11 +302,6 @@
 .m--autosliding-blocked .fnc-nav__control-progress {
  transition: all 0s 0s !important;
  transform: scaleX(0) !important;
-}
-.fnc-cont {
- overflow: hidden;
- position: relative;
- perspective: 3500px;
 }
 .fnc-cont__credits {
  box-sizing: border-box;

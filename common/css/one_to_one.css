@@ -28,15 +28,12 @@ SP Portrait
  justify-content: space-between;
  width: 100%;
  opacity: 0.95;
- background: rgb(89, 145, 216) /*#5991d8*/ url("../img/ONE_TO_ONE/air_plain.svg") no-repeat center bottom / contain;
+ background: rgb(89, 145, 216) /*#5991d8*/ url("../img/ONE_TO_ONE/air_plain.svg") no-repeat center center / contain;
  background-size: 300px;
  margin-top: 10px;
  border-radius: 5px;
  color: rgb(255, 255, 255) /*#fff*/;
  text-align: left;
-}
-#Tuition .sec_box_inner.fade {
- background-position: center center;
 }
 .sec_icon {
  opacity: 1

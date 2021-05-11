@@ -6,7 +6,7 @@ SP Portrait
 @keyframes scale_main_view {
 	0% {
   transition: all 2s ease 0s;
-		transform: scale(1.1);
+		transform: scale(1.01);
   opacity: 0;
 		}
  100% {

@@ -16,6 +16,16 @@ $(window).scroll(function(){
   }
 });
 
+// scroll add class arrow /////////////////////////////////////////////////////////////
+
+$(window).scroll(function () {
+  if($(window).scrollTop() > 1) {
+    $('.arrow_9ineBB').addClass('fade');
+  } else {
+    $('.arrow_9ineBB').removeClass('fade');
+  }
+});
+
 // scroll add class scale  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
@@ -46,6 +56,16 @@ $(window).scroll(function (){
      $(this).removeClass("fade");
     }
   });
+});
+
+// click add class   /////////////////////////////////////////////////////////////
+
+$(".hamburger-menu, .close-btn").click(function(){
+  if($(".circles").hasClass("clicked")){ // クリックされた要素がclickedクラスだったら
+    $(".circles").removeClass("clicked");
+  }else{
+    $(".circles").addClass("clicked");
+  }
 });
 
 // Copyright //////////////////////////////////////////////////////

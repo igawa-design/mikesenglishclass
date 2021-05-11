@@ -3,31 +3,13 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.fig {
- position: relative;
- width: 100%;
- height: auto;
- z-index: 0;
- display: flex;
- justify-content: center;
- align-items: center;
- margin: 0;
-}
 .fig.main_view img {
  width: 100%;
  height: 300px;
  object-fit: cover;
 }
 .figcaption {
- position: absolute;
- bottom: 0;
- left: 0;
- z-index: 1;
  background: rgb(246, 114, 128) /*#f67280*/;
- box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.05) /*#000*/;
- padding: 10px;
- border-radius: 0 10px 0 0;
- color: rgb(255, 255, 255) /*#fff*/;
 }
 .section {
  width: 100%;

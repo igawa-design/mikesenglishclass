@@ -3,7 +3,21 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.fig.main_view img {
+@keyframes scale_main_view {
+	0% {
+  transition: all 2s ease 0s;
+		transform: scale(1.1);
+  opacity: 0;
+		}
+ 100% {
+			transform: scale(1.0);
+			opacity: 1;
+		}
+	}
+ .main_view {
+ animation: scale_main_view 1.0s ease-in-out;
+}
+.main_view img {
  width: 100%;
  height: 300px;
  object-fit: cover;
@@ -118,20 +132,41 @@ PC & Tablet Landscape
  .sec_h2 {
   font-size: 1.6rem;
  }
-  h4,
-  h5 {
-  padding: 10px;
- }
-  h4:hover,
-  h5:hover {
-  background: rgba(53, 201, 235, 0.3) /*#00aeeb*/;
-  border-radius: 5px;
-  color: #fff;
+ h4,
+ h5 {
+		padding: 10px;
  }
  .li_a {
+		position: relative;
+		z-index: 0;
+		height: 50px;
+		width: 100%;
   flex-direction: row;
   align-items: baseline;
+		padding: 0 0 0 10px;
  }
+	.li_a::before,
+	.li_a::before {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		content: '';
+		background: rgba(53, 201, 235, 0.3) /*#00aeeb*/;
+		transform-origin: right top;
+		transform: scale(0, 1);
+		transition: transform .3s;
+		border-radius: 5px;
+		padding: 15px;
+	}
+	.li_a:hover::before,
+	.li_a:hover::before {
+		transform-origin: left top;
+		transform: scale(1, 1);
+		padding: 15px;
+	}
  .li_a_ja {
   margin-left: 10px;
  }
@@ -145,7 +180,6 @@ PC & Tablet Landscape
  .sitemap_icon {
   width: 40px;
   height: 40px;
-  vertical-align: bottom;
  }
 }
 

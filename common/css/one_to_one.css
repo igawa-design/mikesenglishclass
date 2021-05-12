@@ -282,13 +282,6 @@ tr:first-child th {
 .article:last-child {
  border-bottom: none;
 }
-.category {
- display: block;
- margin-top: 10px;
- color: rgb(89, 145, 216) /*#5991d8*/;
- font-size: 1.3rem;
- text-align: right;
-}
 
 /********************************************************************************************
 SP Landscape
@@ -385,7 +378,6 @@ PC & Tablet Landscape
  }
  .fig.main_view img {
   height: 500px;
-  object-position: 0px -450px;
  }
  .sec_h2 {
   font-size: 1.6rem;

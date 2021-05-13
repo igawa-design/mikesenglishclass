@@ -132,12 +132,16 @@
  padding: 0 3%;
 	animation: fadeIn 4s ease 0s;
 }
+.fnc-slide__content .slide_01,
+.fnc-slide__content .slide_02,
+.fnc-slide__content .slide_03,
+.fnc-slide__content .slide_04 {
+	position: relative;
+}
 .fnc-slide__content .slide_01 {
- position: relative;
  top: 200px;
 }
 .fnc-slide__content .slide_03 {
- position: relative;
  top: 50px;
 }
 .fnc-slide__heading {
@@ -448,9 +452,22 @@ SP Landscape
 	.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
 	 background: url("../img/fnc_location_1200x800.jpg");
 	}
- .fnc-slide__content .slide_03 {
- top: 14%;
+	.fnc-slide__content .slide_01 {
+		top: 10px;
+	}
+	.fnc-slide__content .slide_02 {
+		top: 60px;
+	}
+	.fnc-slide__content .slide_03,
+	.fnc-slide__content .slide_04 {
+ 	top: 10px;
  }
+	.fnc-slide__content .slide_01 .top_txt {
+		display: none;
+	}
+	.fnc-slide__content .slide_01 .top_txt.first_txt {
+		display: block;
+	}
 }
 
 /********************************************************************************************
@@ -468,6 +485,24 @@ Tablet Portrait
  .fnc-slide__heading-line .top_txt.first_txt {
   font-size: 3.5rem;
  }
+	.fnc-slide__content .slide_01 .top_txt {
+		display: block;
+	}
+	.fancy-slider .fnc-slide-1 .fnc-slide__inner,
+	.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
+		background: url("../img/fnc_aboutmike_1920x2560.jpg");
+		background-size: 100%;
+	}
+	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
+  background: url("../img/fnc_location_1920x1280.jpg");
+ }
+	.fnc-slide__content .slide_01 {
+		top: 0;
+	}
+	.fnc-slide__content .slide_02 {
+		top: 0;
+	}
  .fnc-cont__credits {
   padding-top: 200px;
  }
@@ -508,30 +543,20 @@ PC & Tablet Landscape
  }
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background: url("../img/fnc_aboutmike_1920x2560.jpg");
 		background-size: 90%;
-		background-position: center -200px;
+		background-position: center -100px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
   background: url("../img/fnc_one_to_one_1920x2560.jpg");
 		background-size: 90%;
-  background-position: center -300px;
- }
- .fancy-slider .fnc-slide-3 .fnc-slide__inner,
- .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background: url("../img/fnc_location_1920x1280.jpg");
-
+		background-position: center -200px;
  }
  .fancy-slider .fnc-slide-4 .fnc-slide__inner,
  .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
   background: url("../img/fnc_contact_1920x1440.jpg");
 		background-position: center top;
  }
-	.fnc-slide__content .slide_02 {
-		position: relative;
-	 top: 270px;
-	}
 }
 
 /********************************************************************************************
@@ -550,7 +575,6 @@ PC
   background-position: center -400px;
  }
 	.fnc-slide__content .slide_02 {
-		position: relative;
 		top: 390px;
 	}
 }
@@ -582,7 +606,6 @@ PC
   background: url("../img/fnc_contact_2800x1866.jpg");
  }
 	.fnc-slide__content .slide_02 {
-		position: relative;
 		top: 14%;
 	}
 }

@@ -1146,8 +1146,14 @@ html {
 												.sec_txt_lead.english_lead {
 													background-color: rgb(158, 115, 187) /*#9e73bb*/;
 												}
+												.sec_txt_lead.english_lead::first-letter {
+													color: rgb(158, 115, 187) /*#9e73bb*/;
+												}
 												.sec_txt_lead.sitemap_lead {
 													background-color: rgb(53, 201, 235) /*#00aeeb*/;
+												}
+												.sec_txt_lead.sitemap_lead::first-letter {
+													color: rgb(53, 201, 235) /*#00aeeb*/;
 												}
 												.sec_icon {
 													display: block;
@@ -1495,9 +1501,6 @@ html {
 														 padding: 10px;
 														 border-radius: 0 10px 0 0;
 														 color: rgb(255, 255, 255) /*#fff*/;
-														}
-														.figcaption.fade {
-															animation: fadeIn 2s ease 0s 1 normal;
 														}
 														.figcaption.fig_one_to_one {
 															background: rgb(30, 136, 168) /*#1e88a8*/;

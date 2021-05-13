@@ -1074,45 +1074,76 @@ html {
 													color: rgb(255, 255, 255) /*#fff*/;
 													text-align: center;
 												}
+												.sec_txt_lead::first-letter {
+													padding-right: 2px;
+													font-size: 3rem;
+													text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 0px 1px 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff, 1px 0 0 #fff;
+												}
 												.sec_txt_lead.about_mike_lead {
 													background-color: rgb(89, 145, 216) /*#5991d8*/;
+												}
+												.sec_txt_lead.about_mike_lead::first-letter {
+													color: rgb(89, 145, 216) /*#5991d8*/;
 												}
 												.sec_txt_lead.one_to_one_lead {
 													background-color: rgb(30, 136, 168) /*#1e88a8*/;
 												}
+												.sec_txt_lead.one_to_one_lead::first-letter {
+													color: rgb(30, 136, 168) /*#1e88a8*/;
+												}
 												.sec_txt_lead.online_lead {
 													background-color: rgb(89, 174, 203) /*#59aecb*/;
+												}
+												.sec_txt_lead.online_lead::first-letter {
+													color: rgb(89, 174, 203) /*#59aecb*/;
 												}
 												.sec_txt_lead.gallery_lead {
 													background-color: rgb(66, 191, 176) /*#42bfb0*/;
 												}
+												.sec_txt_lead.gallery_lead::first-letter {
+													color: rgb(66, 191, 176) /*#42bfb0*/;
+												}
 												.sec_txt_lead.translations_lead {
 													background-color: rgb(211, 93, 135) /*#d35d87*/;
+												}
+												.sec_txt_lead.translations_lead::first-letter {
+													color: rgb(211, 93, 135) /*#d35d87*/;
 												}
 												.sec_txt_lead.location_lead {
 													background-color: rgb(70, 172, 128) /*#46ac80*/;
 												}
+												.sec_txt_lead.location_lead::first-letter {
+													color: rgb(70, 172, 128) /*#46ac80*/;
+												}
 												.sec_txt_lead.reviews_lead {
 													background-color: rgb(242, 187, 3) /*#f2bb03*/;
+												}
+												.sec_txt_lead.reviews_lead::first-letter {
+													color: rgb(242, 187, 3) /*#f2bb03*/;
 												}
 												.sec_txt_lead.mikes_posts_lead {
 													background-color: rgb(246, 114, 128) /*#f67280*/;
 												}
+												.sec_txt_lead.mikes_posts_lead::first-letter {
+													color: rgb(246, 114, 128) /*#f67280*/;
+												}
 												.sec_txt_lead.online_reviews_lead {
 													background-color: rgb(218, 185, 91) /*dab95b*/;
 												}
+												.sec_txt_lead.online_reviews_lead::first-letter {
+													color: rgb(218, 185, 91) /*dab95b*/;
+												}
 												.sec_txt_lead.contact_lead {
 													background-color: rgb(147, 188, 52) /*#93bc34*/;
+												}
+												.sec_txt_lead.contact_lead::first-letter {
+													color: rgb(147, 188, 52) /*#93bc34*/;
 												}
 												.sec_txt_lead.english_lead {
 													background-color: rgb(158, 115, 187) /*#9e73bb*/;
 												}
 												.sec_txt_lead.sitemap_lead {
 													background-color: rgb(53, 201, 235) /*#00aeeb*/;
-												}
-												.sec_txt_lead::before {
-													content: "●";
-													padding-right: 2px;
 												}
 												.sec_icon {
 													display: block;

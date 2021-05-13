@@ -139,7 +139,7 @@
 	position: relative;
 }
 .fnc-slide__content .slide_01 {
- top: 200px;
+ top: 150px;
 }
 .fnc-slide__content .slide_03 {
  top: 50px;
@@ -160,15 +160,18 @@
 .fnc-slide__heading-line.fade {
 	animation: fadeIn 2s ease 0s 1 normal;
 }
-.top_txt {
+.fnc_txt {
  display: block;
  order: 2;
  margin-bottom: 10px;
- font-size: 1.8rem;
+ font-size: 1.6rem;
  font-family: Helvetica, Arial, sans-serif;
  text-shadow: 0 0 1px rgba(0, 0, 0, 0.9) /*#000*/;
 }
-.top_txt.first_txt {
+.fnc_txt_02 {
+	display: none;
+}
+.fnc_txt.first_txt {
  order: 1;
  margin-bottom: 20px;
  font-size: 3rem;
@@ -190,14 +193,14 @@
  transition: transform 1.5s;
  transform: translateY(-100%);
 }
-.m--before-sliding .fnc-slide__heading-line .top_txt {
+.m--before-sliding .fnc-slide__heading-line .fnc_txt {
  transform: translateY(-100%);
 }
-.m--active-slide .fnc-slide__heading-line .top_txt {
+.m--active-slide .fnc-slide__heading-line .fnc_txt {
  transition: transform 1.5s 1s;
  transform: translateY(0);
 }
-.m--previous-slide .fnc-slide__heading-line .top_txt {
+.m--previous-slide .fnc-slide__heading-line .fnc_txt {
  transition: transform 1.5s;
  transform: translateY(100%);
 }
@@ -212,6 +215,7 @@
  background: rgb(31, 40, 51) /*#1f2833*/;
  overflow: hidden;
  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) /*#000*/;
+	margin-left: 2%;
  border-radius: 3px;
  padding: 5px 2%;
  font-size: 1.5rem;
@@ -444,6 +448,12 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
+	.fnc_txt {
+	 font-size: 1.8rem;
+	}
+	.fnc_txt_02 {
+		display: block;
+	}
 	.fancy-slider .fnc-slide-1 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
 	 background-position: center -150px;
@@ -462,10 +472,10 @@ SP Landscape
 	.fnc-slide__content .slide_04 {
  	top: 10px;
  }
-	.fnc-slide__content .slide_01 .top_txt {
+	.fnc-slide__content .slide_01 .fnc_txt {
 		display: none;
 	}
-	.fnc-slide__content .slide_01 .top_txt.first_txt {
+	.fnc-slide__content .slide_01 .fnc_txt.first_txt {
 		display: block;
 	}
 }
@@ -482,10 +492,10 @@ Tablet Portrait
  .fancy-slider .fnc-nav__control {
   margin-top: 80px;
  }
- .fnc-slide__heading-line .top_txt.first_txt {
+ .fnc-slide__heading-line .fnc_txt.first_txt {
   font-size: 3.5rem;
  }
-	.fnc-slide__content .slide_01 .top_txt {
+	.fnc-slide__content .slide_01 .fnc_txt {
 		display: block;
 	}
 	.fancy-slider .fnc-slide-1 .fnc-slide__inner,

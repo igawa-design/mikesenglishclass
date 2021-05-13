@@ -409,7 +409,7 @@
 .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
  background: url("../img/fnc_aboutmike_1200x1600.jpg");
  background-size: cover;
- background-position: center top;
+ background-position: left -30px top;
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
@@ -557,6 +557,10 @@ PC & Tablet Landscape
   background: url("../img/fnc_contact_1920x1440.jpg");
 		background-position: center top;
  }
+	.fnc-slide__content .slide_01,
+	.fnc-slide__content .slide_02 {
+		top: 390px;
+	}
 }
 
 /********************************************************************************************
@@ -574,8 +578,9 @@ PC
 		background-size: 100%;
   background-position: center -400px;
  }
+	.fnc-slide__content .slide_01,
 	.fnc-slide__content .slide_02 {
-		top: 390px;
+		top: 10px;
 	}
 }
 

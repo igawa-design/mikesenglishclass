@@ -1496,9 +1496,6 @@ html {
 														 border-radius: 0 10px 0 0;
 														 color: rgb(255, 255, 255) /*#fff*/;
 														}
-														.figcaption.fade {
-															animation: fadeIn 2s ease 0s 1 normal;
-														}
 														.figcaption.fig_one_to_one {
 															background: rgb(30, 136, 168) /*#1e88a8*/;
 														}

@@ -42,10 +42,26 @@ $(window).scroll(function (){
   });
 });
 
+// scroll add class  /////////////////////////////////////////////////////////////
+
+$(window).scroll(function (){
+ $(".career, .sec_h3_lead, .sincerely, .info_h3, .info_ul, .info_a_sitemap").each(function(){
+    var hit		= $(this).offset().top;
+    var scroll	= $(window).scrollTop();
+    var wHeight	= $(window).height();
+
+    if (scroll > hit - wHeight + wHeight/100){
+      $(this).addClass("slide");
+    } else {
+     $(this).removeClass("slide");
+    }
+  });
+});
+
 // scroll add class   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".section, .sec_box, .nav_local, .sincerely, .info_h3, .info_ul, .info_a_sitemap, .rainbow").each(function(){
+  $(".section, .sec_box, .nav_local, .figcaption, .rainbow").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();

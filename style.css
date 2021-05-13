@@ -1915,6 +1915,7 @@ html {
 																position: relative;
 																z-index: 0;
 																width: 150px;
+																margin-top: 0;
 															}
 															.drop li.cat_Gallery,
 															.drop li.cat_Reviews {

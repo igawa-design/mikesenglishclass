@@ -61,7 +61,7 @@ $(window).scroll(function (){
 // scroll add class   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
-  $(".section, .sec_box, .nav_local, .figcaption, .info_a_sitemap, .rainbow").each(function(){
+  $(".section, .sec_box, .nav_local, .info_a_sitemap, .rainbow").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();

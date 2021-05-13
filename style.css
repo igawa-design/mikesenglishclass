@@ -1492,6 +1492,9 @@ html {
 														 border-radius: 0 10px 0 0;
 														 color: rgb(255, 255, 255) /*#fff*/;
 														}
+														.figcaption.fade {
+															animation: fadeIn 2s ease 0s 1 normal;
+														}
 														.figcaption.fig_one_to_one {
 															background: rgb(30, 136, 168) /*#1e88a8*/;
 														}
@@ -1525,7 +1528,6 @@ html {
 														}
 														.sec_box,
 														.nav_local,
-														.info_h3,
 														.info_a_sitemap,
 														.rainbow {
 															transition: all 2s ease 0s;
@@ -1610,10 +1612,13 @@ html {
 															font-size: 1.8rem;
 															color: rgb(255, 255, 255) /*#fff*/;
 														}
-														.sincerely.fade,
-														.info_h3.fade,
-														.info_ul.fade,
-														.info_a_sitemap.fade {
+														.career.slide,
+														.sec_h3_lead.slide,
+														.sincerely.slide,
+														.info_h3.slide,
+														.info_ul.slide,
+														.info_a_sitemap.slide,
+														.sec_box_one_to_one h3.sec_h3_lead.slide {
 															animation: slideIn 1s ease 0s 1 normal;
 														}
 														.info_h3 em {

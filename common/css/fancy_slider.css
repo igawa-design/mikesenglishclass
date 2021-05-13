@@ -434,7 +434,7 @@ SP Landscape
 @media screen and (min-width: 667px){
 	.fancy-slider .fnc-slide-1 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-	 background-position: center -200px;
+	 background-position: center -150px;
 	}
 	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
@@ -503,6 +503,7 @@ PC & Tablet Landscape
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
   background: url("../img/fnc_aboutmike_1920x2560.jpg");
 		background-size: 90%;
+		background-position: center -200px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {

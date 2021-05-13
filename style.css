@@ -64,7 +64,7 @@ html {
 		display: flex;
 		position: fixed;
 		top: 0;
-		z-index: 1001;
+		z-index: 10000;
 		width: 97%;
 		height: 80px;
 		animation: slideIn 1s ease 0s 1 normal;
@@ -265,7 +265,7 @@ html {
 				transition: 0.5s;
 			}
 			.sidenavs div {
-				height:100%;
+				height: 100%;
 			}
 			.sidenavs a {
 				display: flex;
@@ -503,6 +503,7 @@ html {
 			}
 			.circles {
 				position: absolute;
+				z-index: 100;
 				top: 0;
 				left: 0;
 				width: 100%;
@@ -1758,7 +1759,6 @@ html {
 														--------------------------------------------------------------------------------------------*/
 														@media screen and (min-width: 1024px){
 															header {
-																z-index: 1000;
 																justify-content: space-between;
 																align-items: center;
 																width: 98%;

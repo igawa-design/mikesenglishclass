@@ -546,6 +546,7 @@ PC
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+		background-size: 100%;
   background-position: center -400px;
  }
 	.fnc-slide__content .slide_02 {
@@ -569,7 +570,6 @@ PC
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
   background: url("../img/fnc_one_to_one_2448x3264.jpg");
-		background-size: 100%;
   background-position: center -700px;
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,

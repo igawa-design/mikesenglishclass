@@ -14,7 +14,7 @@ SP Portrait
 			opacity: 1;
 		}
 	}
- .main_view {
+.main_view {
  animation: scale_main_view 1.0s ease-in-out;
 }
 .main_view img {
@@ -35,7 +35,7 @@ SP Portrait
  opacity: 1;
  font-weight: normal;
 }
-#Tuition .sec_box_inner {
+#anchor_Tuition .sec_box_inner {
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
@@ -173,11 +173,12 @@ h4:first-child {
 .arrow_h4:first-child {
  margin-top: 0;
 }
-#nav_local {
+.nav_local_box {
  display: flex;
  width: 100%;
  flex-wrap: wrap;
  justify-content: space-between;
+ margin-bottom: 10px;
 }
 @keyframes border_radius {
  80%{
@@ -206,7 +207,7 @@ h4:first-child {
 }
 @keyframes arrow_bottom {
  80%{
-  border-width: 13px;
+  border-width: 10px;
  }
  98%,100%{
   border-width: 15px;
@@ -244,6 +245,7 @@ h4:first-child {
 .em_ja {
  order: 2;
  font-size: 1.5rem;
+ font-weight: normal;
 }
 .em_ja::before,
 .em_ja::before {
@@ -255,10 +257,10 @@ h4:first-child {
 .sec_img.scale {
  transform: scale(1);
 }
-#Tuition .inner_ja {
+#anchor_Tuition .inner_ja {
  margin-bottom: 100px;
 }
-#Tuition .inner_en {
+#anchor_Tuition .inner_en {
  margin-top: 200px;
 }
 th,
@@ -272,6 +274,17 @@ td {
 tr:first-child th {
  padding-top: 0;
 }
+.qa_h4 {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.qa_img {
+ display: inline-block;
+ width: 40px;
+ height: 40px;
+ margin-right: 10px;
+}
 .article {
  border-bottom: 2px dotted rgb(38, 155, 143) /*#269b8f*/;
  padding: 15px;
@@ -281,6 +294,13 @@ tr:first-child th {
 }
 .article:last-child {
  border-bottom: none;
+}
+.category {
+ display: block;
+ margin-top: 10px;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+ font-size: 1.3rem;
+ text-align: right;
 }
 
 /********************************************************************************************
@@ -302,7 +322,7 @@ SP Landscape
  .fig.main_view img {
   object-position: 0px -350px;
  }
- #Private_Lessons {
+ #anchor_Private_Lessons {
   width: 100%;
  }
  .left {
@@ -336,21 +356,21 @@ Tablet Portrait
  .fig.main_view img {
   object-position: 0px -400px;
  }
- #Tuition .sec_box_inner {
+ #anchor_Tuition .sec_box_inner {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.3) /*#000*/;
  }
- #Tuition .inner_ja,
- #Tuition .inner_en {
+ #anchor_Tuition .inner_ja,
+ #anchor_Tuition .inner_en {
   width: calc(50% - 30px);
   background: rgba(255, 255, 255, 0.1) /*#fff*/;
   border-radius: 5px;
   padding: 15px;
  }
- #Tuition .inner_ja {
+ #anchor_Tuition .inner_ja {
   margin-right: 10px;
   margin-bottom: 0;
  }
- #Tuition .inner_en {
+ #anchor_Tuition .inner_en {
   margin-left: 10px;
   margin-top: 0;
  }
@@ -391,7 +411,7 @@ PC & Tablet Landscape
  .arrow_h4:last-of-type {
   margin-right: 0;
  }
- #Tuition .sec_box_inner {
+ #anchor_Tuition .sec_box_inner {
   background-size: 500px;
  }
 }

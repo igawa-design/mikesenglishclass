@@ -14,8 +14,8 @@ SP Portrait
 			opacity: 1;
 		}
 	}
- .main_view {
- animation: scale_main_view 1.0s ease-in-out;
+.main_view {
+	animation: scale_main_view 1.0s ease-in-out;
 }
 .main_view img {
  width: 100%;

@@ -1,4 +1,4 @@
-// scroll add class scroll   /////////////////////////////////////////////////////////////
+// scroll add class   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function(){
   if ($(window).scrollTop() > 500) {
@@ -16,7 +16,7 @@ $(window).scroll(function(){
   }
 });
 
-// scroll add class arrow /////////////////////////////////////////////////////////////
+// scroll add class /////////////////////////////////////////////////////////////
 
 $(window).scroll(function () {
   if($(window).scrollTop() > 1) {
@@ -26,7 +26,7 @@ $(window).scroll(function () {
   }
 });
 
-// scroll add class scale  /////////////////////////////////////////////////////////////
+// scroll add class  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
  $(".sec_icon, .sec_img, .info_h2_logo, .rainbow").each(function(){
@@ -42,7 +42,7 @@ $(window).scroll(function (){
   });
 });
 
-// scroll add class fade   /////////////////////////////////////////////////////////////
+// scroll add class   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
   $(".section, .sec_box, .nav_local, .sincerely, .info_h3, .info_ul, .info_a_sitemap, .rainbow").each(function(){

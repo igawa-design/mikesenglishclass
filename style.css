@@ -1075,7 +1075,7 @@ html {
 													text-align: center;
 												}
 												.sec_txt_lead::first-letter {
-													padding-right: 2px;
+													padding-right: 1.5px;
 													font-size: 3rem;
 													text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 0px 1px 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff, 1px 0 0 #fff;
 												}

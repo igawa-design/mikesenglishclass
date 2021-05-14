@@ -489,10 +489,10 @@ SP Landscape
 	.fnc-slide__content .slide_04 {
  	top: 10px;
  }
-	.fnc-slide__content .slide_01 .fnc_txt {
+	.fnc-slide__content .fnc_txt {
 		display: none;
 	}
-	.fnc-slide__content .slide_01 .fnc_txt.first_txt {
+	.fnc-slide__content .fnc_txt.first_txt {
 		display: block;
 	}
 }
@@ -512,13 +512,11 @@ Tablet Portrait
  .fnc-slide__heading-line .fnc_txt.first_txt {
   font-size: 3.5rem;
  }
-	.fnc-slide__content .slide_01 .fnc_txt {
-		display: block;
-	}
 	.fancy-slider .fnc-slide-1 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
 		background: url("../img/fnc_aboutmike_1920x2560.jpg");
-		background-size: 100%;
+		background-position: center -150px;
+		background-size: 110%;
 	}
 	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
@@ -548,6 +546,9 @@ PC & Tablet Landscape
 /* 1024px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px){
+	.fnc-slide__content .fnc_txt {
+		display: block;
+	}
  .fnc_slide_link:hover {
   color: rgb(53, 87, 129) /*#355781*/;
  }
@@ -571,6 +572,7 @@ PC & Tablet Landscape
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
 		background-position: center -150px;
+		background-size: cover;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {

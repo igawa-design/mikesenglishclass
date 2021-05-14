@@ -179,6 +179,23 @@
  line-height: 1.2;
  font-family: Helvetica, Arial, sans-serif;
 }
+.fnc_txt.first_txt::first-letter {
+	padding-right: 1.5px;
+	font-size: 5rem;
+	text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 0px 1px 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff, 1px 0 0 #fff;
+}
+.slide_01 .fnc_txt.first_txt::first-letter  {
+ color: rgb(89, 145, 216) /*#5991d8*/;
+}
+.slide_02 .fnc_txt.first_txt::first-letter  {
+ color: rgb(30, 136, 168) /*#1e88a8*/;
+}
+.slide_03 .fnc_txt.first_txt::first-letter  {
+ color: rgb(211, 93, 135) /*#d35d87*/;
+}
+.slide_04 .fnc_txt.first_txt::first-letter  {
+ color: rgb(147, 188, 52) /*#93bc34*/;
+}
 .fnc-slide__heading-line:nth-child(2) {
  padding-left: 30px;
 }

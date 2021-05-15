@@ -35,6 +35,9 @@ SP Portrait
  opacity: 1;
  font-weight: normal;
 }
+.sec_box_english {
+	letter-spacing: 0.15rem;
+}
 .sec_icon {
  opacity: 1
 }

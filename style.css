@@ -14,7 +14,7 @@ SP Portrait
 html {
 	background: rgba(255, 255, 255, 0.9) /*#e9e7e1*/ url(common/img/bg_from_nipponcolors_texture.png);
 	color: rgb(53, 87, 129) /*#355781*/;
-	font-family: Helvetica, Arial, "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", sans-serif;
+	font-family: Helvetica, Arial, "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 	font-size: 10px;
 	letter-spacing: 0.2rem;
 	line-height: 1.5;

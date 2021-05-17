@@ -166,7 +166,7 @@
  margin-bottom: 10px;
  font-size: 1.6rem;
  font-family: Helvetica, Arial, sans-serif;
- text-shadow: 0 0 1px rgba(0, 0, 0, 0.9) /*#000*/;
+ text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) /*#000*/;
 }
 .fnc_txt_02 {
 	display: none;

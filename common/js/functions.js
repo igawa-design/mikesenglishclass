@@ -42,10 +42,24 @@ $(window).scroll(function (){
   });
 });
 
+$(window).scroll(function (){
+ $(".sec_txt_lead").each(function(){
+    var hit		= $(this).offset().top;
+    var scroll	= $(window).scrollTop();
+    var wHeight	= $(window).height();
+
+    if (scroll > hit - wHeight + wHeight/100){
+      $(this).addClass("background");
+    } else {
+     $(this).removeClass("background");
+    }
+  });
+});
+
 // scroll add class  /////////////////////////////////////////////////////////////
 
 $(window).scroll(function (){
- $(".career, .sec_h3_lead, .sincerely, .info_h3, .info_ul, .info_a_sitemap").each(function(){
+ $(".career, .sec_h3_lead, .sec_box_a, .sincerely, .info_h3, .info_ul, .info_a_sitemap").each(function(){
     var hit		= $(this).offset().top;
     var scroll	= $(window).scrollTop();
     var wHeight	= $(window).height();

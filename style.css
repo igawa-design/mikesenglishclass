@@ -991,6 +991,7 @@ html {
 								width: 98%;
 								background: rgba(255, 255, 255, 0.5) /*#fff*/;
 								margin: auto;
+								animation:
 							}
 							@keyframes slideInRight {
 								0% {
@@ -1010,16 +1011,8 @@ html {
 									opacity: 1;
 								}
 							}
-							@keyframes vibration {
-									0%, 40%, 60%, 80% {
-											transform: scale(1.0);
-									}
-									50%, 70% {
-											transform: scale(0.99);
-									}
-							}
 							.sec_box_a.slide {
-								animation: slideInRight 1s cubic-bezier(0.12, 0, 0.39, 0) 1 forwards, vibration 2s ease-out infinite;;
+								animation: slideInRight 1s cubic-bezier(0.12, 0, 0.39, 0) 1 forwards;
 							}
 							.sec_txt_lead {
 								order: -1;
@@ -1319,6 +1312,14 @@ html {
 														.sec_a:hover {
 															background: rgb(255, 255, 255) /*#fff*/ !important;
 														}
+														@keyframes vibration {
+																0%, 40%, 60%, 80% {
+																		transform: scale(1.0);
+																}
+																50%, 70% {
+																		transform: scale(0.99);
+																}
+														}
 														@keyframes pulse_about_mike {
 															0% { background-color: rgba(89, 145, 216, 1) /*#5991d8*/; box-shadow: 0 0 5px rgba(89, 145, 216, 0.5) /*#5991d8*/; }
 															50% { background-color: rgba(89, 145, 216, 1) /*#5991d8*/; box-shadow: 0 0 10px rgba(89, 145, 216, 1) /*#5991d8*/; }
@@ -1326,7 +1327,7 @@ html {
 														}
 														.sec_a_about_mike {
 															background-color: rgb(89, 145, 216) /*#5991d8*/;
-															animation: pulse_about_mike 2s infinite;
+															animation: pulse_about_mike 2s infinite, vibration 2s ease-out infinite;
 														}
 														.sec_a_about_mike:hover {
 															border-color: rgba(89, 145, 216, 0.5) /*#5991d8*/;
@@ -1339,7 +1340,7 @@ html {
 														}
 														.sec_a_one_to_one {
 															background-color: rgb(30, 136, 168) /*#1e88a8*/;
-															animation: pulse_one_to_one 2s infinite;
+															animation: pulse_one_to_one 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_one_to_one:hover {
 															border-color: rgba(30, 136, 168, 0.5) /*#1e88a8*/;
@@ -1352,7 +1353,7 @@ html {
 														}
 														.sec_a_online  {
 															background-color: rgb(89, 174, 203) /*#59aecb*/;
-															animation: pulse_online 2s infinite;
+															animation: pulse_online 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_online:hover {
 															border-color: rgba(89, 174, 203, 0.5) /*#59aecb*/;
@@ -1365,7 +1366,7 @@ html {
 														}
 														.sec_a_reviews {
 															background-color: rgb(242, 187, 3) /*#f2bb03*/;
-															animation: pulse_reviews 2s infinite;
+															animation: pulse_reviews 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_reviews:hover {
 															border-color: rgba(242, 187, 3, 0.5) /*#f2bb03*/;
@@ -1378,7 +1379,7 @@ html {
 														}
 														.sec_a_translations {
 															background-color: rgb(211, 93, 135) /*#d35d87*/;
-															animation: pulse_translations 2s infinite;
+															animation: pulse_translations 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_translations:hover {
 															border-color: rgba(211, 93, 135, 0.5) /*#d35d87*/;
@@ -1391,7 +1392,7 @@ html {
 														}
 														.sec_a_location {
 															background-color: rgb(70, 172, 128) /*#46ac80*/;
-															animation: pulse_location 2s infinite;
+															animation: pulse_location 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_location:hover {
 															border-color: rgba(70, 172, 128, 0.5) /*#46ac80*/;
@@ -1404,7 +1405,7 @@ html {
 														}
 														.sec_a_gallery {
 															background-color: rgb(66, 191, 176) /*#42bfb0*/;
-															animation: pulse_gallery 2s infinite;
+															animation: pulse_gallery 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_gallery:hover {
 															border-color: rgba(66, 191, 176, 0.5) /*#42bfb0*/;
@@ -1417,7 +1418,7 @@ html {
 														}
 														.sec_a_mikes_posts {
 															background-color: rgb(246, 114, 128) /*#f67280*/;
-															animation: pulse_mikes_posts 2s infinite;
+															animation: pulse_mikes_posts 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_mikes_posts:hover {
 															border-color: rgba(246, 114, 128, 0.5) /*#f67280*/;
@@ -1430,7 +1431,7 @@ html {
 														}
 														.sec_a_contact {
 															background-color: rgb(147, 188, 52) /*#93bc34*/;
-															animation: pulse_contact 2s infinite;
+															animation: pulse_contact 2s infinite, vibration 2s ease-out infinite;;
 														}
 														.sec_a_contact:hover {
 															border-color: rgba(147, 188, 52, 0.5) /*#93bc34*/;

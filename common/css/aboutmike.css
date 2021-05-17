@@ -63,11 +63,27 @@ h4 {
 h4:first-child {
  margin-top: 0;
 }
+.box_SanFrancisco h4:first-child {
+ margin-top: 15px;
+}
 .sec_img {
  transform: scale(0.975);
 }
 .sec_img.scale {
  transform: scale(1);
+}
+.box_SanFrancisco {
+	padding-bottom: 50px;
+}
+.box_SanFrancisco p:first-child {
+	margin-top: 0;
+}
+.box_SanFrancisco .figcaption {
+	width: 70%;
+	margin-bottom: -50px;
+}
+.box_SanFrancisco .margin {
+	margin-top: 65px;
 }
 
 /********************************************************************************************
@@ -97,9 +113,23 @@ SP Landscape
   padding: 0 0 15px 15px;
   border-radius: 5px;
  }
- .float_h4 {
-  width: calc(38.2% - 15px);
- }
+	.float_h4 {
+		width: calc(38.2% - 15px);
+	}
+	.box_SanFrancisco {
+		padding-bottom: 10px;
+	}
+	.box_SanFrancisco p:first-child {
+		margin-top: 0;
+	}
+	.box_SanFrancisco .figcaption {
+		width: auto;
+		max-width: 90%;
+		margin-bottom: 0;
+	}
+	.box_SanFrancisco .margin {
+		margin-top: 15px;
+	}
 }
 
 /********************************************************************************************

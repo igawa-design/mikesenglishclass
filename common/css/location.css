@@ -117,6 +117,9 @@ dd:nth-of-type(2)::before {
 .pic_first {
  margin-top: 0;
 }
+.sec_img.park_map.scale {
+	transform: scale(1);
+}
 
 /********************************************************************************************
 SP Landscape

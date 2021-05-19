@@ -181,11 +181,11 @@ h4:first-child {
  margin-bottom: 10px;
 }
 @keyframes border_radius {
- 80%{
+	0%, 40%, 60%, 80% {
   border-radius: 5px;
  }
- 98%,100%{
-  border-radius: 25px;
+	50%, 70% {
+  border-radius: 15px;
  }
 }
 .arrow_h4 {
@@ -205,7 +205,7 @@ h4:first-child {
 .arrow_h4:nth-of-type(even) {
  margin-right: 0;
 }
-@keyframes arrow_bottom {
+@keyframes arrow_h4 {
  80%{
   border-width: 10px;
  }
@@ -223,12 +223,15 @@ h4:first-child {
  border: 15px solid transparent;
  border-top-color: rgba(30, 136, 168, 0.8) /*#1e88a8*/;
  content: '';
- animation: arrow_bottom 2.5s linear alternate infinite;
+ animation: arrow_h4 2.5s linear alternate infinite;
 }
 .arrow_h4 a {
  display: flex;
  flex-direction: column;
+	border: 1px solid rgba(255, 255, 255, 0.8) /*#fff*/;
+	border-radius: 5px;
  color: rgb(255, 255, 255) /*#fff*/;
+	animation: border_radius 2.5s linear alternate infinite;
 }
 #LINE {
  background: rgb(30, 136, 168) /*#1e88a8*/;

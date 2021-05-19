@@ -434,7 +434,7 @@
 }
 .fancy-slider .fnc-slide-2 .fnc-slide__inner,
 .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
- background: url("../img/fnc_one_to_one_1200x1600.jpg");
+ background: url("../img/fnc_one_to_one_900x1200.jpg");
  background-size: cover;
  background-position: center center;
 }
@@ -475,9 +475,14 @@ SP Landscape
 	.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
 	 background-position: center -150px;
 	}
+	.fancy-slider .fnc-slide-2 .fnc-slide__inner,
+	.fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+	 background-image: url("../img/fnc_one_to_one_1200x1600.jpg");
+	}
 	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
 	 background: url("../img/fnc_location_1200x800.jpg");
+		background-position: center -150px;
 	}
 	.fnc-slide__content .slide_01 {
 		top: 10px;
@@ -521,6 +526,7 @@ Tablet Portrait
 	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
   background: url("../img/fnc_location_1920x1280.jpg");
+		background-position: center -300px;
  }
 	.fnc-slide__content .slide_01 {
 		top: 0;
@@ -537,6 +543,22 @@ Tablet Portrait
  }
  .fnc_slide_link {
   width: 100px;
+ }
+}
+
+/********************************************************************************************
+SP Landscape
+*********************************************************************************************/
+/* 812px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 812px){
+	.fancy-slider .fnc-slide-1 .fnc-slide__inner,
+	.fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
+		background-position: center -250px;
+	}
+	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
+		background-position: center -300px;
  }
 }
 
@@ -571,8 +593,8 @@ PC & Tablet Landscape
  }
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-		background-position: center -200px;
 		background-size: cover;
+		background-position: center -200px;
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
@@ -583,11 +605,13 @@ PC & Tablet Landscape
 	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
 		background-size: cover;
+		background-position: center center;
 	}
  .fancy-slider .fnc-slide-4 .fnc-slide__inner,
  .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
   background: url("../img/fnc_contact_1920x1440.jpg");
-		background-position: center top;
+		background-size: cover;
+		background-position: center center;
  }
 }
 
@@ -604,8 +628,9 @@ PC
  }
  .fancy-slider .fnc-slide-2 .fnc-slide__inner,
  .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+		background: url("../img/fnc_one_to_one_2448x3264.jpg");
 		background-size: 100%;
-		background-position: center -500px;
+		background-position: center -200px;
  }
 	.fancy-slider .fnc-slide-3 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
@@ -613,7 +638,8 @@ PC
 	}
 	.fancy-slider .fnc-slide-4 .fnc-slide__inner,
 	.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-		background-size: cover;
+		background: url("../img/fnc_contact_2800x1866.jpg");
+		background-position: center -300px;
 	}
 	.fnc-slide__content .slide_01,
 	.fnc-slide__content .slide_02 {
@@ -624,29 +650,43 @@ PC
 /********************************************************************************************
 PC
 *********************************************************************************************/
+/* 1366px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1366px){
+	.fancy-slider .fnc-slide-1 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
+  background: url("../img/fnc_aboutmike_1920x1080.jpg");
+		background-position: center top;
+		background-size: cover;
+ }
+	.fancy-slider .fnc-slide-2 .fnc-slide__inner,
+ .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
+		background: url("../img/fnc_one_to_one_2448x1380.jpg");
+  background-position: center top;
+		background-size: cover;
+ }
+}
+
+/********************************************************************************************
+PC
+*********************************************************************************************/
 /* 1920px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1920px){
  .fancy-slider .fnc-slide-1 .fnc-slide__inner,
  .fancy-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background: url("../img/fnc_aboutmike_2800x3734.jpg");
-		background-size: 100%;
-  background-position: center -500px;
- }
- .fancy-slider .fnc-slide-2 .fnc-slide__inner,
- .fancy-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background: url("../img/fnc_one_to_one_2448x3264.jpg");
-  background-position: center -700px;
+  background: url("../img/fnc_aboutmike_2800x1575.jpg");
+  background-position: center center;
  }
  .fancy-slider .fnc-slide-3 .fnc-slide__inner,
  .fancy-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background: url("../img/fnc_location_2800x2100.jpg");
-		background-position: center -400px;
+  background: url("../img/fnc_location_2800x1866.jpg");
+		background-position: center top;
  }
- .fancy-slider .fnc-slide-4 .fnc-slide__inner,
- .fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background: url("../img/fnc_contact_2800x1866.jpg");
- }
+	.fancy-slider .fnc-slide-4 .fnc-slide__inner,
+	.fancy-slider .fnc-slide-4 .fnc-slide__mask-inner {
+		background-position: center top;
+	}
 	.fnc-slide__content .slide_02 {
 		top: 14%;
 	}

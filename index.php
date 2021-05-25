@@ -20,7 +20,7 @@
 <p class="sec_txt_01">教師であるマイクはアメリカのペンシルベニア州生まれワシントン D.C.育ち。16歳からニューヨーク州、イギリス、カリフォルニア州の様々な大学で英米文学を専門として勉強。アメリカ留学中の日本人の家庭教師としての経験も豊富。</p>
 <p class="sec_txt_02">2009年に来日、2013年に英語教室を開校。趣味は、ジョギング、水泳、ヨガ、瞑想、カラオケです。</p>
 <div class="sec_box_a">
-<a href="aboutmike.html" class="sec_a sec_a_about_mike">more...</a>
+<a href="<?php echo home_url('aboutmike'); ?>" class="sec_a sec_a_about_mike">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner career -->
 </div><!-- sec_box sec_box_about_mike -->
@@ -59,7 +59,7 @@
 </figure>
 <p class="sec_txt_03">札幌でネイティブ教師の英語・英会話個人コーチングを受けたい方は、今すぐマイク英会話教室へ！</p>
 <div class="sec_box_a">
-<a href="one-to-one.html" class="sec_a sec_a_one_to_one">more...</a>
+<a href="<?php echo home_url('one-to-one'); ?>" class="sec_a sec_a_one_to_one">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- ec_box_inner -->
 </div><!-- sec_box sec_box_one_to_one -->
@@ -83,7 +83,7 @@
 </figure>
 <p class="sec_txt_03">上級、中級、初級、どんなレベルでもOKです！</p>
 <div class="sec_box_a">
-<a href="online.html" class="sec_a sec_a_online">more...</a>
+<a href="<?php echo home_url('online'); ?>" class="sec_a sec_a_online">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_online -->
@@ -107,7 +107,7 @@
 </figure>
 <p class="sec_txt_01">英語や英会話で楽しみながら、生徒さんと写真を撮りました。</p>
 <div class="sec_box_a">
-<a href="gallery.html" class="sec_a sec_a_gallery">more...</a>
+<a href="<?php echo home_url('gallery'); ?>" class="sec_a sec_a_gallery">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_garelly -->
@@ -132,7 +132,7 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 </a>
 </div><!-- box_youtube -->
 <div class="sec_box_a">
-<a href="translations.html" class="sec_a sec_a_translations">more...</a>
+<a href="<?php echo home_url('translations'); ?>" class="sec_a sec_a_translations">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_translations -->
@@ -149,7 +149,7 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <p>札幌市中央区南9条西3丁目2-1 マジソンハイツ705号室。地下鉄中島公園駅から徒歩3分です。</p>
 <a href="https://www.google.com/maps/place/%E3%83%9E%E3%82%A4%E3%82%AF%E8%8B%B1%E4%BC%9A%E8%A9%B1%E6%95%99%E5%AE%A4%E6%9C%AD%E5%B9%8C+Mike's+English+Class+Sapporo/@43.049351,141.3541653,17z/data=!3m1!4b1!4m5!3m4!1s0x5f0b2a27fb5aaaab:0xb327f50149d3bd9e!8m2!3d43.049351!4d141.356354"><img class="sec_icon_google_maps" alt="マイク英会話教室札幌のGoogle マップはこちらから。" width="100" height="100" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_google_maps.svg"></a>
 <div class="sec_box_a">
-<a href="location.html" class="sec_a sec_a_location">more...</a>
+<a href="<?php echo home_url('location'); ?>" class="sec_a sec_a_location">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_location -->
@@ -166,7 +166,7 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <p>ある生徒さんは、レッスンを受けて、TOEIC（トーイック）の点数が上がりました。リスニングとリーディングの能力が上がり、英検も合格できました。</p>
 <p>海外移住や留学をするために、英会話力をアップして実際に海外へ行った生徒さんも何人もいます。</p>
 <div class="sec_box_a">
-<a href="reviews.html" class="sec_a sec_a_reviews">more...</a>
+<a href="<?php echo home_url('reviews'); ?>" class="sec_a sec_a_reviews">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_reviews -->
@@ -182,7 +182,7 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 マイク英会話教室が発見した、日本人ではなかなか気が付かない英語表示の間違い探し！こちらでこっそり教えてくれています。</h3>
 <p>英会話上達法についての記事もあります！</p>
 <div class="sec_box_a">
-<a href="mikes-posts.html" class="sec_a sec_a_mikes_posts">more...</a>
+<a href="<?php echo home_url('mikes-posts'); ?>" class="sec_a sec_a_mikes_posts">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_mikes_posts -->
@@ -236,7 +236,7 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <p>ご連絡は英語でも日本語でも大丈夫です。</p>
 <p>皆さんにお会いできるのを心よりお待ちしております！</p>
 <div class="sec_box_a">
-<a href="contact.html" class="sec_a sec_a_contact">more...</a>
+<a href="<?php echo home_url('contact'); ?>" class="sec_a sec_a_contact">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_contact -->

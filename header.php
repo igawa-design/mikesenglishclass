@@ -79,21 +79,21 @@ z-index: 9999;
 <li>Lessons</li>
 </ul><!--circles-->
 <a href="#close" class="close-btn"></a>
-<a class="nav_list" href="aboutmike.html"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en"><img class="nav_icon" alt="英語、英会話教師のマイク・ニマ先生についてとご挨拶はこちら。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_about_mike.svg"><em class="About_Mike first_letter">A</em>bout Mike</span></a>
-<a class="nav_list" href="one-to-one.html"><span class="nav_list_ja">個人レッスン</span><span class="nav_list_en"><img class="nav_icon" alt="マンツーマンで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_one_to_one.svg"><em class="One_to_One first_letter">O</em>ne to One</span></a>
-<a class="nav_list" href="online.html"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en"><img class="nav_icon"  alt="オンラインで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_online.svg"><em class="Online_Lessons first_letter">O</em>nline Lessons</span></a>
-<a class="nav_list" href="gallery.html"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の生徒さんやマイク先生による写真ギャラリーです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_gallery.svg"><em class="Gallery first_letter">G</em>allery</span></a>
-<a class="nav_list" href="index.html"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の様子。英語、英会話のレッスン風景などです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_gallery.svg"><em class="Gallery_Lessonpix first_letter">G</em>allery<span class="vertical_bar"> | </span>Lessonpix</span></a>
-<a class="nav_list" href="index.html"><span class="nav_list_ja small">マイク先生のスクラップブック</span><span class="nav_list_en"><img class="nav_icon" alt="英語・英会話教師マイク先生が撮った写真のスクラップブックです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_gallery.svg"><em class="Gallery_Scrapbook first_letter">G</em>allery<span class="vertical_bar"> | </span>Scrapbook</span></a>
-<a class="nav_list" href="translations.html"><span class="nav_list_ja">ネイティブ英訳</span><span class="nav_list_en"><img class="nav_icon" alt="ネイティブスピーカー、英語・英文学教師による英語翻訳です。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_translations.svg"><em class="Translations first_letter">T</em>ranslations</span></a>
-<a class="nav_list" href="location.html"><span class="nav_list_ja">所在地</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌は札幌市中央区中島公園の近くにあります。詳しくはこちらをご覧ください。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_location.svg"><em class="Location first_letter">L</em>ocation</span></a>
-<a class="nav_list" href="reviews.html"><span class="nav_list_ja">生徒さんの声</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌の生徒さんたちの声です。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_reviews.svg"><em class="Reviews first_letter">R</em>eviews</span></a>
-<a class="nav_list" href="index.html"><span class="nav_list_ja">個人レッスンレビュー</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌の個人レッスンレビューです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_reviews.svg"><em class="Reviews_One_to_One first_letter">R</em>eviews<span class="vertical_bar"> | </span>One to One</span></a>
-<a class="nav_list" href="index.html"><span class="nav_list_ja">ネイティブ英訳レビュー</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌のネイティブ英訳レビューです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_reviews.svg"><em class="Reviews_Translations first_letter">R</em>eviews<span class="vertical_bar"> | </span>Translations</span></a>
-<a class="nav_list" href="mikes-posts.html"><span class="nav_list_ja">ブログ</span><span class="nav_list_en"><img class="nav_icon" alt="英語・英会話教師マイク先生のブログです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_mikes_posts.svg"><em class="Mikes_Posts first_letter">M</em>ike's Posts</span></a>
-<a class="nav_list" href="contact.html"><span class="nav_list_ja">お問い合わせ</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌へのお問い合わせはこちらからお願いいたします。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_contact.svg"><em class="Contact first_letter">C</em>ontact</span></a>
-<a class="nav_list" href="english.html"><span class="nav_list_ja">英語 中国語 韓国語</span><span class="nav_list_en"><img class="nav_icon" alt="英語 中国語 韓国語はこちらから。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_english.svg"><em class="English first_letter">E</em>nglish 中文 한국어</span></a>
-<a class="nav_list" href="sitemap.html"><span class="nav_list_ja">サイトマップ</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌のサイトマップです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_sitemap.svg"><em class="Site_Map first_letter">S</em>ite Map</span></a>
+<a class="nav_list" href="<?php echo home_url('aboutmike'); ?>"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en"><img class="nav_icon" alt="英語、英会話教師のマイク・ニマ先生についてとご挨拶はこちら。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_about_mike.svg"><em class="About_Mike first_letter">A</em>bout Mike</span></a>
+<a class="nav_list" href="<?php echo home_url('one-to-one'); ?>"><span class="nav_list_ja">個人レッスン</span><span class="nav_list_en"><img class="nav_icon" alt="マンツーマンで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_one_to_one.svg"><em class="One_to_One first_letter">O</em>ne to One</span></a>
+<a class="nav_list" href="<?php echo home_url('online'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en"><img class="nav_icon"  alt="オンラインで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_online.svg"><em class="Online_Lessons first_letter">O</em>nline Lessons</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery'); ?>">"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の生徒さんやマイク先生による写真ギャラリーです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_gallery.svg"><em class="Gallery first_letter">G</em>allery</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery'); ?>"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の様子。英語、英会話のレッスン風景などです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_gallery.svg"><em class="Gallery_Lessonpix first_letter">G</em>allery<span class="vertical_bar"> | </span>Lessonpix</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery'); ?>"><span class="nav_list_ja small">マイク先生のスクラップブック</span><span class="nav_list_en"><img class="nav_icon" alt="英語・英会話教師マイク先生が撮った写真のスクラップブックです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_gallery.svg"><em class="Gallery_Scrapbook first_letter">G</em>allery<span class="vertical_bar"> | </span>Scrapbook</span></a>
+<a class="nav_list" href="<?php echo home_url('translations'); ?>"><span class="nav_list_ja">ネイティブ英訳</span><span class="nav_list_en"><img class="nav_icon" alt="ネイティブスピーカー、英語・英文学教師による英語翻訳です。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_translations.svg"><em class="Translations first_letter">T</em>ranslations</span></a>
+<a class="nav_list" href="<?php echo home_url('location'); ?>"><span class="nav_list_ja">所在地</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌は札幌市中央区中島公園の近くにあります。詳しくはこちらをご覧ください。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_location.svg"><em class="Location first_letter">L</em>ocation</span></a>
+<a class="nav_list" href="<?php echo home_url('reviews'); ?>"><span class="nav_list_ja">生徒さんの声</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌の生徒さんたちの声です。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_reviews.svg"><em class="Reviews first_letter">R</em>eviews</span></a>
+<a class="nav_list" href="<?php echo home_url('reviews'); ?>"><span class="nav_list_ja">個人レッスンレビュー</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌の個人レッスンレビューです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_reviews.svg"><em class="Reviews_One_to_One first_letter">R</em>eviews<span class="vertical_bar"> | </span>One to One</span></a>
+<a class="nav_list" href="<?php echo home_url('reviews'); ?>"><span class="nav_list_ja">ネイティブ英訳レビュー</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌のネイティブ英訳レビューです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_reviews.svg"><em class="Reviews_Translations first_letter">R</em>eviews<span class="vertical_bar"> | </span>Translations</span></a>
+<a class="nav_list" href="<?php echo home_url('mikes-posts'); ?>"><span class="nav_list_ja">ブログ</span><span class="nav_list_en"><img class="nav_icon" alt="英語・英会話教師マイク先生のブログです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_mikes_posts.svg"><em class="Mikes_Posts first_letter">M</em>ike's Posts</span></a>
+<a class="nav_list" href="<?php echo home_url('contact'); ?>"><span class="nav_list_ja">お問い合わせ</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌へのお問い合わせはこちらからお願いいたします。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_contact.svg"><em class="Contact first_letter">C</em>ontact</span></a>
+<a class="nav_list" href="<?php echo home_url('english'); ?>"><span class="nav_list_ja">英語 中国語 韓国語</span><span class="nav_list_en"><img class="nav_icon" alt="英語 中国語 韓国語はこちらから。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_english.svg"><em class="English first_letter">E</em>nglish 中文 한국어</span></a>
+<a class="nav_list" href="<?php echo home_url('sitemap'); ?>"><span class="nav_list_ja">サイトマップ</span><span class="nav_list_en"><img class="nav_icon" alt="マイク英会話教室札幌のサイトマップです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/icon_sitemap.svg"><em class="Site_Map first_letter">S</em>ite Map</span></a>
 </div><!--area-->
 </div><!--sidemenu hamburger-menu-->
 </div><!--nav_narrow-->
@@ -101,69 +101,69 @@ z-index: 9999;
 <div class="nav_wide">
 <ul class="no_drop">
 <li class="category cat_About_Mike">
-<a class="nav_list" href="aboutmike.html"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en About_Mike">About Mike</span></a>
+<a class="nav_list" href="<?php echo home_url('aboutmike'); ?>"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en About_Mike">About Mike</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="no_drop">
 <li class="category cat_One_to_One">
-<a class="nav_list" href="one-to-one.html"><span class="nav_list_ja">個人レッスン</span><span class="nav_list_en One_to_One">One to One</span></a>
+<a class="nav_list" href="<?php echo home_url('one-to-one'); ?>"><span class="nav_list_ja">個人レッスン</span><span class="nav_list_en One_to_One">One to One</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="no_drop">
 <li class="category cat_Online">
-<a class="nav_list" href="online.html"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en Online_Lessons">Online Lessons</span></a>
+<a class="nav_list" href="<?php echo home_url('online'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en Online_Lessons">Online Lessons</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="drop">
 <li class="category cat_Gallery">
-<a class="nav_list" href="gallery.html"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en Gallery">Gallery</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery'); ?>"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en Gallery">Gallery</span></a>
 </li>
 <li class="category1">
-<a class="nav_list" href="index.html"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en Gallery_Lessonpix">Lessonpix</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery/lessonpix'); ?>"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en Gallery_Lessonpix">Lessonpix</span></a>
 </li>
 <li class="category2">
-<a class="nav_list" href="index.html"><span class="nav_list_ja">スクラップブック</span><span class="nav_list_en Gallery_Scrapbook">Scrapbook</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery/scrapbook'); ?>"><span class="nav_list_ja">スクラップブック</span><span class="nav_list_en Gallery_Scrapbook">Scrapbook</span></a>
 </li>
 </ul><!--drop cat_Gallery-->
 <ul class="no_drop">
 <li class="category cat_Translations">
-<a class="nav_list" href="translations.html"><span class="nav_list_ja">ネイティブ英訳</span><span class="nav_list_en Translations">Translations</span></a>
+<a class="nav_list" href="<?php echo home_url('translations'); ?>"><span class="nav_list_ja">ネイティブ英訳</span><span class="nav_list_en Translations">Translations</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="no_drop">
 <li class="category cat_Location">
-<a class="nav_list" href="location.html"><span class="nav_list_ja">所在地</span><span class="nav_list_en Location">Location</span></a>
+<a class="nav_list" href="<?php echo home_url('location'); ?>"><span class="nav_list_ja">所在地</span><span class="nav_list_en Location">Location</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="drop">
 <li class="category cat_Reviews">
-<a class="nav_list" href="reviews.html"><span class="nav_list_ja">生徒さんの声</span><span class="nav_list_en Reviews">Reviews</span></a>
+<a class="nav_list" href="<?php echo home_url('reviews'); ?>"><span class="nav_list_ja">生徒さんの声</span><span class="nav_list_en Reviews">Reviews</span></a>
 </li>
 <li class="category1">
-<a class="nav_list" href="index.html"><span class="nav_list_ja">個人レッスンレビュー</span><span class="nav_list_en Reviews_One_to_One">One to One</span></a>
+<a class="nav_list" href="<?php echo home_url('reviews/one-to-one'); ?>"><span class="nav_list_ja">個人レッスンレビュー</span><span class="nav_list_en Reviews_One_to_One">One to One</span></a>
 </li>
 <li class="category2">
-<a class="nav_list" href="translations.html"><span class="nav_list_ja">ネイティブ英訳レビュー</span><span class="nav_list_en Reviews_Translations">Translations</span></a>
+<a class="nav_list" href="<?php echo home_url('reviews/translations'); ?>"><span class="nav_list_ja">ネイティブ英訳レビュー</span><span class="nav_list_en Reviews_Translations">Translations</span></a>
 </li>
 </ul><!--drop cat_Reviews-->
 <ul class="no_drop">
 <li class="category cat_Mikes_Posts">
-<a class="nav_list" href="mikes-posts.html"><span class="nav_list_ja">ブログ</span><span class="nav_list_en Mikes_Posts">Mike's Posts</span></a>
+<a class="nav_list" href="<?php echo home_url('mikes-posts'); ?>"><span class="nav_list_ja">ブログ</span><span class="nav_list_en Mikes_Posts">Mike's Posts</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="no_drop">
 <li class="category cat_Contact">
-<a class="nav_list" href="contact.html"><span class="nav_list_ja">お問い合わせ</span><span class="nav_list_en Contact">Contact</span></a>
+<a class="nav_list" href="<?php echo home_url('contact'); ?>"><span class="nav_list_ja">お問い合わせ</span><span class="nav_list_en Contact">Contact</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="no_drop">
 <li class="category cat_English">
-<a class="nav_list" href="english.html"><span class="nav_list_ja">英語 中国語 韓国語</span><span class="nav_list_en English"><small class="nav_list_small">English 中文 한국어</small></span></a>
+<a class="nav_list" href="<?php echo home_url('english'); ?>"><span class="nav_list_ja">英語 中国語 韓国語</span><span class="nav_list_en English"><small class="nav_list_small">English 中文 한국어</small></span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="no_drop ul_sitemap">
 <li class="category cat_Site_Map">
-<a class="nav_list" href="sitemap.html"><span class="nav_list_ja">サイトマップ</span><span class="nav_list_en Site_Map">Site Map</span></a>
+<a class="nav_list" href="<?php echo home_url('sitemap'); ?>"><span class="nav_list_ja">サイトマップ</span><span class="nav_list_en Site_Map">Site Map</span></a>
 </li>
 </ul><!--no_drop-->
 </div><!--nav_wide-->

@@ -44,3 +44,15 @@ add_action('wp_enqueue_scripts', 'register_javascript');
 //disable Gutenberg - Gutenberg（ブロックエディタ）無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 add_filter( 'use_block_editor_for_post', '__return_false' );
+
+//disable wpautop - 自動pタグ無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+add_action('init', function() {
+remove_filter('the_excerpt', 'wpautop');
+remove_filter('the_content', 'wpautop');
+});
+add_filter('tiny_mce_before_init', function($init) {
+$init['wpautop'] = false;
+$init[‘apply_source_formatting’] = true;
+return $init;
+});

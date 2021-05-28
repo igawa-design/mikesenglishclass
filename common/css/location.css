@@ -62,6 +62,7 @@ h5 {
 }
 iframe {
  height: 500px;
+	margin-top: 20px;
 }
 table {
  width: 100%;
@@ -196,6 +197,11 @@ PC & Tablet Landscape
  .sec_img.scale {
   transform: scale(1);
  }
+	.map {
+		display: block;
+		width: 61.8%;
+		margin: auto;
+	}
 }
 
 /********************************************************************************************

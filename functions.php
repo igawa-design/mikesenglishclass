@@ -56,3 +56,72 @@ $init['wpautop'] = false;
 $init[‘apply_source_formatting’] = true;
 return $init;
 });
+
+
+// enable Custom Post Type - カスタム投稿タイプ有効化 /////////////////////////////////////////////////////////////////////////////
+register_post_type(
+	'reviews',
+	array(
+		'label' => '生徒さんの声',
+		'description' => '生徒さんの声',
+		'menu_position' => 5,
+		'hierarchical' => false,
+		'public' => true,
+		'query_var' => false,
+		'has_archive' => true,
+		'rewrite' => true,
+		'yarpp_support' => true,
+		'supports' => array(
+		'title',
+		'editor',
+		'excerpt',
+		'thumbnail',
+		)
+	)
+);
+
+register_post_type(
+	'gallery',
+	array(
+		'label' => 'フォトギャラリー',
+		'description' => 'フォトギャラリー',
+		'menu_position' => 6,
+		'hierarchical' => false,
+		'public' => true,
+		'query_var' => false,
+		'has_archive' => true,
+		'rewrite' => true,
+		'yarpp_support' => true,
+		'supports' => array(
+		'title',
+		'editor',
+		'excerpt',
+		'thumbnail',
+		)
+	)
+);
+
+// enable Custom Taxonomies - カスタムタクソノミー有効化 /////////////////////////////////////////////////////////////////////////////
+register_taxonomy(
+ 'reviews-cat',
+ 'reviews',
+ array(
+		'hierarchical' => true,
+		'rewrite' => array('slug' => 'reviews'),
+		'label' => 'カテゴリ',
+		'singular_label' => '生徒さんの声カテゴリ',
+		'show_admin_column' => true
+ )
+);
+
+register_taxonomy(
+ 'gallery-cat',
+ 'gallery',
+ array(
+	 'hierarchical' => true,
+		'rewrite' => array('slug' => 'gallery'),
+	 'label' => 'カテゴリ',
+	 'singular_label' => 'フォトギャラリーカテゴリ',
+	 'show_admin_column' => true
+ )
+);

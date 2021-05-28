@@ -137,13 +137,13 @@ Contact
 <div class="fnc-cont__credits">
 <div class="area">
 <ul class="circles">
-<li>Hi!</li>
 <li></li>
-<li>Online</li>
+<li></li>
 <li>Hello</li>
-<li>Facebook</li>
 <li>YouTube</li>
+<li></li>
 <li>One to One</li>
+<li>Facebook</li>
 <li>Yes</li>
 <li></li>
 <li>Contact</li>

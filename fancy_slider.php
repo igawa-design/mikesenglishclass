@@ -151,9 +151,9 @@ Contact
 <div class="fnc-cont__credits-close"></div>
 <h2 class="fnc-cont__credits-heading">Mike's English Class Sapporo</h2>
 <h3 class="fnc-cont__credits-name">マイク英会話教室札幌</h3>
-<a href="https://www.facebook.com/mikesenglishclass" class="fnc-cont__credits-link"><img class="fnc_icon facebook" alt="英会話＆英語スクール マイク英会話教室札幌のfacebookはこちら。" width="25" height="25" loading="lazy" src="common/img/icon_facebook_blue.webp">Facebook</a>
-<a href="https://www.youtube.com/watch?v=o5a8qeqvxX0" class="fnc-cont__credits-link"><img class="fnc_icon youtube" alt="英会話＆英語スクール マイク英会話教室札幌のYouTube" width="25" height="25" loading="lazy" src="common/img/icon_youtube_red.svg">YouTube</a>
-<a href="<?php echo home_url('contact'); ?>" class="fnc-cont__credits-link"><img class="fnc_icon contact" alt="英会話＆英語スクール マイク英会話教室札幌のfacebookはこちら。" width="25" height="25" loading="lazy" src="common/img/icon_contact.svg">Contact</a>
+<a href="https://www.facebook.com/mikesenglishclass" class="fnc-cont__credits-link"><img class="fnc_icon facebook" alt="英会話＆英語スクール マイク英会話教室札幌のfacebookはこちら。" width="25" height="25" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_blue.webp">Facebook</a>
+<a href="https://www.youtube.com/watch?v=o5a8qeqvxX0" class="fnc-cont__credits-link"><img class="fnc_icon youtube" alt="英会話＆英語スクール マイク英会話教室札幌のYouTube" width="25" height="25" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_youtube_red.svg">YouTube</a>
+<a href="<?php echo home_url('contact'); ?>" class="fnc-cont__credits-link"><img class="fnc_icon contact" alt="英会話＆英語スクール マイク英会話教室札幌のfacebookはこちら。" width="25" height="25" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_contact.svg">Contact</a>
 <p class="fnc-cont__credits_txt">マイク英会話教室札幌に興味をお持ちいただき、誠にありがとうございます。</p>
 <p class="fnc-cont__credits_txt">ご意見・ご質問・ご相談などお気軽にお問い合わせください。<br>
 ご連絡は英語でも日本語でも大丈夫です。</p>

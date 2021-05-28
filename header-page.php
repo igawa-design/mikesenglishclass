@@ -77,7 +77,6 @@
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/js/functions.js" as="script">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-
 <?php if(is_page('aboutmike')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/aboutmike.css">
 <?php elseif(is_page('one-to-one')): ?>
@@ -99,8 +98,6 @@
 <?php elseif(is_page('sitemap')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/sitemap.css">
 <?php endif; ?>
-
-
 <link rel="prerender" href="<?php echo home_url(); ?>">
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">
 <link rel="preconnect dns-prefetch" href="https://www.google.com">
@@ -147,11 +144,11 @@ z-index: 9999;
 <div id="sidemenu" class="sidenavs">
 <div class="area">
 <ul class="circles">
-<li>Hi!</li>
+<li></li>
 <li></li>
 <li>Online</li>
 <li>Hello</li>
-<li>World</li>
+<li></li>
 <li>One to One</li>
 <li>English</li>
 <li>Yes</li>

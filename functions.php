@@ -28,11 +28,6 @@ function disable_emojis() {
      remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
 }
 
-//hide admin_bar - WP管理画面ログイン時ツールバー非表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-add_filter( 'show_admin_bar', '__return_false' );
-
-
 //Remove foot - wp_footer不要部分削除//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function register_javascript() {
@@ -40,23 +35,6 @@ wp_deregister_script('wp-embed');
 wp_deregister_script('comment-reply');
 }
 add_action('wp_enqueue_scripts', 'register_javascript');
-
-//disable Gutenberg - Gutenberg（ブロックエディタ）無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-add_filter( 'use_block_editor_for_post', '__return_false' );
-
-//disable wpautop - 自動pタグ無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-add_action('init', function() {
-remove_filter('the_excerpt', 'wpautop');
-remove_filter('the_content', 'wpautop');
-});
-add_filter('tiny_mce_before_init', function($init) {
-$init['wpautop'] = false;
-$init[‘apply_source_formatting’] = true;
-return $init;
-});
-
 
 // enable Custom Post Type - カスタム投稿タイプ有効化 /////////////////////////////////////////////////////////////////////////////
 register_post_type(
@@ -125,3 +103,47 @@ register_taxonomy(
 	 'show_admin_column' => true
  )
 );
+
+//hide admin_bar - WP管理画面ログイン時ツールバー非表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+add_filter( 'show_admin_bar', '__return_false' );
+//disable Gutenberg - Gutenberg（ブロックエディタ）無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+add_filter( 'use_block_editor_for_post', '__return_false' );
+
+//disable wpautop - 自動pタグ無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+add_action('init', function() {
+remove_filter('the_excerpt', 'wpautop');
+remove_filter('the_content', 'wpautop');
+});
+add_filter('tiny_mce_before_init', function($init) {
+$init['wpautop'] = false;
+$init[‘apply_source_formatting’] = true;
+return $init;
+});
+
+//hide visual editor - ビジュアルエディタ非表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function my_admin_style() {
+  echo '<style>
+  .wp-editor-tabs {
+			display: none;
+		}
+  </style>'.PHP_EOL;
+}
+add_action('admin_print_styles', 'my_admin_style');
+
+//add_shortcode, include php file - ショートコードでphpファイルを読み込み//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function sc_php($atts = array()) {
+  shortcode_atts(array(   /* shortcode_atts でショートコードの属性名を指定 */
+    'file' => 'default'   /* 属性名とデフォルトの値 */
+  ), $atts);   /* 属性を格納する変数 */
+  ob_start();   /* バッファリング */
+  include(STYLESHEETPATH . "/$atts[file].php");  /* CSSのあるパス = 子テーマのパスを指定 */
+  return ob_get_clean();  /* バッファの内容取得、出力バッファを削除 */
+}
+
+// ショートコード作成（sc というショートコードは、sc_php()という関数を呼び出すという意味）
+add_shortcode('sc', 'sc_php');

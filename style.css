@@ -987,6 +987,9 @@ html {
 								padding: 15px;
 								border-radius: 0 0 5px 5px;
 							}
+							.sec_box_inner.box_articles {
+								padding: 0;
+							}
 							.sec_box_a {
 								width: 98%;
 								background: rgba(255, 255, 255, 0.5) /*#fff*/;
@@ -1547,7 +1550,8 @@ html {
 														.sec_box,
 														.nav_local,
 														.info_a_sitemap,
-														.rainbow {
+														.rainbow,
+														.link_cat {
 															transition: all 2s ease 0s;
 															opacity: 0;
 														}
@@ -1636,7 +1640,8 @@ html {
 														.info_h3.slide,
 														.info_ul.slide,
 														.info_a_sitemap.slide,
-														.sec_box_one_to_one h3.sec_h3_lead.slide {
+														.sec_box_one_to_one h3.sec_h3_lead.slide,
+														.link_cat.slide {
 															animation: slideIn 1s ease 0s 1 normal;
 														}
 														.info_h3 em {
@@ -1645,7 +1650,8 @@ html {
 														.tel {
 															color: rgb(53, 87, 129) /*#355781*/;
 														}
-														.info_a_sitemap {
+														.info_a_sitemap,
+														.link_cat {
 															display: inline-block;
 															height: 20px;
 															transition: all 0.3s ease 0s;
@@ -1654,12 +1660,15 @@ html {
 															line-height: 20px;
 															color: rgb(89, 145, 216) /*#5991d8*/;
 														}
-														.info_a_sitemap:hover {
+														.info_a_sitemap:hover,
+														.link_cat:hover {
 															margin-left: 10px;
 															color: rgba(255, 156, 38, 0.9) /*#ff9c26*/;
 														}
 														.info_a_sitemap:active,
-														.info_a_sitemap:visited {
+														.info_a_sitemap:visited,
+														.link_cat:active,
+														.link_cat:visited {
 															color: rgb(89, 145, 216) /*#5991d8*/;
 														}
 														.arrow {
@@ -1680,7 +1689,8 @@ html {
 															border-right: solid 2px rgb(89, 145, 216) /*#5991d8*/;
 															transform: rotate(45deg);
 														}
-														.info_a_sitemap .arrow::before {
+														.info_a_sitemap .arrow::before,
+														.link_cat .arrow::before {
 															margin-top: -11px;
 														}
 														@keyframes rainbow {

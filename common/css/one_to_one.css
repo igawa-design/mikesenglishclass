@@ -162,16 +162,19 @@ h4 {
  color: rgb(30, 136, 168) /*#1e88a8*/;
  font-size: 1.6rem;
 }
-h4:first-child {
- margin-top: 0;
-}
-.article_h4 {
- margin: 15px 0;
- border: none;
- padding: 0;
-}
+h4:first-child,
 .arrow_h4:first-child {
  margin-top: 0;
+}
+.article:first-child .article_h4 {
+	margin-top: 15px;
+}
+.article .article_h4 {
+ margin: -10px 0 15px 0;
+ border-right: none;
+	border-bottom: none;
+	border-radius: 5px 0 0 0;
+ padding: 5px 0 0 10px;
 }
 .nav_local_box {
  display: flex;
@@ -250,9 +253,9 @@ h4:first-child {
  font-size: 1.5rem;
  font-weight: normal;
 }
-.em_ja::before,
-.em_ja::before {
- content: "-";
+.em_en span,
+.em_ja span {
+	display: block;
 }
 .sec_img {
  transform: scale(0.975);
@@ -289,8 +292,9 @@ tr:first-child th {
  margin-right: 10px;
 }
 .article {
- border-bottom: 2px dotted rgb(38, 155, 143) /*#269b8f*/;
- padding: 15px;
+	position: relative;
+ padding: 15px 10px;
+	margin-bottom: 20px;
 }
 .article:first-child {
  padding-top: 0;
@@ -298,12 +302,38 @@ tr:first-child th {
 .article:last-child {
  border-bottom: none;
 }
-.category {
- display: block;
- margin-top: 10px;
+.article_cat {
+	display: block;
+	position: absolute;
+	right: 10px;
+	bottom: -10px;
  color: rgb(89, 145, 216) /*#5991d8*/;
- font-size: 1.3rem;
+ font-size: 1.4rem;
  text-align: right;
+}
+.cat {
+	display: inline-block;
+	padding: 0 5px 5px 0;
+	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-radius: 0 0 5px 0;
+	color: rgb(53, 87, 129) /*#355781*/
+	transition: all 0.1s ease 0s;
+}
+.cat:hover {
+	background: rgb(89, 145, 216) /*#5991d8*/;
+	padding: 5px;
+	border: 4px double rgb(89, 145, 216) /*#5991d8*/;
+	border-radius: 5px;
+	color: rgb(255, 255, 255) /*#fff*/;
+}
+.box_link_cat {
+	width: 100%;
+	padding: 30px 15px 15px;
+	text-align: right;
+}
+.link_cat {
+	color: rgb(89, 145, 216) /*#5991d8*/;
 }
 
 /********************************************************************************************
@@ -348,6 +378,32 @@ SP Landscape
   margin-bottom: 15px;
   padding: 10px;
  }
+	.em_en span,
+	.em_ja span {
+		display: inline;
+	}
+	.box_articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+ }
+ .article {
+  width: calc(50% - (15px * 2)) /* width - margin */;
+  margin: 15px;
+  padding: 0;
+ }
+	.article:first-child .article_h4,
+	.article:nth-of-type(2) .article_h4 {
+		margin-top: 0;
+	}
+	.article .article_h4 {
+		margin-top: 15px;
+	}
+	.article_cat {
+		bottom: -30px;
+	}
 }
 
 /********************************************************************************************

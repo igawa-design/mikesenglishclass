@@ -49,7 +49,7 @@ $(window).scroll(function (){
       $(this).removeClass("background");
      }
    }),
-  $(".career, .sec_h3_lead, .sec_box_a, .sincerely, .info_h3, .info_ul, .info_a_sitemap").each(function(){
+  $(".career, .sec_h3_lead, .sec_box_a, .sincerely, .info_h3, .info_ul, .info_a_sitemap, .link_cat").each(function(){
      var hit		= $(this).offset().top;
      var scroll	= $(window).scrollTop();
      var wHeight	= $(window).height();
@@ -60,7 +60,7 @@ $(window).scroll(function (){
       $(this).removeClass("slide");
      }
     }),
-   $(".section, .sec_box, .nav_local, .info_a_sitemap, .rainbow").each(function(){
+   $(".section, .sec_box, .nav_local, .info_a_sitemap, .rainbow, .link_cat").each(function(){
      var hit		= $(this).offset().top;
      var scroll	= $(window).scrollTop();
      var wHeight	= $(window).height();

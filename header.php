@@ -69,12 +69,12 @@ z-index: 9999;
 <ul class="circles">
 <li></li>
 <li></li>
-<li>Online</li>
+<li></li>
 <li>Hello</li>
 <li></li>
 <li>One to One</li>
 <li>English</li>
-<li>Yes</li>
+<li></li>
 <li></li>
 <li>Lessons</li>
 </ul><!--circles-->

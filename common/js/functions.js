@@ -1,7 +1,7 @@
 // scroll add class   /////////////////////////////////////////////////////////////
 
 $(window).scroll(function(){
-  if ($(window).scrollTop() > 500) {
+  if ($(window).scrollTop() > 400) {
     $('header').addClass('scroll');
   } else {
     $('header').removeClass('scroll');
@@ -9,7 +9,7 @@ $(window).scroll(function(){
 });
 
 $(window).scroll(function(){
-  if ($(window).scrollTop() > 668) {
+  if ($(window).scrollTop() > 500) {
     $('header').addClass('fade');
   } else {
     $('header').removeClass('fade');

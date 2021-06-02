@@ -4,25 +4,8 @@ Template Name: single
 
 <?php get_header(); ?>
 
-<body id="SINGLE">
-
-<header id="header">
-<div class="flex">
-<h1><a href="<?php echo home_url(); ?>"><img alt="札幌英会話＆英語教室 Mike’s Posts" src="<?php echo get_template_directory_uri(); ?>/common/img/logo.png"></a></h1>
-<div class="box facebook">
-<a href="https://www.facebook.com/mikesenglishclass" target="_blank">
-<img alt="マイク英会話教室札幌 facebook" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_facebook.svg" class="icon_facebook"></a>
-</div><!--box-->
-<div class="box youtube">
-<a href="https://www.youtube.com/channel/UCxV2V8PO1QbFdeQOODeeyXw" target="_blank">
-<img alt="
-マイク英会話教室札幌 YouTube" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_youtube.svg" class="icon_youtube"></a>
-</div><!--box-->
-</div><!--flex-->
-
-<?php get_template_part('nav'); ?>
-
-</header>
+<?php get_template_part('fancy_slider'); ?>
+<?php get_template_part('nav_local'); ?>
 
 <main>
 <section id="POST" class="box">

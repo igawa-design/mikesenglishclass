@@ -693,6 +693,8 @@ html {
 				z-index: 100;
 				display: flex;
 				flex-wrap: wrap;
+				box-shadow: 0 0 5px rgba(170, 170, 170, 0.5) /*#aaa*/;
+				margin: 7px;
 			}
 			.nav_local_list {
 				position: relative;
@@ -704,10 +706,25 @@ html {
 				transition: all 1s ease 0s;
 				background-color: rgb(255, 255, 255) /*#fff*/;
 				border: 2px dotted rgba(53, 87, 129, 0.1) /*#355781*/;
-				padding: 5px 0;
+				padding: 3px 0;
 				color: rgb(53, 87, 129) /*#355781*/;
 				letter-spacing: 0.05rem;
 				text-shadow: 0 0 1px rgba(0, 0, 0, 0.03) /*#000*/;
+			}
+			.nav_local_list:first-child,
+			.nav_local_list:nth-child(n + 2) {
+				border-top: none;
+			}
+			.nav_local_list:nth-child(n + 13),
+			.nav_local_list:nth-child(n + 14) {
+				border-bottom: none;
+			}
+			.nav_local_list:nth-child(odd),
+			.nav_local_list:nth-child(even) {
+				border-left: none;
+			}
+			.nav_local_list:nth-child(even) {
+				border-right: none;
 			}
 			.nav_local_list::before {
 				position: absolute;

@@ -5,6 +5,15 @@ Template Name: archive-reviews
 <?php get_header('page'); ?>
 
 <main>
+<figure class="fig main_view">
+<figcaption class="figcaption">One to One</figcaption>
+<picture>
+<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/fnc_one_to_one_1200x1600.jpg">
+<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/fnc_one_to_one_1920x2560.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/fnc_one_to_one_1200x1600.jpg">
+</picture>
+</figure>
+
 <section id="archive" class="section">
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
@@ -38,15 +47,18 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a
 </article>
 
 <?php endwhile; ?>
-
 <?php else : ?>
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_reviews-->
 
+<div class="sec_box sec_box_reviews">
+<div class="sec_box_inner">
 <h2 id="not_found"><em>新しいレビューはありません。</em><span lang="en">Not Found</span></h2>
 <p><a href="<?php echo home_url('reviews'); ?>"><span lang="en">Back To Reviews</span> - レビュー一覧へ戻る - </a></p>
 <?php endif; ?>
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_reviews-->
 
 <div id="pagination" class="archive">
 <?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $loop)); ?>

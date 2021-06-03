@@ -5,7 +5,15 @@ Template Name: archive-gallery
 <?php get_header('page'); ?>
 
 <main>
-	<section id="archive" class="section">
+<figure class="fig main_view">
+<figcaption class="figcaption">Gallery</figcaption>
+<picture>
+<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
+<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1920x1440.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
+</picture>
+</figure>
+<section id="archive" class="section">
 <h2><em>ギャラリー 一覧 </em><span lang="en">photo gallery</span></h2>
 
 <div id="masonry">

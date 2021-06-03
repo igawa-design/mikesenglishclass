@@ -87,6 +87,12 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <?php elseif(is_tax('gallery-cat', array('scrapbook'))): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
+<?php elseif(is_post_type_archive('reviews')): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
+<?php elseif(is_tax('reviews-cat', array('one-to-one'))): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
+<?php elseif(is_tax('reviews-cat', array('translations'))): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif(is_page('translations')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/translations.css">
 <?php elseif(is_page('location')): ?>

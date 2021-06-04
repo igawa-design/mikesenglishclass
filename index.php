@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
 <?php get_template_part('fancy_slider'); ?>
+<div class="rainbow top"></div><!-- rainbow -->
+<img alt="札幌英会話＆英語教室 Mike’s English Class Sapporo" loading="lazy" width="70" height="70" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/logo.svg" class="logo top">
 <?php get_template_part('nav_local'); ?>
 
 <div id="container">

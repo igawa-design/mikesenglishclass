@@ -195,6 +195,35 @@ html {
 				width: 80px;
 				height: 80px;
 			}
+			@keyframes logo {
+				0% {
+						position: relative;
+						top: 0;
+						transform: translateX(0);
+						opacity: 0;
+				}
+				30% {
+						transform: translateX(-80%);
+						opacity: 1;
+						width: 120px;
+				}
+				100% {
+						position: relative;
+						top: -120px;
+						transform: translateX(0);
+						opacity: 1;
+				}
+		}
+			.logo.top {
+				position: relative;
+				top: -100px;
+				display: block;
+				margin: auto;
+			}
+			.logo.scale {
+				animation: logo 2.5s ease 0s 1 normal;
+				width: 80px;
+			}
 			.header_icon {
 				width: 40px;
 				height: 40px;
@@ -258,7 +287,50 @@ html {
 			.sidenavs {
 				height: 100%;
 				width: 0;
-				background: linear-gradient(-45deg, rgba(79, 134, 216, 1) 0%, rgba(89, 145, 216, 0.99) 100%) /*#4f86d8 - #56a3d8 */;
+				background: rgb(30, 136, 168) /*#1e88a8*/;
+				background-image:
+				repeating-linear-gradient(
+					-5deg,
+					rgba(245, 241, 213, 0.10),
+					rgba(245, 241, 213, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 50px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 58px,
+					rgba(255, 255, 255, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 66px,
+					rgba(245, 241, 213, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 74px,
+					rgba(255, 255, 255, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 114px,
+					rgba(180, 214, 198, 0.10) 154px,
+					rgba(255, 255, 255, 0) 154px,
+					rgba(255, 255, 255, 0) 162px,
+					rgba(245, 241, 213, 0.10) 162px,
+					rgba(245, 241, 213, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 170px,
+					rgba(255, 255, 255, 0.10) 178px
+					),
+					repeating-linear-gradient(
+						-50deg,
+						rgba(245, 241, 213, 0.10),
+						rgba(245, 241, 213, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 50px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 58px,
+						rgba(255, 255, 255, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 66px,
+						rgba(245, 241, 213, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 74px,
+						rgba(255, 255, 255, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 114px,
+						rgba(180, 214, 198, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 154px,
+						rgba(255, 255, 255, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 162px,
+						rgba(245, 241, 213, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 170px,
+						rgba(255, 255, 255, 0.10) 178px
+						);
 				position: fixed;
 				scroll-behavior: smooth;
 				z-index: 1;
@@ -1731,6 +1803,9 @@ html {
 														.rainbow.scale {
 															opacity: 1;
 															animation: rainbow 2s ease 0s 1 normal;
+														}
+														.rainbow.top {
+															height: 190px;
 														}
 														.box_copyright {
 															position: relative;

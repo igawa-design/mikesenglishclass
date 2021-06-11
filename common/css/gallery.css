@@ -23,7 +23,7 @@ SP Portrait
  object-fit: cover;
 }
 .figcaption {
- background: rgb(89, 145, 216) /*#5991d8*/;
+ background: rgb(66, 191, 176) /*#42bfb0*/;
 }
 .figcaption.name {
  letter-spacing: 0.15rem;
@@ -41,6 +41,168 @@ SP Portrait
  opacity: 1;
  font-weight: normal;
 }
+.sec_box_inner {
+	padding: ​0;
+}
+.sec_icon {
+ opacity: 1
+}
+.sec_h2 {
+ background-color: rgb(66, 191, 176) /*#42bfb0*/;
+}
+.article {
+	position: relative;
+ padding: 15px 10px;
+	margin-bottom: 20px;
+}
+.article:first-child {
+ padding-top: 0;
+}
+.article:last-child {
+ border-bottom: none;
+}
+h4 {
+ margin: 15px 0;
+ border: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(30, 136, 168) /*#1e88a8*/;
+ font-size: 1.6rem;
+}
+h4:first-child {
+ margin-top: 0;
+}
+.article:first-child .article_h4 {
+	margin-top: 15px;
+}
+.article .article_h4 {
+ margin: -10px 0 15px 0;
+ border-right: none;
+	border-bottom: none;
+	border-radius: 5px 0 0 0;
+ padding: 5px 0 0 10px;
+}
+.article_cat {
+	display: block;
+	position: absolute;
+	right: 10px;
+	bottom: -10px;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+ font-size: 1.4rem;
+ text-align: right;
+}
+.cat {
+	display: inline-block;
+	padding: 0 5px 5px 0;
+	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-radius: 0 0 5px 0;
+	color: rgb(53, 87, 129) /*#355781*/;
+	transition: all 0.1s ease 0s;
+}
+.cat:hover {
+	background: rgb(89, 145, 216) /*#5991d8*/;
+	padding: 5px;
+	border: 4px double rgb(89, 145, 216) /*#5991d8*/;
+	border-radius: 5px;
+	color: rgb(255, 255, 255) /*#fff*/;
+}
+.box_link_cat {
+	width: 100%;
+	padding: 30px 15px 15px;
+	text-align: right;
+}
+.link_cat {
+	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+#sidebar h2 {
+	text-align: center;
+}
+#csategories ul,
+#archives ul {
+	margin: 0;
+}
+#tags p {
+	margin: 0;
+	padding: 10px;
+}
+.wp-pagenavi {
+ overflow: hidden;
+ margin: 20px auto;
+}
+.wp-pagenavi a,
+.wp-pagenavi span {
+ float: left;
+ width: 23%;
+ margin: 1%;
+ border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
+ padding: 6px 8px;
+ font-size: 1.4rem;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+	text-align: center;
+}
+.wp-pagenavi span.current {
+ background: rgb(89, 145, 216) /*#5991d8*/;
+ border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
+ color: rgb(255, 255, 255) /*#fff*/;
+}
+
+/********************************************************************************************
+SP Landscape
+*********************************************************************************************/
+/* 667px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 667px){
+ .section {
+  margin: 0 auto 10px;
+  padding: 0 1%;
+  }
+ .section.w100,
+ .section.last {
+  width: 100%;
+  margin: 20px 0;
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1024px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+ header {
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+ }
+ main {
+  max-width: 1920px;
+  margin: auto;
+ }
+ .fig.main_view img {
+  height: 500px;
+ }
+ .sec_h2 {
+  font-size: 1.6rem;
+ }
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1920px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1920px){
+ .section {
+  padding: 0;
+ }
+}
+
 
 /*2021.06.03
 reviws.cssの後に作成する。/*

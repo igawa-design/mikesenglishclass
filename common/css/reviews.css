@@ -23,7 +23,7 @@ SP Portrait
  object-fit: cover;
 }
 .figcaption {
- background: rgb(89, 145, 216) /*#5991d8*/;
+ background: rgb(242, 187, 3) /*#f2bb03*/;
 }
 .figcaption.name {
  letter-spacing: 0.15rem;
@@ -33,19 +33,115 @@ SP Portrait
  margin: 15px ​0;
  padding: 0 2%;
 }
-.section:first-of-type {
-	margin-top: 100px;
-}
 .section,
 .sec_box {
  opacity: 1;
  font-weight: normal;
+}
+.sec_box_inner {
+	padding: ​0;
 }
 .sec_icon {
  opacity: 1
 }
 .sec_h2 {
  background-color: rgb(242, 187, 3) /*#f2bb03*/;
+}
+.article {
+	position: relative;
+ padding: 15px 10px;
+	margin-bottom: 20px;
+}
+.article:first-child {
+ padding-top: 0;
+}
+.article:last-child {
+ border-bottom: none;
+}
+h4 {
+ margin: 15px 0;
+ border: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(30, 136, 168) /*#1e88a8*/;
+ font-size: 1.6rem;
+}
+h4:first-child {
+ margin-top: 0;
+}
+.article:first-child .article_h4 {
+	margin-top: 15px;
+}
+.article .article_h4 {
+ margin: -10px 0 15px 0;
+ border-right: none;
+	border-bottom: none;
+	border-radius: 5px 0 0 0;
+ padding: 5px 0 0 10px;
+}
+.article_cat {
+	display: block;
+	position: absolute;
+	right: 10px;
+	bottom: -10px;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+ font-size: 1.4rem;
+ text-align: right;
+}
+.cat {
+	display: inline-block;
+	padding: 0 5px 5px 0;
+	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-radius: 0 0 5px 0;
+	color: rgb(53, 87, 129) /*#355781*/;
+	transition: all 0.1s ease 0s;
+}
+.cat:hover {
+	background: rgb(89, 145, 216) /*#5991d8*/;
+	padding: 5px;
+	border: 4px double rgb(89, 145, 216) /*#5991d8*/;
+	border-radius: 5px;
+	color: rgb(255, 255, 255) /*#fff*/;
+}
+.box_link_cat {
+	width: 100%;
+	padding: 30px 15px 15px;
+	text-align: right;
+}
+.link_cat {
+	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+#sidebar h2 {
+	text-align: center;
+}
+#csategories ul,
+#archives ul {
+	margin: 0;
+}
+#tags p {
+	margin: 0;
+	padding: 10px;
+}
+.wp-pagenavi {
+ overflow: hidden;
+ margin: 20px auto;
+}
+.wp-pagenavi a,
+.wp-pagenavi span {
+ float: left;
+ width: 23%;
+ margin: 1%;
+ border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
+ padding: 6px 8px;
+ font-size: 1.4rem;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+	text-align: center;
+}
+.wp-pagenavi span.current {
+ background: rgb(89, 145, 216) /*#5991d8*/;
+ border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
+ color: rgb(255, 255, 255) /*#fff*/;
 }
 
 /********************************************************************************************

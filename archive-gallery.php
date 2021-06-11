@@ -21,7 +21,7 @@ Template Name: archive-gallery
 </section><!-- section w100 -->
 
 <section id="archive" class="section">
-<div class="sec_box sec_box_gallery">
+<div class="sec_box sec_box_garelly">
 <div class="sec_box_inner">
 
 <div id="masonry">
@@ -38,8 +38,6 @@ $args = array(
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
 <article class="article">
-<h4 class="article_h4"></h4>
-<div class="pic">
 <?php the_content(); ?>
 <?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
 <img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
@@ -54,23 +52,22 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 }
 ?>
 </small>
-</div><!--pic-->
 </article><!--article-->
 
 <?php endwhile; ?>
 <?php else : ?>
 
 </div><!--sec_box_inner-->
-</div><!--sec_box sec_box_gallery-->
+</div><!--sec_box sec_box_garelly-->
 
-<div class="sec_box sec_box_gallery">
+<div class="sec_box sec_box_garelly">
 <div class="sec_box_inner">
 <h2 id="not_found"><em>新しいレビューはありません。</em><span lang="en">Not Found</span></h2>
 <p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Photo Gallery</span> - ギャラリー 一覧へ戻る - </a></p>
 <?php endif; ?>
 </div><!--masonry-->
 </div><!--sec_box_inner-->
-</div><!--sec_box sec_box_gallery-->
+</div><!--sec_box sec_box_garelly-->
 
 <div id="pagination" class="archive">
 <?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $loop)); ?>

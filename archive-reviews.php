@@ -8,17 +8,21 @@ Template Name: archive-reviews
 <figure class="fig main_view">
 <figcaption class="figcaption">Reviews</figcaption>
 <picture>
-	<picture>
 	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
-	<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/reviews_1400x1050.jpg">
+	<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 	</picture>
 </figure>
+
+<section class="section w100">
+<h2 class="sec_h2">レビュー 一覧</h2>
+<p class="sec_txt_lead reviews_lead">Reviews</p>
+<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
+</section><!-- section w100 -->
 
 <section id="archive" class="section">
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
-<h2><em>レビュー一覧 </em><span lang="en">Reviews</span></h2>
 
 <?php
 $args = array(
@@ -32,20 +36,20 @@ $args = array(
 <?php if($loop->have_posts()): ?>
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
-<article>
-<h3><?php echo get_the_title(); ?></h3>
+<article class="article">
+<h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <div class="post">
-<?php the_content(); ?>
-<p class="category">
+<p><?php the_content(); ?></p>
+<small class="article_cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
-echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a>';
+echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$term->name.'</a>';
 }
 ?>
-</p>
+</small>
 </div><!--post-->
-</article>
+</article><!--article-->
 
 <?php endwhile; ?>
 <?php else : ?>

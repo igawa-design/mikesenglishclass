@@ -24,6 +24,7 @@ Template Name: archive-gallery
 <div class="sec_box sec_box_gallery">
 <div class="sec_box_inner">
 
+<div id="masonry">
 <?php
 $args = array(
 				'post_type' => array('gallery'),
@@ -37,9 +38,8 @@ $args = array(
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
 <article class="article">
-<h4 class="article_h4"><?php echo get_the_title(); ?></h4>
+<h4 class="article_h4"></h4>
 <div class="pic">
-<div class="post">
 <?php the_content(); ?>
 <?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
 <img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
@@ -54,7 +54,6 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 }
 ?>
 </small>
-</div><!--post-->
 </div><!--pic-->
 </article><!--article-->
 
@@ -69,6 +68,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 <h2 id="not_found"><em>新しいレビューはありません。</em><span lang="en">Not Found</span></h2>
 <p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Photo Gallery</span> - ギャラリー 一覧へ戻る - </a></p>
 <?php endif; ?>
+</div><!--masonry-->
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_gallery-->
 

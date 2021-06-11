@@ -148,8 +148,6 @@ h4:first-child {
 }
 #masonry {
 	width: 100%;
-}
-#masonry {
 	overflow: hidden;
 }
 #masonry .pic {
@@ -178,7 +176,7 @@ SP Landscape
 		margin: 20px 0;
 	}
 	.article,
-	#masonry .pic {
+	#masonry .article {
 		width: 50%;
 	}
 }

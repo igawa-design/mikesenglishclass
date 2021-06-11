@@ -98,6 +98,11 @@ $(".hamburger-menu, .close-btn").click(function(){
   }
 });
 
+// masonry //////////////////////////////////////////////////////
+$('#masonry').masonry({
+  itemSelector: '.article',
+});
+
 // Copyright //////////////////////////////////////////////////////
 
 var date = new Date();

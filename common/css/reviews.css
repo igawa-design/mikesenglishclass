@@ -36,10 +36,16 @@ SP Portrait
 .section,
 .sec_box {
  opacity: 1;
+	border-radius: 5px;
  font-weight: normal;
 }
 .sec_box_inner {
-	padding: ​0;
+	margin-top: 7px;
+	padding: 10px 0 0 0;
+}
+#archive .sec_box_inner:first-child,
+#search .sec_box_inner  {
+	padding: 0;
 }
 .sec_icon {
  opacity: 1
@@ -64,7 +70,7 @@ h4 {
  padding: 10px;
  border-radius: 5px;
  color: rgb(30, 136, 168) /*#1e88a8*/;
- font-size: 1.6rem;
+ font-size: 1.8rem;
 }
 h4:first-child {
  margin-top: 0;
@@ -80,8 +86,9 @@ h4:first-child {
  padding: 5px 0 0 10px;
 }
 .article_cat {
-	display: block;
 	position: absolute;
+	display: block;
+	width: calc(100% - (10px * 2));
 	right: 10px;
 	bottom: -10px;
  color: rgb(89, 145, 216) /*#5991d8*/;
@@ -90,6 +97,7 @@ h4:first-child {
 }
 .cat {
 	display: inline-block;
+	width: 100%;
 	padding: 0 5px 5px 0;
 	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
@@ -113,6 +121,8 @@ h4:first-child {
 	color: rgb(89, 145, 216) /*#5991d8*/;
 }
 #sidebar h2 {
+	font-size: 1.8rem;
+	color: rgb(30, 136, 168) /*#1e8å8a8*/;
 	text-align: center;
 }
 #csategories ul,
@@ -123,24 +133,49 @@ h4:first-child {
 	margin: 0;
 	padding: 10px;
 }
+#searchform,
+#s {
+	height: 50px;
+	padding: 10px;
+}
+#s {
+	width: 61.8%;
+	float: left;
+	box-shadow: none;
+	border: 1px solid rgb(242, 187, 3) /*#f2bb03*/;
+	border-radius: 5px 0 0 5px;
+}
+#searchsubmit {
+	width: 38.2%;
+	height: 50px;
+	background: rgb(242, 187, 3) /*#f2bb03*/;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	color: rgb(255, 255, 255) /*#fff*/;
+}
+::placeholder {
+	color: rgba(53, 87, 129, 0.5) /*#355781*/;
+}
 .wp-pagenavi {
  overflow: hidden;
- margin: 20px auto;
+ margin: 30px auto 3px;
+ padding: 0 10px 20px;
 }
 .wp-pagenavi a,
 .wp-pagenavi span {
  float: left;
  width: 23%;
  margin: 1%;
- border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
+ border: 1px solid rgb(30, 136, 168) /*#1e88a8*/;
  padding: 6px 8px;
  font-size: 1.4rem;
- color: rgb(89, 145, 216) /*#5991d8*/;
+ color: rgb(30, 136, 168) /*#1e88a8*/;
 	text-align: center;
+	letter-spacing: 0.1rem;
 }
 .wp-pagenavi span.current {
- background: rgb(89, 145, 216) /*#5991d8*/;
- border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
+ background: rgb(30, 136, 168) /*#1e88a8*/;
+ border: 1px solid rgb(30, 136, 168) /*#1e88a8*/;
  color: rgb(255, 255, 255) /*#fff*/;
 }
 
@@ -150,6 +185,17 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
+	#container {
+		width: 100%;
+	}
+	#archive {
+		float: left;
+		width: 61.8%;
+	}
+	#sidebar {
+		float: right;
+		width: 38.2%;
+	}
  .section {
   margin: 0 auto 10px;
   padding: 0 1%;
@@ -159,6 +205,9 @@ SP Landscape
   width: 100%;
   margin: 20px 0;
  }
+	.sec_box:last-child {
+		border-radius: 5px;
+	}
 }
 
 /********************************************************************************************

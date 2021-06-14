@@ -644,8 +644,8 @@ html {
 			}
 			.circles li:nth-child(4) {
 				left: 40%;
-				width: 120px;
-				height: 120px;
+				width: 180px;
+				height: 180px;
 				padding-bottom: 30px;
 				animation-delay: 0s;
 				animation-duration: 18s;
@@ -658,15 +658,15 @@ html {
 			}
 			.circles li:nth-child(6) {
 				left: 75%;
-				width: 150px;
-				height: 150px;
+				width: 200px;
+				height: 200px;
 				padding-bottom: 30px;
 				animation-delay: 3s;
 			}
 			.circles li:nth-child(7) {
 				left: 35%;
-				width: 140px;
-				height: 140px;
+				width: 200px;
+				height: 200px;
 				padding-bottom: 40px;
 				animation-delay: 7s;
 			}
@@ -687,8 +687,8 @@ html {
 			}
 			.circles li:nth-child(10) {
 				left: 55%;
-				width: 140px;
-				height: 140px;
+				width: 250px;
+				height: 250px;
 				padding-bottom: 30px;
 				animation-delay: 0s;
 				animation-duration: 11s;

@@ -156,13 +156,13 @@ z-index: 9999;
 <li></li>
 <li></li>
 <li></li>
-<li>Hello</li>
+<li>What's up?</li>
 <li></li>
-<li>One to One</li>
-<li>English</li>
+<li>What's going on?</li>
+<li>How's it going?</li>
 <li></li>
 <li></li>
-<li>Lessons</li>
+<li>How're you doing?</li>
 </ul><!--circles-->
 <a href="#close" class="close-btn"></a>
 <a class="nav_list" href="<?php echo home_url('aboutmike'); ?>"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en"><img class="nav_icon" alt="英語、英会話教師のマイク・ニマ先生についてとご挨拶はこちら。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_about_mike.svg"><em class="About_Mike first_letter">A</em>bout Mike</span></a>

@@ -20,7 +20,7 @@ Template Name: archive-reviews
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
 </section><!-- section w100 -->
 
-<section id="archive" class="section">
+<div id="archive" class="section">
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
 
@@ -62,13 +62,14 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 <h2 id="not_found"><em>新しいレビューはありません。</em><span lang="en">Not Found</span></h2>
 <p><a href="<?php echo home_url('reviews'); ?>"><span lang="en">Back To Reviews</span> - レビュー一覧へ戻る - </a></p>
 <?php endif; ?>
-</div><!--sec_box_inner-->
-</div><!--sec_box sec_box_reviews-->
 
 <div id="pagination" class="archive">
 <?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $loop)); ?>
 </div><!--pagination archive-->
-</section><!--archive section-->
+
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_reviews-->
+</div><!--archive section-->
 
 <?php get_sidebar('reviews'); ?>
 

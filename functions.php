@@ -104,6 +104,15 @@ register_taxonomy(
  )
 );
 
+// 検索対象をカスタム投稿タイプで絞り込む /////////////////////////////////////////////////////////////////////////////
+
+function my_pre_get_posts($query) {
+  if ( !is_admin() && $query->is_main_query() && $query->is_search() ) {
+    $query->set( 'post_type', array('post','page','reviews') );
+  }
+}
+add_action( 'pre_get_posts','my_pre_get_posts' );
+
 //画像サイズ//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 add_theme_support( 'post-thumbnails' );

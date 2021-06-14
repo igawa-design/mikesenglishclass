@@ -2,33 +2,46 @@
 Template Name: taxonomy-gallery-cat
 */ ?>
 
-<?php get_header(); ?>
-
-<?php get_template_part('fancy_slider'); ?>
-<?php get_template_part('nav_local'); ?>
+<?php get_header('page'); ?>
 
 <main>
-<section id="ARCHIVE" class="box">
-<h2><em><?php echo esc_html($term->name); ?></em><span>Mike's <?php echo esc_html($term->slug); ?></span></h2>
+<figure class="fig main_view">
+<figcaption class="figcaption">Gallery</figcaption>
+<picture>
+	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
+	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1920x1440.jpg">
+	<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
+	</picture>
+</figure>
 
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+<section class="section w100">
+<h2 class="sec_h2">ギャラリー 一覧</h2>
+<p class="sec_txt_lead gallery_lead">Photo Gallery</p>
+<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のギャラリー一覧" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></h3>
+</section><!-- section w100 -->
 
-<div class="pic">
-<div class="post">
-<?php the_content(); ?>
-<?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
-<img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
-<?php }else{ ?>
-<?php } ?>
-</div><!--post-->
-</div><!--pic-->
+<section id="archive" class="section">
+<div class="sec_box sec_box_garelly">
+<div class="sec_box_inner">
 
-<?php endwhile; ?>
+
+
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_garelly-->
+
+<div class="sec_box sec_box_garelly">
+<div class="sec_box_inner">
+<h2 id="not_found"><em>新しい写真はありません。</em><span lang="en">Not Found</span></h2>
+<p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Photo Gallery</span> - ギャラリー 一覧へ戻る - </a></p>
+<?php endif; ?>
+</div><!--masonry-->
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_garelly-->
 
 <div id="pagination" class="archive">
-<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+<?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $loop)); ?>
 </div><!--pagination archive-->
-</section><!--ARCHIVE-->
+</section><!--archive section-->
 
 <?php get_sidebar('gallery'); ?>
 

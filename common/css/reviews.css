@@ -53,15 +53,18 @@ SP Portrait
 .sec_h2 {
  background-color: rgb(242, 187, 3) /*#f2bb03*/;
 }
-.article {
+.sec_h2 em {
+	display: block;
+}
+article {
 	position: relative;
  padding: 15px 10px;
 	margin-bottom: 20px;
 }
-.article:first-child {
+article:first-child {
  padding-top: 0;
 }
-.article:last-child {
+article:last-child {
  border-bottom: none;
 }
 h4 {
@@ -75,15 +78,21 @@ h4 {
 h4:first-child {
  margin-top: 0;
 }
-.article:first-child .article_h4 {
+article:first-child .article_h4 {
 	margin-top: 15px;
 }
-.article .article_h4 {
+article .article_h4 {
  margin: -10px 0 15px 0;
  border-right: none;
 	border-bottom: none;
 	border-radius: 5px 0 0 0;
  padding: 5px 0 0 10px;
+}
+article p {
+	margin: 15px 10px;
+}
+article time {
+	margin: 0 10px;
 }
 .article_cat {
 	position: absolute;

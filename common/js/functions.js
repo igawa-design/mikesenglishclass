@@ -100,7 +100,7 @@ $(".hamburger-menu, .close-btn").click(function(){
 
 // masonry //////////////////////////////////////////////////////
 $('#masonry').masonry({
-  itemSelector: '.article',
+  itemSelector: 'article',
 });
 
 // Copyright //////////////////////////////////////////////////////

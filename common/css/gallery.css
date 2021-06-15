@@ -49,27 +49,30 @@ SP Portrait
 .sec_h2 {
 	background-color: rgb(66, 191, 176) /*#42bfb0*/;
 }
-.article {
+.sec_h2 em {
+	display: block;
+}
+article {
 	position: relative;
 	margin-bottom: 0;
 }
-.article:first-child {
+article:first-child {
 	padding-top: 0;
 }
-.article:last-child {
+article:last-child {
 	border-bottom: none;
 }
 #masonry {
 	width: 100%;
 	overflow: hidden;
 }
-#masonry .article {
+#masonry article {
 	width: 100%;
 	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
 	border: none;
 	padding: 10px;
 }
-#masonry .article img {
+#masonry article img {
 	height: auto;
 }
 h4 {
@@ -161,7 +164,7 @@ SP Landscape
 		width: 100%;
 		margin: 20px 0;
 	}
-	#masonry .article {
+	#masonry article {
 		width: calc(100% / 2);
 	}
 }
@@ -192,7 +195,7 @@ PC & Tablet Landscape
 	.sec_h2 {
 		font-size: 1.6rem;
 	}
-	#masonry .article {
+	#masonry article {
 		width: calc(100% / 3);
 	}
 }
@@ -206,7 +209,7 @@ PC & Tablet Landscape
 	.section {
 		padding: 0;
 	}
-	#masonry .article {
+	#masonry article {
 		width: calc(100% / 4);
 	}
 }

@@ -28,7 +28,7 @@ Template Name: archive-reviews
 $args = array(
 	'post_type' => array('reviews'),
  'paged' => $paged,
- 'posts_per_page' => 30
+ 'posts_per_page' => 10
  );
 ?>
 

@@ -104,14 +104,32 @@ register_taxonomy(
  )
 );
 
-// 検索対象をカスタム投稿タイプで絞り込む（管理画面とメインクエリと検索結果を除外） /////////////////////////////////////////////////////////////////////////////
+//カスタム投稿タイプ内のみの検索//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function my_pre_get_posts($query) {
-  if ( !is_admin() && $query->is_main_query() && $query->is_search() ) {
-    $query->set( 'post_type', array('post','page','reviews') );
-  }
+add_filter('template_include','custom_search_template');
+function custom_search_template($template){
+  if ( is_search() ){
+    $post_types = get_query_var('post_type');
+    foreach ( (array) $post_types as $post_type )
+      $templates[] = "search-{$post_type}.php";
+      $templates[] = 'search.php';
+      $template = get_query_template('search',$templates);
+     }
+  return $template;
 }
-add_action( 'pre_get_posts','my_pre_get_posts' );
+
+//検索結果でのキーワードのハイライト//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function wps_highlight_results($text) {
+if(is_search()){
+$sr = get_query_var('s');
+$keys = explode(" ",$sr);
+$text = preg_replace('/('.implode('|', $keys) .')/iu', '<span class="search-highlight">'.$sr.'</span>', $text);
+}
+return $text;
+}
+add_filter('the_title', 'wps_highlight_results');
+add_filter('the_content', 'wps_highlight_results');
 
 //画像サイズ//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

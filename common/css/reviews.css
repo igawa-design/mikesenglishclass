@@ -58,7 +58,6 @@ SP Portrait
 }
 article {
 	position: relative;
- padding: 15px 10px;
 	margin-bottom: 20px;
 }
 article:first-child {
@@ -81,25 +80,25 @@ h4:first-child {
 article:first-child .article_h4 {
 	margin-top: 15px;
 }
-article .article_h4 {
+.article_h4 {
  margin: -10px 0 15px 0;
  border-right: none;
 	border-bottom: none;
 	border-radius: 5px 0 0 0;
  padding: 5px 0 0 10px;
 }
-article p {
+#archive .article_h4 {
+	margin-top: 15px;
+}
+article p,
+#archive p {
 	margin: 15px 10px;
 }
 article time {
 	margin: 0 10px;
 }
 .article_cat {
-	position: absolute;
 	display: block;
-	width: calc(100% - (10px * 2));
-	right: 10px;
-	bottom: -10px;
  color: rgb(89, 145, 216) /*#5991d8*/;
  font-size: 1.4rem;
  text-align: right;
@@ -186,6 +185,10 @@ article time {
  background: rgb(30, 136, 168) /*#1e88a8*/;
  border: 1px solid rgb(30, 136, 168) /*#1e88a8*/;
  color: rgb(255, 255, 255) /*#fff*/;
+}
+.search-highlight {
+	font-weight: bold;
+	background: linear-gradient(transparent 60%, rgb(242, 187, 3) /*#f2bb03*/ 60%);
 }
 
 /********************************************************************************************

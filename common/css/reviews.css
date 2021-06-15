@@ -45,7 +45,7 @@ SP Portrait
 }
 #archive .sec_box_inner:first-child,
 #search .sec_box_inner  {
-	padding: 0;
+	padding: 10px;
 }
 .sec_icon {
  opacity: 1

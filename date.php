@@ -1,7 +1,3 @@
-<?php /*
-Template Name: search-post
-*/ ?>
-
 <?php get_header('page'); ?>
 
 <main>
@@ -15,7 +11,7 @@ Template Name: search-post
 </figure>
 
 <section class="section w100">
-<h2 class="sec_h2">検索結果：「<span><?php the_search_query(); ?></span>」</h2>
+<h2 class="sec_h2"><?php echo get_the_date('Y年n月'); ?></h2>
 <p class="sec_txt_lead reviews_lead">Reviews</p>
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
 </section><!-- section w100 -->
@@ -24,11 +20,10 @@ Template Name: search-post
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
 
-<?php query_posts($query_string.'&posts_per_page=20'); ?>
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
 
 <article>
-<h4 class="article_h4"><?php the_title(); ?></h4>
+<h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <p><?php the_content(); ?></p>
 <small class="article_cat">
@@ -41,13 +36,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 </small>
 </article>
 
-<?php endwhile; ?>
-
-<?php else: ?>
-<h2>「<span><?php the_search_query(); ?></span>」の検索結果が見つかりませんでした。</h2>
-<p class="note">別のキーワードでお試しください。</p>
-<?php get_search_form(); ?>
-<?php endif;  ?>
+<?php endwhile; endif; ?>
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_reviews-->

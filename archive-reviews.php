@@ -26,19 +26,19 @@ Template Name: archive-reviews
 
 <?php
 $args = array(
-				'post_type' => array('reviews'),
-    'paged' => $paged,
-    'posts_per_page' => 10
-    );
+	'post_type' => array('reviews'),
+ 'paged' => $paged,
+ 'posts_per_page' => 30
+ );
 ?>
 
 <?php $loop = new WP_Query($args); ?>
 <?php if($loop->have_posts()): ?>
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
-<article class="article">
+<article>
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
-<div class="post">
+<time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <p><?php the_content(); ?></p>
 <small class="article_cat">
 <?php
@@ -48,8 +48,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 }
 ?>
 </small>
-</div><!--post-->
-</article><!--article-->
+</article>
 
 <?php endwhile; ?>
 <?php else : ?>

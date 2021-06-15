@@ -27,17 +27,17 @@ Template Name: archive-gallery
 <div id="masonry">
 <?php
 $args = array(
-				'post_type' => array('gallery'),
-    'paged' => $paged,
-    'posts_per_page' => 10
-    );
+	'post_type' => array('gallery'),
+ 'paged' => $paged,
+ 'posts_per_page' => 30
+ );
 ?>
 
 <?php $loop = new WP_Query($args); ?>
 <?php if($loop->have_posts()): ?>
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
-<article class="article">
+<article>
 <?php the_content(); ?>
 <?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
 <img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
@@ -52,7 +52,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 }
 ?>
 </small>
-</article><!--article-->
+</article>
 
 <?php endwhile; ?>
 <?php else : ?>

@@ -15,6 +15,14 @@
 </div><!--sec_box sec_box_gallery-->
 </section><!--categories section-->
 
+<div id="search" class="section">
+<div class="sec_box sec_box_gallery">
+<div class="sec_box_inner">
+<?php get_search_form(); ?>
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_gallery-->
+</div><!--search section-->
+
 <section id="tags" class="section">
 <div class="sec_box sec_box_gallery">
 <div class="sec_box_inner">
@@ -26,14 +34,6 @@
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_gallery-->
 </section><!--tags section-->
-
-<div id="search" class="section">
-<div class="sec_box sec_box_gallery">
-<div class="sec_box_inner">
-<?php get_search_form(); ?>
-</div><!--sec_box_inner-->
-</div><!--sec_box sec_box_gallery-->
-</div><!--search section-->
 
 <section id="archives" class="section">
 <div class="sec_box sec_box_gallery">

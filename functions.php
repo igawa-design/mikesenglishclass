@@ -111,7 +111,7 @@ add_action('init', 'add_custom_taxonomy');
 //custom_search カスタム投稿タイプ内のみの検索//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function custom_search_template($template){
-  if ( is_search() ){
+  if (is_search()){
     $post_types = get_query_var('post_type');
     foreach ( (array) $post_types as $post_type )
       $templates[] = "search-{$post_type}.php";

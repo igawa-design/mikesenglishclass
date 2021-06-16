@@ -23,6 +23,18 @@
 </div><!--sec_box sec_box_reviews-->
 </div><!--search section-->
 
+<section id="tags" class="section">
+<div class="sec_box sec_box_reviews">
+<div class="sec_box_inner">
+<h2>Tags</h2>
+ <?php wp_tag_cloud(
+  array(
+   'taxonomy' => 'reviews-cat'));
+ ?>
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_reviews-->
+</section><!--tags section-->
+
 <section id="archives" class="section">
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">

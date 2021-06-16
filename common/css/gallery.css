@@ -43,6 +43,9 @@ SP Portrait
 	margin: ​0;
 	padding: 10px 0 0;
 }
+footer .sec_box_inner {
+ padding: 15px;
+}
 .sec_icon {
 	opacity: 1
 }
@@ -90,20 +93,17 @@ h4:first-child {
 	text-align: right;
 }
 .cat {
-	display: block;
+	display: inline-block;
+	width: 100%;
 	padding: 0 5px 5px 0;
 	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-radius: 0 0 5px 0;
 	color: rgb(53, 87, 129) /*#355781*/;
-	transition: all 0.1s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 .cat:hover {
-	background: rgb(89, 145, 216) /*#5991d8*/;
-	padding: 5px;
-	border: 4px double rgb(89, 145, 216) /*#5991d8*/;
-	border-radius: 5px;
-	color: rgb(255, 255, 255) /*#fff*/;
+	color: rgb(89, 145, 216) /*#5991d8*/;
 }
 .box_link_cat {
 	width: 100%;
@@ -114,7 +114,9 @@ h4:first-child {
 	color: rgb(89, 145, 216) /*#5991d8*/;
 }
 #sidebar h2 {
-	text-align: center;
+ font-size: 1.8rem;
+ color: rgb(30, 136, 168) /*#1e8å8a8; */;
+ text-align: center;
 }
 #csategories ul,
 #archives ul {
@@ -138,12 +140,13 @@ h4:first-child {
 	font-size: 1.4rem;
 	color: rgb(89, 145, 216) /*#5991d8*/;
 	text-align: center;
-	letter-spacing: 0.1rem;
+	transition: all 0.3s ease 0s;
 }
+.wp-pagenavi a:hover,
 .wp-pagenavi span.current {
-	background: rgb(89, 145, 216) /*#5991d8*/;
-	border: 1px solid rgb(89, 145, 216) /*#5991d8*/;
-	color: rgb(255, 255, 255) /*#fff*/;
+ background: rgb(30, 136, 168) /*#1e88a8*/;
+ border: 1px solid rgb(30, 136, 168) /*#1e88a8*/;
+ color: rgb(255, 255, 255) /*#fff*/;
 }
 
 /********************************************************************************************

@@ -108,7 +108,7 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/sitemap.css">
 <?php elseif(is_archive()): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/posts.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/mikes_posts.css">
 <?php endif; ?>
 <link rel="prerender" href="<?php echo home_url(); ?>">
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">

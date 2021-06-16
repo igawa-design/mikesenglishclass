@@ -11,6 +11,14 @@
 </div><!--sec_box sec_box_mikes_posts-->
 </section><!--categories section-->
 
+<div id="search" class="section">
+<div class="sec_box sec_box_mikes_posts">
+<div class="sec_box_inner">
+<?php get_search_form(); ?>
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_mikes_posts-->
+</div><!--search section-->
+
 <section id="tags" class="section">
 <div class="sec_box sec_box_mikes_posts">
 <div class="sec_box_inner">
@@ -19,14 +27,6 @@
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_mikes_posts-->
 </section><!--tags section-->
-
-<div id="search" class="section">
-<div class="sec_box sec_box_mikes_posts">
-<div class="sec_box_inner">
-<?php get_search_form(); ?>
-</div><!--sec_box_inner-->
-</div><!--sec_box sec_box_mikes_posts-->
-</div><!--search section-->
 
 <section id="archives" class="section">
 <div class="sec_box sec_box_mikes_posts">

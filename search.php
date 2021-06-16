@@ -58,7 +58,7 @@ wp_pagenavi(array('query'=>$wp_query));
 <?php wp_reset_postdata(); ?>
 
 <?php else: ?>
-<p><?php echo $search_query; ?> に一致する情報は見つかりませんでした。</p>
+<p>ブログ 一覧では、「<?php echo $search_query; ?> 」に一致する情報は見つかりませんでした。</p>
 
 <?php endif; ?>
 

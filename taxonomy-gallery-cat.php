@@ -20,7 +20,7 @@ Template Name: taxonomy-gallery-cat
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のギャラリー一覧" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></h3>
 </section><!-- section w100 -->
 
-<section id="archive" class="section">
+<div class="archive section">
 <div class="sec_box sec_box_garelly">
 <div class="sec_box_inner">
 
@@ -35,12 +35,11 @@ Template Name: taxonomy-gallery-cat
 <p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Photo Gallery</span> - ギャラリー 一覧へ戻る - </a></p>
 <?php endif; ?>
 </div><!--masonry-->
+
+<?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $loop)); ?>
+
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_garelly-->
-
-<div id="pagination" class="archive">
-<?php if(function_exists('wp_pagenavi')) wp_pagenavi(array('query' => $loop)); ?>
-</div><!--pagination archive-->
 </section><!--archive section-->
 
 <?php get_sidebar('gallery'); ?>

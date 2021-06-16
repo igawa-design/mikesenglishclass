@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php if(is_page('aboutmike')): ?>
-<title>札幌の英会話教師からあいさつ｜マイク英会話教室札幌</title>
+<title>札幌の英会話教師からご挨拶｜マイク英会話教室札幌</title>
 <meta name="description" content="札幌の英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
 <meta name="thumbnail" content="https://mikesenglishclass.jp/wp-content/themes/mike/common/img/TOP/main_view_01_sp_tab.jpg">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
@@ -30,7 +30,7 @@
 <meta name="description" content="英語翻訳は札幌もしくはオンラインでマイク英会話教室にお任せください。英訳代行サービスは何社もありますが、経験と実績豊富なマイク先生がより現実的で美しい英訳を行います。">
 <link rel="alternate" href="https://mikesenglishclass.jp/translations" hreflang="ja">
 <?php elseif(is_page('location')): ?>
-<title>中島公園近くの英会話教室｜マイク英会話教室札幌</title>
+<title>中島公園近くのネイティブ英会話教室｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌へのアクセス情報はこちら。住所：札幌市中央区南9条西3丁目2-1　マジソンハイツ705号室　TEL：090-6443-2799　営業時間：11:00 AM to 9:00 PM　定休日：日曜日">
 <link rel="alternate" href="https://mikesenglishclass.jp/location" hreflang="ja">
 <?php elseif(is_post_type_archive('reviews')): ?>
@@ -93,7 +93,7 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif(is_tax('reviews-cat', array('translations'))): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
-<?php elseif ( is_search() ) : ?>
+<?php elseif (is_search()): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif(is_page('translations')): ?>
@@ -106,6 +106,9 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/english.css">
 <?php elseif(is_page('sitemap')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/sitemap.css">
+<?php elseif(is_archive()): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/posts.css">
 <?php endif; ?>
 <link rel="prerender" href="<?php echo home_url(); ?>">
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">

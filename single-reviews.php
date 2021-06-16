@@ -10,8 +10,7 @@ Template Name: single-reviews
 <p><?php the_content(); ?></p>
 <?php endwhile; endif; ?>
 
-あああ
-
+シングルレビュー
 <?php get_sidebar('reviews'); ?>
 
 </main>

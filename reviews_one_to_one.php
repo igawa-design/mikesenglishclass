@@ -5,16 +5,16 @@
 
 <?php
 $args=array(
-    'tax_query' => array(
-        array(
-            'taxonomy' => 'reviews-cat', //タクソノミーを指定
-            'field' => 'slug', //ターム名をスラッグで指定する
-            'terms' => array( 'one-to-one' ) //表示したいタームをスラッグで指定
-        ),
+  'tax_query' => array(
+    array(
+      'taxonomy' => 'reviews-cat', //タクソノミーを指定
+      'field' => 'slug', //ターム名をスラッグで指定する
+      'terms' => array( 'one-to-one' ) //表示したいタームをスラッグで指定
     ),
-    'post_type' => 'reviews', //カスタム投稿名
-    'posts_per_page'=> 10 //表示件数（-1で全ての記事を表示）
-    );
+  ),
+  'post_type' => 'reviews', //カスタム投稿名
+  'posts_per_page'=> 10 //表示件数（-1で全ての記事を表示）
+  );
 ?>
 
 <?php $loop = new WP_Query($args); ?>
@@ -41,4 +41,4 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 <p class="box_link_cat"><a class="link_cat" href="<?php echo home_url('reviews/reviews/one-to-one'); ?>">See more reviews<span class="arrow"></span></a></p>
 </div><!--sec_box_inner box_articles-->
 </div><!--sec_box sec_box_one_to_one-->
-</section><!-- section -->
+</section><!--anchor_Reviews section -->

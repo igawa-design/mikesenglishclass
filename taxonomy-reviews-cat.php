@@ -33,7 +33,7 @@ $term = array_shift(get_the_terms($post->ID, 'reviews-cat'));
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
 </section><!-- section w100 -->
 
-<div id="archive" class="section">
+<div class="archive section">
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
 
@@ -55,9 +55,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 
 <?php endwhile; endif; ?>
 
-<div id="pagination" class="archive">
 <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
-</div><!--pagination archive-->
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_reviews-->

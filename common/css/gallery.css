@@ -46,9 +46,6 @@ SP Portrait
 .sec_icon {
 	opacity: 1
 }
-.sec_h2 {
-	background-color: rgb(66, 191, 176) /*#42bfb0*/;
-}
 .sec_h2 em {
 	display: block;
 }

@@ -95,7 +95,7 @@
 <h2 class="sec_h2 sec_h2_gallery">ギャラリー</h2>
 <p class="sec_txt_lead gallery_lead">Gallery</p>
 <h3 class="sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_gallery.svg"></h3>
-<div class="sec_box sec_box_garelly">
+<div class="sec_box sec_box_gallery">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">マイク英会話教室の生徒さんとの写真や、マイク先生が撮った写真のスクラップブックです。</h3>
 <p>分からないことは分かるまで。優しくて穏やかなマイク先生の陽気な一面にも注目！</p>
@@ -112,7 +112,7 @@
 <a href="<?php echo home_url('gallery'); ?>" class="sec_a sec_a_gallery">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
-</div><!-- sec_box sec_box_garelly -->
+</div><!-- sec_box sec_box_gallery -->
 </section><!-- section -->
 
 <section class="section">

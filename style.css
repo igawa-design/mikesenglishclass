@@ -1019,10 +1019,10 @@ html {
 							.sec_box_online .sec_h3_lead {
 								border-color: rgb(89, 174, 203) /*#59aecb*/;
 							}
-							.sec_box_garelly {
+							.sec_box_gallery {
 								background-image: linear-gradient(-45deg, rgba(66, 191, 176, 0.5) 25%, rgb(66, 191, 176, 0) 25%, rgba(66, 191, 176, 0) 50%, rgba(66, 191, 176, 0.5) 50%, rgba(66, 191, 176, 0.5) 75%, rgba(66, 191, 176, 0) 75%, rgba(66, 191, 176, 0))/*stripes*/
 							}
-							.sec_box_garelly .sec_h3_lead {
+							.sec_box_gallery .sec_h3_lead {
 								border-color: rgb(66, 191, 176) /*#42bfb0*/;
 							}
 							.sec_box_translations {

@@ -2,7 +2,7 @@
 
 <main>
 <figure class="fig main_view">
-<figcaption class="figcaption">Mike's Posts</figcaption>
+<figcaption class="figcaption">Reviews</figcaption>
 <picture>
 	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
@@ -11,13 +11,13 @@
 </figure>
 
 <section class="section w100">
-<h2 class="sec_h2 sec_h2_mikes_posts"><?php echo get_the_date('Y年n月'); ?></h2>
-<p class="sec_txt_lead mikes_posts_lead">Mike's Posts</p>
-<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></h3>
+<h2 class="sec_h2 sec_h2_reviews"><?php echo get_the_date('Y年n月'); ?></h2>
+<p class="sec_txt_lead reviews_lead">Reviews</p>
+<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
 </section><!-- section w100 -->
 
 <div class="archive section">
-<div class="sec_box sec_box_mikes_posts">
+<div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
 
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
@@ -39,10 +39,10 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 <?php endwhile; endif; ?>
 
 </div><!--sec_box_inner-->
-</div><!--sec_box sec_box_mikes_posts-->
+</div><!--sec_box sec_box_reviews-->
 </div><!--archive section-->
 
-<?php get_sidebar(); ?>
+<?php get_sidebar('reviews'); ?>
 
 </main>
 

@@ -6,7 +6,7 @@ Template Name: archive-reviews
 
 <main>
 <figure class="fig main_view">
-<figcaption class="figcaption">archive-reviews.php</figcaption>
+<figcaption class="figcaption">archive-reviews</figcaption>
 <picture>
 	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
@@ -15,7 +15,7 @@ Template Name: archive-reviews
 </figure>
 
 <section class="section w100">
-<h2 class="sec_h2 sec_h2_reviews">レビュー 一覧</h2>
+<h2 class="sec_h2 sec_h2_reviews"><?php echo esc_html(get_post_type_object(get_post_type())->label); ?></h2>
 <p class="sec_txt_lead reviews_lead">Reviews</p>
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
 </section><!-- section w100 -->
@@ -39,7 +39,12 @@ $args = array(
 <article>
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
-<p><?php the_content(); ?></p>
+<a href="<?php the_permalink(); ?>">
+<div class="post">
+<?php the_post_thumbnail(); ?>
+<?php the_excerpt(); ?>
+</div><!--post-->
+</a>
 <small class="article_cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');

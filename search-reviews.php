@@ -33,8 +33,16 @@ $search_query = get_search_query();
 
 <?php if( $total_results >0 ): ?>
 <?php if(have_posts()):	while(have_posts()): the_post(); ?>
+
+<article>
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
-<p><?php the_content(); ?></p>
+<time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+<a href="<?php the_permalink(); ?>">
+<div class="post">
+<?php the_post_thumbnail(); ?>
+<?php the_excerpt(); ?>
+</div><!--post-->
+</a>
 <small class="article_cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
@@ -43,6 +51,8 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 }
 ?>
 </small>
+</article>
+
 <?php endwhile; endif; ?>
 
 <?php if(function_exists('wp_pagenavi')){

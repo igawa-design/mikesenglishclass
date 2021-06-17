@@ -107,7 +107,7 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/english.css">
 <?php elseif(is_page('sitemap')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/sitemap.css">
-<?php elseif(is_archive()): ?>
+<?php elseif(is_archive() | is_single()): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/mikes_posts.css">
 <?php endif; ?>

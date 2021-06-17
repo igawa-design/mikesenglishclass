@@ -2,40 +2,64 @@
 Template Name: single
 */ ?>
 
-<?php get_header(); ?>
-
-<?php get_template_part('fancy_slider'); ?>
-<?php get_template_part('nav_local'); ?>
+<?php get_header('page'); ?>
 
 <main>
-<section id="POST" class="box">
-<h2><a href="mikes-posts"><em>ブログ </em><span>Mike’s Posts</span></a></h2>
+<figure class="fig main_view">
+<figcaption class="figcaption">single</figcaption>
+<picture>
+<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+</picture>
+</figure>
 
-<?php if (have_posts()) : ?>
-<?php while (have_posts()) : the_post(); ?>
+<section class="section w100">
+<h2 class="sec_h2 sec_h2_mikes_posts"><?php echo esc_html(get_post_type_object(get_post_type())->label); ?></h2>
+<p class="sec_txt_lead mikes_posts_lead">Mike’s Posts</p>
+<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></h3>
+</section><!-- section w100 -->
+
+<div class="archive section">
+<div class="sec_box sec_box_mikes_posts">
+<div class="sec_box_inner">
+
+<?php if(have_posts()): while(have_posts()):the_post(); ?>
 
 <article>
-<h3><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h3>
-<time><?php echo get_the_date('Y.m.d'); ?></time>
+<h4 class="article_h4"><?php echo get_the_title(); ?></h4>
+<time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <div class="post">
+<?php the_post_thumbnail(); ?>
 <?php the_content(); ?>
-<p class="category"><?php the_category(', '); ?></p>
 </div><!--post-->
+<small class="article_cat">
+	<?php
+	$category = get_the_category();
+	if ( $category[0] ) {
+	echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">' . $category[0]->cat_name . '</a>';
+	}
+	?>
+</small>
 </article>
 
 <?php endwhile; ?>
-
 <?php else : ?>
-<h2 id="not_found"><em>新しいお知らせはありません。</em><span lang="en">Not Found</span></h2>
-<p><a href="<?php echo home_url('archive'); ?>"><span lang="en">Back To Information</span> - お知らせ一覧へ戻る</a></p>
+
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_mikes_posts-->
+
+<div class="sec_box sec_box_mikes_posts">
+<div class="sec_box_inner">
+<h2 id="not_found"><em>新しいポストはありません。</em><span lang="en">Not Found</span></h2>
+<p><a href="<?php echo home_url('mikes-posts'); ?>"><span lang="en">Back To Mikes Posts</span> - ブログ一覧へ戻る - </a></p>
 <?php endif; ?>
 
-<div id="pagination" class="single">
-<a href="<?php echo home_url('mikes-posts'); ?>">Mike’s Posts</a>
-<?php previous_post_link('%link', 'Previous', false); ?>
-<?php next_post_link('%link', 'Next', false); ?>
-</div><!--pagination single-->
-</section><!--POST-->
+<?php wp_pagenavi(); ?>
+
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_mikes_posts-->
+</div><!--archive section-->
 
 <?php get_sidebar(); ?>
 

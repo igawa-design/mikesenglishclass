@@ -8,10 +8,10 @@ Template Name: search-post
 <figure class="fig main_view">
 <figcaption class="figcaption">search</figcaption>
 <picture>
-	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
-	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
-	<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
-	</picture>
+<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+</picture>
 </figure>
 
 <section class="section w100">
@@ -37,13 +37,17 @@ $search_query = get_search_query();
 <article>
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+<a href="<?php the_permalink(); ?>">
 <div class="post">
-<?php the_content(); ?>
+<?php the_post_thumbnail(); ?>
+<?php the_excerpt(); ?>
+</div><!--post-->
+</a>
 <small class="article_cat">
 <?php
-$terms = get_the_terms($post->ID,'reviews-cat');
-foreach( $terms as $term ) {
-echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$term->name.'</a>';
+$category = get_the_category();
+if ( $category[0] ) {
+echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">' . $category[0]->cat_name . '</a>';
 }
 ?>
 </small>

@@ -1,3 +1,5 @@
+<!--sc file='reviews_one_to_one'-->
+
 <section id="anchor_Reviews" class="section w100">
 <h3 class="sec_h3_one_to_one"><em class="em_ja">生徒さんの声</em><em class="em_en">One-to-one lesson reviews</em></h3>
 <div class="sec_box sec_box_one_to_one">
@@ -38,7 +40,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 
 <?php endwhile; endif; ?>
 
-<p class="box_link_cat"><a class="link_cat" href="<?php echo home_url('reviews/reviews/one-to-one'); ?>">See more reviews<span class="arrow"></span></a></p>
+<p class="box_link_cat"><a class="link_cat" href="<?php echo home_url('reviews/reviews-cat/one-to-one'); ?>">See more reviews<span class="arrow"></span></a></p>
 </div><!--sec_box_inner box_articles-->
 </div><!--sec_box sec_box_one_to_one-->
 </section><!--anchor_Reviews section -->

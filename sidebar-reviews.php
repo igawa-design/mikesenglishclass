@@ -6,9 +6,9 @@
 <h2>Categories</h2>
 <ul>
  <?php wp_list_categories(
-  array('title_li' => '',
-   'taxonomy' => 'reviews-cat',
-   'orderby' => 'ID'));
+  array(
+   'title_li' => '',
+   'taxonomy' => 'reviews-cat'));
   ?>
 </ul>
 </div><!--sec_box_inner-->

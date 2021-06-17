@@ -15,20 +15,22 @@ Template Name: taxonomy-reviews-cat
 </figure>
 
 <?php
-$now_id = $cat_now->cat_ID;
-$now_slug = $cat_now->slug;
-$now_name = $cat_now->cat_name;
-$taxonomy = $wp_query->get_queried_object();
-
-$term = array_pop(get_the_terms($post->ID, 'reviews-cat'));
-$term_p = $term->parent;
-if ( ! $term_p == 0 ){
-$term = array_shift(get_the_terms($post->ID, 'reviews-cat'));
-}
+$term = wp_get_object_terms($post->ID, 'reviews-cat');
+$args = array(
+    'post_type' => 'reviews',
+    'taxonomy' => 'reviews-cat',
+    'term' => $term[0]->name,
+    'posts_per_page' => 10,
+);
+$custom_query = new WP_Query( $args );
+if ( $custom_query->have_posts() ) :
+    while ( $custom_query->have_posts() ) :
+        $custom_query->the_post();
 ?>
 
 <section class="section w100">
-<h2 class="sec_h2 sec_h2_reviews"><em><?php echo esc_html($term->name); ?>レビューの一覧</em><span><?php echo esc_html($term->slug); ?> reviews</span></h2>
+
+<h2 class="sec_h2 sec_h2_reviews"><em><?php echo esc_html($term->name); ?>taxonomy-reviews-cat.php レビューの一覧</em><span><?php echo esc_html($term->slug); ?> reviews</span></h2>
 <p class="sec_txt_lead reviews_lead">Reviews</p>
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
 </section><!-- section w100 -->

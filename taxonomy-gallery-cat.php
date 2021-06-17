@@ -26,6 +26,26 @@ Template Name: taxonomy-gallery-cat
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_garelly-->
 

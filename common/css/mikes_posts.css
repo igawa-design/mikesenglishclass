@@ -7,7 +7,7 @@ SP Portrait
  background: rgb(246, 114, 128) /*#f67280*/;
 }
 article .post {
-	margin: 0 15px;
+ overflow: hidden;
 }
 article h3 {
 	margin: 10px 0;
@@ -46,7 +46,7 @@ Tablet Portrait
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 768px){
  .archive .sec_box_mikes_posts img.attachment-post-thumbnail {
-  width: 200px;
+  width: 38.2%;
   float: left;
   margin: 0 15px 0 0;
  }

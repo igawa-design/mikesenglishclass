@@ -102,6 +102,9 @@ article p,
 article time {
 	margin: 0 10px;
 }
+.post {
+	margin: 15px 10px;
+}
 .article_cat {
 	display: block;
  color: rgb(89, 145, 216) /*#5991d8*/;

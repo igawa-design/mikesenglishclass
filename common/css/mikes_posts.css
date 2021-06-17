@@ -13,7 +13,7 @@ article h3 {
 	margin: 10px 0;
 }
 .archive .sec_box_mikes_posts img {
-	margin: 10px 0;
+	margin: 15px 0;
 }
 #searchsubmit {
 	background: rgba(246, 114, 128, 0.8) /*#f67280*/;
@@ -36,4 +36,18 @@ article h3 {
 }
 .cat:hover {
 	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+ .archive .sec_box_mikes_posts img.attachment-post-thumbnail {
+  width: 200px;
+  float: left;
+  margin: 0 15px 0 0;
+ }
 }

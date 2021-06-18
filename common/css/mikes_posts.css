@@ -15,7 +15,7 @@ article h3 {
 .archive .sec_box_mikes_posts img {
 	margin: 15px 0;
 }
-#searchsubmit {
+.sec_box_mikes_posts #searchsubmit {
 	background: rgba(246, 114, 128, 0.8) /*#f67280*/;
 }
 .article_cat {

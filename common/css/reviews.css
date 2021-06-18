@@ -22,7 +22,7 @@ SP Portrait
  height: 300px;
  object-fit: cover;
 }
-.figcaption.reviews {
+.figcaption {
  background: rgb(242, 187, 3) /*#f2bb03*/;
 }
 .figcaption.name {
@@ -154,16 +154,21 @@ article time {
 	width: 61.8%;
 	float: left;
 	box-shadow: none;
-	border: 1px solid rgb(242, 187, 3) /*#f2bb03*/;
+	border: 1px solid;
 	border-radius: 5px 0 0 5px;
 }
-.sec_box_reviews #searchsubmit {
+#searchsubmit {
 	width: 38.2%;
 	height: 50px;
-	background: rgb(242, 187, 3) /*#f2bb03*/;
 	border: none;
 	border-radius: 0 5px 5px 0;
 	color: rgb(255, 255, 255) /*#fff*/;
+}
+.sec_box_reviews #searchsubmit {
+	background: rgb(242, 187, 3) /*#f2bb03*/
+}
+#s {
+ border-color: rgb(242, 187, 3) /*#f2bb03*/
 }
 ::placeholder {
 	color: rgba(53, 87, 129, 0.5) /*#355781*/;

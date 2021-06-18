@@ -3,7 +3,7 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.figcaption {
+.figcaption.mikes_posts {
  background: rgb(246, 114, 128) /*#f67280*/;
 }
 article .post {
@@ -15,8 +15,18 @@ article h3 {
 .archive .sec_box_mikes_posts img {
 	margin: 15px 0;
 }
+#searchsubmit {
+	width: 38.2%;
+	height: 50px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	color: rgb(255, 255, 255) /*#fff*/;
+}
 .sec_box_mikes_posts #searchsubmit {
-	background: rgba(246, 114, 128, 0.8) /*#f67280*/;
+	background: rgb(246, 114, 128) /*#f67280*/;
+}
+#s {
+ border-color: rgb(246, 114, 128) /*#f67280*/;
 }
 .article_cat {
 	display: block;

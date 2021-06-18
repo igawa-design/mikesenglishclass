@@ -34,12 +34,12 @@ Template Name: single
 <?php the_content(); ?>
 </div><!--post-->
 <small class="article_cat">
-	<?php
-	$category = get_the_category();
-	if ( $category[0] ) {
-	echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">' . $category[0]->cat_name . '</a>';
-	}
-	?>
+<?php
+$category = get_the_category();
+if ( $category[0] ) {
+echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">' . $category[0]->cat_name . '</a>';
+}
+?>
 </small>
 </article>
 

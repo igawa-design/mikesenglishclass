@@ -137,7 +137,7 @@ function add_custom_taxonomy(){
 						'singular_label' => '生徒さんの声カテゴリ',
 						'show_admin_column' => true,
 		    'hierarchical' => true, // 階層を持たせるかどうか
-						'rewrite' => array('slug' => 'reviews'),
+						'rewrite' => array('slug' => 'reviews-cat'),
 		    'public' => true, // 利用する場合はtrueにする
     )
   );
@@ -149,7 +149,7 @@ function add_custom_taxonomy(){
 						'singular_label' => 'フォトギャラリーカテゴリ',
 						'show_admin_column' => true,
       'hierarchical' => false, // 階層を持たせるかどうか
-						'rewrite' => array('slug' => 'gallery'),
+						'rewrite' => array('slug' => 'gallery-cat'),
       'public' => true, // 利用する場合はtrueにする
     )
   );
@@ -181,6 +181,7 @@ if(is_search()){
 	return $text;
 }
 add_filter('the_title', 'wps_highlight_results');
+add_filter('the_excerpt', 'wps_highlight_results');
 add_filter('the_content', 'wps_highlight_results');
 
 //hide admin_bar - WP管理画面ログイン時ツールバー非表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////

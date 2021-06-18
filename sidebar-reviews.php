@@ -8,6 +8,7 @@
  <?php wp_list_categories(
   array(
    'title_li' => '',
+   'order'    => 'DESC',
    'taxonomy' => 'reviews-cat'));
   ?>
 </ul>

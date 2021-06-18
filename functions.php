@@ -93,68 +93,73 @@ $init[‘apply_source_formatting’] = true;
 return $init;
 });
 
-//register_post_type カスタム投稿タイプの追加///////////////////////////////////////////////////////////////////////////////////////
+// Custom Post Type - カスタム投稿タイプ /////////////////////////////////////////////////////////////////////////////
+register_post_type(
+	'reviews',
+	array(
+		'label' => '生徒さんの声',
+		'description' => '生徒さんの声',
+		'menu_position' => 5,
+		'hierarchical' => false,
+		'public' => true,
+		'query_var' => false,
+		'has_archive' => true,
+		'rewrite' => true,
+		'yarpp_support' => true,
+		'supports' => array(
+		'title',
+		'editor',
+		'excerpt',
+		'thumbnail',
+		)
+	)
+);
 
-function add_custom_post_type(){
-  register_post_type(
-  'reviews', // 1.投稿タイプ名
-    array(   // 2.オプション
-	    'label' => '生徒さんの声', // 投稿タイプの名前
-					'description' => '生徒さんの声',
-	    'public'        => true, // 利用する場合はtrueにする
-	    'has_archive'   => true, // この投稿タイプのアーカイブを有効にする
-	    'menu_position' => 5, // この投稿タイプが表示されるメニューの位置
-	    'supports' => array( // サポートする機能
-        'title',
-        'editor',
-    )
-   )
-  );
-		register_post_type(
-  'gallery', // 1.投稿タイプ名
-    array(   // 2.オプション
-	    'label' => 'フォトギャラリー', // 投稿タイプの名前
-					'description' => 'フォトギャラリー',
-	    'public'        => true, // 利用する場合はtrueにする
-	    'has_archive'   => true, // この投稿タイプのアーカイブを有効にする
-	    'menu_position' => 5, // この投稿タイプが表示されるメニューの位置
-	    'supports' => array( // サポートする機能
-        'title',
-        'editor',
-    )
-   )
-  );
-}
-add_action('init', 'add_custom_post_type');
+register_post_type(
+	'gallery',
+	array(
+		'label' => 'フォトギャラリー',
+		'description' => 'フォトギャラリー',
+		'menu_position' => 6,
+		'hierarchical' => false,
+		'public' => true,
+		'query_var' => false,
+		'has_archive' => true,
+		'rewrite' => true,
+		'yarpp_support' => true,
+		'supports' => array(
+		'title',
+		'editor',
+		'excerpt',
+		'thumbnail',
+		)
+	)
+);
 
-//add_custom_taxonomy カスタムタクソノミーの追加///////////////////////////////////////////////////////////////////////////////////////
-function add_custom_taxonomy(){
-  register_taxonomy(
-    'reviews-cat', // 1.タクソノミーの名前
-    'reviews',          // 2.利用する投稿タイプ
-    	array(            // 3.オプション
-		    'label' => 'カテゴリ', // タクソノミーの表示名
-						'singular_label' => '生徒さんの声カテゴリ',
-						'show_admin_column' => true,
-		    'hierarchical' => true, // 階層を持たせるかどうか
-						'rewrite' => array('slug' => 'reviews-cat'),
-		    'public' => true, // 利用する場合はtrueにする
-    )
-  );
-  register_taxonomy(
-    'gallery-cat', // 1.タクソノミーの名前
-    'gallery',     // 2.利用する投稿タイプ
-    	array(       // 3.オプション
-      'label' => 'カテゴリ', // タクソノミーの表示名
-						'singular_label' => 'フォトギャラリーカテゴリ',
-						'show_admin_column' => true,
-      'hierarchical' => false, // 階層を持たせるかどうか
-						'rewrite' => array('slug' => 'gallery-cat'),
-      'public' => true, // 利用する場合はtrueにする
-    )
-  );
-}
-add_action('init', 'add_custom_taxonomy');
+// Custom Taxonomies - カスタムタクソノミー /////////////////////////////////////////////////////////////////////////////
+register_taxonomy(
+ 'reviews-cat',
+ 'reviews',
+ array(
+		'hierarchical' => true,
+		'rewrite' => array('slug' => 'reviews'),
+		'label' => 'カテゴリ',
+		'singular_label' => '生徒さんの声カテゴリ',
+		'show_admin_column' => true
+ )
+);
+
+register_taxonomy(
+ 'gallery-cat',
+ 'gallery',
+ array(
+	 'hierarchical' => true,
+		'rewrite' => array('slug' => 'gallery'),
+	 'label' => 'カテゴリ',
+	 'singular_label' => 'フォトギャラリーカテゴリ',
+	 'show_admin_column' => true
+ )
+);
 
 //custom_search 投稿タイプ内のみの検索//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -60,6 +60,8 @@ footer .sec_box_inner {
 }
 .sec_h2 em {
 	display: block;
+	font-size: 1.6rem;
+	font-family: Helvetica, Arial, sans-serif;
 }
 article {
 	position: relative;
@@ -133,7 +135,8 @@ article time {
 	color: rgb(89, 145, 216) /*#5991d8*/;
 }
 #sidebar h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
+	font-family: Helvetica, Arial, sans-serif;
 	color: rgb(30, 136, 168) /*#1e8å8a8*/;
 	text-align: center;
 }

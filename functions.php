@@ -142,7 +142,6 @@ register_taxonomy(
  'reviews',
  array(
 		'hierarchical' => true,
-		'rewrite' => array('slug' => 'reviews'),
 		'label' => 'カテゴリ',
 		'singular_label' => '生徒さんの声カテゴリ',
 		'show_admin_column' => true
@@ -154,7 +153,6 @@ register_taxonomy(
  'gallery',
  array(
 	 'hierarchical' => true,
-		'rewrite' => array('slug' => 'gallery'),
 	 'label' => 'カテゴリ',
 	 'singular_label' => 'フォトギャラリーカテゴリ',
 	 'show_admin_column' => true

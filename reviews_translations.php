@@ -40,7 +40,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 
 <?php endwhile; endif; ?>
 
-<p class="box_link_cat"><a class="link_cat" href="<?php echo home_url('reviews/reviews-cat/translations'); ?>">See more reviews<span class="arrow"></span></a></p>
+<p class="box_link_cat"><a class="link_cat" href="<?php echo home_url('reviews-cat/translations'); ?>">See more reviews<span class="arrow"></span></a></p>
 </div><!--sec_box_inner box_articles-->
 </div><!--sec_box sec_box_translations-->
 </section><!--anchor_Reviews section -->

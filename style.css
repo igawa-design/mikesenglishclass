@@ -211,7 +211,7 @@ width: 120px;
 }
 100% {
 position: relative;
-top: -120px;
+top: -100px;
 transform: translateX(0);
 opacity: 1;
 }
@@ -832,7 +832,6 @@ margin: 0 10px 0 0;
 }
 #container {
 width: 100%;
-margin-bottom: -20px;
 }
 .section {
 position: relative;
@@ -1850,6 +1849,9 @@ opacity: 1;
 header.fade {
 animation: none;
 opacity: 1;
+}
+.logo.top {
+margin-bottom: -120px;
 }
 }
 

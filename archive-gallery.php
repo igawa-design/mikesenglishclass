@@ -6,7 +6,7 @@ Template Name: archive-gallery
 
 <main>
 <figure class="fig main_view">
-<figcaption class="figcaption">archive-gallery</figcaption>
+<figcaption class="figcaption gallery">archive-gallery</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1920x1440.jpg">
@@ -20,7 +20,7 @@ Template Name: archive-gallery
 <h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のギャラリー一覧" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></h3>
 </section><!-- section w100 -->
 
-<div class="archive search section">
+<div class="archive section">
 <div class="sec_box sec_box_garelly">
 <div class="sec_box_inner">
 
@@ -43,7 +43,6 @@ $args = array(
 <img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
 <?php }else{ ?>
 <?php } ?>
-
 <small class="article_cat">
 <?php
 $terms = get_the_terms($post->ID,'gallery-cat');
@@ -71,7 +70,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_garelly-->
-</div><!--archive search section-->
+</div><!--archive section-->
 
 <?php get_sidebar('gallery'); ?>
 

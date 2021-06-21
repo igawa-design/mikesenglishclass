@@ -2,7 +2,7 @@
 
 <main>
 <figure class="fig main_view">
-<figcaption class="figcaption">date-reviews</figcaption>
+<figcaption class="figcaption reviews">date-reviews</figcaption>
 <picture>
 	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">

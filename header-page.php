@@ -82,18 +82,25 @@
 <?php elseif(is_page('one-to-one')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/one_to_one.css">
 <?php elseif(is_post_type_archive('gallery')): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <?php elseif(is_tax('gallery-cat', array('lessonpix'))): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <?php elseif(is_tax('gallery-cat', array('scrapbook'))): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <?php elseif(is_post_type_archive('reviews')): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif(is_tax('reviews-cat', array('one-to-one'))): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif(is_tax('reviews-cat', array('translations'))): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif (is_search()): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/mikes_posts.css">
@@ -108,8 +115,13 @@
 <?php elseif(is_page('sitemap')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/sitemap.css">
 <?php elseif(is_archive() | is_single()): ?>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/mikes_posts.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
+<?php elseif(is_404()): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/404.css">
 <?php endif; ?>
 <link rel="prerender" href="<?php echo home_url(); ?>">
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">

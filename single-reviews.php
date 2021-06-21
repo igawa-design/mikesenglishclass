@@ -52,7 +52,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
 <h2 id="not_found"><em>新しいポストはありません。</em><span lang="en">Not Found</span></h2>
-<p><a href="<?php echo home_url('mikes-posts'); ?>"><span lang="en">Back To Mikes Posts</span> - ブログ一覧へ戻る - </a></p>
+<p><a href="<?php echo home_url('reviews'); ?>"><span lang="en">Back To Reviews</span> - レビュー一覧へ戻る - </a></p>
 <?php endif; ?>
 
 <?php wp_pagenavi(); ?>

@@ -6,7 +6,7 @@ Template Name: archive
 
 <main>
 <figure class="fig main_view">
-<figcaption class="figcaption">archive</figcaption>
+<figcaption class="figcaption mikes_posts">archive</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">

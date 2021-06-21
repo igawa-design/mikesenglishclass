@@ -62,7 +62,7 @@ function catch_that_image() {
   $first_img = $matches [1] [0];
 
 if(empty($first_img)){ //Defines a default image
-	  $first_img = "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/logo.png";
+	  $first_img = "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/logo.svg";
 	 }
 	 return $first_img;
 }
@@ -70,7 +70,7 @@ if(empty($first_img)){ //Defines a default image
 //custom_excerpt_length - 抜粋文字数の指定//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function custom_excerpt_length( $length ) {
-     return 80;
+     return 200;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
@@ -153,6 +153,7 @@ register_taxonomy(
  'gallery',
  array(
 	 'hierarchical' => true,
+		'rewrite' => array('slug' => 'gallery'),
 	 'label' => 'カテゴリ',
 	 'singular_label' => 'フォトギャラリーカテゴリ',
 	 'show_admin_column' => true

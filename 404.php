@@ -39,7 +39,7 @@ Template Name: page-404
 </div><!--sec_box sec_box_mikes_posts-->
 </div><!--archive section-->
 
-<?php get_sidebar(); ?>
+<?php get_sidebar('404'); ?>
 
 </main>
 

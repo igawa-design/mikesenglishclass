@@ -293,7 +293,6 @@ tr:first-child th {
 .article {
 	position: relative;
  padding: 15px 10px;
-	margin-bottom: 20px;
 }
 .article:first-child {
  padding-top: 0;
@@ -303,9 +302,6 @@ tr:first-child th {
 }
 .article_cat {
 	display: block;
-	position: absolute;
-	bottom: -10px;
-	width: 100%;
  color: rgb(89, 145, 216) /*#5991d8*/;
  font-size: 1.4rem;
  text-align: right;

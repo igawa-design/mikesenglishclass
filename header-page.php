@@ -101,9 +101,9 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
 <?php elseif (is_search()): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/mikes_posts.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/reviews.css">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/mikes_posts.css">
 <?php elseif(is_page('translations')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/translations.css">
 <?php elseif(is_page('location')): ?>

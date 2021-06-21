@@ -211,14 +211,14 @@ width: 120px;
 }
 100% {
 position: relative;
-top: -100px;
+top: -110px;
 transform: translateX(0);
 opacity: 1;
 }
 }
 .logo.top {
 position: relative;
-top: -100px;
+top: -110px;
 display: block;
 margin: 0 auto -90px;
 }

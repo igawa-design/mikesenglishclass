@@ -183,6 +183,16 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <h3 class="sec_h3_lead">
 マイク英会話教室が発見した、日本人ではなかなか気が付かない英語表示の間違い探し！こちらでこっそり教えてくれています。</h3>
 <p>英会話上達法についての記事もあります！</p>
+<div class="post">
+<?php query_posts('showposts=1'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('medium'); ?></a>
+<article>
+<h3 class="title"><?php the_title(); ?></h3></a>
+<p><a href="<?php the_permalink() ?>"><?php echo mb_substr(get_the_excerpt(),0,80); ?> ...<span class="more">続きを読む</span></a></p>
+</div><!-- post -->
+</article>
+<?php endwhile; endif; ?>
+<?php wp_reset_query(); ?>
 <div class="sec_box_a">
 <a href="<?php echo home_url('mikes-posts'); ?>" class="sec_a sec_a_mikes_posts">more...</a>
 </div><!-- sec_box_a -->

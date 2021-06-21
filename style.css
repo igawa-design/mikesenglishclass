@@ -1527,6 +1527,12 @@ content: "★";
 padding-left: 2px;
 color: rgb(218, 185, 91) /*dab95b*/;
 }
+.post article {
+margin: 15px 0;
+}
+.wp-post-image {
+ border-radius: 5px;
+}
 hr {
 height: 8px;
 background-image: repeating-linear-gradient(135deg, #5991d8 0, #5991d8 1px, transparent 0, transparent 50%);

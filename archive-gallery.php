@@ -37,21 +37,23 @@ $args = array(
 <?php if($loop->have_posts()): ?>
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
-<article>
-<?php the_content(); ?>
-<?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
-<img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
-<?php }else{ ?>
-<?php } ?>
-<small class="article_cat">
-<?php
-$terms = get_the_terms($post->ID,'gallery-cat');
-foreach( $terms as $term ) {
-echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$term->name.'</a>';
-}
-?>
-</small>
-</article>
+	<article>
+	<time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+	<p><?php the_content(); ?></p>
+	<?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
+	<img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
+	<?php }else{ ?>
+	<?php } ?>
+	<small class="article_cat">
+	<?php
+	$terms = get_the_terms($post->ID,'gallery-cat');
+	foreach( $terms as $term ) {
+	echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$term->name.'</a>';
+	}
+	?>
+	</small>
+	</article>
+
 
 <?php endwhile; ?>
 <?php else : ?>
@@ -62,7 +64,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 <div class="sec_box sec_box_garelly">
 <div class="sec_box_inner">
 <h2 id="not_found"><em>新しい写真はありません。</em><span lang="en">Not Found</span></h2>
-<p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Photo Gallery</span> - ギャラリーへ戻る - </a></p>
+<p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Photo Gallery</span> - ギャラリー一覧へ戻る - </a></p>
 <?php endif; ?>
 </div><!--masonry-->
 

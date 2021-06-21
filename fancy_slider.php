@@ -139,15 +139,15 @@ Contact
 <ul class="circles">
 <li></li>
 <li></li>
-<li>Hello</li>
-<li>YouTube</li>
 <li></li>
-<li>One to One</li>
-<li>Facebook</li>
-<li>Yes</li>
+<li>What's up?</li>
 <li></li>
-<li>Contact</li>
-</ul>
+<li>What's going on?</li>
+<li>How's it going?</li>
+<li></li>
+<li></li>
+<li>How're you doing?</li>
+</ul><!--circles-->
 <div class="fnc-cont__credits-close"></div>
 <h2 class="fnc-cont__credits-heading">Mike's English Class Sapporo</h2>
 <h3 class="fnc-cont__credits-name">マイク英会話教室札幌</h3>

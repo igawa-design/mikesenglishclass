@@ -153,7 +153,6 @@ register_taxonomy(
  'gallery',
  array(
 	 'hierarchical' => true,
-		'rewrite' => array('slug' => 'gallery'),
 	 'label' => 'カテゴリ',
 	 'singular_label' => 'フォトギャラリーカテゴリ',
 	 'show_admin_column' => true

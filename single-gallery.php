@@ -51,7 +51,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 
 <div class="sec_box sec_box_gallery">
 <div class="sec_box_inner">
-<h2 id="not_found"><em>新しいポストはありません。</em><span lang="en">Not Found</span></h2>
+<h2 id="not_found"><em>新しい写真はありません。</em><span lang="en">Not Found</span></h2>
 <p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Gallery</span> - ギャラリー一覧へ戻る - </a></p>
 <?php endif; ?>
 

@@ -221,10 +221,10 @@ z-index: 9999;
 <a class="nav_list" href="<?php echo home_url('gallery'); ?>"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en Gallery">Gallery</span></a>
 </li>
 <li class="category1">
-<a class="nav_list" href="<?php echo home_url('gallery/lessonpix'); ?>"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en Gallery_Lessonpix">Lessonpix</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery-cat/lessonpix'); ?>"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en Gallery_Lessonpix">Lessonpix</span></a>
 </li>
 <li class="category2">
-<a class="nav_list" href="<?php echo home_url('gallery/scrapbook'); ?>"><span class="nav_list_ja">スクラップブック</span><span class="nav_list_en Gallery_Scrapbook">Scrapbook</span></a>
+<a class="nav_list" href="<?php echo home_url('gallery-cat/scrapbook'); ?>"><span class="nav_list_ja">スクラップブック</span><span class="nav_list_en Gallery_Scrapbook">Scrapbook</span></a>
 </li>
 </ul><!--drop cat_Gallery-->
 <ul class="no_drop">

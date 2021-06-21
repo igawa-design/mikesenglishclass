@@ -325,7 +325,7 @@ tr:first-child th {
 }
 .box_link_cat {
 	width: 100%;
-	padding: 30px 15px 15px;
+	padding: 30px 0 15px;
 	text-align: right;
 }
 .link_cat {

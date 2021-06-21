@@ -3,8 +3,9 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.figcaption.mikes_posts {
- background: rgb(246, 114, 128) /*#f67280*/;
+.figcaption.mikes_posts,
+.sec_box_mikes_posts #searchsubmit {
+	background: rgb(246, 114, 128) /*#f67280*/;
 }
 article .post {
  overflow: hidden;
@@ -15,39 +16,6 @@ article h3 {
 .archive .sec_box_mikes_posts img {
 	margin: 15px 0;
 }
-#searchsubmit {
-	width: 38.2%;
-	height: 50px;
-	border: none;
-	border-radius: 0 5px 5px 0;
-	color: rgb(255, 255, 255) /*#fff*/;
-}
-.sec_box_mikes_posts #searchsubmit {
-	background: rgb(246, 114, 128) /*#f67280*/;
-}
-#s {
- border-color: rgb(246, 114, 128) /*#f67280*/;
-}
-.article_cat {
-	display: block;
- color: rgb(89, 145, 216) /*#5991d8*/;
- font-size: 1.4rem;
- text-align: right;
-}
-.cat {
-	display: inline-block;
-	width: 100%;
-	padding: 0 5px 5px 0;
-	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
-	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
-	border-radius: 0 0 5px 0;
-	color: rgb(53, 87, 129) /*#355781*/;
-	transition: all 0.3s ease 0s;
-}
-.cat:hover {
-	color: rgb(89, 145, 216) /*#5991d8*/;
-}
-
 
 /********************************************************************************************
 Tablet Portrait

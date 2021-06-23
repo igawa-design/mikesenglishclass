@@ -1526,7 +1526,7 @@ line-height: 1.2;
 background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 box-shadow: 0 0 5px rgba(170, 170, 170, 0.3) /*#aaa*/;
 transition: all 2s ease 0s;
-margin: 0 1% 20px;
+margin: 0 2% 20px;
 padding: 7px !important;
 border-radius: 5px;
 font-weight: bold;

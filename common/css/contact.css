@@ -41,6 +41,137 @@ SP Portrait
 .sec_h2 {
  background-color: rgb(147, 188, 52) /*#93bc34*/;
 }
+#CONTACT main #content section {
+	width: 100%;
+	max-width: none;
+}
+#CONTACT main #content #wpcf7-f38-p36-o1 {
+	width: 96%;
+}
+#CONTACT main #content {
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+#CONTACT main #content section h2,
+#CONTACT main #content section h2 em::before,
+#CONTACT main #content section h2 em::after {
+	color: rgba(208, 102, 120, 1); /*D06678*/
+}
+#CONTACT main #content section h3 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+ -webkit-justify-content: space-between;
+	justify-content: space-between;
+	margin: 10px 2%;
+ color: rgba(233, 231, 225, 1) /*#e9e7e1*/;
+ font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+}
+#CONTACT main #content section h3:first-child {
+	margin: 0 2%;
+	letter-spacing: 0;
+}
+#CONTACT main #content section h3 em::before,
+#CONTACT main #content section h3 em::after{
+	content: none;
+}
+#CONTACT main #content section a {
+	display: inline;
+}
+#CONTACT main #content form {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+input,
+select,
+dl,
+textarea {
+	width: 100%;
+	max-width: 100% !important;
+	outline: none;
+	border: 1px solid rgba(28, 23, 23, 0.1); /*#1c1717*/
+	padding: 2% 0;
+	box-sizing: border-box;
+}
+input[type="text"],
+input[type="radio"],
+input[type="submit"],
+button,
+textarea,
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	background: rgba(233, 231, 225, 1) /*#e9e7e1*/;
+	border-radius: 2px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+dt,
+dd {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+ -webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 1% 0;
+}
+.required {
+	padding-left: 5px;
+	color: rgba(208, 102, 120, 1); /*D06678*/
+	font-size: 1.1rem;
+}
+.check {
+	display: block;
+	text-align: center;
+}
+.check span {
+	display: block;
+	margin: 25px 0 10px;
+	padding-bottom: 10px;
+}
+.check span:first-child {
+	border-bottom: 1px dotted rgba(233, 231, 225, 0.5) /*#e9e7e1*/;
+}
+.check span input {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: auto;
+}
+.check span.checkbox {
+	margin-top: -15px;
+	text-align: center;
+}
+.wpcf7-form-control-wrap {
+	width: 100%;
+}
+p#submit input{
+	display: block;
+	width: 100%;
+	margin: auto;
+	font-weight: bold;
+}
+span.wpcf7-not-valid-tip {
+	margin-top: 10px !important;
+	color: rgba(208, 102, 120, 1) !important; /*D06678*/
+}
+div.wpcf7-validation-errors,
+div.wpcf7-response-output {
+	width: 90% !important;
+	margin: auto !important;
+	margin-bottom: 50px !important;
+	border: none !important;
+	font-size: 1.4rem !important;
+}
+div.wpcf7-response-output {
+	margin-top: 20px !important;
+	color: rgba(208, 102, 120, 1) !important; /*D06678*/
+}
 
 /********************************************************************************************
 SP Landscape
@@ -57,6 +188,9 @@ SP Landscape
   width: 100%;
   margin: 20px 0;
  }
+	#CONTACT main #content section h3:first-child {
+	letter-spacing: 0.2rem;
+}
 }
 
 /********************************************************************************************
@@ -85,6 +219,12 @@ PC & Tablet Landscape
  .sec_h2 {
   font-size: 1.6rem;
  }
+	input,
+select,
+dl,
+textarea {
+	padding: 1% 2%;
+}
 }
 
 /********************************************************************************************

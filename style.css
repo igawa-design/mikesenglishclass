@@ -289,50 +289,8 @@ width: 0;
 .sidenavs {
 height: 100%;
 width: 0;
-background: rgb(30, 136, 168) /*#1e88a8*/;
-background-image:
-repeating-linear-gradient(
--5deg,
-rgba(245, 241, 213, 0.10),
-rgba(245, 241, 213, 0.10) 50px,
-rgba(255, 255, 255, 0.10) 50px,
-rgba(255, 255, 255, 0.10) 58px,
-rgba(255, 255, 255, 0.10) 58px,
-rgba(255, 255, 255, 0.10) 66px,
-rgba(245, 241, 213, 0.10) 66px,
-rgba(245, 241, 213, 0.10) 74px,
-rgba(255, 255, 255, 0.10) 74px,
-rgba(255, 255, 255, 0.10) 114px,
-rgba(180, 214, 198, 0.10) 114px,
-rgba(180, 214, 198, 0.10) 154px,
-rgba(255, 255, 255, 0) 154px,
-rgba(255, 255, 255, 0) 162px,
-rgba(245, 241, 213, 0.10) 162px,
-rgba(245, 241, 213, 0.10) 170px,
-rgba(255, 255, 255, 0.10) 170px,
-rgba(255, 255, 255, 0.10) 178px
-),
-repeating-linear-gradient(
--50deg,
-rgba(245, 241, 213, 0.10),
-rgba(245, 241, 213, 0.10) 50px,
-rgba(255, 255, 255, 0.10) 50px,
-rgba(255, 255, 255, 0.10) 58px,
-rgba(255, 255, 255, 0.10) 58px,
-rgba(255, 255, 255, 0.10) 66px,
-rgba(245, 241, 213, 0.10) 66px,
-rgba(245, 241, 213, 0.10) 74px,
-rgba(255, 255, 255, 0.10) 74px,
-rgba(255, 255, 255, 0.10) 114px,
-rgba(180, 214, 198, 0.10) 114px,
-rgba(180, 214, 198, 0.10) 154px,
-rgba(255, 255, 255, 0.10) 154px,
-rgba(255, 255, 255, 0.10) 162px,
-rgba(245, 241, 213, 0.10) 162px,
-rgba(245, 241, 213, 0.10) 170px,
-rgba(255, 255, 255, 0.10) 170px,
-rgba(255, 255, 255, 0.10) 178px
-);
+background: rgb(66,191,176) /*#42bfb0*/;
+background: linear-gradient(321deg, rgba(66,191,176,1) 0%, rgba(89,174,203,1) 50%)/*#59aecb*/;
 position: fixed;
 scroll-behavior: smooth;
 z-index: 1;
@@ -768,9 +726,12 @@ display: flex;
 flex-wrap: wrap;
 background-image: linear-gradient(-45deg, rgba(89, 145, 216, 0.5) 25%, rgb(89, 145, 216, 0) 25%, rgba(89, 145, 216, 0) 50%, rgba(89, 145, 216, 0.5) 50%, rgba(89, 145, 216, 0.5) 75%, rgba(89, 145, 216, 0) 75%, rgba(89, 145, 216, 0))/*stripes*/;
 box-shadow: 0 0 5px rgba(170, 170, 170, 0.3) /*#aaa*/;
-margin: 1%;
+margin: 20px 2%;
 border-radius: 5px;
 padding: 7px;
+}
+main .nav_local {
+ margin-top: 0;
 }
 .nav_local_list {
 position: relative;

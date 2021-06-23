@@ -289,6 +289,8 @@ width: 0;
 .sidenavs {
 height: 100%;
 width: 0;
+background: rgb(4, 192, 253) /*#04c0fd*/;
+background: linear-gradient(321deg, rgb(3, 133, 255) 0%, rgb(4, 192, 253) 50%)/*#04c0fd*/;
 background: rgb(66,191,176) /*#42bfb0*/;
 background: linear-gradient(321deg, rgba(66,191,176,1) 0%, rgba(89,174,203,1) 50%)/*#59aecb*/;
 position: fixed;

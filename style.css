@@ -802,8 +802,8 @@ flex-direction: column;
 width: 100%;
 opacity: 0;
 transition: all 1.5s ease 0s;
-margin: 20px 2%;
-padding: 20px 0;
+margin: 20px 0;
+padding: 20px 2%;
 }
 .section.fade {
 opacity: 1;

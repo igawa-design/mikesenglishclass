@@ -262,20 +262,30 @@ margin-right: 10px;
 border-bottom: 1px solid rgba(147, 188, 52, 0.7) /*#93bc34*/;
 }
 .screen-reader-response,
-.wpcf7-response-output {
+.wpcf7-response-output,
+.wpcf7-form.invalid .wpcf7-not-valid-tip {
+	margin-bottom: 20px;
 	color: rgb(246, 114, 128) /*#f67280*/;
 	text-align: center;
+	font-size: 1.4rem;
 }
 .wpcf7-form.invalid .wpcf7-response-output::after,
-.screen-reader-response li::after {
+.screen-reader-response li::after,
+.wpcf7-form.invalid .wpcf7-not-valid-tip::after {
 	content: "😵❗️";
+}
+.wpcf7-form.invalid .wpcf7-not-valid-tip {
+	margin-top: 10px;
 }
 .screen-reader-response ul {
 	padding: 10px 0;
 }
 .screen-reader-response li::before {
-	content: "・";
+	content: none;
 	color: rgb(246, 114, 128) /*#f67280*/;
+}
+#wpcf7-f2692-p6675-o1-ve-your-email {
+	opacity: 0;
 }
 
 

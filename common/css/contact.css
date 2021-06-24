@@ -4,174 +4,281 @@ SP Portrait
 /*
 --------------------------------------------------------------------------------------------*/
 @keyframes scale_main_view {
-	0% {
-  transition: all 2s ease 0s;
-		transform: scale(1.01);
-  opacity: 0;
-		}
- 100% {
-			transform: scale(1.0);
-			opacity: 1;
-		}
-	}
+0% {
+transition: all 2s ease 0s;
+transform: scale(1.01);
+opacity: 0;
+}
+100% {
+transform: scale(1.0);
+opacity: 1;
+}
+}
 .main_view {
- animation: scale_main_view 1.0s ease-in-out;
+animation: scale_main_view 1.0s ease-in-out;
 }
 .main_view img {
- width: 100%;
- height: 300px;
- object-fit: cover;
+width: 100%;
+height: 300px;
+object-fit: cover;
 }
 .figcaption {
- background: rgb(147, 188, 52) /*#93bc34*/;
+background: rgb(147, 188, 52) /*#93bc34*/;
 }
 .section {
- width: 100%;
- margin: 15px ​0;
- padding: 0 2%;
+width: 100%;
+margin: 15px ​0;
+padding: 0 2%;
 }
 .section,
 .sec_box {
- opacity: 1;
- font-weight: normal;
+opacity: 1;
+font-weight: normal;
 }
 .sec_icon {
- opacity: 1
+opacity: 1
 }
 .sec_h2 {
- background-color: rgb(147, 188, 52) /*#93bc34*/;
+background-color: rgb(147, 188, 52) /*#93bc34*/;
 }
-#CONTACT main #content section {
-	width: 100%;
-	max-width: none;
+.sec_h3_contact {
+display: flex;
+flex-direction: column;
+background: rgb(147, 188, 52) /*#93bc34*/;
+background-image:
+repeating-linear-gradient(
+14deg,
+rgba(245, 241, 213, 0.10),
+rgba(245, 241, 213, 0.10) 50px,
+rgba(255, 255, 255, 0.10) 50px,
+rgba(255, 255, 255, 0.10) 58px,
+rgba(255, 255, 255, 0.10) 58px,
+rgba(255, 255, 255, 0.10) 66px,
+rgba(245, 241, 213, 0.10) 66px,
+rgba(245, 241, 213, 0.10) 74px,
+rgba(255, 255, 255, 0.10) 74px,
+rgba(255, 255, 255, 0.10) 114px,
+rgba(180, 214, 198, 0.10) 114px,
+rgba(180, 214, 198, 0.10) 154px,
+rgba(255, 255, 255, 0.10) 154px,
+rgba(255, 255, 255, 0.10) 162px,
+rgba(245, 241, 213, 0.10) 162px,
+rgba(245, 241, 213, 0.10) 170px,
+rgba(255, 255, 255, 0.10) 170px,
+rgba(255, 255, 255, 0.10) 178px
+),
+repeating-linear-gradient(
+-15deg,
+rgba(245, 241, 213, 0.10),
+rgba(245, 241, 213, 0.01) 50px,
+rgba(255, 255, 255, 0.01) 50px,
+rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 66px,
+rgba(245, 241, 213, 0.01) 66px,
+rgba(245, 241, 213, 0.01) 74px,
+rgba(255, 255, 255, 0.01) 74px,
+rgba(255, 255, 255, 0.01) 114px,
+rgba(180, 214, 198, 0.01) 114px,
+rgba(180, 214, 198, 0.01) 154px,
+rgba(255, 255, 255, 0.01) 154px,
+rgba(255, 255, 255, 0.01) 162px,
+rgba(245, 241, 213, 0.01) 162px,
+rgba(245, 241, 213, 0.01) 170px,
+rgba(255, 255, 255, 0.01) 170px,
+rgba(255, 255, 255, 0.01) 178px
+),
+repeating-linear-gradient(
+-15deg,
+rgba(245, 241, 213, 0.01),
+rgba(245, 241, 213, 0.01) 50px,
+rgba(255, 255, 255, 0.01) 50px,
+rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 66px,
+rgba(245, 241, 213, 0.01) 66px,
+rgba(245, 241, 213, 0.01) 74px,
+rgba(255, 255, 255, 0.01) 74px,
+rgba(255, 255, 255, 0.01) 114px,
+rgba(180, 214, 198, 0.01) 114px,
+rgba(180, 214, 198, 0.01) 154px,
+rgba(255, 255, 255, 0.01) 154px,
+rgba(255, 255, 255, 0.01) 162px,
+rgba(245, 241, 213, 0.01) 162px,
+rgba(245, 241, 213, 0.01) 170px,
+rgba(255, 255, 255, 0.01) 170px,
+rgba(255, 255, 255, 0.01) 178px
+),
+repeating-linear-gradient(
+-15deg,
+rgba(245, 241, 213, 0.01),
+rgba(245, 241, 213, 0.01) 50px,
+rgba(255, 255, 255, 0.01) 50px,
+rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 66px,
+rgba(245, 241, 213, 0.01) 66px,
+rgba(245, 241, 213, 0.01) 74px,
+rgba(255, 255, 255, 0.01) 74px,
+rgba(255, 255, 255, 0.01) 114px,
+rgba(180, 214, 198, 0.01) 114px,
+rgba(180, 214, 198, 0.01) 154px,
+rgba(255, 255, 255, 0.01) 154px,
+rgba(255, 255, 255, 0.01) 162px,
+rgba(245, 241, 213, 0.01) 162px,
+rgba(245, 241, 213, 0.01) 170px,
+rgba(255, 255, 255, 0.01) 170px,
+rgba(255, 255, 255, 0.01) 178px
+);
+border-radius: 5px 5px 0 0;
+padding: 10px;
+color: rgb(255, 255, 255) /*fff*/;
+text-align: center;
 }
-#CONTACT main #content #wpcf7-f38-p36-o1 {
-	width: 96%;
+.sec_h3_ja {
+display: block;
+width: 100%;
+order: 2;
+font-size: 1.5rem;
 }
-#CONTACT main #content {
-	-webkit-flex-direction: column;
-	flex-direction: column;
+.sec_h3_en {
+display: block;
+width: 100%;
+order: 1;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 1.7rem;
 }
-#CONTACT main #content section h2,
-#CONTACT main #content section h2 em::before,
-#CONTACT main #content section h2 em::after {
-	color: rgba(208, 102, 120, 1); /*D06678*/
+.sec_h3_ja::before,
+.sec_h3_ja::after {
+content: " - ";
 }
-#CONTACT main #content section h3 {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row-reverse;
-	flex-direction: row-reverse;
- -webkit-justify-content: space-between;
-	justify-content: space-between;
-	margin: 10px 2%;
- color: rgba(233, 231, 225, 1) /*#e9e7e1*/;
- font-size: 1.5rem;
-	letter-spacing: 0.2rem;
+.wpcf7 {
+width: 100%;
 }
-#CONTACT main #content section h3:first-child {
-	margin: 0 2%;
-	letter-spacing: 0;
+.wpcf7-radio {
+display: flex;
+flex-direction: column;
 }
-#CONTACT main #content section h3 em::before,
-#CONTACT main #content section h3 em::after{
-	content: none;
+span {
+display: block;
 }
-#CONTACT main #content section a {
-	display: inline;
+dd span {
+width: 100%;
 }
-#CONTACT main #content form {
-	overflow: hidden;
-	margin-bottom: 20px;
-}
-input,
-select,
-dl,
-textarea {
-	width: 100%;
-	max-width: 100% !important;
-	outline: none;
-	border: 1px solid rgba(28, 23, 23, 0.1); /*#1c1717*/
-	padding: 2% 0;
-	box-sizing: border-box;
-}
-input[type="text"],
-input[type="radio"],
-input[type="submit"],
-button,
-textarea,
-select{
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	position: relative;
-	background: rgba(233, 231, 225, 1) /*#e9e7e1*/;
-	border-radius: 2px;
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
+.address span.en {
+margin-top: 10px;
 }
 dt,
 dd {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
- -webkit-justify-content: space-between;
-	justify-content: space-between;
-	padding: 1% 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1% 0;
 }
-.required {
-	padding-left: 5px;
-	color: rgba(208, 102, 120, 1); /*D06678*/
-	font-size: 1.1rem;
+input,
+select,
+textarea {
+width: 100%;
+max-width: 100% !important;
+outline: none;
+border: 1px solid rgba(147, 188, 52, 0.5) /*#93bc34*/;
+border-radius: 5px;
+padding: 10px;
+font-size: 1.6rem;
+color: rgb(53, 87, 129) /*#355781*/;
+transition: all 0.1s ease 0s;
 }
-.check {
-	display: block;
-	text-align: center;
+input:focus,
+textarea:focus {
+border: 2px solid rgba(147, 188, 52, 0.8) /*#93bc34*/;
 }
-.check span {
-	display: block;
-	margin: 25px 0 10px;
-	padding-bottom: 10px;
+input[type="radio"] {
+width: 20px;
+height: 50px;
 }
-.check span:first-child {
-	border-bottom: 1px dotted rgba(233, 231, 225, 0.5) /*#e9e7e1*/;
+.radio label {
+display: flex;
+margin-bottom: 20px;
 }
-.check span input {
-	display: block;
+.check label {
+cursor: pointer;
+margin-bottom: 20px;
+}
+label .wpcf7-form-control-wrap {
+	display: inline-block;
+	float: left;
 	width: 20px;
 	height: 20px;
-	margin: auto;
+	margin: 0 20px 5px 0;
 }
-.check span.checkbox {
-	margin-top: -15px;
+label .wpcf7-form-control.wpcf7-acceptance {
+	display: inline-block;
+	float: left;
+}
+.check_p {
+	margin-top: 0;
+}
+.check_p::after {
+	content: "😊✨";
+}
+form.sent .check {
+	display: none;
+}
+.check.en {
 	text-align: center;
 }
-.wpcf7-form-control-wrap {
-	width: 100%;
+.wpcf7-list-item-label {
+height: 50px;
+margin-left: 10px;
 }
-p#submit input{
-	display: block;
-	width: 100%;
-	margin: auto;
-	font-weight: bold;
+.submit {
+display: flex;
+width: 100%;
+justify-content: space-around;
 }
-span.wpcf7-not-valid-tip {
-	margin-top: 10px !important;
-	color: rgba(208, 102, 120, 1) !important; /*D06678*/
+input[type="reset"],
+input[type="submit"] {
+height: 50px;
+width: 46%;
+background: rgba(147, 188, 52, 0.7) /*#93bc34*/;
+margin-top: 15px;
+color: rgb(255, 255, 255) /*#fff*/;
+transition: all 0.1s ease 0s;
 }
-div.wpcf7-validation-errors,
-div.wpcf7-response-output {
-	width: 90% !important;
-	margin: auto !important;
-	margin-bottom: 50px !important;
-	border: none !important;
-	font-size: 1.4rem !important;
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+background: rgba(147, 188, 52, 1) /*#93bc34*/;
 }
-div.wpcf7-response-output {
-	margin-top: 20px !important;
-	color: rgba(208, 102, 120, 1) !important; /*D06678*/
+.required {
+padding-left: 5px;
+color: rgb(246, 114, 128) /*#f67280*/;
+font-size: 1.1rem;
+text-align: right;
 }
+input[type="checkbox"] {
+width: 25px;
+height: 25px;
+margin-right: 10px;
+border-bottom: 1px solid rgba(147, 188, 52, 0.7) /*#93bc34*/;
+}
+.screen-reader-response,
+.wpcf7-response-output {
+	color: rgb(246, 114, 128) /*#f67280*/;
+	text-align: center;
+}
+.wpcf7-form.invalid .wpcf7-response-output::after,
+.screen-reader-response li::after {
+	content: "😵❗️";
+}
+.screen-reader-response ul {
+	padding: 10px 0;
+}
+.screen-reader-response li::before {
+	content: "・";
+	color: rgb(246, 114, 128) /*#f67280*/;
+}
+
+
 
 /********************************************************************************************
 SP Landscape
@@ -179,19 +286,37 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
- .section {
-  margin: 0 auto 10px;
-  padding: 0 1%;
-  }
- .section.w100,
- .section.last {
-  width: 100%;
-  margin: 20px 0;
- }
-	#CONTACT main #content section h3:first-child {
-	letter-spacing: 0.2rem;
+.section {
+margin: 0 auto 10px;
+padding: 0 1%;
+}
+.section.w100,
+.section.last {
+width: 100%;
+margin: 20px 0;
 }
 }
+
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+.radio label {
+margin-bottom: 0;
+}
+.wpcf7-list-item-label {
+line-height: 50px;
+}
+.check.en {
+	margin-top: -20px;
+}
+}
+
+
+
 
 /********************************************************************************************
 PC & Tablet Landscape
@@ -199,31 +324,32 @@ PC & Tablet Landscape
 /* 1024px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px){
- header {
-  top: 0;
-  z-index: 1000;
-  justify-content: space-between;
-  align-items: center;
-  width: 98%;
-  height: 120px;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
- }
- main {
-  max-width: 1920px;
-  margin: auto;
- }
- .fig.main_view img {
-  height: 500px;
- }
- .sec_h2 {
-  font-size: 1.6rem;
- }
-	input,
+header {
+top: 0;
+z-index: 1000;
+justify-content: space-between;
+align-items: center;
+width: 98%;
+height: 120px;
+background: rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
+}
+main {
+max-width: 1920px;
+margin: auto;
+}
+.fig.main_view img {
+height: 500px;
+}
+.sec_h2 {
+font-size: 1.6rem;
+}
+input,
 select,
 dl,
-textarea {
-	padding: 1% 2%;
+textarea,
+.check {
+padding: 1% 2%;
 }
 }
 
@@ -233,7 +359,7 @@ PC & Tablet Landscape
 /* 1920px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1920px){
- .section {
-  padding: 0;
- }
+.section {
+padding: 0;
+}
 }

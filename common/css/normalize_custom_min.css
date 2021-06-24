@@ -100,13 +100,10 @@ button,
 input,
 select,
 textarea {
- appearance: none;
- -webkit-appearance: none;
  background: transparent;
  border: none;
  border-radius: 0;
  font: inherit;
- outline: none;
  font-family: inherit;
  font-size: 100%;
 }
@@ -138,7 +135,6 @@ input[type=checkbox],
 input[type=radio] {
   box-sizing: border-box;
   padding: 0;
-  display: none;
 }
 
 input[type=search] {
@@ -214,35 +210,4 @@ em {
 
 strong {
   font-weight: 400;
-}
-
-.radio label {
-  position: relative;
-  padding-left: 1.25em;
-  margin-right: 1em;
-}
-
-.radio label::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15px;
-  height: 15px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  background: #eee;
-}
-
-.radio input:checked + label::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 11px;
-  height: 11px;
-  background: #A66970;
-  border-radius: 50%;
 }

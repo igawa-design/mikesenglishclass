@@ -187,7 +187,7 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <?php query_posts('showposts=1'); if (have_posts()) : while (have_posts()) : the_post(); ?>
 <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('medium'); ?></a>
 <article>
-<h3 class="title"><?php the_title(); ?></h3></a>
+<h3 class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
 <p><a href="<?php the_permalink() ?>"><?php echo mb_substr(get_the_excerpt(),0,80); ?> ...<span class="more">続きを読む</span></a></p>
 </div><!-- post -->
 </article>

@@ -1131,13 +1131,16 @@ width: 50px;
 height: 50px;
 opacity: 0;
 margin: 0 auto 20px;
-transition: all 1s ease 0s;
+transition: all 0.3s ease 0s;
 }
 .sec_icon.scale,
 .info_h2_logo.scale {
 transform: scale(1.5);
 opacity: 1;
 filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.03));
+}
+.sec_icon:hover {
+ transform: scale(1.2);
 }
 .sec_icon_google_maps,
 .sec_icon_google_my_business {

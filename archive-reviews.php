@@ -17,7 +17,9 @@ Template Name: archive-reviews
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_reviews"><?php echo esc_html(get_post_type_object(get_post_type())->label); ?></h2>
 <p class="sec_txt_lead reviews_lead">Reviews</p>
-<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></h3>
+<h3 class="sec_h3 sec_h3_02">
+<a href="<?php echo home_url('reviews'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></a>
+</h3>
 </section><!-- section w100 -->
 
 <div class="archive section">
@@ -37,7 +39,7 @@ $args = array(
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
 <article>
-<h4 class="article_h4"><?php echo get_the_title(); ?></h4>
+<h4 class="article_h4"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <a href="<?php the_permalink(); ?>">
 <div class="post">

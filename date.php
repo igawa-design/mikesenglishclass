@@ -13,7 +13,9 @@
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_mikes_posts"><?php echo get_the_date('Y年n月'); ?></h2>
 <p class="sec_txt_lead mikes_posts_lead">Mike's Posts</p>
-<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></h3>
+<h3 class="sec_h3 sec_h3_02">
+<a href="<?php echo home_url('mikes-posts'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></a>
+</h3>
 </section><!-- section w100 -->
 
 <div class="archive section">

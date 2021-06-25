@@ -17,7 +17,9 @@ Template Name: archive-gallery
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_gallery"><?php echo esc_html(get_post_type_object(get_post_type())->label); ?></h2>
 <p class="sec_txt_lead gallery_lead">Photo Gallery</p>
-<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のギャラリー一覧" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></h3>
+<h3 class="sec_h3 sec_h3_02">
+<a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のギャラリー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></a>
+</h3>
 </section><!-- section w100 -->
 
 <div class="archive section">
@@ -37,22 +39,22 @@ $args = array(
 <?php if($loop->have_posts()): ?>
 <?php while($loop->have_posts()) : $loop->the_post(); ?>
 
-	<article>
-	<time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
-	<p><?php the_content(); ?></p>
-	<?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
-	<img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
-	<?php }else{ ?>
-	<?php } ?>
-	<small class="article_cat">
-	<?php
-	$terms = get_the_terms($post->ID,'gallery-cat');
-	foreach( $terms as $term ) {
-	echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$term->name.'</a>';
-	}
-	?>
-	</small>
-	</article>
+<article>
+<time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+<p><?php the_content(); ?></p>
+<?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
+<img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
+<?php }else{ ?>
+<?php } ?>
+<small class="article_cat">
+<?php
+$terms = get_the_terms($post->ID,'gallery-cat');
+foreach( $terms as $term ) {
+echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$term->name.'</a>';
+}
+?>
+</small>
+</article>
 
 
 <?php endwhile; ?>

@@ -9,7 +9,9 @@
 <section class="section">
 <h2 class="sec_h2 sec_h2_about_mike">英会話教師：マイク・ニマ<span class="small">（Mike Nima）</span></h2>
 <p class="sec_txt_lead about_mike_lead">About Mike</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="札幌英会話・英語教師 マイク・ニマ" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_about_mike.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('aboutmike'); ?>"><img class="sec_icon" alt="札幌英会話・英語教師 マイク・ニマ" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_about_mike.svg"></a>
+</h3>
 <div class="sec_box sec_box_about_mike">
 <div class="sec_box_inner">
 <div class="career">
@@ -31,7 +33,9 @@
 <section class="section">
 <h2 class="sec_h2 sec_h2_one_to_one">札幌市中央区で、質の高いマンツーマン英会話・英語レッスンを♫</h2>
 <p class="sec_txt_lead one_to_one_lead">One-to-One Lessons</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="札幌市中央区のスクールでマンツーマン英会話、英語コーチングを受けられます。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_one_to_one.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('one-to-one'); ?>"><img class="sec_icon" alt="札幌市中央区のスクールでマンツーマン英会話、英語コーチングを受けられます。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_one_to_one.svg"></a>
+</h3>
 <div class="sec_box sec_box_one_to_one">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">お知らせ＜2021年○月更新＞</h3>
@@ -70,7 +74,9 @@
 <section class="section">
 <h2 class="sec_h2 sec_h2_online">オンラインで、世界のどこからでも英語・英会話個人レッスンを♬</h2>
 <p class="sec_txt_lead online_lead">Online Lessons</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="オンライン英語コーチング、オンライン英会話を個人レッスンで受けられます。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_online.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('online-lessons'); ?>"><img class="sec_icon" alt="オンライン英語コーチング、オンライン英会話を個人レッスンで受けられます。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_online.svg"></a>
+</h3>
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">オンライン個人レッスンをご希望の方には、SkypeやFaceTimeなどで自宅や職場からのレッスンにも対応しております。</h3>
@@ -85,7 +91,7 @@
 </figure>
 <p class="sec_txt_03">上級、中級、初級、どんなレベルでもOKです！</p>
 <div class="sec_box_a">
-<a href="<?php echo home_url('online'); ?>" class="sec_a sec_a_online">more...</a>
+<a href="<?php echo home_url('online-lessons'); ?>" class="sec_a sec_a_online">more...</a>
 </div><!-- sec_box_a -->
 </div><!-- sec_box_inner -->
 </div><!-- sec_box sec_box_online -->
@@ -94,7 +100,9 @@
 <section class="section">
 <h2 class="sec_h2 sec_h2_gallery">ギャラリー</h2>
 <p class="sec_txt_lead gallery_lead">Gallery</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_gallery.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_gallery.svg"></a>
+</h3>
 <div class="sec_box sec_box_gallery">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">マイク英会話教室の生徒さんとの写真や、マイク先生が撮った写真のスクラップブックです。</h3>
@@ -118,7 +126,9 @@
 <section class="section">
 <h2 class="sec_h2 sec_h2_translations">ネイティブ英訳</h2>
 <p class="sec_txt_lead translations_lead">Translations</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="ネイティブスピーカー、英語・英文学教師による英語翻訳です。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_translations.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('translations'); ?>"><img class="sec_icon" alt="ネイティブスピーカー、英語・英文学教師による英語翻訳です。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_translations.svg"></a>
+</h3>
 <div class="sec_box sec_box_translations">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">
@@ -143,7 +153,9 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <section class="section">
 <h2 class="sec_h2 sec_h2_location">所在地</h2>
 <p class="sec_txt_lead location_lead">Location</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌は札幌市中央区中島公園の近くにあります。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_location.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('location'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌は札幌市中央区中島公園の近くにあります。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_location.svg"></a>
+</h3>
 <div class="sec_box sec_box_location">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">
@@ -160,7 +172,9 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <section class="section">
 <h2 class="sec_h2 sec_h2_reviews">生徒さんの声</h2>
 <p class="sec_txt_lead reviews_lead">Reviews</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌の生徒さんたちや英語翻訳のレビューです。" width="100" height="100" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_reviews.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('reviews'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の生徒さんたちや英語翻訳のレビューです。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_reviews.svg"></a>
+</h3>
 <div class="sec_box sec_box_reviews">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">
@@ -177,16 +191,18 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <section class="section">
 <h2 class="sec_h2 sec_h2_mikes_posts">ブログ</h2>
 <p class="sec_txt_lead mikes_posts_lead">Mike's Posts</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="英語・英会話教師マイク先生のブログです。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_mikes_posts.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('mikes-posts'); ?>"><img class="sec_icon" alt="英語・英会話教師マイク先生のブログです。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_mikes_posts.svg"></a>
+</h3>
 <div class="sec_box sec_box_mikes_posts">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">
 マイク英会話教室が発見した、日本人ではなかなか気が付かない英語表示の間違い探し！こちらでこっそり教えてくれています。</h3>
 <p>英会話上達法についての記事もあります！</p>
-<div class="post">
 <?php query_posts('showposts=1'); if (have_posts()) : while (have_posts()) : the_post(); ?>
 <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('medium'); ?></a>
 <article>
+<div class="post">
 <h3 class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
 <p><a href="<?php the_permalink() ?>"><?php echo mb_substr(get_the_excerpt(),0,80); ?> ...<span class="more">続きを読む</span></a></p>
 </div><!-- post -->
@@ -203,7 +219,9 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <section class="section">
 <h2 class="sec_h2 sec_h2_online_reviews">マイク英会話教室札幌</h2>
 <p class="sec_txt_lead online_reviews_lead">Mike's English Class Sapporo</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のクチコミです。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_online_reviews.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="https://www.google.com/maps/place/%E3%83%9E%E3%82%A4%E3%82%AF%E8%8B%B1%E4%BC%9A%E8%A9%B1%E6%95%99%E5%AE%A4%E6%9C%AD%E5%B9%8C+Mike's+English+Class+Sapporo/@43.049351,141.3541653,17z/data=!3m1!4b1!4m5!3m4!1s0x5f0b2a27fb5aaaab:0xb327f50149d3bd9e!8m2!3d43.049351!4d141.356354"><img class="sec_icon" alt="マイク英会話教室札幌のクチコミです。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_online_reviews.svg"></a>
+</h3>
 <div class="sec_box sec_box_online_reviews">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">当英会話教室は英語ネイティブ教師による完全マンツーマンレッスンなので、あなたのレベル・ペース・学びたい内容に合ったオリジナルのレッスンを受けることができます。</h3>
@@ -240,7 +258,9 @@ HBCのTV番組「今日ドキッ！」から取材を受けました。</h3>
 <section class="section">
 <h2 class="sec_h2 sec_h2_contact">お問い合わせ</h2>
 <p class="sec_txt_lead contact_lead">Contact</p>
-<h3 class="sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌へのお問い合わせはこちらからお願いいたします。英語でも日本語でも大丈夫です。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_contact.svg"></h3>
+<h3 class="sec_h3_02">
+<a href="<?php echo home_url('contact'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌へのお問い合わせはこちらからお願いいたします。英語でも日本語でも大丈夫です。" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_contact.svg"></a>
+</h3>
 <div class="sec_box sec_box_contact">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">

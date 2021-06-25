@@ -81,6 +81,8 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/aboutmike.css">
 <?php elseif(is_page('one-to-one')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/one_to_one.css">
+<?php elseif(is_page('online-lessons')): ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/online.css">
 <?php elseif(is_post_type_archive('gallery')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">
@@ -183,7 +185,7 @@ z-index: 9999;
 <a href="#close" class="close-btn"></a>
 <a class="nav_list" href="<?php echo home_url('aboutmike'); ?>"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en"><img class="nav_icon" alt="英語、英会話教師のマイク・ニマ先生についてとご挨拶はこちら。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_about_mike.svg"><em class="About_Mike first_letter">A</em>bout Mike</span></a>
 <a class="nav_list" href="<?php echo home_url('one-to-one'); ?>"><span class="nav_list_ja">個人レッスン</span><span class="nav_list_en"><img class="nav_icon" alt="マンツーマンで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_one_to_one.svg"><em class="One_to_One first_letter">O</em>ne to One</span></a>
-<a class="nav_list" href="<?php echo home_url('online'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en"><img class="nav_icon"  alt="オンラインで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_online.svg"><em class="Online_Lessons first_letter">O</em>nline Lessons</span></a>
+<a class="nav_list" href="<?php echo home_url('online-lessons'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en"><img class="nav_icon"  alt="オンラインで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_online.svg"><em class="Online_Lessons first_letter">O</em>nline Lessons</span></a>
 <a class="nav_list" href="<?php echo home_url('gallery'); ?>"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の生徒さんやマイク先生による写真ギャラリーです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_gallery.svg"><em class="Gallery first_letter">G</em>allery</span></a>
 <a class="nav_list" href="<?php echo home_url('gallery-cat/lessonpix'); ?>"><span class="nav_list_ja">教室の様子</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の様子。英語、英会話のレッスン風景などです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_gallery.svg"><em class="Gallery_Lessonpix first_letter">G</em>allery<span class="vertical_bar"> | </span>Lessonpix</span></a>
 <a class="nav_list" href="<?php echo home_url('gallery-cat/scrapbook'); ?>"><span class="nav_list_ja small">マイク先生のスクラップブック</span><span class="nav_list_en"><img class="nav_icon" alt="英語・英会話教師マイク先生が撮った写真のスクラップブックです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_gallery.svg"><em class="Gallery_Scrapbook first_letter">G</em>allery<span class="vertical_bar"> | </span>Scrapbook</span></a>
@@ -213,7 +215,7 @@ z-index: 9999;
 </ul><!--no_drop-->
 <ul class="no_drop">
 <li class="category cat_Online">
-<a class="nav_list" href="<?php echo home_url('online'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en Online_Lessons">Online Lessons</span></a>
+<a class="nav_list" href="<?php echo home_url('online-lessons'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en Online_Lessons">Online Lessons</span></a>
 </li>
 </ul><!--no_drop-->
 <ul class="drop">

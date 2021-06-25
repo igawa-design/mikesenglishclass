@@ -166,7 +166,7 @@ li:last-child {
 margin-bottom: 0;
 }
 ul li::before {
-content: "●";
+content: "✔️";
 padding-right: 2px;
 color: rgb(242, 187, 3) /*#f2bb03*/;
 }
@@ -831,7 +831,7 @@ rgba(245, 241, 213, 0.01),
 rgba(245, 241, 213, 0.01) 50px,
 rgba(255, 255, 255, 0.01) 50px,
 rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 58px,
+rgba(255, 255, 255, 0.01) 58px
 ),
 repeating-linear-gradient(
 -15deg,
@@ -992,7 +992,6 @@ padding: 0;
 width: 98%;
 background: rgba(255, 255, 255, 0.5) /*#fff*/;
 margin: auto;
-animation:
 }
 @keyframes slideInRight {
 0% {
@@ -1419,7 +1418,7 @@ text-align: left;
 margin-top: 0;
 }
 .sec_box_about_mike h3::before {
-content: "●";
+content: "🌱";
 color: rgb(89, 145, 216) /*#5991d8*/;
 }
 .sec_box_about_mike .sec_txt_01 {
@@ -1492,7 +1491,7 @@ content: "★";
 padding-left: 2px;
 color: rgb(218, 185, 91) /*dab95b*/;
 }
-.post article {
+.post {
 margin: 15px 0;
 }
 .wp-post-image {

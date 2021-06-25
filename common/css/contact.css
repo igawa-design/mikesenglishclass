@@ -175,6 +175,9 @@ flex-direction: row;
 justify-content: space-between;
 padding: 1% 0;
 }
+dt em {
+	margin: 0 auto 50px;
+}
 input,
 select,
 textarea {
@@ -187,6 +190,14 @@ padding: 10px;
 font-size: 1.6rem;
 color: rgb(53, 87, 129) /*#355781*/;
 transition: all 0.1s ease 0s;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 input:focus,
 textarea:focus {
@@ -305,15 +316,6 @@ padding: 0 1%;
 width: 100%;
 margin: 20px 0;
 }
-}
-
-
-/********************************************************************************************
-Tablet Portrait
-*********************************************************************************************/
-/* 768px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 768px){
 .radio label {
 margin-bottom: 0;
 }
@@ -323,6 +325,15 @@ line-height: 50px;
 .check.en {
 	margin-top: -20px;
 }
+}
+
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
 }
 
 
@@ -354,19 +365,16 @@ height: 500px;
 .sec_h2 {
 font-size: 1.6rem;
 }
-input,
-select,
-dl,
-textarea,
 .check {
 padding: 1% 2%;
 }
+
 }
 
 /********************************************************************************************
 PC & Tablet Landscape
 *********************************************************************************************/
-/* 1920px
+/* 1920
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1920px){
 .section {

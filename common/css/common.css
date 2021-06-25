@@ -199,6 +199,11 @@ article time {
 	font-weight: bold;
 	background: linear-gradient(transparent 60%, rgb(242, 187, 3) /*#f2bb03*/ 60%);
 }
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
 
 /********************************************************************************************
 SP Landscape

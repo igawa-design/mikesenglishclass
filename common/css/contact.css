@@ -27,7 +27,7 @@ background: rgb(147, 188, 52) /*#93bc34*/;
 }
 .section {
 width: 100%;
-margin: 15px ​0;
+margin: 15px 0;
 padding: 0 2%;
 }
 .section,
@@ -175,8 +175,8 @@ flex-direction: row;
 justify-content: space-between;
 padding: 1% 0;
 }
-dt em {
-	margin: 0 auto 50px;
+dt {
+	margin-top: 20px;
 }
 input,
 select,
@@ -368,7 +368,6 @@ font-size: 1.6rem;
 .check {
 padding: 1% 2%;
 }
-
 }
 
 /********************************************************************************************

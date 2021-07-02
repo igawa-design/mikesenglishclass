@@ -99,8 +99,10 @@ $(".hamburger-menu, .close-btn").click(function(){
 });
 
 // masonry //////////////////////////////////////////////////////
-$('#masonry').masonry({
+$(window).on('load',function(){
+ $('#masonry').masonry({
   itemSelector: 'article',
+ })
 });
 
 // Copyright //////////////////////////////////////////////////////

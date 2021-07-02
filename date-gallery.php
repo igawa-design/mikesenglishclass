@@ -19,7 +19,7 @@
 </section><!-- section w100 -->
 
 <div class="archive section">
-<div class="sec_box sec_box_gallery">
+<div class="sec_box sec_box_gallery date">
 <div class="sec_box_inner">
 
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
@@ -44,7 +44,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 <?php endwhile; endif; ?>
 
 </div><!--sec_box_inner-->
-</div><!--sec_box sec_box_gallery-->
+</div><!--sec_box sec_box_gallery date-->
 </div><!--archive section-->
 
 <?php get_sidebar('gallery'); ?>

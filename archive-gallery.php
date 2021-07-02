@@ -56,7 +56,6 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 </small>
 </article>
 
-
 <?php endwhile; ?>
 <?php else : ?>
 

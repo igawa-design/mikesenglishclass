@@ -166,7 +166,7 @@ li:last-child {
 margin-bottom: 0;
 }
 ul li::before {
-content: "✔️";
+content: "●";
 padding-right: 2px;
 color: rgb(242, 187, 3) /*#f2bb03*/;
 }
@@ -1418,7 +1418,7 @@ text-align: left;
 margin-top: 0;
 }
 .sec_box_about_mike h3::before {
-content: "🌱";
+content: "●";
 color: rgb(89, 145, 216) /*#5991d8*/;
 }
 .sec_box_about_mike .sec_txt_01 {

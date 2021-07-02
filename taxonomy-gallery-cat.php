@@ -36,14 +36,14 @@ $term = array_shift(get_the_terms($post->ID, 'gallery-cat'));
 </section><!-- section w100 -->
 
 <div class="archive section">
-<div class="sec_box sec_box_gallery">
+<div class="sec_box sec_box_gallery taxonomy">
 <div class="sec_box_inner">
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <article>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
-<p><?php the_content(); ?></p>
+<?php the_content(); ?>
 <?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
 <img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true), 'slide-img'); echo $Image[0]; ?>">
 <?php }else{ ?>
@@ -63,7 +63,7 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 
 </div><!--sec_box_inner-->
-</div><!--sec_box sec_box_gallery-->
+</div><!--sec_box sec_box_gallery taxonomy-->
 </div><!--archive section-->
 
 <?php get_sidebar('gallery'); ?>

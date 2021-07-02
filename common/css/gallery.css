@@ -24,16 +24,19 @@ SP Portrait
 	padding: 10px;
 }
 #masonry article img,
-.taxonomy article img {
+.taxonomy article img,
+.date article img {
 	height: auto;
 	margin: 10px 0 0 0;
 	padding: 0;
 }
 #masonry article time,
-.taxonomy article time {
+.taxonomy article time,
+.date article time {
 	margin: 0;
 }
-.taxonomy article:first-child {
+.taxonomy article:first-child,
+.date article:first-child {
 	padding-top: 15px;
 }
 

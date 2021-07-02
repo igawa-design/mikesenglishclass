@@ -240,10 +240,10 @@ label .wpcf7-form-control.wpcf7-acceptance {
 	display: inline-block;
 	float: left;
 }
-.check_p {
-	margin-top: 0;
+.span_p {
+	margin-top: -20px;
 }
-.check_p::after {
+.span_p::after {
 	content: "😊✨";
 }
 form.sent .check {
@@ -256,6 +256,9 @@ form.sent .check {
 height: 50px;
 margin-left: 10px;
 }
+.wpcf7-list-item-label:hover {
+	cursor: pointer;
+}
 .submit {
 display: flex;
 width: 100%;
@@ -264,7 +267,7 @@ justify-content: space-around;
 input[type="reset"],
 input[type="submit"] {
 height: 50px;
-width: 46%;
+width: 100%;
 background: rgba(147, 188, 52, 0.7) /*#93bc34*/;
 margin-top: 15px;
 color: rgb(255, 255, 255) /*#fff*/;

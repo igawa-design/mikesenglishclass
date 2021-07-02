@@ -23,6 +23,39 @@ SP Portrait
 	border: none;
 	padding: 10px;
 }
-#masonry article img {
+#masonry article img,
+.taxonomy article img {
 	height: auto;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+#masonry article time,
+.taxonomy article time {
+	margin: 0;
+}
+.taxonomy article:first-child {
+	padding-top: 15px;
+}
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+#masonry article {
+	width: calc(100% / 2);
+	padding: 20px;
+	}
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1920px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1920px){
+#masonry article {
+	width: calc(100% / 3);
+	}
 }

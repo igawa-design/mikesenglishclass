@@ -30,8 +30,7 @@ Template Name: archive-gallery
 <?php
 $args = array(
 	'post_type' => array('gallery'),
- 'paged' => $paged,
- 'posts_per_page' => 10
+ 'paged' => $paged
  );
 ?>
 

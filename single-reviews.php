@@ -57,7 +57,10 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 <p><a href="<?php echo home_url('reviews'); ?>"><span lang="en">Back To Reviews</span> - レビュー一覧へ戻る - </a></p>
 <?php endif; ?>
 
-<?php wp_pagenavi(); ?>
+<div class="pagination">
+<?php previous_post_link('%link', '< PREV'); ?>
+<?php next_post_link('%link', 'NEXT >'); ?>
+</div><!--pagination-->
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_reviews-->

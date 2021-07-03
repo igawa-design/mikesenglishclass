@@ -57,7 +57,10 @@ echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">'
 <p><a href="<?php echo home_url('mikes-posts'); ?>"><span lang="en">Back To Mikes Posts</span> - ブログ一覧へ戻る - </a></p>
 <?php endif; ?>
 
-<?php wp_pagenavi(); ?>
+<div class="pagination">
+<?php previous_post_link('%link', '< PREV', TRUE); ?>
+<?php next_post_link('%link', 'NEXT >', TRUE); ?>
+</div><!--pagination-->
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_mikes_posts-->

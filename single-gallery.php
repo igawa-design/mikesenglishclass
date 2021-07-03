@@ -57,8 +57,6 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 <p><a href="<?php echo home_url('gallery'); ?>"><span lang="en">Back To Gallery</span> - ギャラリー一覧へ戻る - </a></p>
 <?php endif; ?>
 
-<?php wp_pagenavi(); ?>
-
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_gallery-->
 </div><!--archive section-->

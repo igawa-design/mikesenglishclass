@@ -171,6 +171,15 @@ article time {
 ::placeholder {
 	color: rgba(53, 87, 129, 0.5) /*#355781*/;
 }
+.search-highlight {
+	font-weight: bold;
+	background: linear-gradient(transparent 60%, rgb(242, 187, 3) /*#f2bb03*/ 60%);
+}
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
 .wp-pagenavi {
  overflow: hidden;
  margin: 30px auto 3px;
@@ -195,14 +204,12 @@ article time {
  border: 1px solid rgb(30, 136, 168) /*#1e88a8*/;
  color: rgb(255, 255, 255) /*#fff*/;
 }
-.search-highlight {
-	font-weight: bold;
-	background: linear-gradient(transparent 60%, rgb(242, 187, 3) /*#f2bb03*/ 60%);
+.pagination {
+	display: flex;
+	justify-content: space-around;
 }
-input {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+.tag-link-position-2 {
+	font-size: 2rem !important;
 }
 
 /********************************************************************************************

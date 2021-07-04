@@ -31,7 +31,11 @@ Template Name: date-reviews
 <article>
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
-<p><?php the_content(); ?></p>
+<a href="<?php the_permalink(); ?>">
+<div class="post">
+<?php the_excerpt(); ?>
+</div><!--post-->
+</a>
 <small class="article_cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');

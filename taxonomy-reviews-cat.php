@@ -4,9 +4,9 @@ Template Name: taxonomy-reviews-cat
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="taxonomy_reviews_cat">
 <figure class="fig main_view">
-<figcaption class="figcaption reviews">taxonomy-reviews-cat</figcaption>
+<figcaption class="figcaption">taxonomy-reviews-cat</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
@@ -70,6 +70,6 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 
 <?php get_sidebar('reviews'); ?>
 
-</main>
+</main><!--taxonomy_reviews_cat-->
 
 <?php get_footer(); ?>

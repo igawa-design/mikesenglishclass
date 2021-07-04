@@ -4,9 +4,9 @@ Template Name: single-gallery
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="single_gallery">
 <figure class="fig main_view">
-<figcaption class="figcaption gallery">single-gallery</figcaption>
+<figcaption class="figcaption">single-gallery</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1920x1440.jpg">
@@ -63,6 +63,6 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 
 <?php get_sidebar('gallery'); ?>
 
-</main>
+</main><!--single_gallery-->
 
 <?php get_footer(); ?>

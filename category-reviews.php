@@ -4,7 +4,7 @@ Template Name: category-reviews
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="category_reviews">
 <figure class="fig main_view">
 <figcaption class="figcaption mikes_posts">category-reviews</figcaption>
 <picture>
@@ -66,6 +66,6 @@ echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">'
 
 <?php get_sidebar(); ?>
 
-</main>
+</main><!--category_reviews-->
 
 <?php get_footer(); ?>

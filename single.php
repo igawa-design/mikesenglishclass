@@ -4,7 +4,7 @@ Template Name: single
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="single">
 <figure class="fig main_view">
 <figcaption class="figcaption mikes_posts">single</figcaption>
 <picture>
@@ -68,6 +68,6 @@ echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">'
 
 <?php get_sidebar(); ?>
 
-</main>
+</main><!--single-->
 
 <?php get_footer(); ?>

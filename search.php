@@ -1,12 +1,12 @@
 <?php /*
-Template Name: search-posts
+Template Name: search
 */ ?>
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="search">
 <figure class="fig main_view">
-<figcaption class="figcaption mikes_posts">search</figcaption>
+<figcaption class="figcaption">search</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
@@ -74,6 +74,6 @@ wp_pagenavi(array('query'=>$wp_query));
 
 <?php get_sidebar(); ?>
 
-</main>
+</main><!--search-->
 
 <?php get_footer(); ?>

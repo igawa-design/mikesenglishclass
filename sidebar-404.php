@@ -1,3 +1,7 @@
+<?php /*
+Template Name: 404
+*/ ?>
+
 <div id="sidebar">
 
 <div id="search" class="section">

@@ -211,15 +211,16 @@ width: 120px;
 }
 100% {
 position: relative;
-top: -110px;
+top: -140px;
 transform: translateX(0);
 opacity: 1;
 }
 }
 .logo.top {
 position: relative;
-top: -110px;
+top: -140px;
 display: block;
+opacity: 1;
 margin: 0 auto -90px;
 }
 .logo.scale {
@@ -607,7 +608,7 @@ animation-delay: 4s;
 left: 40%;
 width: 180px;
 height: 180px;
-padding-bottom: 30px;
+padding-bottom: 40px;
 animation-delay: 0s;
 animation-duration: 18s;
 }
@@ -621,14 +622,14 @@ animation-delay: 0s;
 left: 75%;
 width: 200px;
 height: 200px;
-padding-bottom: 30px;
+padding-bottom: 50px;
 animation-delay: 3s;
 }
 .circles li:nth-child(7) {
 left: 35%;
 width: 200px;
 height: 200px;
-padding-bottom: 40px;
+padding-bottom: 50px;
 animation-delay: 7s;
 }
 .circles li:nth-child(8) {
@@ -650,7 +651,7 @@ animation-duration: 35s;
 left: 55%;
 width: 250px;
 height: 250px;
-padding-bottom: 30px;
+padding-bottom: 50px;
 animation-delay: 0s;
 animation-duration: 11s;
 }
@@ -1671,24 +1672,33 @@ opacity: 1;
 }
 .rainbow {
 position: relative;
-height: 230px;
+height: 200px;
 width: 100%;
 background: url("common/img/rainbow.svg") no-repeat center bottom / 350px;
-margin: 30px auto 0;
+margin: 0 auto;
+opacity: 1;
 }
 .rainbow.scale {
-opacity: 1;
 animation: rainbow 2s ease 0s 1 normal;
+opacity: 1;
 }
 .rainbow.top {
-height: 190px;
+height: 200px;
+margin: 30px auto;
 }
 .box_copyright {
 position: relative;
 bottom: 10px;
 z-index: 1;
+display: inline-block;
+width: 100%;
+margin: auto;
+padding-top: 10px;
 font-size: 1.2rem;
 text-align: center;
+}
+.copyright {
+ display: inline-block;
 }
 .bar_bottom {
 width: 100%;
@@ -1817,6 +1827,13 @@ opacity: 1;
 }
 .logo.top {
 margin-bottom: -120px;
+}
+.rainbow {
+height: 200px;
+margin: 30px auto;
+}
+.scrolltopcontrol {
+ top: -50px;
 }
 }
 

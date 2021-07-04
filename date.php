@@ -1,13 +1,16 @@
+<?php /*
+Template Name: date-mikes_posts
+*/ ?>
 <?php get_header('page'); ?>
 
-<main>
+<main id="date">
 <figure class="fig main_view">
-<figcaption class="figcaption mikes_posts">date</figcaption>
+<figcaption class="figcaption">date</figcaption>
 <picture>
-	<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
-	<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
-	<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
-	</picture>
+<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+</picture>
 </figure>
 
 <section class="section w100">
@@ -51,6 +54,6 @@ echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">'
 
 <?php get_sidebar(); ?>
 
-</main>
+</main><!--date-->
 
 <?php get_footer(); ?>

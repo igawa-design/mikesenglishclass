@@ -4,9 +4,9 @@ Template Name: single-reviews
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="single_reviews">
 <figure class="fig main_view">
-<figcaption class="figcaption reviews">single-reviews</figcaption>
+<figcaption class="figcaption">single-reviews</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
@@ -68,6 +68,6 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$ter
 
 <?php get_sidebar('reviews'); ?>
 
-</main>
+</main><!--single_reviews-->
 
 <?php get_footer(); ?>

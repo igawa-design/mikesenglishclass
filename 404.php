@@ -4,7 +4,7 @@ Template Name: page-404
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="page404">
 <figure class="fig main_view">
 <figcaption class="figcaption">404</figcaption>
 <picture>
@@ -17,7 +17,9 @@ Template Name: page-404
 <section class="section error404 w100">
 <h2 class="sec_h2 sec_h2_mikes_posts">ページが見つかりませんでした。</h2>
 <p class="sec_txt_lead mikes_posts_lead">Sorry we couldn't find that page</p>
-<h3 class="sec_h3 sec_h3_02"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></h3>
+<h3 class="sec_h3 sec_h3_02">
+<a href="<?php echo home_url('mikes-posts'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></a>
+</h3>
 </section><!-- section error404 w100 -->
 
 <div class="archive section">
@@ -41,6 +43,6 @@ Template Name: page-404
 
 <?php get_sidebar('404'); ?>
 
-</main>
+</main><!--page404-->
 
 <?php get_footer(); ?>

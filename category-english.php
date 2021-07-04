@@ -4,9 +4,9 @@ Template Name: category-english
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="category_english">
 <figure class="fig main_view">
-<figcaption class="figcaption mikes_posts">category-english</figcaption>
+<figcaption class="figcaption">category-english</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
@@ -68,6 +68,6 @@ echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">'
 
 <?php get_sidebar(); ?>
 
-</main>
+</main><!--category_english>
 
 <?php get_footer(); ?>

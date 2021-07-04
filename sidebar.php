@@ -1,3 +1,7 @@
+<?php /*
+Template Name: sidebar
+*/ ?>
+
 <div id="sidebar">
 
 <section id="csategories" class="section">

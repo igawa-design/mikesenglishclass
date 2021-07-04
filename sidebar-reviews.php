@@ -1,3 +1,7 @@
+<?php /*
+Template Name: sidebar-reviews
+*/ ?>
+
 <div id="sidebar">
 
 <section id="csategories" class="section">

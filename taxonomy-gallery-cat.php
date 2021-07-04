@@ -4,9 +4,9 @@ Template Name: taxonomy-gallery-cat
 
 <?php get_header('page'); ?>
 
-<main>
+<main id="taxonomy_gallery_cat">
 <figure class="fig main_view">
-<figcaption class="figcaption gallery">taxonomy-gallery-cat</figcaption>
+<figcaption class="figcaption">taxonomy-gallery-cat</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/GALLERY/gallery_1920x1440.jpg">
@@ -36,7 +36,7 @@ $term = array_shift(get_the_terms($post->ID, 'gallery-cat'));
 </section><!-- section w100 -->
 
 <div class="archive section">
-<div class="sec_box sec_box_gallery taxonomy">
+<div class="sec_box sec_box_gallery">
 <div class="sec_box_inner">
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -63,11 +63,11 @@ echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$ter
 <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 
 </div><!--sec_box_inner-->
-</div><!--sec_box sec_box_gallery taxonomy-->
+</div><!--sec_box sec_box_gallery-->
 </div><!--archive section-->
 
 <?php get_sidebar('gallery'); ?>
 
-</main>
+</main><!--taxonomy_gallery_cat-->
 
 <?php get_footer(); ?>

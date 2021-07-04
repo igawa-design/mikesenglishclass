@@ -3,7 +3,14 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.figcaption.mikes_posts,
+#archive .figcaption,
+#single .figcaption,
+#single .figcaption,
+#date .figcaption,
+#category_information .figcaption,
+#category_funny_english .figcaption,
+#category_japanese_posts .figcaption,
+#search .figcaption,
 .sec_box_mikes_posts #searchsubmit {
 	background: rgb(246, 114, 128) /*#f67280*/;
 }

@@ -397,6 +397,8 @@
  height: 23px;
 }
 .fnc-cont__credits-link {
+	position: relative;
+	z-index: 10000;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -406,6 +408,7 @@
  font-size: 2.2rem;
  color: rgb(255, 255, 255) /*#fff*/;
  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1) /*#000*/;
+	cursor: pointer;
 }
 .fnc-cont__credits-blend {
  font-size: 30px;

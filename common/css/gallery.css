@@ -3,7 +3,11 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.figcaption.gallery,
+#archive_gallery .figcaption,
+#taxonomy_gallery_cat .figcaption,
+#date_gallery .figcaption,
+#single_gallery .figcaption,
+#search_gallery .figcaption,
 .sec_box_gallery #searchsubmit {
 	background: rgb(66, 191, 176) /*#42bfb0*/;
 }
@@ -23,20 +27,15 @@ SP Portrait
 	border: none;
 	padding: 10px;
 }
-#masonry article img,
-.taxonomy article img,
-.date article img {
+article img {
 	height: auto;
 	margin: 10px 0 0 0;
 	padding: 0;
 }
-#masonry article time,
-.taxonomy article time,
-.date article time {
+article time {
 	margin: 0;
 }
-.taxonomy article:first-child,
-.date article:first-child {
+article:first-child {
 	padding-top: 15px;
 }
 
@@ -48,7 +47,7 @@ Tablet Portrait
 @media screen and (min-width: 768px){
 #masonry article {
 	width: calc(100% / 2);
-	padding: 20px;
+	padding: 10px;
 	}
 }
 

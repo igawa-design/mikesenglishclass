@@ -3,7 +3,11 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
-.figcaption.reviews,
+#archive_reviews .figcaption,
+#taxonomy_reviews_cat .figcaption,
+#date_reviews .figcaption,
+#single_reviews .figcaption,
+#search_reviews .figcaption,
 .sec_box_reviews #searchsubmit {
 	background: rgb(242, 187, 3) /*#f2bb03*/;
 }

@@ -25,6 +25,10 @@ SP Portrait
 .figcaption.name {
  letter-spacing: 0.15rem;
 }
+#reviews .figcaption,
+.sec_box_reviews #searchsubmit {
+	background: rgb(242, 187, 3) /*#f2bb03*/;
+}
 .section {
  width: 100%;
  margin: 15px ​0;

@@ -10,7 +10,7 @@
 <meta name="thumbnail" content="https://mikesenglishclass.jp/wp-content/themes/mike/common/img/TOP/main_view_01_sp_tab.jpg">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
 <?php elseif(is_page('one-to-one')): ?>
-<title>札幌やオンラインでの英会話個人レッスン、マンツーマンレッスンをお探しですか？｜マイク英会話教室札幌</title>
+<title>札幌で英会話個人レッスン、マンツーマンレッスン、オンラインレッスンをお探しなら｜マイク英会話教室札幌｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌は、個人レッスンにこだわります。英会話のレベルは皆それぞれ。一人一人のペースに合うレッスンで、楽しく、確実に英語力が身に付きます。">
 <link rel="alternate" href="https://mikesenglishclass.jp/one-to-one" hreflang="ja">
 <?php elseif(is_post_type_archive('gallery')): ?>

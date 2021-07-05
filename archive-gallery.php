@@ -2,7 +2,7 @@
 Template Name: archive-gallery
 */ ?>
 
-<?php get_header('page'); ?>
+<?php get_header('pag'); ?>
 
 <main id="archive_gallery">
 <figure class="fig main_view">

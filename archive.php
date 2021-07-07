@@ -10,7 +10,7 @@ Template Name: archive
 <picture>
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_01_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_01_1920×1440.jpg">
-<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_1400x1050.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_01_1400x1050.jpg">
 </picture>
 </figure>
 
@@ -28,6 +28,7 @@ Template Name: archive
 
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
 
+aaaa
 <article>
 <h4 class="article_h4"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>

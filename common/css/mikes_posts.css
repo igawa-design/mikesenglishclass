@@ -23,6 +23,9 @@ article h3 {
 .archive .sec_box_mikes_posts img {
 	margin: 15px 0;
 }
+:empty {
+	display: none;
+}
 
 /********************************************************************************************
 Tablet Portrait

@@ -8,9 +8,9 @@ Template Name: single-reviews
 <figure class="fig main_view">
 <figcaption class="figcaption">single-reviews</figcaption>
 <picture>
-<source media="(max-width: 767px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
-<source media="(min-width: 768px)" srcset="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1920x1440.jpg">
-<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/REVIEWS/reviews_1400x1050.jpg">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_01_1400x1050.jpg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_01_1920×1440.jpg">
+<img alt="英会話スクールでの生徒さんとの写真。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_1400x1050.jpg">
 </picture>
 </figure>
 
@@ -18,7 +18,7 @@ Template Name: single-reviews
 <h2 class="sec_h2 sec_h2_reviews"><?php echo esc_html(get_post_type_object(get_post_type())->label); ?></h2>
 <p class="sec_txt_lead reviews_lead">Reviews</p>
 <h3 class="sec_h3 sec_h3_02">
-<a href="<?php echo home_url('reviews'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_reviews.svg"></a>
+<a href="<?php echo home_url('reviews'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_reviews.svg"></a>
 </h3>
 </section><!-- section w100 -->
 

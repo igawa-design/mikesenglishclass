@@ -18,7 +18,7 @@ Template Name: archive
 <h2 class="sec_h2 sec_h2_mikes_posts">ブログ</h2>
 <p class="sec_txt_lead mikes_posts_lead">Mike’s Posts</p>
 <h3 class="sec_h3 sec_h3_02">
-<a href="<?php echo home_url('mikes-posts'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_mikes_posts.svg"></a>
+<a href="<?php echo home_url('mikes-posts'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_mikes_posts.svg"></a>
 </h3>
 </section><!-- section w100 -->
 
@@ -28,7 +28,6 @@ Template Name: archive
 
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
 
-aaaa
 <article>
 <h4 class="article_h4"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>

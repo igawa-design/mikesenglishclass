@@ -49,120 +49,69 @@ function post_has_archive($args, $post_type)
 }
 add_filter('register_post_type_args', 'post_has_archive', 10, 2);
 
-//add_theme_support アイキャッチ画像の表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//register_post_type カスタム投稿タイプの追加///////////////////////////////////////////////////////////////////////////////////////
 
-add_theme_support( 'post-thumbnails' );
-
-function catch_that_image() {
-  global $post, $posts;
-  $first_img = '';
-  ob_start();
-  ob_end_clean();
-  $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
-  $first_img = $matches [1] [0];
-
-if(empty($first_img)){ //Defines a default image
-	  $first_img = "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/logo.svg";
-	 }
-	 return $first_img;
+function add_custom_post_type(){
+  register_post_type(
+  'reviews', // 1.投稿タイプ名
+    array(   // 2.オプション
+	    'label' => '生徒さんの声', // 投稿タイプの名前
+					'description' => '生徒さんの声',
+	    'public'        => true, // 利用する場合はtrueにする
+	    'has_archive'   => true, // この投稿タイプのアーカイブを有効にする
+	    'menu_position' => 5, // この投稿タイプが表示されるメニューの位置
+	    'supports' => array( // サポートする機能
+        'title',
+        'editor',
+    )
+   )
+  );
+		register_post_type(
+  'gallery', // 1.投稿タイプ名
+    array(   // 2.オプション
+	    'label' => 'フォトギャラリー', // 投稿タイプの名前
+					'description' => 'フォトギャラリー',
+	    'public'        => true, // 利用する場合はtrueにする
+	    'has_archive'   => true, // この投稿タイプのアーカイブを有効にする
+	    'menu_position' => 5, // この投稿タイプが表示されるメニューの位置
+	    'supports' => array( // サポートする機能
+        'title',
+        'editor',
+    )
+   )
+  );
 }
+add_action('init', 'add_custom_post_type');
 
-//custom_excerpt_length - 抜粋文字数の指定//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-function custom_excerpt_length( $length ) {
-     return 200;
+//add_custom_taxonomy カスタムタクソノミーの追加///////////////////////////////////////////////////////////////////////////////////////
+function add_custom_taxonomy(){
+  register_taxonomy(
+    'reviews-cat', // 1.タクソノミーの名前
+    'reviews',          // 2.利用する投稿タイプ
+    	array(            // 3.オプション
+		    'label' => 'カテゴリ', // タクソノミーの表示名
+						'singular_label' => '生徒さんの声カテゴリ',
+		    'hierarchical' => true, // 階層を持たせるかどうか
+		    'public' => true, // 利用する場合はtrueにする
+    )
+  );
+  register_taxonomy(
+    'gallery-cat', // 1.タクソノミーの名前
+    'gallery',     // 2.利用する投稿タイプ
+    	array(       // 3.オプション
+      'label' => 'カテゴリ', // タクソノミーの表示名
+						'singular_label' => 'フォトギャラリーカテゴリ',
+      'hierarchical' => false, // 階層を持たせるかどうか
+      'public' => true, // 利用する場合はtrueにする
+    )
+  );
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+add_action('init', 'add_custom_taxonomy');
 
-//custom_excerpt_length - 文末表記の指定//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-function custom_excerpt_more($more) {
-        return ' ... ';
-}
-add_filter('excerpt_more', 'custom_excerpt_more');
-
-//disable wpautop - 自動pタグ無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-add_action('init', function() {
-remove_filter('the_excerpt', 'wpautop');
-remove_filter('the_content', 'wpautop');
-});
-add_filter('tiny_mce_before_init', function($init) {
-$init['wpautop'] = false;
-$init[‘apply_source_formatting’] = true;
-return $init;
-});
-
-// Custom Post Type - カスタム投稿タイプ /////////////////////////////////////////////////////////////////////////////
-register_post_type(
-	'reviews',
-	array(
-		'label' => '生徒さんの声',
-		'description' => '生徒さんの声',
-		'menu_position' => 5,
-		'hierarchical' => false,
-		'public' => true,
-		'query_var' => false,
-		'has_archive' => true,
-		'rewrite' => true,
-		'yarpp_support' => true,
-		'supports' => array(
-		'title',
-		'editor',
-		'excerpt',
-		'thumbnail',
-		)
-	)
-);
-
-register_post_type(
-	'gallery',
-	array(
-		'label' => 'フォトギャラリー',
-		'description' => 'フォトギャラリー',
-		'menu_position' => 6,
-		'hierarchical' => false,
-		'public' => true,
-		'query_var' => false,
-		'has_archive' => true,
-		'rewrite' => true,
-		'yarpp_support' => true,
-		'supports' => array(
-		'title',
-		'editor',
-		'excerpt',
-		'thumbnail',
-		)
-	)
-);
-
-// Custom Taxonomies - カスタムタクソノミー /////////////////////////////////////////////////////////////////////////////
-register_taxonomy(
- 'reviews-cat',
- 'reviews',
- array(
-		'hierarchical' => true,
-		'label' => 'カテゴリ',
-		'singular_label' => '生徒さんの声カテゴリ',
-		'show_admin_column' => true
- )
-);
-
-register_taxonomy(
- 'gallery-cat',
- 'gallery',
- array(
-	 'hierarchical' => true,
-	 'label' => 'カテゴリ',
-	 'singular_label' => 'フォトギャラリーカテゴリ',
-	 'show_admin_column' => true
- )
-);
-
-//custom_search 投稿タイプ内のみの検索//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//custom_search カスタム投稿タイプ内のみの検索//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function custom_search_template($template){
-  if (is_search()){
+  if ( is_search() ){
     $post_types = get_query_var('post_type');
     foreach ( (array) $post_types as $post_type )
       $templates[] = "search-{$post_type}.php";
@@ -184,16 +133,44 @@ if(is_search()){
 	return $text;
 }
 add_filter('the_title', 'wps_highlight_results');
-add_filter('the_excerpt', 'wps_highlight_results');
 add_filter('the_content', 'wps_highlight_results');
+
+//add_theme_support アイキャッチ画像//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+add_theme_support( 'post-thumbnails' );
+
+function catch_that_image() {
+  global $post, $posts;
+  $first_img = '';
+  ob_start();
+  ob_end_clean();
+  $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+  $first_img = $matches [1] [0];
+
+if(empty($first_img)){ //Defines a default image
+	  $first_img = "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/logo.png";
+	 }
+	 return $first_img;
+}
 
 //hide admin_bar - WP管理画面ログイン時ツールバー非表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 add_filter( 'show_admin_bar', '__return_false' );
-
 //disable Gutenberg - Gutenberg（ブロックエディタ）無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 add_filter( 'use_block_editor_for_post', '__return_false' );
+
+//disable wpautop - 自動pタグ無効化//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+add_action('init', function() {
+remove_filter('the_excerpt', 'wpautop');
+remove_filter('the_content', 'wpautop');
+});
+add_filter('tiny_mce_before_init', function($init) {
+$init['wpautop'] = false;
+$init[‘apply_source_formatting’] = true;
+return $init;
+});
 
 //hide visual editor - ビジュアルエディタ非表示//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

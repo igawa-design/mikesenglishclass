@@ -67,7 +67,11 @@
 <link rel="alternate" href="https://mikesenglishclass.jp/sitemap" hreflang="ja">
 <?php elseif(is_single()): ?>
 <title><?php echo get_the_title(); ?>｜マイク英会話教室札幌 - Mike’s English Class Sapporo☆</title>
-<meta name="description" content="">
+<meta name="description" content="xxxxxx">
+<link rel="alternate" href="https://mikesenglishclass.jp/mikes-posts" hreflang="ja">
+<?php elseif(is_archive()): ?>
+<title><?php echo get_the_title(); ?>｜マイク英会話教室札幌 - Mike’s English Class Sapporo☆</title>
+<meta name="description" content="xxxxxx">
 <link rel="alternate" href="https://mikesenglishclass.jp/mikes-posts" hreflang="ja">
 <?php endif; ?>
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">

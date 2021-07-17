@@ -137,7 +137,7 @@ if(is_search()){
 add_filter('the_title', 'wps_highlight_results');
 add_filter('the_content', 'wps_highlight_results');
 
-//add_theme_support アイキャッチ画像有効化
+//add_theme_support Featured image - アイキャッチ画像有効化
 
 add_theme_support('post-thumbnails');
 
@@ -156,17 +156,6 @@ add_action('wp_enqueue_scripts', 'remove_block_library_style');
      wp_dequeue_style('wp-block-library');
      wp_dequeue_style('wp-block-library-theme');
  }
-
-//hide visual editor - ビジュアルエディタ非表示
-
-function my_admin_style() {
- echo '<style>
- .wp-editor-tabs {
-		display: none;
-	}
- </style>'.PHP_EOL;
-}
-add_action('admin_print_styles', 'my_admin_style');
 
 //add_shortcode, include php file - ショートコードでphpファイルを読み込み
 

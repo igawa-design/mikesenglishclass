@@ -150,6 +150,7 @@ add_filter( 'show_admin_bar', '__return_false' );
 add_filter( 'use_block_editor_for_post', '__return_false' );
 
 //「wp-block-library-css」を削除 / remove wp-block-library-css
+
 add_action('wp_enqueue_scripts', 'remove_block_library_style');
  function remove_block_library_style(){
      wp_dequeue_style('wp-block-library');

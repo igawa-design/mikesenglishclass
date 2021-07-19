@@ -58,10 +58,11 @@ window.onload = function() {
 "email": "mikelovessapporo@gmail.com",
 "address": "北海道札幌市中央区中央区南９条西３丁目２−１ 705 号 マジソンハイツ",
 "url": "https://mikesenglishclass.jp",
-"image": "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/TOP/carousel_gallery/009_b.jpg",
+"image": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/class.jpg",
 "logo": {
 "@type": "ImageObject",
-"url": "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/logo.png",
+"name": "マイク英会話教室札幌のロゴ",
+"url": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/logo.svg",
 "width": 60,
 "height": 60
 }
@@ -76,7 +77,7 @@ window.onload = function() {
 "url": "https://mikesenglishclass.jp",
 "logo": {
 "@type": "ImageObject",
-"url": "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/favicon.png",
+"url": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/logo.svg",
 "width": 60,
 "height": 60
 }
@@ -93,7 +94,7 @@ window.onload = function() {
 "headline": "札幌の英会話レッスン、オンライン英語レッスンはマイク英会話教室☆ Mike’s English Class Sapporo☆",
 "image": {
 "@type": "ImageObject",
-"url": "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/TOP/main_view_01_sp_tab.jpg",
+"url": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/screenshot.png",
 "height": 420,
 "width": 800
 },
@@ -108,7 +109,7 @@ window.onload = function() {
 "name": ", Norihisa Igawa",
 "logo": {
 "@type": "ImageObject",
-"url": "https://mikesenglishclass.jp/wp-content/themes/mike/common/img/logo.png",
+"url": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/logo.svg",
 "width": 60,
 "height": 60
 }
@@ -120,6 +121,7 @@ window.onload = function() {
 {
 "@context": "https://schema.org",
 "@type": "BreadcrumbList",
+"name": "マイク英会話教室札幌のパンくずリスト",
 "itemListElement":
 [
 {

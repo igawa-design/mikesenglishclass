@@ -19,7 +19,7 @@ Develop your strengths in English today at Mike’s English Class in Sapporo.</p
 <h2 class="info_h2"><a href="<?php echo home_url(); ?>"><img alt="札幌英会話＆英語教室 Mike’s English Class SapporoのHOMEへ" loading="lazy" width="70" height="70" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/logo.svg" class="info_h2_logo"></a>HOME</h2>
 <h3 class="info_h3"><em>マイク英会話教室札幌</em><span class="info_h3_span">Mike’s English Class Sapporo</span></h3>
 <ul>
-<li>住所：北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ705号</li>
+<li>住所：北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号</li>
 <li>Tel：<a class="tel" href="tel:09064432799"></a>090-6443-2799</li>
 <li>営業時間：11:00 AM to 9:00 PM</li>
 <li>定休日：日曜日</li>
@@ -56,7 +56,7 @@ window.onload = function() {
 "name": "マイク英会話教室札幌 Mike's English Class Sapporo",
 "telephone": "090-6443-2799",
 "email": "mikelovessapporo@gmail.com",
-"address": "北海道札幌市中央区中央区南９条西３丁目２−１ 705 号 マジソンハイツ",
+"address": "北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号",
 "url": "https://mikesenglishclass.jp",
 "image": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/class.jpg",
 "logo": {
@@ -73,7 +73,7 @@ window.onload = function() {
 "@context": "https://schema.org",
 "@type": "Place ",
 "name": "マイク英会話教室札幌 Mike's English Class Sapporo",
-"address": "北海道札幌市中央区中央区南９条西３丁目２−１ 705 号 マジソンハイツ",
+"address": "北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号",
 "url": "https://mikesenglishclass.jp",
 "logo": {
 "@type": "ImageObject",

@@ -106,15 +106,26 @@ article:first-child .article_h4 {
 .archive .article_h4 {
 	margin-top: 15px;
 }
+.archive .article_h4 a,
+.post img,
+.post p,
+.cat-item a,
+#tags a {
+	transition: all 0.3s ease 0s;
+}
 article p,
 .archive p {
 	margin: 15px 10px;
 }
-article time {
+.archive article time {
 	margin: 0 10px;
 }
 .post {
 	margin: 10px;
+}
+.post img:hover,
+.post p:hover {
+	opacity: 0.6;
 }
 .article_cat {
 	display: block;
@@ -133,7 +144,10 @@ article time {
 	color: rgb(53, 87, 129) /*#355781*/;
 	transition: all 0.3s ease 0s;
 }
-.cat:hover {
+.cat:hover,
+.archive .article_h4 a:hover,
+.cat-item a:hover,
+#tags a:hover {
 	color: rgb(89, 145, 216) /*#5991d8*/;
 }
 .box_link_cat {

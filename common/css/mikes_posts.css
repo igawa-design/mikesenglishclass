@@ -22,6 +22,9 @@ SP Portrait
 .sec_box_mikes_posts #searchsubmit {
 	background: rgb(246, 114, 128) /*#f67280*/;
 }
+#s {
+	border-color: rgb(246, 114, 128) /*#f67280*/ !important;
+}
 article .post {
  overflow: hidden;
 }

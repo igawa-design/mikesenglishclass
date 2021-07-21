@@ -1742,6 +1742,9 @@ transition: all 0.3s ease 0s;
 .scrolltopcontrol:hover {
 transform: rotate(-10deg) scale(1.1);
 }
+#wpstats {
+display: none;
+}
 
 /********************************************************************************************
 SP Portrait

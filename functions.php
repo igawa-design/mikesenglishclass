@@ -1,6 +1,6 @@
 <?php
 
-//Remove head - wp_head不要部分削除
+//Remove head - wp_head不要部分削除 ////////////////////////////////////////////////
 
 remove_action('wp_head', 'wp_generator');
 remove_action('wp_head', 'wlwmanifest_link');
@@ -30,7 +30,7 @@ function disable_emojis() {
 }
 add_action( 'init', 'disable_emojis' );
 
-//Remove foot - wp_footer不要部分削除
+//Remove foot - wp_footer不要部分削除 //////////////////////////////////////////////
 
 function register_javascript() {
 	wp_deregister_script('wp-embed');
@@ -38,7 +38,7 @@ function register_javascript() {
 }
 add_action('wp_enqueue_scripts', 'register_javascript');
 
-//post_has_archive ブログ投稿のアーカイブページ作成
+//post_has_archive ブログ投稿のアーカイブページ作成 ////////////////////////////////////
 
 function post_has_archive($args, $post_type)
 {
@@ -50,7 +50,25 @@ function post_has_archive($args, $post_type)
 }
 add_filter('register_post_type_args', 'post_has_archive', 10, 2);
 
-//register_post_type カスタム投稿タイプの追加
+//add_theme_support Featured image - アイキャッチ画像有効化 //////////////////////////
+
+add_theme_support('post-thumbnails');
+
+//custom_excerpt_length - 抜粋文字数の指定//////////////////////////////////////////
+
+function custom_excerpt_length( $length ) {
+     return 80;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+//custom_excerpt_more - 文末表記の指定////////////////////////////////////////////
+
+function custom_excerpt_more($more) {
+        return ' ... ';
+}
+add_filter('excerpt_more', 'custom_excerpt_more');
+
+//register_post_type カスタム投稿タイプの追加 ////////////////////////////////////////
 
 function add_custom_post_type(){
   register_post_type(
@@ -84,7 +102,7 @@ function add_custom_post_type(){
 }
 add_action('init', 'add_custom_post_type');
 
-//add_custom_taxonomy カスタムタクソノミーの追加
+//add_custom_taxonomy カスタムタクソノミーの追加 //////////////////////////////////////
 
 function add_custom_taxonomy(){
   register_taxonomy(
@@ -110,7 +128,7 @@ function add_custom_taxonomy(){
 }
 add_action('init', 'add_custom_taxonomy');
 
-//custom_search カスタム投稿タイプ内のみの検索
+//custom_search カスタム投稿タイプ内のみの検索 ////////////////////////////////////////
 
 function custom_search_template($template){
   if ( is_search() ){
@@ -124,7 +142,7 @@ function custom_search_template($template){
 }
 add_filter('template_include','custom_search_template');
 
-//wps_highlight_results 検索結果でのキーワードのハイライト
+//wps_highlight_results 検索結果でのキーワードのハイライト ////////////////////////////
 
 function wps_highlight_results($text) {
 if(is_search()){
@@ -137,19 +155,15 @@ if(is_search()){
 add_filter('the_title', 'wps_highlight_results');
 add_filter('the_content', 'wps_highlight_results');
 
-//add_theme_support Featured image - アイキャッチ画像有効化
-
-add_theme_support('post-thumbnails');
-
-//hide admin_bar - WP管理画面ログイン時ツールバー非表示
+//hide admin_bar - WP管理画面ログイン時ツールバー非表示 ////////////////////////////////
 
 add_filter( 'show_admin_bar', '__return_false' );
 
-//disable Gutenberg - Gutenberg（ブロックエディタ）無効化
+//disable Gutenberg - Gutenberg（ブロックエディタ）無効化 ////////////////////////////
 
 add_filter( 'use_block_editor_for_post', '__return_false' );
 
-//「wp-block-library-css」を削除 / remove wp-block-library-css
+//「wp-block-library-css」を削除 / remove wp-block-library-css ////////////////////
 
 add_action('wp_enqueue_scripts', 'remove_block_library_style');
  function remove_block_library_style(){
@@ -157,7 +171,7 @@ add_action('wp_enqueue_scripts', 'remove_block_library_style');
      wp_dequeue_style('wp-block-library-theme');
  }
 
-//add_shortcode, include php file - ショートコードでphpファイルを読み込み
+//add_shortcode, include php file - ショートコードでphpファイルを読み込み //////////////
 
 function sc_php($atts = array()) {
  shortcode_atts(array(   // shortcode_atts でショートコードの属性名を指定
@@ -168,6 +182,6 @@ function sc_php($atts = array()) {
  return ob_get_clean();  //バッファの内容取得、出力バッファを削除
 }
 
-//ショートコード作成（sc というショートコードは、sc_php()という関数を呼び出すという意味）
+//ショートコード作成（sc というショートコードは、sc_php()という関数を呼び出すという意味）//////
 
 add_shortcode('sc', 'sc_php');

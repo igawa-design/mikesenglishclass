@@ -115,13 +115,16 @@ article:first-child .article_h4 {
 }
 article p,
 .archive p {
-	margin: 15px 10px;
+	margin: 15px 0;
+}
+p:empty {
+	margin: 0;
 }
 .archive article time {
 	margin: 0 10px;
 }
 .post {
-	margin: 10px;
+	margin: 10px 0;
 }
 .post img:hover,
 .post p:hover {

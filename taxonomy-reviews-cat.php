@@ -6,7 +6,7 @@ Template Name: taxonomy-reviews-cat
 
 <main id="taxonomy_reviews_cat">
 <figure class="fig main_view">
-<figcaption class="figcaption">taxonomy-reviews-cat</figcaption>
+<figcaption class="figcaption">Reviews</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_02_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_02_1920×1440.jpg">

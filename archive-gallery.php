@@ -6,7 +6,7 @@ Template Name: archive-gallery
 
 <main id="archive_gallery">
 <figure class="fig main_view">
-<figcaption class="figcaption">archive-gallery</figcaption>
+<figcaption class="figcaption">Gallery</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_1920x1440.jpg">

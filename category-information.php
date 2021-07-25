@@ -6,7 +6,7 @@ Template Name: category-information
 
 <main id="category_information">
 <figure class="fig main_view">
-<figcaption class="figcaption">category-information</figcaption>
+<figcaption class="figcaption">Mike’s Posts</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/MIKES_POSTS/mikes_posts_01_1400x1050.jpg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/MIKES_POSTS/mikes_posts_01_1920x1440.jpg">

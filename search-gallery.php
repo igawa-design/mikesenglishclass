@@ -18,7 +18,7 @@ Template Name: search-gallery
 <h2 class="sec_h2 sec_h2_gallery">検索結果：「<span><?php the_search_query(); ?></span>」</h2>
 <p class="sec_txt_lead gallery_lead">Gallery</p>
 <h3 class="sec_h3 sec_h3_02">
-<a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリー" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></a>
+<a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリーの検索結果" width="50" height="50" loading="lazy" src="https://igawa.co/mikesenglishclass/wp-content/themes/mikesenglishclass/common/img/icon_sec_gallery.svg"></a>
 </h3>
 </section><!-- section w100 -->
 

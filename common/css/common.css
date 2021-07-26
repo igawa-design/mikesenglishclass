@@ -110,7 +110,9 @@ article:first-child .article_h4 {
 .post img,
 .post p,
 .cat-item a,
-#tags a {
+#tags a,
+#archives li a,
+#single .post a {
 	transition: all 0.3s ease 0s;
 }
 article p,
@@ -126,8 +128,10 @@ p:empty {
 .post {
 	margin: 10px 0;
 }
-.post img:hover,
-.post p:hover {
+#archive .post img:hover,
+#archive .post p:hover,
+#archives li a:hover,
+#single .post a:hover {
 	opacity: 0.6;
 }
 .article_cat {

@@ -8,9 +8,9 @@ Template Name: date-gallery
 <figure class="fig main_view">
 <figcaption class="figcaption">Gallery</figcaption>
 <picture>
-<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_03_1400x1050.jpg">
-<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_03_1920x1440.jpg">
-<img alt="英会話スクールの生徒さんたちと教師マイク先生との写真。マンツーマンでの英語・英会話コーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_03_1400x1050.jpg">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_01_1400x1050.jpg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_01_1920x1440.jpg">
+<img alt="英会話スクールの生徒さんたちと教師マイク先生との写真。マンツーマンでの英語・英会話コーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/GALLERY/gallery_01_1400x1050.jpg">
 </picture>
 </figure>
 

@@ -51,6 +51,9 @@ h4:empty {
 #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover {
 	text-decoration: none;
 }
+.main_view img {
+	object-position: center 0 !important;
+}
 
 /********************************************************************************************
 Tablet Portrait

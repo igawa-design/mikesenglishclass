@@ -70,7 +70,7 @@ header {
 display: flex;
 position: fixed;
 top: 0;
-z-index: 10000;
+z-index: 100000;
 width: 97%;
 height: 80px;
 animation: slideIn 1s ease 0s 1 normal;

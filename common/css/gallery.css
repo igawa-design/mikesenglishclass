@@ -23,7 +23,7 @@ SP Portrait
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
-	object-position: center -10px;
+	object-position: center 0;
 }
 #masonry {
 	width: 100%;

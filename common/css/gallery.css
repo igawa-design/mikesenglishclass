@@ -57,6 +57,9 @@ Tablet Portrait
 	width: calc(100% / 2);
 	padding: 10px;
 	}
+.main_view img {
+	object-position: center -90px;
+	}
 }
 
 /********************************************************************************************

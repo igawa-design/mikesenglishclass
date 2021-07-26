@@ -9,7 +9,7 @@ Template Name: taxonomy-reviews-cat
 <figcaption class="figcaption">Reviews</figcaption>
 <picture>
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_02_1400x1050.jpg">
-<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_02_1920×1440.jpg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_02_1920x1440.jpg">
 <img alt="札幌の景色。英会話スクールの生徒さんからのレビュー。マンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/REVIEWS/reviews_02_1400x1050.jpg">
 </picture>
 </figure>

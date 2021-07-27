@@ -33,7 +33,6 @@ Template Name: category-information
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <a href="<?php the_permalink(); ?>">
 <div class="post">
-<p class="category"><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?></p>
 <?php the_post_thumbnail(); ?>
 <?php the_excerpt(); ?>
 </div><!--post-->

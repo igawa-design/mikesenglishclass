@@ -119,14 +119,23 @@ article p,
 .archive p {
 	margin: 15px 0;
 }
+#archive_reviews article p,
+#single_reviews article p,
+#taxonomy_reviews_cat article p,
+#date_reviews article p {
+	margin: 5px;
+}
 p:empty {
 	margin: 0;
 }
-.archive article time {
-	margin: 0 10px;
+#archive_reviews article time,
+#single_reviews article time,
+#taxonomy_reviews_cat article time,
+#date_reviews article time {
+	margin: 0 15px;
 }
 .post {
-	margin: 10px 0;
+	margin: 10px;
 }
 #archive .post img:hover,
 #archive .post p:hover,
@@ -216,7 +225,7 @@ input {
 .wp-pagenavi {
  overflow: hidden;
  margin: 30px auto 3px;
- padding: 0 10px 20px;
+ padding: 0 0 20px;
 }
 .wp-pagenavi a,
 .wp-pagenavi span {

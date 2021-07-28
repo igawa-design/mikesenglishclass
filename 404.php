@@ -10,7 +10,7 @@ Template Name: page-404
 <picture>
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/404/404_01_1280x853.jpg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/common/img/404/404_01_1920x1280.jpg">
-<img alt="札幌やオンラインでマンツーマンでの英語・英会話のコーチングをしています。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/404/404_01_1280x853.jpg">
+<img alt="ページが見つかりませんでしたが、札幌やオンラインでマンツーマンでの英語・英会話のコーチングをしていますし、他のページはあると思います。" width="1400" height="1050" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/404/404_01_1280x853.jpg">
 </picture>
 </figure>
 

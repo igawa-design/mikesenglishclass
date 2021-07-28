@@ -44,17 +44,22 @@ article h3 {
 h4:empty {
 	display: none;
 }
-#jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+#jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title,
+.jp-relatedposts-post-img,
+.jp-relatedposts-post-title {
 	transition: all 0.3s ease 0s;
 }
-#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-date {
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-date,
+.jp-relatedposts-post-date {
 	margin-top: 10px;
 	font-size: 1.3rem;
 }
-#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-context {
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-context,
+.jp-relatedposts-post-context {
 	font-size: 1.3rem;
 }
-#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover {
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover,
+.jp-relatedposts-post-title a:hover {
 	text-decoration: none;
 }
 

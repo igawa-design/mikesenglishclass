@@ -56,17 +56,17 @@ add_theme_support('post-thumbnails');
 
 //custom_excerpt_length - 抜粋文字数の指定//////////////////////////////////////////
 
-function custom_excerpt_length( $length ) {
-     return 80;
+function custom_excerpt_length($length) {
+     return 20;
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+add_filter('excerpt_length', 'custom_excerpt_length', 999);
 
 //custom_excerpt_more - 文末表記の指定////////////////////////////////////////////
 
-function custom_excerpt_more($more) {
-        return ' ... ';
+function new_excerpt_more($more) {
+	return '[.....]';
 }
-add_filter('excerpt_more', 'custom_excerpt_more');
+add_filter('excerpt_more', 'new_excerpt_more');
 
 //register_post_type カスタム投稿タイプの追加 ////////////////////////////////////////
 

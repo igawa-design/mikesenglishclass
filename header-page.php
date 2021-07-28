@@ -133,7 +133,6 @@
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">
 <link rel="preconnect dns-prefetch" href="https://www.google.com">
 <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
-<meta name="robots" content="noindex, nofollow">
 <style>
 #loading {
 display: flex;

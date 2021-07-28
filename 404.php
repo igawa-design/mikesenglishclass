@@ -33,7 +33,7 @@ Template Name: page-404
 <?php else : ?>
 
 <h4 id="not_found"><em>Not Found</em><span> - 表示するページはありませんでした。</span></h4>
-<p>今回はページが見つかりませんでしたが、札幌の教室やオンラインでマイク先生の英会話レッスンは受けられます🌈</p>
+<p>今回はページが見つかりませんでしたが、心配しないでください。札幌の教室やオンラインでマイク先生の英会話レッスンは受けられます🌈</p>
 <?php endif; ?>
 
 <p><a href="<?php echo home_url(); ?>"><span>Back To Home</span> - ホームへ戻る</a></p>

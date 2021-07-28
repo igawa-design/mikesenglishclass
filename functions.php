@@ -153,6 +153,7 @@ if(is_search()){
 	return $text;
 }
 add_filter('the_title', 'wps_highlight_results');
+add_filter('the_excerpt', 'wps_highlight_results');
 add_filter('the_content', 'wps_highlight_results');
 
 //hide admin_bar - WP管理画面ログイン時ツールバー非表示 ////////////////////////////////

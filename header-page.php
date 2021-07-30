@@ -2,11 +2,12 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php if(is_page('aboutmike')): ?>
 <title>札幌の英会話教師からご挨拶｜マイク英会話教室札幌</title>
 <meta name="description" content="札幌の英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
-<meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_210x210.jpg">
+<meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
 <?php elseif(is_page('one-to-one')): ?>
@@ -136,9 +137,9 @@
 <!--
 <PageMap>
 <DataObject type="thumbnail">
-<Attribute name="src" value="<?php echo get_stylesheet_directory_uri(); ?>/common/img/aboutmike_1200x800.jpg">
-<Attribute name="width" value="100"/>
-<Attribute name="height" value="130"/>
+<Attribute name="src" value="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
+<Attribute name="width" value="105">
+<Attribute name="height" value="105">
 </DataObject>
 </PageMap>
 -->

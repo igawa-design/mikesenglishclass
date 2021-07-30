@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>札幌の英会話レッスン、オンライン英語レッスンはマイク英会話教室☆ Mike’s English Class Sapporo☆</title>
 <meta name="description" content="札幌やオンラインで英語・英会話を覚えるならぜひ。初心者の方から、また本格的なビジネス英語・作詞のお手伝いなども承っております。Mike’s English Class Sapporo にお任せください。個人レッスンだからこそ、質の高い英会話力が身に付きます！">
+<meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_210x210.jpg">
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
 <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
@@ -25,6 +26,15 @@
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">
 <link rel="preconnect dns-prefetch" href="https://www.google.com">
 <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
+<!--
+<PageMap>
+<DataObject type="thumbnail">
+<Attribute name="src" value="<?php echo get_stylesheet_directory_uri(); ?>/common/img/aboutmike_1200x800.jpg">
+<Attribute name="width" value="100"/>
+<Attribute name="height" value="130"/>
+</DataObject>
+</PageMap>
+-->
 <style>
 #loading {
 display: flex;

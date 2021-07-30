@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <?php if(is_page('aboutmike')): ?>
 <title>札幌の英会話教師からご挨拶｜マイク英会話教室札幌</title>
 <meta name="description" content="札幌の英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
-<meta name="thumbnail" content="https://mikesenglishclass.jp/wp-content/themes/mike/common/img/TOP/main_view_01_sp_tab.jpg">
+<meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_210x210.jpg">
+<meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
 <?php elseif(is_page('one-to-one')): ?>
 <title>札幌で英会話個人レッスン、マンツーマンレッスン、オンラインレッスンをお探しなら｜マイク英会話教室札幌｜マイク英会話教室札幌</title>
@@ -133,6 +133,15 @@
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">
 <link rel="preconnect dns-prefetch" href="https://www.google.com">
 <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
+<!--
+<PageMap>
+<DataObject type="thumbnail">
+<Attribute name="src" value="<?php echo get_stylesheet_directory_uri(); ?>/common/img/aboutmike_1200x800.jpg">
+<Attribute name="width" value="100"/>
+<Attribute name="height" value="130"/>
+</DataObject>
+</PageMap>
+-->
 <style>
 #loading {
 display: flex;

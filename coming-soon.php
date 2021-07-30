@@ -26,6 +26,8 @@ Template Name: page-coming-soon
 <div class="sec_box sec_box_mikes_posts">
 <div class="sec_box_inner">
 
+<p>もし待ちきれない、すぐにでも、という場合は、お問い合わせページよりご連絡ください🌈</p>
+
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
 
 <?php the_content(); ?>
@@ -36,6 +38,7 @@ Template Name: page-coming-soon
 <p>このページはただいま準備中です。もうしばらくお待ちください。🌈</p>
 <?php endif; ?>
 
+<p><a href="<?php echo home_url('contact'); ?>"><span>To Contact Page</span> - お問い合わせページへ</a></p>
 <p><a href="<?php echo home_url(); ?>"><span>Back To Home</span> - ホームへ戻る</a></p>
 
 </div><!--sec_box_inner-->

@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php if(is_page('aboutmike')): ?>
 <title>札幌の英会話教師からご挨拶｜マイク英会話教室札幌</title>

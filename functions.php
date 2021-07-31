@@ -38,6 +38,18 @@ function register_javascript() {
 }
 add_action('wp_enqueue_scripts', 'register_javascript');
 
+//Remove wpautop - wpautop削除 //////////////////////////////////////////////
+
+add_action('init', function() {
+remove_filter('the_excerpt', 'wpautop');
+remove_filter('the_content', 'wpautop');
+});
+add_filter('tiny_mce_before_init', function($init) {
+$init['wpautop'] = false;
+$init[‘apply_source_formatting’] = true;
+return $init;
+});
+
 //post_has_archive ブログ投稿のアーカイブページ作成 ////////////////////////////////////
 
 function post_has_archive($args, $post_type)

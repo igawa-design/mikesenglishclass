@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>札幌の英会話レッスン、オンライン英語レッスンはマイク英会話教室☆ Mike’s English Class Sapporo☆</title>
 <meta name="description" content="札幌やオンラインで英語・英会話を覚えるならぜひ。初心者の方から、また本格的なビジネス英語・作詞のお手伝いなども承っております。Mike’s English Class Sapporo にお任せください。個人レッスンだからこそ、質の高い英会話力が身に付きます！">

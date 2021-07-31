@@ -1458,9 +1458,6 @@ position: relative;
 width: 100%;
 height: auto;
 z-index: 0;
-display: flex;
-justify-content: center;
-align-items: center;
 margin: 0;
 }
 .figcaption {

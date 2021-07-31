@@ -141,7 +141,7 @@ p:empty {
 #archive .post p:hover,
 #archives li a:hover,
 #single .post a:hover {
-	opacity: 0.6;
+	opacity: 0.618;
 }
 .article_cat {
 	display: block;

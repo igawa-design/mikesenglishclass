@@ -21,7 +21,7 @@ Develop your strengths in English today at Mike’s English Class in Sapporo.</p
 <ul>
 <li>住所：北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号</li>
 <li>Tel：<a class="tel" href="tel:09064432799"></a>090-6443-2799</li>
-<li>営業時間：11:00 AM to 9:00 PM</li>
+<li>営業時間：11:00 AM to 9:00 PM（※レッスンは平日のみです。土曜日は11:00 AM から 6:00 PMまでお電話受付可能です。）</li>
 <li>定休日：日曜日</li>
 </ul>
 <a class="info_a_sitemap" href="<?php echo home_url('sitemap'); ?>">Site Map<span class="arrow"></span></a>
@@ -52,7 +52,7 @@ window.onload = function() {
 "email": "mikelovessapporo@gmail.com",
 "address": "北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号",
 "url": "https://mikesenglishclass.jp",
-"image": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/TOP/carousel_gallery/009_b.jpg",
+"image": "https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/common/img/class.jpg",
 "logo": {
 "@type": "ImageObject",
 "name": "マイク英会話教室札幌のロゴ",

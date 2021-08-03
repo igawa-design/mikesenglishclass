@@ -3,7 +3,7 @@
 Theme Name: Theme of Mike’s English Class Sapporo
 Description: Mike’s English Class Sapporoのテーマ
 Author: Norihisa Igawa
-Author URI: http://igawa.co
+Author URI: https://igawa.co
 */
 
 /********************************************************************************************
@@ -39,7 +39,7 @@ article h3 {
 	margin: 0 15px;
 }
 .sec_box_mikes_posts img.wp-post-image {
-	margin: 0;
+	margin: 0 0 15px 0;
 }
 h4:empty {
 	display: none;

@@ -40,10 +40,10 @@ add_action('wp_enqueue_scripts', 'register_javascript');
 
 //Remove wpautop - wpautop削除 //////////////////////////////////////////////
 
-add_action('init', function() {
-remove_filter('the_excerpt', 'wpautop');
-remove_filter('the_content', 'wpautop');
-});
+//add_action('init', function() {
+//remove_filter('the_excerpt', 'wpautop');
+//remove_filter('the_content', 'wpautop');
+//});
 
 //post_has_archive ブログ投稿のアーカイブページ作成 ////////////////////////////////////
 

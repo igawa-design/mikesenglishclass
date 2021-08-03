@@ -44,11 +44,6 @@ add_action('init', function() {
 remove_filter('the_excerpt', 'wpautop');
 remove_filter('the_content', 'wpautop');
 });
-add_filter('tiny_mce_before_init', function($init) {
-$init['wpautop'] = false;
-$init[‘apply_source_formatting’] = true;
-return $init;
-});
 
 //post_has_archive ブログ投稿のアーカイブページ作成 ////////////////////////////////////
 
@@ -76,7 +71,7 @@ add_filter('excerpt_length', 'custom_excerpt_length', 999);
 //custom_excerpt_more - 文末表記の指定////////////////////////////////////////////
 
 function new_excerpt_more($more) {
-	return '[.....]';
+	return '...';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 

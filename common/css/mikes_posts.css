@@ -44,6 +44,15 @@ article h3 {
 h4:empty {
 	display: none;
 }
+#jp-relatedposts .jp-relatedposts-items-visual {
+	margin-right: 0 !important;
+}
+#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+	padding-right: 0 !important;
+}
+#jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+	border: none;
+}
 #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title,
 #jp-relatedposts .jp-relatedposts-post-img,
 #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title.jp-relatedposts-post-title,
@@ -59,8 +68,10 @@ h4:empty {
 .jp-relatedposts-post-context {
 	font-size: 1.3rem;
 }
-#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover {
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover,
+#jp-relatedposts > div > div.jp-relatedposts-post.jp-relatedposts-post2.jp-relatedposts-post-thumbs > h4 > a:hover {
 	text-decoration: none !important;
+	text-decoration-color: none !important;
 }
 #jp-relatedposts .jp-relatedposts-post-img:hover,
 #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post:hover {
@@ -81,4 +92,7 @@ Tablet Portrait
   float: left;
   margin: 0 15px 15px 5px;
  }
+	#jp-relatedposts .jp-relatedposts-items-visual .jp-relatedposts-post {
+		padding-right: 20px;
+	}
 }

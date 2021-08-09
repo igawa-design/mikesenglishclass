@@ -49,6 +49,7 @@ window.onload = function() {
 "@type": "LocalBusiness",
 "name": "マイク英会話教室札幌 Mike's English Class Sapporo",
 "telephone": "090-6443-2799",
+"priceRange": "",
 "email": "mikelovessapporo@gmail.com",
 "address": "北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号",
 "url": "https://mikesenglishclass.jp",

@@ -64,7 +64,7 @@ add_theme_support('post-thumbnails');
 //custom_excerpt_length - 抜粋文字数の指定//////////////////////////////////////////
 
 function custom_excerpt_length($length) {
-     return 20;
+     return 200;
 }
 add_filter('excerpt_length', 'custom_excerpt_length', 999);
 

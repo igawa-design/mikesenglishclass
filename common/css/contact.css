@@ -198,6 +198,7 @@ dt:first-child span {
 font-size: 1.3rem;
 }
 dd.radio {
+width: 90%;
 margin-top: 20px;
 }
 input,

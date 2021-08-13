@@ -58,8 +58,8 @@ echo '<a href="' . get_category_link( $category[0]->term_id ) . '" class="cat">'
 <?php endif; ?>
 
 <div class="pagination">
-<?php previous_post_link('%link', '< PREV', TRUE); ?>
-<?php next_post_link('%link', 'NEXT >', TRUE); ?>
+<?php previous_post_link('%link', '< PREV'); ?>
+<?php next_post_link('%link', 'NEXT >'); ?>
 </div><!--pagination-->
 
 </div><!--sec_box_inner-->

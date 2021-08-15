@@ -38,7 +38,7 @@
 </h3>
 <div class="sec_box sec_box_one_to_one">
 <div class="sec_box_inner">
-<h3 class="sec_h3_lead">お知らせ＜2021年7月更新＞</h3>
+<h3 class="sec_h3_lead">お知らせ＜2021年8月更新＞</h3>
 <p>マイク英会話教室札幌は本気で英語を習得したい方を応援します！</p>
 <p>教室に直接通えない場合は、オンライン個人レッスンも行っております。</p>
 <figure class="fig">

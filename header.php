@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>札幌の英会話レッスン、オンライン英語レッスンはマイク英会話教室☆ Mike’s English Class Sapporo☆</title>
+<title>英会話 英語レッスンは札幌中央区やオンラインのマイク英会話教室☆ Mike’s English Class Sapporo☆</title>
 <meta name="description" content="札幌やオンラインで英語・英会話を覚えるならぜひ。初心者の方から、また本格的なビジネス英語・作詞のお手伝いなども承っております。Mike’s English Class Sapporo にお任せください。個人レッスンだからこそ、質の高い英会話力が身に付きます！">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
@@ -60,12 +60,12 @@ z-index: 9999;
 
 <header>
 <h1><a href="<?php echo home_url(); ?>">
-<img class="logo" alt="札幌英会話＆英語レッスン、コーチング Mike’s English Class Sapporo" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
+<img class="logo" alt="札幌英会話＆英語レッスン、コーチング 中央区 Mike’s English Class Sapporo" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
 <div class="sns">
 <h2><a class="icon" href="https://www.facebook.com/mikesenglishclass">
-<img class="header_icon facebook" alt="英会話＆英語レッスンをオンラインでも教室でもコーチング♫ マイク英会話教室札幌のfacebookはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_white.svg"></a></h2>
+<img class="header_icon facebook" alt="英会話＆英語レッスンをオンラインでも中央区の教室でもコーチング♫ マイク英会話教室札幌のfacebookはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_white.svg"></a></h2>
 <h2><a class="icon" href="https://www.youtube.com/channel/UCxV2V8PO1QbFdeQOODeeyXw">
-<img class="header_icon youtube" alt="英会話＆英語レッスンをオンラインでも教室でもコーチング♬ マイク英会話教室札幌のYouTubeはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_youtube_white.svg"></a></h2>
+<img class="header_icon youtube" alt="英会話＆英語レッスンをオンラインでも中央区の教室でもコーチング♬ マイク英会話教室札幌のYouTubeはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_youtube_white.svg"></a></h2>
 </div><!--sns-->
 <nav>
 <div class="nav_narrow">

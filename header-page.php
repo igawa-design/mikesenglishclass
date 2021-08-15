@@ -54,12 +54,12 @@
 <meta name="description" content="マイク先生が気付いた、おかしいんじゃない！？ということや、英会話について、その他お知らせなどをお届けしております。">
 <link rel="alternate" href="https://mikesenglishclass.jp/" hreflang="ja">
 <?php elseif(is_page('contact')): ?>
-<title>お問い合わせ｜マイク英会話教室札幌</title>
+<title>お問い合わせ 英会話、英語教室｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌の対面レッスンやオンラインレッスン、翻訳に関するご質問やお問い合わせは、こちらのページからお気軽にご利用ください。">
 <link rel="alternate" href="https://mikesenglishclass.jp/contact" hreflang="ja">
 <?php elseif(is_page('english')): ?>
-<title>英語｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌の英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
+<title>英語、英会話｜マイク英会話教室札幌 Mike’s English Class Sapporo</title>
+<meta name="description" content="経験豊富な英語ネイティブ教師とマンツーマンで英会話を学べます。英語でコミュニケーションを取る必要がある場合はお手伝いいたします。">
 <link rel="alternate" href="https://mikesenglishclass.jp/english" hreflang="en">
 <?php elseif(is_page('sitemap')): ?>
 <title>サイトマップ｜マイク英会話教室札幌</title>

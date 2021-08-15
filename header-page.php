@@ -54,7 +54,7 @@
 <meta name="description" content="マイク先生が気付いた、おかしいんじゃない！？ということや、英会話について、その他お知らせなどをお届けしております。">
 <link rel="alternate" href="https://mikesenglishclass.jp/" hreflang="ja">
 <?php elseif(is_page('contact')): ?>
-<title>お問い合わせフォーム｜マイク英会話教室札幌</title>
+<title>お問い合わせ｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌の対面レッスンやオンラインレッスン、翻訳に関するご質問やお問い合わせは、こちらのページからお気軽にご利用ください。">
 <link rel="alternate" href="https://mikesenglishclass.jp/contact" hreflang="ja">
 <?php elseif(is_page('english')): ?>

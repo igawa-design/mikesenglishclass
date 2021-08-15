@@ -14,19 +14,19 @@
 <meta name="description" content="マイク英会話教室札幌は、個人レッスンにこだわります。英会話のレベルは皆それぞれ。一人一人のペースに合うレッスンで、楽しく、確実に英語力が身に付きます。">
 <link rel="alternate" href="https://mikesenglishclass.jp/one-to-one" hreflang="ja">
 <?php elseif(is_post_type_archive('gallery')): ?>
-<title>ギャラリー｜マイク英会話教室札幌</title>
+<title>英会話 英語教室 ギャラリー｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室の生徒さんや、マイク先生のスクラップブックです！">
 <link rel="alternate" href="https://mikesenglishclass.jp/gallery" hreflang="ja">
 <?php elseif(is_tax('gallery-cat', array('lessonpix'))): ?>
-<title>レッスン風景・写真ギャラリー｜マイク英会話教室札幌</title>
+<title>英会話 英語教室 レッスン風景・写真ギャラリー｜マイク英会話教室札幌</title>
 <meta name="description" content="札幌の英会話教室「マイク英会話教室」の生徒さんたちのレッスン風景はコチラ。分からないことは分かるまで何度も根気よく質問に答えてくれるマイク先生だから、生徒の皆さんも笑顔で楽しく学んでいます！">
 <link rel="alternate" href="https://mikesenglishclass.jp/gallery/lessonpix" hreflang="ja">
 <?php elseif(is_tax('gallery-cat', array('scrapbook'))): ?>
-<title>マイク先生のスクラップブック・写真ギャラリー｜マイク英会話教室札幌</title>
+<title>英会話 英語マイク先生のスクラップブック・写真ギャラリー｜マイク英会話教室札幌</title>
 <meta name="description" content="札幌の英会話レッスン「マイク英会話教室」のマイク先生の写真ギャラリーページです。優しくて穏やかなマイク先生の陽気な一面にも注目！生徒さんから大人気の証拠ですね！">
 <link rel="alternate" href="https://mikesenglishclass.jp/gallery/scrapbook" hreflang="ja">
 <?php elseif(is_page('translations')): ?>
-<title>札幌でネイティヴの英語翻訳をお探しなら｜マイク英会話教室札幌</title>
+<title>英会話 英語 札幌でネイティヴの英語翻訳をお探しなら｜マイク英会話教室札幌</title>
 <meta name="description" content="英語翻訳は札幌もしくはオンラインでマイク英会話教室にお任せください。英訳代行サービスは何社もありますが、経験と実績豊富なマイク先生がより現実的で美しい英訳を行います。">
 <link rel="alternate" href="https://mikesenglishclass.jp/translations" hreflang="ja">
 <?php elseif(is_page('location')): ?>
@@ -54,11 +54,11 @@
 <meta name="description" content="マイク先生が気付いた、おかしいんじゃない！？ということや、英会話について、その他お知らせなどをお届けしております。">
 <link rel="alternate" href="https://mikesenglishclass.jp/" hreflang="ja">
 <?php elseif(is_page('contact')): ?>
-<title>お問い合わせ 英会話、英語教室｜マイク英会話教室札幌</title>
+<title>英会話 英語教室 お問い合わせ｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌の対面レッスンやオンラインレッスン、翻訳に関するご質問やお問い合わせは、こちらのページからお気軽にご利用ください。">
 <link rel="alternate" href="https://mikesenglishclass.jp/contact" hreflang="ja">
 <?php elseif(is_page('english')): ?>
-<title>英語、英会話｜マイク英会話教室札幌 Mike’s English Class Sapporo</title>
+<title>英語 英会話｜マイク英会話教室札幌 Mike’s English Class Sapporo</title>
 <meta name="description" content="経験豊富な英語ネイティブ教師とマンツーマンで英会話を学べます。英語でコミュニケーションを取る必要がある場合はお手伝いいたします。">
 <link rel="alternate" href="https://mikesenglishclass.jp/english" hreflang="en">
 <?php elseif(is_page('sitemap')): ?>

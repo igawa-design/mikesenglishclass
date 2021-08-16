@@ -115,6 +115,15 @@ article:first-child .article_h4 {
 #single .post a {
 	transition: all 0.3s ease 0s;
 }
+#single .post a {
+	font-weight: bold;
+	background: linear-gradient(transparent 61.8%, rgba(242, 187, 3, 0.5) /*#f2bb03*/ 61.8%);
+}
+#single .post:hover,
+#single .post img:hover,
+#single_reviews .post:hover {
+	opacity: 1;
+}
 article p,
 .archive p {
 	margin: 15px 0;
@@ -206,9 +215,6 @@ p:empty {
 	border: none;
 	border-radius: 0 5px 5px 0;
 	color: rgb(255, 255, 255) /*#fff*/;
-}
-#s {
- border-color: rgb(242, 187, 3) /*#f2bb03*/
 }
 ::placeholder {
 	color: rgba(53, 87, 129, 0.5) /*#355781*/;

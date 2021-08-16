@@ -19,6 +19,9 @@ SP Portrait
 .sec_box_reviews #searchsubmit {
 	background: rgb(242, 187, 3) /*#f2bb03*/;
 }
+.sec_box_reviews #s {
+ border-color: rgb(242, 187, 3) /*#f2bb03*/;
+}
 .main_view img {
 	object-position: center -30px ;
 }

@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php if(is_page('aboutmike')): ?>
-<title>札幌の英会話教師からご挨拶｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌の英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
+<title>札幌・オンラインの英会話教師からのご挨拶｜マイク英会話教室札幌</title>
+<meta name="description" content="札幌・オンラインの英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
 <?php elseif(is_page('one-to-one')): ?>
 <title>札幌で英会話個人レッスン、マンツーマンレッスン、オンラインレッスンをお探しなら｜マイク英会話教室札幌｜マイク英会話教室札幌</title>
-<meta name="description" content="マイク英会話教室札幌は、個人レッスンにこだわります。英会話のレベルは皆それぞれ。一人一人のペースに合うレッスンで、楽しく、確実に英語力が身に付きます。">
+<meta name="description" content="マイク英会話教室札幌は、個人レッスンにこだわります。英会話のレベルは皆それぞれ。一人一人のペースに合う対面レッスンやオンラインレッスンで、楽しく、確実に英語力が身に付きます。">
 <link rel="alternate" href="https://mikesenglishclass.jp/one-to-one" hreflang="ja">
 <?php elseif(is_post_type_archive('gallery')): ?>
 <title>英会話 英語教室 ギャラリー｜マイク英会話教室札幌</title>

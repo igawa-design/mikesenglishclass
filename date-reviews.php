@@ -16,7 +16,7 @@ Template Name: date-reviews
 
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_reviews"><?php echo get_the_date('Y年n月'); ?></h2>
-<p class="sec_txt_lead reviews_lead">Reviews</p>
+<p class="sec_txt_lead reviews_lead"><a href="<?php echo home_url('reviews'); ?>">Reviews</a></p>
 <h3 class="sec_h3 sec_h3_02">
 <a href="<?php echo home_url('reviews'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のレビューのアーカイブ" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_reviews.svg"></a>
 </h3>

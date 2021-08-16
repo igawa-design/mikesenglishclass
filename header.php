@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>英会話 英語レッスンは札幌中央区やオンラインのマイク英会話教室☆ Mike’s English Class Sapporo☆</title>
+<title>英会話 英語レッスンは札幌中央区やオンラインで。マイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
 <meta name="description" content="札幌やオンラインで英語・英会話を覚えるならぜひ。初心者の方から、また本格的なビジネス英語・作詞のお手伝いなども承っております。Mike’s English Class Sapporo にお任せください。個人レッスンだからこそ、質の高い英会話力が身に付きます！">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">

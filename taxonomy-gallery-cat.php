@@ -29,7 +29,7 @@ $term = array_shift(get_the_terms($post->ID, 'gallery-cat'));
 
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_gallery"><em><?php echo esc_html($term->name); ?></em><span><?php echo esc_html($term->slug); ?></span></h2>
-<p class="sec_txt_lead gallery_lead">gallery</p>
+<p class="sec_txt_lead gallery_lead"><a href="<?php echo home_url('gallery'); ?>">gallery</p>
 <h3 class="sec_h3 sec_h3_02">
 <a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_gallery.svg"></a>
 </h3>

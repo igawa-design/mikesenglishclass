@@ -16,7 +16,7 @@ Template Name: date-gallery
 
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_gallery"><?php echo get_the_date('Y年n月'); ?></h2>
-<p class="sec_txt_lead gallery_lead">Gallery</p>
+<p class="sec_txt_lead gallery_lead"><a href="<?php echo home_url('gallery'); ?>">Gallery</a></p>
 <h3 class="sec_h3 sec_h3_02">
 <a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリーのアーカイブ" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_gallery.svg"></a>
 </h3>

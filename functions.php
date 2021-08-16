@@ -38,6 +38,17 @@ function register_javascript() {
 }
 add_action('wp_enqueue_scripts', 'register_javascript');
 
+//Remove jetpack.css - jetpack.css削除 //////////////////////////////////////////////
+
+add_filter( 'jetpack_implode_frontend_css', '__return_false' );
+
+//Remove devicepx-jetpack.js - devicepx-jetpack.js削除 //////////////////////////////////////////////
+
+add_action( 'wp_enqueue_scripts', 'dequeue_devicepx', 20 );
+function dequeue_devicepx() {
+wp_dequeue_script( 'devicepx' );
+}
+
 //Remove wpautop - wpautop削除 //////////////////////////////////////////////
 
 //add_action('init', function() {

@@ -29,7 +29,7 @@ $term = array_shift(get_the_terms($post->ID, 'reviews-cat'));
 
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_reviews"><em><?php echo esc_html($term->name); ?>レビュー</em><span><?php echo esc_html($term->slug); ?> reviews</span></h2>
-<p class="sec_txt_lead reviews_lead">Reviews</p>
+<p class="sec_txt_lead reviews_lead"><a href="<?php echo home_url('reviews'); ?>">Reviews</a></p>
 <h3 class="sec_h3 sec_h3_02">
 <a href="<?php echo home_url('reviews'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のレビュー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_reviews.svg"></a>
 </h3>

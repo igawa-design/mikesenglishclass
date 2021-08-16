@@ -16,7 +16,7 @@ Template Name: category-english
 
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_mikes_posts"><?php single_cat_title(); ?></h2>
-<p class="sec_txt_lead mikes_posts_lead">Mike’s Posts</p>
+<p class="sec_txt_lead mikes_posts_lead"><a href="<?php echo home_url('mikes-posts'); ?>">Mike’s Posts</a></p>
 <h3 class="sec_h3 sec_h3_02">
 <a href="<?php echo home_url('mikes-posts'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌のブログ" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_mikes_posts.svg"></a>
 </h3>

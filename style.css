@@ -154,6 +154,14 @@ margin-bottom: 0;
 a {
 color: rgb(53, 87, 129) /*#355781*/;
 }
+.sec_txt_lead a {
+color: rgb(255, 255, 255) /*#fff*/;
+transition: all 0.3s ease 0s;
+}
+.sec_txt_lead a:hover {
+color: rgb(255, 255, 255) /*#fff*/;
+opacity: 0.618;
+}
 ul,
 ol {
 margin: 15px 0 0;
@@ -274,7 +282,7 @@ transition: all 0.3s ease 0s;
 transform: scale(1,1);
 }
 .hamburger-menu:hover div {
-opacity: 0.6;
+opacity: 0.618;
 margin: 8px 0;
 }
 .hamburger-menu + .sidenavs:target {
@@ -1491,6 +1499,16 @@ color: rgb(218, 185, 91) /*dab95b*/;
 }
 .post {
 margin: 15px 0;
+}
+.post,
+.sec_img_translations,
+.wp-post-image {
+transition: all 0.3s ease 0s;
+}
+.post:hover,
+.sec_img_translations:hover,
+.wp-post-image:hover {
+opacity: 0.618;
 }
 .wp-post-image {
  border-radius: 5px;

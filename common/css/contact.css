@@ -1,176 +1,13 @@
-@charset "utf-8";
-/*
-Theme Name: Theme of Mike’s English Class Sapporo
-Description: Mike’s English Class Sapporoのテーマ
-Author: Norihisa Igawa
-Author URI: https://igawa.co
-*/
-
-/********************************************************************************************
-SP Portrait
-*********************************************************************************************/
-/*
---------------------------------------------------------------------------------------------*/
-@keyframes scale_main_view {
-0% {
-transition: all 2s ease 0s;
-transform: scale(1.01);
-opacity: 0;
-}
-100% {
-transform: scale(1.0);
-opacity: 1;
-}
-}
-.main_view {
-animation: scale_main_view 1.0s ease-in-out;
-}
-.main_view img {
-width: 100%;
-height: 300px;
-object-fit: cover;
-}
-.figcaption {
-background: rgb(147, 188, 52) /*#93bc34*/;
-}
-.section {
-width: 100%;
-margin: 15px 0;
-padding: 0 2%;
-}
-.section,
-.sec_box {
-opacity: 1;
-font-weight: normal;
-}
-.sec_icon {
-opacity: 1
-}
-.sec_h2 {
-background-color: rgb(147, 188, 52) /*#93bc34*/;
-}
-.sec_h3_contact {
-display: flex;
-flex-direction: column;
-background: rgb(147, 188, 52) /*#93bc34*/;
-background-image:
-repeating-linear-gradient(
-14deg,
-rgba(245, 241, 213, 0.10),
-rgba(245, 241, 213, 0.10) 50px,
-rgba(255, 255, 255, 0.10) 50px,
-rgba(255, 255, 255, 0.10) 58px,
-rgba(255, 255, 255, 0.10) 58px,
-rgba(255, 255, 255, 0.10) 66px,
-rgba(245, 241, 213, 0.10) 66px,
-rgba(245, 241, 213, 0.10) 74px,
-rgba(255, 255, 255, 0.10) 74px,
-rgba(255, 255, 255, 0.10) 114px,
-rgba(180, 214, 198, 0.10) 114px,
-rgba(180, 214, 198, 0.10) 154px,
-rgba(255, 255, 255, 0.10) 154px,
-rgba(255, 255, 255, 0.10) 162px,
-rgba(245, 241, 213, 0.10) 162px,
-rgba(245, 241, 213, 0.10) 170px,
-rgba(255, 255, 255, 0.10) 170px,
-rgba(255, 255, 255, 0.10) 178px
-),
-repeating-linear-gradient(
--15deg,
-rgba(245, 241, 213, 0.10),
-rgba(245, 241, 213, 0.01) 50px,
-rgba(255, 255, 255, 0.01) 50px,
-rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 66px,
-rgba(245, 241, 213, 0.01) 66px,
-rgba(245, 241, 213, 0.01) 74px,
-rgba(255, 255, 255, 0.01) 74px,
-rgba(255, 255, 255, 0.01) 114px,
-rgba(180, 214, 198, 0.01) 114px,
-rgba(180, 214, 198, 0.01) 154px,
-rgba(255, 255, 255, 0.01) 154px,
-rgba(255, 255, 255, 0.01) 162px,
-rgba(245, 241, 213, 0.01) 162px,
-rgba(245, 241, 213, 0.01) 170px,
-rgba(255, 255, 255, 0.01) 170px,
-rgba(255, 255, 255, 0.01) 178px
-),
-repeating-linear-gradient(
--15deg,
-rgba(245, 241, 213, 0.01),
-rgba(245, 241, 213, 0.01) 50px,
-rgba(255, 255, 255, 0.01) 50px,
-rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 66px,
-rgba(245, 241, 213, 0.01) 66px,
-rgba(245, 241, 213, 0.01) 74px,
-rgba(255, 255, 255, 0.01) 74px,
-rgba(255, 255, 255, 0.01) 114px,
-rgba(180, 214, 198, 0.01) 114px,
-rgba(180, 214, 198, 0.01) 154px,
-rgba(255, 255, 255, 0.01) 154px,
-rgba(255, 255, 255, 0.01) 162px,
-rgba(245, 241, 213, 0.01) 162px,
-rgba(245, 241, 213, 0.01) 170px,
-rgba(255, 255, 255, 0.01) 170px,
-rgba(255, 255, 255, 0.01) 178px
-),
-repeating-linear-gradient(
--15deg,
-rgba(245, 241, 213, 0.01),
-rgba(245, 241, 213, 0.01) 50px,
-rgba(255, 255, 255, 0.01) 50px,
-rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 58px,
-rgba(255, 255, 255, 0.01) 66px,
-rgba(245, 241, 213, 0.01) 66px,
-rgba(245, 241, 213, 0.01) 74px,
-rgba(255, 255, 255, 0.01) 74px,
-rgba(255, 255, 255, 0.01) 114px,
-rgba(180, 214, 198, 0.01) 114px,
-rgba(180, 214, 198, 0.01) 154px,
-rgba(255, 255, 255, 0.01) 154px,
-rgba(255, 255, 255, 0.01) 162px,
-rgba(245, 241, 213, 0.01) 162px,
-rgba(245, 241, 213, 0.01) 170px,
-rgba(255, 255, 255, 0.01) 170px,
-rgba(255, 255, 255, 0.01) 178px
-);
-border-radius: 5px 5px 0 0;
-padding: 10px;
-color: rgb(255, 255, 255) /*fff*/;
-text-align: center;
-}
-.sec_h3_ja {
-display: block;
-width: 100%;
-order: 2;
-font-size: 1.5rem;
-}
-.sec_h3_en {
-display: block;
-width: 100%;
-order: 1;
-font-family: Helvetica, Arial, sans-serif;
-font-size: 1.7rem;
-}
-.sec_h3_ja::before,
-.sec_h3_ja::after {
-content: " - ";
-}
 .wpcf7 {
 width: 100%;
+margin-top: 100px;
 }
 .wpcf7-radio {
 display: flex;
 flex-direction: column;
 }
-span {
-display: block;
-}
-dd span {
+.wpcf7 span {
+display: inline-block;
 width: 100%;
 }
 .address span.en {
@@ -182,31 +19,21 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 padding: 1% 0;
+font-size: 1.5rem;
 }
 dt {
 margin-top: 20px;
 }
-dt:first-child {
-display: inline-block;
-margin-top: 20px;
-border-left: 5px solid rgb(249, 139, 43) /*#f98b2b*/;
-padding: 0 0 0 10px;
-font-weight: bold;
-font-size: 1.7rem;
-}
-dt:first-child span {
-font-size: 1.3rem;
-}
 dd.radio {
-width: 90%;
 margin-top: 20px;
 }
 input,
 select,
 textarea {
-width: 100%;
-max-width: 100% !important;
+display: block;
+width: 92%;
 outline: none;
+margin: auto;
 border: 1px solid rgba(147, 188, 52, 0.5) /*#93bc34*/;
 border-radius: 5px;
 padding: 10px;
@@ -326,10 +153,10 @@ transition: all ease-out 250ms;
 }
 /* Colors */
 input[type=checkbox],input[type=radio] {
-border: 2px solid #4caf50;
+border: 2px solid rgba(147, 188, 52, 0.7) /*#93bc34*/;
 }
 input[type=checkbox]:checked,input[type=checkbox]:indeterminate,input[type=radio]:checked:before {
-background: #4caf50;
+background: rgba(147, 188, 52, 0.7) /*#93bc34*/;
 }
 /* Complement colors */
 input[type=checkbox].blue,input[type=radio].blue {
@@ -356,10 +183,6 @@ border: 2px solid #d8e;
 input[type=checkbox].violet:checked,input[type=checkbox].violet:indeterminate,input[type=radio].violet:checked:before {
 background: #d8e;
 }
-.check label {
-cursor: pointer;
-margin-bottom: 20px;
-}
 label .wpcf7-form-control-wrap {
 display: inline-block;
 float: left;
@@ -377,18 +200,14 @@ margin-top: -20px;
 .span_p::after {
 content: "😊✨";
 }
-form.sent .check {
-display: none;
-}
-.check.en {
+.wpcf7 span.wpcf7-list-item {
+display: inherit;
+width: 100%;
+margin: 0;
 text-align: center;
 }
-.wpcf7-list-item-label {
-height: 50px;
-margin-left: 10px;
-}
-.wpcf7-list-item-label:hover {
-cursor: pointer;
+.wpcf7 span.wpcf7-list-item-label {
+display: inline;
 }
 .submit {
 display: flex;
@@ -400,7 +219,7 @@ input[type="submit"] {
 height: 50px;
 width: 100%;
 background: rgba(147, 188, 52, 0.7) /*#93bc34*/;
-margin-top: 15px;
+margin-top: 30px;
 color: rgb(255, 255, 255) /*#fff*/;
 transition: all 0.1s ease 0s;
 }
@@ -415,13 +234,14 @@ font-size: 1.1rem;
 text-align: right;
 }
 .required.en {
- text-align: left;
+text-align: left;
+}
+dt em:nth-child(2) {
+text-align: right;
 }
 input[type="checkbox"] {
-width: 25px;
-height: 25px;
-margin-right: 10px;
-border-bottom: 1px solid rgba(147, 188, 52, 0.7) /*#93bc34*/;
+width: 20px;
+height: 20px;
 }
 .screen-reader-response,
 .wpcf7-response-output,
@@ -448,74 +268,4 @@ color: rgb(246, 114, 128) /*#f67280*/;
 }
 #wpcf7-f2692-p6675-o1-ve-your-email {
 opacity: 0;
-}
-
-
-
-/********************************************************************************************
-SP Landscape
-*********************************************************************************************/
-/* 667px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 667px){
-.section {
-margin: 0 auto 10px;
-padding: 0 1%;
-}
-.section.w100,
-.section.last {
-width: 100%;
-margin: 20px 0;
-}
-.radio label {
-margin-bottom: 0;
-}
-.wpcf7-list-item-label {
-line-height: 50px;
-}
-.check.en {
-margin-top: -20px;
-}
-}
-
-/********************************************************************************************
-PC & Tablet Landscape
-*********************************************************************************************/
-/* 1024px
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 1024px){
-header {
-top: 0;
-z-index: 1000;
-justify-content: space-between;
-align-items: center;
-width: 98%;
-height: 120px;
-background: rgba(0, 0, 0, 0.5);
-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15) /*#000*/;
-}
-main {
-max-width: 1920px;
-margin: auto;
-}
-.fig.main_view img {
-height: 500px;
-}
-.sec_h2 {
-font-size: 1.6rem;
-}
-.check {
-padding: 1% 2%;
-}
-}
-
-/********************************************************************************************
-PC & Tablet Landscape
-*********************************************************************************************/
-/* 1920
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 1920px){
-.section {
-padding: 0;
-}
 }

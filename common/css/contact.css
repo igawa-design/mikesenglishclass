@@ -316,6 +316,9 @@ transition: all ease-out 250ms;
 input[type=checkbox],input[type=radio] {
 border: 2px solid rgba(147, 188, 52, 0.7) /*#93bc34*/;
 }
+input[type=radio] {
+margin-right: 10px;
+}
 input[type=checkbox]:checked,input[type=checkbox]:indeterminate,input[type=radio]:checked:before {
 background: rgba(147, 188, 52, 0.7) /*#93bc34*/;
 }

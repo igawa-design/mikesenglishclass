@@ -29,7 +29,7 @@ $term = array_shift(get_the_terms($post->ID, 'gallery-cat'));
 
 <section class="section w100">
 <h2 class="sec_h2 sec_h2_gallery"><em><?php echo esc_html($term->name); ?></em><span><?php echo esc_html($term->slug); ?></span></h2>
-<p class="sec_txt_lead gallery_lead"><a href="<?php echo home_url('gallery'); ?>">gallery</p>
+<p class="sec_txt_lead gallery_lead"><a href="<?php echo home_url('gallery'); ?>">gallery</a></p>
 <h3 class="sec_h3 sec_h3_02">
 <a href="<?php echo home_url('gallery'); ?>"><img class="sec_icon" alt="マイク英会話教室札幌の写真ギャラリー" width="50" height="50" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/icon_sec_gallery.svg"></a>
 </h3>
@@ -45,7 +45,7 @@ $term = array_shift(get_the_terms($post->ID, 'gallery-cat'));
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <?php the_content(); ?>
 <?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
-<img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true),'large'); echo $Image[0]; ?>" alt="">
+<h4><img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true),'large'); echo $Image[0]; ?>" alt="英語や英会話に関する写真"></h4>
 <?php }else{ ?>
 <?php } ?>
 <small class="article_cat">

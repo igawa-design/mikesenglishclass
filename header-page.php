@@ -5,73 +5,73 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php if(is_page('aboutmike')): ?>
 <title>札幌・オンラインの英会話教師からのご挨拶｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌・オンラインの英会話教師、マイク先生の挨拶ページです。マイク英会話教室は、学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
+<meta name="description" content="マイク先生からの挨拶ページです。学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
 <?php elseif(is_page('one-to-one')): ?>
-<title>札幌で英会話個人レッスン、マンツーマンレッスン、オンラインレッスンをお探しなら｜マイク英会話教室札幌｜マイク英会話教室札幌</title>
+<title>英会話マンツーマンレッスンを札幌やオンラインでお探しなら♬｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌は、個人レッスンにこだわります。英会話のレベルは皆それぞれ。一人一人のペースに合う対面レッスンやオンラインレッスンで、楽しく、確実に英語力が身に付きます。">
 <link rel="alternate" href="https://mikesenglishclass.jp/one-to-one" hreflang="ja">
 <?php elseif(is_post_type_archive('gallery')): ?>
-<title>英会話 英語教室 ギャラリー｜マイク英会話教室札幌</title>
-<meta name="description" content="マイク英会話教室の生徒さんや、マイク先生のスクラップブックです！">
+<title>英会話 英語 ギャラリー｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌の生徒さんや、マイク先生のスクラップブックです！">
 <link rel="alternate" href="https://mikesenglishclass.jp/gallery" hreflang="ja">
 <?php elseif(is_tax('gallery-cat', array('lessonpix'))): ?>
-<title>英会話 英語教室 レッスン風景・写真ギャラリー｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌の英会話教室「マイク英会話教室」の生徒さんたちのレッスン風景はコチラ。分からないことは分かるまで何度も根気よく質問に答えてくれるマイク先生だから、生徒の皆さんも笑顔で楽しく学んでいます！">
+<title>英会話 英語 レッスン風景・写真ギャラリー｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌の生徒さんたちのレッスン風景はコチラ。分からないことは分かるまで何度も根気よく質問に答えてくれるマイク先生だから、生徒の皆さんも笑顔で楽しく学んでいます！">
 <link rel="alternate" href="https://mikesenglishclass.jp/gallery/lessonpix" hreflang="ja">
 <?php elseif(is_tax('gallery-cat', array('scrapbook'))): ?>
-<title>英会話 英語マイク先生のスクラップブック・写真ギャラリー｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌の英会話レッスン「マイク英会話教室」のマイク先生の写真ギャラリーページです。優しくて穏やかなマイク先生の陽気な一面にも注目！生徒さんから大人気の証拠ですね！">
+<title>英会話 英語 マイク先生のスクラップブック・写真ギャラリー｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌のマイク先生の写真ギャラリーページです。優しくて穏やかなマイク先生の陽気な一面にも注目！生徒さんから大人気の証拠ですね！">
 <link rel="alternate" href="https://mikesenglishclass.jp/gallery/scrapbook" hreflang="ja">
 <?php elseif(is_page('translations')): ?>
 <title>英会話 英語 札幌でネイティヴの英語翻訳をお探しなら｜マイク英会話教室札幌</title>
-<meta name="description" content="英語翻訳は札幌もしくはオンラインでマイク英会話教室にお任せください。英訳代行サービスは何社もありますが、経験と実績豊富なマイク先生がより現実的で美しい英訳を行います。">
+<meta name="description" content="英語翻訳は札幌もしくはオンラインでマイク英会話教室札幌にお任せください。経験と実績豊富なマイク先生がより現実的で美しい英訳を行います。">
 <link rel="alternate" href="https://mikesenglishclass.jp/translations" hreflang="ja">
 <?php elseif(is_page('location')): ?>
 <title>中島公園近くのネイティブ英会話教室｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク英会話教室札幌へのアクセス情報はこちら。住所：札幌市中央区南9条西3丁目2-1　マジソンハイツ705号室　TEL：090-6443-2799　営業時間：11:00 AM to 9:00 PM　定休日：日曜日">
 <link rel="alternate" href="https://mikesenglishclass.jp/location" hreflang="ja">
 <?php elseif(is_post_type_archive('reviews')): ?>
-<title>札幌の英会話体験・口コミ｜マイク英会話教室札幌</title>
-<meta name="description" content="マイク英会話教室の生徒さんの声、マイク先生のレッスンや英訳についてのレビューです！">
+<title>札幌・オンラインの英会話体験、口コミ｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌の生徒さんの声、マイク先生のレッスンや英訳についてのレビューです！">
 <link rel="alternate" href="https://mikesenglishclass.jp/reviews" hreflang="ja">
 <?php elseif(is_tax('reviews-cat', array('one-to-one'))): ?>
-<title>英語個人レッスン｜札幌の英会話体験・口コミ｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌の英会話教室「マイク英会話教室」で実際にレッスンを体験した生徒さんからの口コミはこちら。分かるまで、根気よく教えてくれる、優しいマイク先生が大人気！">
+<title>英語個人レッスン｜札幌・オンラインの英会話体験、口コミ｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌で実際にレッスンを体験した生徒さんからの口コミはこちら。分かるまで、根気よく教えてくれる、優しいマイク先生が大人気！">
 <link rel="alternate" href="https://mikesenglishclass.jp/one-to-one" hreflang="ja">
 <?php elseif(is_tax('reviews-cat', array('translations'))): ?>
-<title>ネイティブ英語翻訳｜札幌の英会話体験・口コミ｜マイク英会話教室札幌</title>
-<meta name="description" content="札幌英会話教室「マイク英会話教室」のネイティブ翻訳の口コミはこちら。アメリカ UCバークレーの講師として８年間ライティングを教えてきた実績のあるマイク先生だから、実践のシーンに合う、英語翻訳が叶います。">
+<title>ネイティブ英語翻訳｜札幌・オンラインの英会話体験、口コミ｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌のネイティブ翻訳の口コミはこちら。アメリカのUCバークレーの講師として8年間ライティングを教えてきた実績のあるマイク先生だから、実践のシーンに合う、英語翻訳が叶います。">
 <link rel="alternate" href="https://mikesenglishclass.jp/content" hreflang="ja">
 <?php elseif(is_page('mikes-posts')): ?>
 <title>英会話教師が発見！札幌の間違い英語表示｜マイク英会話教室札幌 - Mike’s English Class Sapporo☆</title>
 <meta name="description" content="マイク英会話教室札幌のマイク先生が発見した、日本人ではなかなか気が付かない英語表示の間違い探し！こちらでこっそり教えてくれています。「へえ～そうなんだ！」と、色々な発見がありますよ！">
 <link rel="alternate" href="https://mikesenglishclass.jp/mikes-posts" hreflang="ja">
 <?php elseif(is_category()): ?>
-<title>札幌の英会話教師マイク先生のブログ Mike’s Posts</title>
+<title>札幌の英会話教師マイク先生のブログ Mike’s Posts｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク先生が気付いた、おかしいんじゃない！？ということや、英会話について、その他お知らせなどをお届けしております。">
 <link rel="alternate" href="https://mikesenglishclass.jp/" hreflang="ja">
 <?php elseif(is_page('contact')): ?>
-<title>英会話 英語教室 お問い合わせ｜マイク英会話教室札幌</title>
-<meta name="description" content="マイク英会話教室札幌の対面レッスンやオンラインレッスン、翻訳に関するご質問やお問い合わせは、こちらのページからお気軽にご利用ください。">
+<title>英会話 英語 お問い合わせ｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌の対面レッスンやオンラインレッスン、翻訳に関するご質問やお問い合わせは、こちらのページからお気軽にご連絡ください。">
 <link rel="alternate" href="https://mikesenglishclass.jp/contact" hreflang="ja">
 <?php elseif(is_page('english')): ?>
 <title>英語 英会話｜マイク英会話教室札幌 Mike’s English Class Sapporo</title>
 <meta name="description" content="経験豊富な英語ネイティブ教師とマンツーマンで英会話を学べます。英語でコミュニケーションを取る必要がある場合はお手伝いいたします。">
 <link rel="alternate" href="https://mikesenglishclass.jp/english" hreflang="en">
 <?php elseif(is_page('sitemap')): ?>
-<title>サイトマップ｜マイク英会話教室札幌</title>
-<meta name="description" content="マイク英会話教室札幌のサイトマップです。札幌やオンランでの英会話レッスン、初心者向けから本格的なビジネス英語・作詞のお手伝いなど、何でもお任せください。個人レッスンだから質の高い英会話力が身に付きます！">
+<title>英会話 英語 サイトマップ｜マイク英会話教室札幌</title>
+<meta name="description" content="マイク英会話教室札幌のサイトマップです。札幌やオンラインでのレッスン、初心者向けから本格的なビジネス英語・作詞のお手伝いなど、何でもお任せください。個人レッスンだから質の高い英会話力が身に付きます！">
 <link rel="alternate" href="https://mikesenglishclass.jp/sitemap" hreflang="ja">
 <?php elseif(is_single()): ?>
 <title><?php echo get_the_title(); ?>｜マイク英会話教室札幌 - Mike’s English Class Sapporo☆</title>
-<meta name="description" content="xxxxxx">
+<meta name="description" content="札幌の英語・英会話教師、マイク先生のブログです。">
 <link rel="alternate" href="https://mikesenglishclass.jp/mikes-posts" hreflang="ja">
 <?php elseif(is_archive()): ?>
 <title><?php echo get_the_title(); ?>｜マイク英会話教室札幌 - Mike’s English Class Sapporo☆</title>
-<meta name="description" content="xxxxxx">
+<meta name="description" content="札幌の英語・英会話教師、マイク先生のブログです。">
 <link rel="alternate" href="https://mikesenglishclass.jp/mikes-posts" hreflang="ja">
 <?php endif; ?>
 <meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
@@ -167,7 +167,7 @@ z-index: 9999;
 
 <header>
 <h1><a href="<?php echo home_url(); ?>">
-<img class="logo" alt="札幌英会話＆英語レッスン、コーチング Mike’s English Class Sapporo" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
+<img class="logo" alt="札幌やオンラインでの英語＆英会話、マンツーマンレッスン、コーチングはMike’s English Class Sapporo" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
 <div class="sns">
 <h2><a class="icon" href="https://www.facebook.com/mikesenglishclass">
 <img class="header_icon facebook" alt="英会話＆英語レッスンをオンラインでも教室でもコーチング♫ マイク英会話教室札幌のfacebookはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_white.svg"></a></h2>

@@ -311,6 +311,10 @@ tr:first-child th {
 .article:last-child {
  border-bottom: none;
 }
+.article .post:hover !important,
+.article .post .p:hover !important {
+	opacity: 1;
+}
 .article_cat {
 	display: block;
  color: rgb(89, 145, 216) /*#5991d8*/;

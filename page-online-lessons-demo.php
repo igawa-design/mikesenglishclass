@@ -4,7 +4,7 @@ Template Name: page-online-lessons
 
 <?php get_header('page-online-lessons'); ?>
 
-<div id="container">
+<main id="online_lessons">
 
 <div id="wrap" class="wrap">
 <div class="codrops-header">
@@ -35,24 +35,58 @@ Template Name: page-online-lessons
 <h2 class="sec_h2 sec_h2_online">オンラインレッスン</h2>
 <p class="sec_txt_lead one_to_one_lead"><a href="<?php echo get_stylesheet_directory_uri(); ?>/one-to-one">Online Lessons</a></p>
 <h3 class="sec_h3 sec_h3_02">
-<a href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons"><img class="sec_icon" alt="個人レッスンについて。" width="50" height="50" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_sec_online.svg"></a>
+<a href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons"><img class="sec_icon" alt="オンライン個人レッスンについて。" width="50" height="50" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_sec_online.svg"></a>
 </h3>
 
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner">
 <h3 class="sec_h3_lead">オンラインで、世界のどこからでも英語・英会話個人レッスンを♬</h3>
-<p>オンライン個人レッスンをご希望の方には、SkypeやFaceTimeなどで自宅や職場からのレッスンにも対応しております。</p>
+<p>マイク英会話教室札幌はコロナ以前からSkypeなどでオンラインレッスンを行っていました。</p>
 
 <video src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/movie/01_online_lessons_m.mp4" autoplay muted playsinline preload="none"></video>
 <video src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/movie/02_online_lessons_m.mp4" autoplay muted playsinline preload="none"></video>
 
-<p>マイク英会話教室札幌はコロナ以前からSkypeなどでオンラインレッスンを行っていました。</p>
+<p>オンライン個人レッスンをご希望の方には、SkypeやFaceTimeなどで自宅や職場からのレッスンにも対応しております。</p>
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_online-->
 </section><!-- section w100 -->
 
-</div><!-- container -->
+<section class="section w100 fade">
+<h2 class="sec_h2 sec_h2_online">マイク先生のオンラインレッスン</h2>
+<p class="sec_txt_lead one_to_one_lead">Mike’s Online Lessons</p>
+<div class="sec_box sec_box_online">
+<div class="sec_box_inner">
+<p>マイク先生は大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。
+<p>2013年にはマイク英会話教室札幌を開校し、Skypeなどでオンライン授業を行っております。</p>
+<p>マイク英会話教室札幌のオンラインレッスンの説明。</p>
+<p>マイク英会話教室札幌のオンラインレッスンの説明。</p>
+<p>マイク英会話教室札幌のオンラインレッスンの説明。</p>
+
+<div class="box">
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1920x2560.jpg">
+<img class="sec_img" alt="英会話スクールでの生徒さんとマイク先生の写真。マンツーマンでの英語・英会話コーチングです。" width="1400" height="1867" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/02_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1920x2560.jpeg">
+<img class="sec_img" alt="英会話スクールでの生徒さんとマイク先生の写真。マンツーマンでの英語・英会話コーチングです。" width="1400" height="1867" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/01_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1920x2560.jpg">
+<img class="sec_img" alt="英会話スクールでの生徒さんとマイク先生の写真。マンツーマンでの英語・英会話コーチングです。" width="1400" height="1867" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/03_1200x1600.jpeg">
+</picture>
+</div><!--box-->
+
+
+</div><!--sec_box_inner-->
+</div><!--sec_box sec_box_online-->
+</section><!-- section w100 fade -->
+
+</main><!-- online_lessons -->
 
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/js/classie.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/js/main.js"></script>

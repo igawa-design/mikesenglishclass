@@ -12,7 +12,7 @@
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/js/modernizr.custom.js" as="script">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/css/demo.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/css/online_lessons.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/css/mockup4.css">
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/js/modernizr.custom.js"></script>
 <link rel="prerender" href="<?php echo home_url(); ?>">

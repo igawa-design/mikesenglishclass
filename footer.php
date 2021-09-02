@@ -157,7 +157,7 @@ window.onload = function() {
 "position": 4,
 "item":
 {
-"@id": "https://mikesenglishclass.jp/online",
+"@id": "https://mikesenglishclass.jp/online-lessons",
 "name": "Online Lessons - オンラインレッスン"
 }
 },

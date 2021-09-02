@@ -30,6 +30,11 @@ function disable_emojis() {
 }
 add_action( 'init', 'disable_emojis' );
 
+function my_delete_local_jquery() {
+wp_deregister_script('jquery');
+}
+add_action( 'wp_enqueue_scripts', 'my_delete_local_jquery' );
+
 //Remove foot - wp_footer不要部分削除 //////////////////////////////////////////////
 
 function register_javascript() {

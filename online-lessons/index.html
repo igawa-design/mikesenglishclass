@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>オンライン英会話&英語レッスンはマイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
+<meta name="keywords" content="英会話, 英語, オンライン">
+<link rel="stylesheet" href="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/css/normalize.css">
+<link rel="stylesheet" href="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/css/demo.css">
+<link rel="stylesheet" href="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/css/mockup4.css">
+<script src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/js/modernizr.custom.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+
+			<div id="wrap" class="wrap">
+				<div class="mockup">
+					<img alt="xxxxx" class="mockup__img" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/mockup4.jpg" />
+					<div class="mobile">
+						<ul id="slideshow-1" class="slideshow">
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/small/01_320x480.jpeg"/></li>
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/small/02_320x480.jpeg"/></li>
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/small/03_320x480.jpeg"/></li>
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/small/04_320x480.jpeg"/></li>
+						</ul>
+					</div><!-- /mobile -->
+					<div class="screen">
+						<ul id="slideshow-2" class="slideshow">
+							<li class="slideshow__item current"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/large/01_1280x800.jpeg"/></li>
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/large/02_1280x800.jpeg"/></li>
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/large/03_1280x800.jpeg"/></li>
+							<li class="slideshow__item"><img alt="xxxxx" src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/img/large/04_1280x800.jpeg"/></li>
+						</ul>
+					</div><!-- /screen -->
+					<div class="codrops-header">
+						<h2><span>Mike’s English Class Sapporo</span> Online Lessons <i>オンラインで、どこからでも英会話レッスンを♬</i></h2>
+					</div><!-- /codrops-header -->
+				</div><!-- /mockup -->
+			</div><!-- /wrap -->
+			<div class="content">
+
+
+			</div><!-- /content -->
+
+		</div><!-- /container -->
+		<script src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/js/classie.js"></script>
+		<script src="https://mikesenglishclass.jp/wp-content/themes/mikesenglishclass/online-lessons/js/main.js"></script>
+		<script>
+			(function() {
+				new Slideshow( document.getElementById( 'slideshow-1' ) );
+				setTimeout( function() {
+					new Slideshow( document.getElementById( 'slideshow-2' ) );
+				}, 1750 );
+
+				/* Mockup responsiveness */
+				var body = docElem = window.document.documentElement,
+					wrap = document.getElementById( 'wrap' ),
+					mockup = wrap.querySelector( '.mockup' ),
+					mockupWidth = mockup.offsetWidth;
+
+				scaleMockup();
+
+				function scaleMockup() {
+					var wrapWidth = wrap.offsetWidth,
+						val = wrapWidth / mockupWidth;
+
+					mockup.style.transform = 'scale3d(' + val + ', ' + val + ', 1)';
+				}
+
+				window.addEventListener( 'resize', resizeHandler );
+
+				function resizeHandler() {
+					function delayed() {
+						resize();
+						resizeTimeout = null;
+					}
+					if ( typeof resizeTimeout != 'undefined' ) {
+						clearTimeout( resizeTimeout );
+					}
+					resizeTimeout = setTimeout( delayed, 50 );
+				}
+
+				function resize() {
+					scaleMockup();
+				}
+			})();
+		</script>
+	</body>
+</html>

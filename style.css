@@ -58,11 +58,9 @@ animation: fadeIn 2s ease 0s 1 normal;
 }
 @keyframes slideIn {
 0% {
-opacity: 0;
 transform: translateX(-50px);
 }
 100% {
-opacity: 1;
 transform: translateX(0);
 }
 }
@@ -1001,11 +999,11 @@ padding: 0;
 width: 98%;
 background: rgba(255, 255, 255, 0.5) /*#fff*/;
 margin: auto;
+transform: translateX(90px);
 }
 @keyframes slideInRight {
 0% {
 transform: translateX(90px);
-opacity: 0;
 }
 50% {
 transform: translateX(0);
@@ -1015,9 +1013,6 @@ transform: translateX(10px);
 }
 100% {
 transform: translateX(0);
-}
-20%,100% {
-opacity: 1;
 }
 }
 .sec_box_a.slide {

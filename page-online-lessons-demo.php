@@ -57,30 +57,97 @@ Template Name: page-online-lessons
 <p class="sec_txt_lead one_to_one_lead">Mike’s Online Lessons</p>
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner">
-<p>マイク先生は大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。
-<p>2013年にはマイク英会話教室札幌を開校し、Skypeなどでオンライン授業を行っております。</p>
-<p>マイク英会話教室札幌のオンラインレッスンの説明。</p>
-<p>マイク英会話教室札幌のオンラインレッスンの説明。</p>
-<p>マイク英会話教室札幌のオンラインレッスンの説明。</p>
+<p class="first">マイク先生はアメリカ生まれの英語ネイティブスピーカー。大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。
+<p>2013年にはマイク英会話教室札幌を開校し、Skypeなどでオンラインレッスンを行っています。</p>
+
+<h3 class="online_lessons">マンツーマンで受けられます。</h3>
+<p>レッスンはマンツーマンです。なので、もしわからない事があったり、質問があった時には、その時々にしっかりと教えてくれます。</p>
 
 <div class="box">
 <picture class="sec_pic sec_pic_02">
-<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1200x1600.jpeg">
-<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1920x2560.jpg">
-<img class="sec_img" alt="英会話スクールでの生徒さんとマイク先生の写真。マンツーマンでの英語・英会話コーチングです。" width="1400" height="1867" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/02_1200x1600.jpeg">
-</picture>
-<picture class="sec_pic sec_pic_02">
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1200x1600.jpeg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1920x2560.jpeg">
-<img class="sec_img" alt="英会話スクールでの生徒さんとマイク先生の写真。マンツーマンでの英語・英会話コーチングです。" width="1400" height="1867" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/01_1200x1600.jpeg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/04_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/04_1920x2560.jpeg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/04_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1920x2560.jpg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1200x1600.jpeg">
 </picture>
 <picture class="sec_pic sec_pic_02">
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1200x1600.jpeg">
 <source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1920x2560.jpg">
-<img class="sec_img" alt="英会話スクールでの生徒さんとマイク先生の写真。マンツーマンでの英語・英会話コーチングです。" width="1400" height="1867" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/common/img/03_1200x1600.jpeg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1200x1600.jpeg">
 </picture>
 </div><!--box-->
 
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+
+<h3 class="online_lessons">ネットがあればどこでも。</h3>
+<p>インターネットがあれば、世界のどこからでもレッスンを受ける事ができます。国内はもちろん、海外から英語を教えて欲しいという方もいます。</p>
+
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1920x2560.jpg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">
+</picture>
+
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+
+<h3 class="online_lessons">豊富な知識と経験で。</h3>
+<p>マイク先生自身が留学や移住の経験を持っているので、色々と実体験を基にしたアドバイスを受けられます。</p>
+
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/05_1030x790.jpg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/05_1030x790.jpg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="925" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/05_1030x790.jpg">
+</picture>
+
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+
+<h3 class="online_lessons">マイク英会話教室札幌オンラインレッスン。</h3>
+
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+<p>オンラインレッスンの説明。</p>
+
+<picture class="sec_pic sec_pic_02">
+<img class="sec_img" alt="英会話教室からオンラインレッスン。" width="700" height="525" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/class.jpg">
+</picture>
+
+<div class="box">
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1920x2560.jpeg">
+<img class="sec_img" alt="オンラインで英会話を学びましょう！" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/01_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/04_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/04_1920x2560.jpeg">
+<img class="sec_img" alt="オンラインで英会話を学びましょう！" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/04_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1920x2560.jpg">
+<img class="sec_img" alt="オンラインで英会話を学びましょう！" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/02_1200x1600.jpeg">
+</picture>
+<picture class="sec_pic sec_pic_02">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1200x1600.jpeg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1920x2560.jpg">
+<img class="sec_img" alt="オンラインで英会話を学びましょう！" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/03_1200x1600.jpeg">
+</picture>
+</div><!--box-->
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_online-->

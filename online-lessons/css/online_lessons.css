@@ -155,11 +155,17 @@ h3 span {
 #class {
 	border-radius: 0 0 5px 5px;
 }
+#pic_contact {
+	position: relative;
+}
 .sec_pic img {
 	filter: sepia(61.8%) brightness(120%) saturate(120%) hue-rotate(-5deg);
 }
-p.first {
+.sec_box_inner p:first-child {
 	margin-top: 0;
+}
+.sec_box_inner p:last-child {
+	margin-bottom: 0;
 }
 .sec_h3_one_to_one {
  display: flex;
@@ -267,6 +273,43 @@ h4 {
  color: rgb(30, 136, 168) /*#1e88a8*/;
  font-size: 1.6rem;
 }
+@keyframes pulse_contact  {
+0% {
+	box-shadow: 0 0 1px rgba(255, 255, 255, 0.5) /*#fff*/;
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.5) /*#ddd*/;
+ }
+50% {
+	box-shadow: 1px 1px 5px rgba(255, 255, 255, 1) /*#fff*/;
+ text-shadow: 0 0 3px rgba(255, 255, 255, 1) /*#ddd*/;
+ }
+100% {
+	box-shadow: 0 0 1px rgba(255, 255, 255, 0.5) /*#fff*/;
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.5) /*#ddd*/;
+ }
+}
+#pic_contact h4 {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: rgb(255, 255, 255) /*#fff*/;
+	border-color: rgb(255, 255, 255) /*#fff*/;
+	border-radius: 60px;
+	padding: 0 50px;
+	font-size: 3rem;
+	animation: pulse_contact 2s infinite;
+}
+#pic_contact h4 em {
+	order: 2;
+	padding-bottom: 5px;
+	font-size: 1.4rem;
+	text-align: center;
+}
+#pic_contact img {
+	border-radius: 5px;
+}
 .article {
 	padding: 15px 10px;
 }
@@ -302,6 +345,13 @@ h4 {
 .post:hover {
 	opacity: 1;
 }
+.a_contact {
+	display: block;
+	transition: all 0.3s ease 0s;
+}
+.a_contact:hover {
+	opacity: 0.9;
+}
 
 /********************************************************************************************
 SP Landscape
@@ -333,6 +383,9 @@ SP Landscape
 		width: 50%;
 		padding: 15px;
 	}
+	#pic_contact h4 {
+		font-size: 5rem;
+	}
 }
 
 /********************************************************************************************
@@ -343,6 +396,9 @@ Tablet Portrait
 @media screen and (min-width: 768px){
 .codrops-header h2 {
 	font-size: 8rem;
+	}
+	#pic_contact h4 {
+		font-size: 7rem;
 	}
 }
 

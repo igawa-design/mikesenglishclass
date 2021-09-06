@@ -2,7 +2,6 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>オンライン英会話&英語レッスンはマイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
 <meta name="keywords" content="英会話, 英語, オンライン">
@@ -13,7 +12,7 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/css/online_lessons.css">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/css/mockup4.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/css/mockup.css">
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/js/modernizr.custom.js"></script>
 <link rel="prerender" href="<?php echo home_url(); ?>">
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">

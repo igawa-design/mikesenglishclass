@@ -17,4 +17,4 @@ Template Name: page
 <p><a href="<?php echo home_url(); ?>"><span lang="en">Back To HOME</span> - HOMEへ戻る</a></p>
 <?php endif; ?>
 
-<?php get_footer('page'); ?>
+<?php get_footer(); ?>

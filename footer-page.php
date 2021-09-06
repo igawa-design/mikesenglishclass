@@ -16,7 +16,7 @@ Develop your strengths in English today at Mike’s English Class in Sapporo.</p
 
 <section class="info">
 <div class="sec_box_inner">
-<h2 class="info_h2"><a href="<?php echo home_url(); ?>"><img alt="札幌英会話＆英語教室 Mike’s English Class SapporoのHOMEへ" loading="lazy" width="70" height="70" src="<?php echo get_stylesheet_directory_uri(); ?>/common//img/logo.svg" class="info_h2_logo"></a>HOME</h2>
+<h2 class="info_h2"><a href="<?php echo home_url(); ?>"><img alt="札幌英会話＆英語教室 Mike’s English Class SapporoのHOMEへ" loading="lazy" width="70" height="70" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg" class="info_h2_logo"></a>HOME</h2>
 <h3 class="info_h3"><em>マイク英会話教室札幌</em><span class="info_h3_span">Mike’s English Class Sapporo</span></h3>
 <ul>
 <li>住所：北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号</li>
@@ -34,9 +34,11 @@ Develop your strengths in English today at Mike’s English Class in Sapporo.</p
 <div class="arrow_9ineBB"></div>
 <div class="bar_bottom"></div>
 <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common//js/functions.js"></script>
-<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common//js/scroll.js"></script>
-<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common//js/scrolltopcontrol.min.js"></script>
+<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/functions.js"></script>
+<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/scroll.js"></script>
+<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/scrolltopcontrol.min.js"></script>
+<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/js/jquery.diamonds.js"></script>
+
 <script>
 window.onload = function() {
   const spinner = document.getElementById('loading');

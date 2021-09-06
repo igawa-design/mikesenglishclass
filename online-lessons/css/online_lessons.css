@@ -28,12 +28,13 @@ body {
 }
 /* Header */
 .codrops-header {
+	position: relative;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
 	width: 100%;
 	height: 100%;
-	position: absolute;
-	top: -120px;
 	text-align: center;
-	z-index: 1000;
 	font-size: 1.5em;
 	animation: codrops_header 0.5s ease 0s 1 normal;
 }
@@ -48,21 +49,18 @@ body {
 	}
 }
 .codrops-header h2 {
+	position: relative;
+	z-index: 1000;
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	font-weight: bold;
 	font-size: 3.5rem;
 	line-height: 1.2;
 	color: #fff;
-	z-index: 1000;
-	padding: 0;
-	margin: 0;
-	left: 0;
 	letter-spacing: 5px;
-	width: 100%;
-	top: 50%;
-	transform: translate3d(0,-50%,0);
 }
 .codrops-header h2 em {
 	order: 2;
@@ -96,49 +94,213 @@ body {
 	font-style: normal;
 	font-weight: normal;
 }
+h3.online_lessons {
+	background: rgb(89, 174, 203) /*#59aecb*/;
+	margin: 15px 0;
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(255, 255, 255) /*#fff*/;
+	text-align: center;
+}
+h3 span {
+	display: block;
+}
+#section,
+#section .sec_box,
+#section .sec_h3.sec_h3_02 {
+	opacity: 1;
+}
 .section {
 	margin: 10px auto;
 	padding: 0 1%;
 }
-.section:first-of-type {
-	margin: -265px auto 0;
-}
-.box {
+.box_section,
+.box,
+.box_articles {
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 .box .sec_pic {
 	width: calc(100% / 2);
 	border-radius: 0;
 }
-.box .sec_pic:nth-child(1) {
+.box_02 .sec_pic,
+.box_03 .sec_pic {
+	width: calc(100% / 2);
+	border-radius: 0;
+}
+.sec_pic_online {
+	border-radius: 0;
+}
+.box .sec_pic:nth-child(1),
+.box .sec_pic#pic_14 {
 	border-radius: 5px 0 0 0;
 }
 .box .sec_pic:nth-child(2) {
 	border-radius: 0 5px 0 0;
 }
-.box .sec_pic:nth-child(3) {
+.box .sec_pic:nth-child(3),
+.box .box_03 .sec_pic:nth-child(1),
+.box .sec_pic#pic_09 {
 	border-radius: 0 0 0 5px;
 }
-.box .sec_pic:nth-child(4) {
+.box .sec_pic:nth-child(4),
+.box .sec_pic#pic_12 {
 	border-radius: 0 0 5px 0;
 }
-.box img {
+#pic_05 {
+	border-radius: 5px 5px 0 0;
+}
+#class {
+	border-radius: 0 0 5px 5px;
+}
+.sec_pic img {
 	filter: sepia(61.8%) brightness(120%) saturate(120%) hue-rotate(-5deg);
-}
-h3.online_lessons {
-	background: rgb(89, 174, 203) /*#59aecb*/;
-	color: rgb(255, 255, 255) /*#fff*/;
-	border-radius: 5px;
-	padding: 10px;
-	text-align: center;
-}
-h3.online_lessons:first-of-type {
-	margin-top: 15px;
 }
 p.first {
 	margin-top: 0;
+}
+.sec_h3_one_to_one {
+ display: flex;
+ flex-direction: column;
+ background: rgb(30, 136, 168) /*#1e88a8*/;
+	background-image:
+ repeating-linear-gradient(
+  14deg,
+  rgba(245, 241, 213, 0.10),
+  rgba(245, 241, 213, 0.10) 50px,
+  rgba(255, 255, 255, 0.10) 50px,
+  rgba(255, 255, 255, 0.10) 58px,
+  rgba(255, 255, 255, 0.10) 58px,
+  rgba(255, 255, 255, 0.10) 66px,
+  rgba(245, 241, 213, 0.10) 66px,
+  rgba(245, 241, 213, 0.10) 74px,
+  rgba(255, 255, 255, 0.10) 74px,
+  rgba(255, 255, 255, 0.10) 114px,
+  rgba(180, 214, 198, 0.10) 114px,
+  rgba(180, 214, 198, 0.10) 154px,
+  rgba(255, 255, 255, 0.10) 154px,
+  rgba(255, 255, 255, 0.10) 162px,
+  rgba(245, 241, 213, 0.10) 162px,
+  rgba(245, 241, 213, 0.10) 170px,
+  rgba(255, 255, 255, 0.10) 170px,
+  rgba(255, 255, 255, 0.10) 178px
+  ),
+  repeating-linear-gradient(
+   -15deg,
+   rgba(245, 241, 213, 0.10),
+   rgba(245, 241, 213, 0.01) 50px,
+   rgba(255, 255, 255, 0.01) 50px,
+   rgba(255, 255, 255, 0.01) 58px,
+   rgba(255, 255, 255, 0.01) 58px,
+   rgba(255, 255, 255, 0.01) 66px,
+   rgba(245, 241, 213, 0.01) 66px,
+   rgba(245, 241, 213, 0.01) 74px,
+   rgba(255, 255, 255, 0.01) 74px,
+   rgba(255, 255, 255, 0.01) 114px,
+   rgba(180, 214, 198, 0.01) 114px,
+   rgba(180, 214, 198, 0.01) 154px,
+   rgba(255, 255, 255, 0.01) 154px,
+   rgba(255, 255, 255, 0.01) 162px,
+   rgba(245, 241, 213, 0.01) 162px,
+   rgba(245, 241, 213, 0.01) 170px,
+   rgba(255, 255, 255, 0.01) 170px,
+   rgba(255, 255, 255, 0.01) 178px
+   ),
+   repeating-linear-gradient(
+    -15deg,
+    rgba(245, 241, 213, 0.01),
+    rgba(245, 241, 213, 0.01) 50px,
+    rgba(255, 255, 255, 0.01) 50px,
+    rgba(255, 255, 255, 0.01) 58px,
+    rgba(255, 255, 255, 0.01) 58px,
+    rgba(255, 255, 255, 0.01) 66px,
+    rgba(245, 241, 213, 0.01) 66px,
+    rgba(245, 241, 213, 0.01) 74px,
+    rgba(255, 255, 255, 0.01) 74px,
+    rgba(255, 255, 255, 0.01) 114px,
+    rgba(180, 214, 198, 0.01) 114px,
+    rgba(180, 214, 198, 0.01) 154px,
+    rgba(255, 255, 255, 0.01) 154px,
+    rgba(255, 255, 255, 0.01) 162px,
+    rgba(245, 241, 213, 0.01) 162px,
+    rgba(245, 241, 213, 0.01) 170px,
+    rgba(255, 255, 255, 0.01) 170px,
+    rgba(255, 255, 255, 0.01) 178px
+    ),
+    repeating-linear-gradient(
+     -15deg,
+     rgba(245, 241, 213, 0.01),
+     rgba(245, 241, 213, 0.01) 50px,
+     rgba(255, 255, 255, 0.01) 50px,
+     rgba(255, 255, 255, 0.01) 58px,
+     rgba(255, 255, 255, 0.01) 58px,
+     rgba(255, 255, 255, 0.01) 66px,
+     rgba(245, 241, 213, 0.01) 66px,
+     rgba(245, 241, 213, 0.01) 74px,
+     rgba(255, 255, 255, 0.01) 74px,
+     rgba(255, 255, 255, 0.01) 114px,
+     rgba(180, 214, 198, 0.01) 114px,
+     rgba(180, 214, 198, 0.01) 154px,
+     rgba(255, 255, 255, 0.01) 154px,
+     rgba(255, 255, 255, 0.01) 162px,
+     rgba(245, 241, 213, 0.01) 162px,
+     rgba(245, 241, 213, 0.01) 170px,
+     rgba(255, 255, 255, 0.01) 170px,
+     rgba(255, 255, 255, 0.01) 178px
+     );
+ border-radius: 5px 5px 0 0;
+ padding: 10px;
+ color: rgb(255, 255, 255) /*fff*/;
+ text-align: center;
+}
+h3.sec_h3_lead {
+ font-size: 1.5rem;
+ letter-spacing: 0.1rem;
+}
+h4 {
+ margin: 15px 0;
+ border: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+ padding: 10px;
+ border-radius: 5px;
+ color: rgb(30, 136, 168) /*#1e88a8*/;
+ font-size: 1.6rem;
+}
+.article {
+	padding: 15px 10px;
+}
+.article:first-child {
+	margin-top: 15px;
+}
+.article_h4 {
+ margin: -10px 0 15px 0;
+ border-right: none;
+	border-bottom: none;
+	border-radius: 5px 0 0 0;
+ padding: 5px 0 0 10px;
+}
+.article_cat {
+	display: block;
+ color: rgb(89, 145, 216) /*#5991d8*/;
+ font-size: 1.4rem;
+ text-align: right;
+}
+.cat {
+	display: inline-block;
+	width: 100%;
+	padding: 0 5px 5px 0;
+	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
+	border-radius: 0 0 5px 0;
+	color: rgb(53, 87, 129) /*#355781*/;
+	transition: all 0.3s ease 0s;
+}
+.article p {
+	margin: 15px;
+}
+.post:hover {
+	opacity: 1;
 }
 
 /********************************************************************************************
@@ -147,19 +309,17 @@ SP Landscape
 /* 667px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 667px){
-	.codrops-header {
-		position: absolute;
-		top: 20px;
-}
 	.codrops-header h2 {
-		top: 50%;
-		font-size: 8rem;
+		font-size: 7rem;
 	}
 	.codrops-header h2 span {
 		font-size: 2.5rem;
 	}
 	.codrops-header h2 i {
 		font-size: 1.8rem;
+	}
+	h3 span {
+		display: inline;
 	}
 	.section:first-of-type {
 		margin: 20px auto 0;
@@ -169,14 +329,31 @@ SP Landscape
 		width: 100%;
 		margin: 20px 0;
 	}
-	.box .sec_pic {
-		width: calc(100% / 4);
-		border-radius: 0;
+	.box_section .section_online {
+		width: 50%;
+		padding: 15px;
 	}
-	.box .sec_pic:nth-child(1) {
-		border-radius: 5px 0 0 5px;
+}
+
+/********************************************************************************************
+Tablet Portrait
+*********************************************************************************************/
+/* 768px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px){
+.codrops-header h2 {
+	font-size: 8rem;
 	}
-	.box .sec_pic:nth-child(4) {
-		border-radius: 0 5px 5px 0;
+}
+
+/********************************************************************************************
+PC & Tablet Landscape
+*********************************************************************************************/
+/* 1024px
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px){
+	.article {
+		width: calc(100% / 3);
+		margin-top: 15px;
 	}
 }

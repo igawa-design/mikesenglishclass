@@ -311,8 +311,9 @@ tr:first-child th {
 .article:last-child {
  border-bottom: none;
 }
-.article .post:hover !important,
-.article .post .p:hover !important {
+.post:hover,
+.sec_img_translations:hover,
+.wp-post-image:hover {
 	opacity: 1;
 }
 .article_cat {

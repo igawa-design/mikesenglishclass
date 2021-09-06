@@ -37,6 +37,9 @@ SP Portrait
 .sec_box_reviews #searchsubmit {
 	background: rgb(242, 187, 3) /*#f2bb03*/;
 }
+#search_reviews .sec_box_reviews time {
+	margin-left: 10px;
+}
 .section {
  width: 100%;
  margin: 15px ​0;

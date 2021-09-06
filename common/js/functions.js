@@ -38,7 +38,18 @@ $(window).scroll(function (){
      $(this).removeClass("scale");
     }
   }),
-  $(".sec_txt_lead").each(function(){
+  $("#online_lessons .sec_icon").each(function(){
+     var hit		= $(this).offset().top;
+     var scroll	= $(window).scrollTop();
+     var wHeight	= $(window).height();
+
+     if (scroll > hit - wHeight + wHeight/50){
+       $(this).addClass("scale");
+     } else {
+      $(this).removeClass("scale");
+     }
+   }),
+   $(".sec_txt_lead").each(function(){
      var hit		= $(this).offset().top;
      var scroll	= $(window).scrollTop();
      var wHeight	= $(window).height();
@@ -99,6 +110,7 @@ $(".hamburger-menu, .close-btn").click(function(){
 });
 
 // masonry //////////////////////////////////////////////////////
+
 $(window).on('load',function(){
  $('#masonry').masonry({
   itemSelector: 'article',

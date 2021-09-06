@@ -46,6 +46,13 @@ SP Portrait
 .sec_box_english {
 	letter-spacing: 0;
 }
+.sec_box_english div[lang="en"] {
+	margin-top: 0;
+}
+.sec_box_english div[lang="zh"],
+.sec_box_english div[lang="ko"] {
+	margin-top: 20px;
+}
 .sec_icon {
  opacity: 1
 }

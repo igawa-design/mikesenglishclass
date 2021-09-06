@@ -400,6 +400,9 @@ Tablet Portrait
 	#pic_contact h4 {
 		font-size: 7rem;
 	}
+	#pic_contact h4 em {
+		font-size: 1.6rem;
+	}
 }
 
 /********************************************************************************************

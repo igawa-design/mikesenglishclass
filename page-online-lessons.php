@@ -59,13 +59,15 @@ Template Name: page-online-lessons
 <div class="sec_box_inner">
 <p>マイク先生はアメリカ生まれの英語ネイティブスピーカー。大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。</p>
 <p>2013年にマイク英会話教室札幌を開き、Skypeなどでオンラインレッスンを行い、LINEで無料サポートもしています。</p>
-<p>どんなレベルでも大丈夫です。上級、中級、初級でも。英語で何か困っていることはありませんか？</p>
+<p>経験が豊富でフレンドリーな先生なので、どんなレベルでも大丈夫です。上級、中級、初級でも。</p>
+<p>英語や英会話で何か困っていることはありませんか？</p>
 
 <div class="box_section">
 
 <section class="section_online">
 <h3 class="online_lessons">ネットで、どこでも。</h3>
 <p>インターネットがあれば、世界のどこからでもレッスンを受ける事ができます。国内はもちろん、海外から英会話を教えて欲しいという方も。</p>
+<p>英語は多くの場面で使えるとても便利な言語です。仕事はもちろん、街の看板でもオリンピック・パラリンピックなどの会場・映像・音声でも。</p>
 
 <div class="box">
 <picture class="sec_pic sec_pic_02">
@@ -94,7 +96,7 @@ Template Name: page-online-lessons
 <section class="section_online">
 <h3 class="online_lessons">マンツーマンで受けられます。</h3>
 <p>レッスンはマンツーマンです。もしわからない事があったり、質問があった時には、その時々にすぐに教えてくれます。</p>
-<p>英語ネイティブスピーカーなので、リスニングやスピーキング、リーディングやリンキングもきっちりと。</p>
+<p>日常英会話からTOEICや英検の試験対策にも対応。英語ネイティブスピーカーの先生なので、リスニングやスピーキング、リーディングやリンキングもきっちりと。</p>
 
 <picture class="sec_pic sec_pic_02">
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">
@@ -130,7 +132,7 @@ Template Name: page-online-lessons
 <section class="section_online">
 <h3 class="online_lessons">マイク英会話教室札幌<span>オンラインレッスン。</span></h3>
 <p>英語ネイティブスピーカーによる実践的な英会話レッスン。マイク先生は基礎・基本からしっかりと教えてくれます。</p>
-<p>英語や文学だけではなく、音楽やスポーツなどとても多趣味で好奇心も旺盛な先生なので、色々と楽しくお話しをしながら、英会を学んでいることができます。</p>
+<p>英語や文学だけではなく、音楽やスポーツなど、とても多趣味で好奇心がある先生なので、色々と楽しくお話しをしながら、英会話を学んでいくことができます。</p>
 
 <div class="box box_02">
 <picture class="sec_pic sec_pic_02" id="pic_14">

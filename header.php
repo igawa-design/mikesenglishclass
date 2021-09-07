@@ -6,7 +6,7 @@
 <title>英会話 英語は札幌中央区やオンラインで。マイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
 <meta name="description" content="札幌やオンラインで英語・英会話を覚えるならぜひ！初心者の方から本格的なビジネス英語・作詞のお手伝いなども承っております。個人レッスンだからこそ、質の高い英会話力が身に付きます♬">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
-<meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
+<meta name="keywords" content="英会話,札幌,オンライン,英会話教室,英語,レッスン">
 <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" as="style">
@@ -60,7 +60,7 @@ z-index: 9999;
 
 <header>
 <h1><a href="<?php echo home_url(); ?>">
-<img class="logo" alt="札幌 英会話＆英語レッスン、マンツーマン、コーチング。中央区 or オンライン。Mike’s English Class Sapporo" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
+<img class="logo" alt="札幌 英会話＆英語レッスン、マンツーマン、コーチング。中央区 or オンライン。" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
 <div class="sns">
 <h2><a class="icon" href="https://www.facebook.com/mikesenglishclass">
 <img class="header_icon facebook" alt="英会話＆英語レッスンをオンラインでも中央区の教室でもコーチング♫ マイク英会話教室札幌のfacebookはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_white.svg"></a></h2>

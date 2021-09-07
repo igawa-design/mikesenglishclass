@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>オンライン英会話&英語レッスンはマイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
-<meta name="keywords" content="英会話, 英語, オンライン">
+<meta name="description" content="オンライン英会話はネイティブスピーカーのマイク英会話教室札幌で。初心者から上級者まで歓迎いたします！">
+<meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
+<meta name="keywords" content="オンライン英会話,オンライン,英語,レッスン">
 <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" as="style">
@@ -50,12 +52,12 @@ z-index: 9999;
 
 <header>
 <h1><a href="<?php echo home_url(); ?>">
-<img class="logo" alt="オンラインでの英語＆英会話、マンツーマンレッスン、コーチングはMike’s English Class Sapporo" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
+<img class="logo" alt="オンライン英会話・オンライン英語はマイク英会話教室札幌 Mike’s English Class Sapporoへ" width="80" height="80" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg"></a></h1>
 <div class="sns">
 <h2><a class="icon" href="https://www.facebook.com/mikesenglishclass">
-<img class="header_icon facebook" alt="オンライン英会話＆英語レッスンをコーチング♫ マイク英会話教室札幌のfacebookはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_white.svg"></a></h2>
+<img class="header_icon facebook" alt="オンライン英会話＆英語♫ マイク英会話教室札幌のfacebookはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_facebook_white.svg"></a></h2>
 <h2><a class="icon" href="https://www.youtube.com/channel/UCxV2V8PO1QbFdeQOODeeyXw">
-<img class="header_icon youtube" alt="オンライン英会話＆英語レッスンをコーチング♬ マイク英会話教室札幌のYouTubeはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_youtube_white.svg"></a></h2>
+<img class="header_icon youtube" alt="オンライン英会話＆英語♬ マイク英会話教室札幌のYouTubeはこちら。" width="40" height="40" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_youtube_white.svg"></a></h2>
 </div><!--sns-->
 <nav>
 <div class="nav_narrow">

@@ -35,18 +35,18 @@ Template Name: page-online-lessons
 <h2 class="sec_h2 sec_h2_online">オンラインレッスン</h2>
 <p class="sec_txt_lead one_to_one_lead"><a href="<?php echo get_stylesheet_directory_uri(); ?>/one-to-one">Online Lessons</a></p>
 <h3 class="sec_h3 sec_h3_02">
-<a href="<?php echo home_url(); ?>/online-lessons"><img class="sec_icon" alt="オンライン個人レッスンについて。" width="50" height="50" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_sec_online.svg"></a>
+<a href="<?php echo home_url(); ?>/online-lessons"><img class="sec_icon" alt="オンライン英会話について。" width="50" height="50" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_sec_online.svg"></a>
 </h3>
 
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner">
-<h3 class="sec_h3_lead">オンラインで、世界のどこからでも英語・英会話レッスンを♬</h3>
-<p>マイク英会話教室札幌は2013年の開校以来、コロナ以前から、Skypeなどでオンラインレッスンを行っていました。</p>
+<h3 class="sec_h3_lead">オンラインで、世界のどこからでも英会話レッスンを♬</h3>
+<p>マイク英会話教室札幌はコロナ以前から、Skypeなどでオンラインレッスンを行っていました。</p>
 
 <video src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/movie/01_online_lessons_m.mp4" autoplay muted playsinline preload="none"></video>
 <video src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/movie/02_online_lessons_m.mp4" autoplay muted playsinline preload="none"></video>
 
-<p>オンライン個人レッスンをご希望の方には、SkypeやFaceTimeなどで自宅や職場からのレッスンにも対応しております。</p>
+<p>2013年の開校以来、オンライン個人レッスンをご希望の方へは、SkypeやFaceTimeなどで自宅や職場からのレッスンへ対応しております。</p>
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_online-->
@@ -58,13 +58,14 @@ Template Name: page-online-lessons
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner">
 <p>マイク先生はアメリカ生まれの英語ネイティブスピーカー。大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。
-<p>2013年にはマイク英会話教室札幌を開校し、Skypeなどでオンラインレッスンを行っています。</p>
+<p>2013年にマイク英会話教室札幌を開き、SkypeなどでのオンラインレッスンやLINEでの無料サポートを行っています。</p>
+<p>どんなレベルでも大丈夫です。上級、中級、初級でも。英語で何か困っていることはありませんか？</p>
 
 <div class="box_section">
 
 <section class="section_online">
 <h3 class="online_lessons">ネットで、どこでも。</h3>
-<p>インターネットがあれば、世界のどこからでもレッスンを受ける事ができます。国内はもちろん、海外から英語を教えて欲しいという方もいます。</p>
+<p>インターネットがあれば、世界のどこからでもレッスンを受ける事ができます。国内はもちろん、海外から英会話を教えて欲しいという方も。</p>
 
 <div class="box">
 <picture class="sec_pic sec_pic_02">
@@ -92,7 +93,8 @@ Template Name: page-online-lessons
 
 <section class="section_online">
 <h3 class="online_lessons">マンツーマンで受けられます。</h3>
-<p>レッスンはマンツーマンです。もしわからない事があったり、質問があった時には、その時々にしっかりと教えてくれます。</p>
+<p>レッスンはマンツーマンです。もしわからない事があったり、質問があった時には、その時々にすぐに教えてくれます。</p>
+<p>英語ネイティブなので、リスニングやリーディング、リンキングもきっちりと。</p>
 
 <picture class="sec_pic sec_pic_02">
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">
@@ -103,7 +105,7 @@ Template Name: page-online-lessons
 
 <section class="section_online">
 <h3 class="online_lessons">豊富な知識と経験で。</h3>
-<p>マイク先生はアメリカのコーネル大学を卒業し、イギリスのオックスフォード大学院で修士号を取得しました。そして現在は英会話教師として日本で暮らしています。</p>
+<p>マイク先生はアメリカのコーネル大学を卒業し、イギリスのオックスフォード大学院で修士号を取得しました。そして現在は英会話教師として日本に在住。</p>
 <p>先生自身が外国への留学や移住の経験を持っているので、実体験を基にしたリアルなアドバイスを受けられます。</p>
 
 <picture class="sec_pic sec_pic_02" id="pic_05">
@@ -127,8 +129,8 @@ Template Name: page-online-lessons
 
 <section class="section_online">
 <h3 class="online_lessons">マイク英会話教室札幌<span>オンラインレッスン。</span></h3>
-<p>英語ネイティブスピーカーによる実践的な英会話レッスン。マイク先生は英語を基礎・基本からしっかりと教えてくれます。</p>
-<p>英語や文学だけではなく、音楽やスポーツなどとても多趣味で好奇心も旺盛な先生なので、色々と楽しく会話をしながら、英語を学んでいることができます。</p>
+<p>英語ネイティブスピーカーによる実践的な英会話レッスン。マイク先生は基礎・基本からしっかりと教えてくれます。</p>
+<p>英語や文学だけではなく、音楽やスポーツなどとても多趣味で好奇心も旺盛な先生なので、色々と楽しくお話しをしながら、英会を学んでいることができます。</p>
 
 <div class="box box_02">
 <picture class="sec_pic sec_pic_02" id="pic_14">
@@ -143,7 +145,7 @@ Template Name: page-online-lessons
 </picture>
 </div><!--box box_02-->
 <picture class="sec_pic sec_pic_online" id="class">
-<img class="sec_img" alt="英会話教室からオンラインレッスン。" width="700" height="525" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/class.jpg">
+<img class="sec_img" alt="英会話教室からオンラインで。" width="700" height="525" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/class.jpg">
 </picture>
 </section><!--section_online-->
 
@@ -208,8 +210,7 @@ echo '<span class="cat">'.$term->name.'</span>';
 <div class="address">
 <div class="inner">
 <ul>
-<li><em>Office Location</em>：<span class="ja">〒064-0809 北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号</span>
-<span class="en" lang="en">Madison Heights #705, South 9 West 3-2-1, Chuo-ku, Sapporo, Hokkaido  064-0809</span></li>
+<li><em>Office Location</em>：<span class="ja">〒064-0809 北海道札幌市中央区南９条西３丁目２−１ マジソンハイツ７０５号</span></li>
 <li><em>General Info</em>：<a href="tel:09064432799" class="nonmover">090-6443-2799 </a>（受付時間：11:00 AM to 9:00 PM / 土曜日：11:00 AM to 6:00 PM / 定休日：日曜日）</li>
 <li>Contact Form：24時間受付</li>
 </ul>

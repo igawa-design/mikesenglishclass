@@ -7,7 +7,7 @@
 <title>札幌・オンラインの英会話教師からのご挨拶｜マイク英会話教室札幌</title>
 <meta name="description" content="マイク先生からの挨拶ページです。学校だけでは身につかない実践力を楽しく身につけられます。わからないところは何度でも質問してくださいね！しっかりサポートします！">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
-<meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
+<meta name="keywords" content="英会話,札幌,オンライン,英語,ネイティブ,マンツーマン,コーチング">
 <link rel="alternate" href="https://mikesenglishclass.jp/aboutmike" hreflang="ja">
 <?php elseif(is_page('one-to-one')): ?>
 <title>英会話マンツーマンレッスンを札幌やオンラインでお探しなら♬｜マイク英会話教室札幌</title>
@@ -74,7 +74,8 @@
 <meta name="description" content="札幌の英語・英会話教師、マイク先生のブログです。">
 <link rel="alternate" href="https://mikesenglishclass.jp/mikes-posts" hreflang="ja">
 <?php endif; ?>
-<meta name="keywords" content="英会話,札幌,英会話教室,英語,英語教室">
+<meta name="keywords" content="英会話,札幌,オンライン,英語,ネイティブ,マンツーマン,コーチング">
+
 <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" as="style">
@@ -196,7 +197,7 @@ z-index: 9999;
 <li>How're you doing?</li>
 </ul><!--circles-->
 <a href="#close" class="close-btn"></a>
-<a class="nav_list" href="<?php echo home_url('aboutmike'); ?>"><span class="nav_list_ja">マイク先生のこと</span><span class="nav_list_en"><img class="nav_icon" alt="英語、英会話教師のマイク・ニマ先生についてとご挨拶はこちら。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_about_mike.svg"><em class="About_Mike first_letter">A</em>bout Mike</span></a>
+<a class="nav_list" href="<?php echo home_url('aboutmike'); ?>"><span class="nav_list_ja">マイク先生のこと </span><span class="nav_list_en"><img class="nav_icon" alt="英語、英会話教師のマイク・ニマ先生についてとご挨拶はこちら。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_about_mike.svg"><em class="About_Mike first_letter">A</em>bout Mike</span></a>
 <a class="nav_list" href="<?php echo home_url('one-to-one'); ?>"><span class="nav_list_ja">個人レッスン</span><span class="nav_list_en"><img class="nav_icon" alt="マンツーマンで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_one_to_one.svg"><em class="One_to_One first_letter">O</em>ne to One</span></a>
 <a class="nav_list" href="<?php echo home_url('online-lessons'); ?>"><span class="nav_list_ja">オンラインレッスン</span><span class="nav_list_en"><img class="nav_icon"  alt="オンラインで英会話・英語コーチングを受けられます。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_online.svg"><em class="Online_Lessons first_letter">O</em>nline Lessons</span></a>
 <a class="nav_list" href="<?php echo home_url('gallery'); ?>"><span class="nav_list_ja">ギャラリー</span><span class="nav_list_en"><img class="nav_icon" alt="英会話教室の生徒さんやマイク先生による写真ギャラリーです。" width="30" height="30" loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/common/img/icon_gallery.svg"><em class="Gallery first_letter">G</em>allery</span></a>

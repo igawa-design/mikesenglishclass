@@ -46,7 +46,7 @@ Template Name: page-online-lessons
 <video src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/movie/01_online_lessons_m.mp4" autoplay muted playsinline preload="none"></video>
 <video src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/movie/02_online_lessons_m.mp4" autoplay muted playsinline preload="none"></video>
 
-<p>2013年の開校以来、オンライン個人レッスンをご希望の方へは、SkypeやFaceTimeなどで自宅や職場からのレッスンへ対応しております。</p>
+<p>2013年の開校以来、オンライン個人レッスンをご希望の方へは、SkypeやFaceTimeなどで自宅や職場からのレッスンへ対応しておりました。</p>
 
 </div><!--sec_box_inner-->
 </div><!--sec_box sec_box_online-->

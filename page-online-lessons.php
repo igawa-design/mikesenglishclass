@@ -11,21 +11,21 @@ Template Name: page-online-lessons
 <h2><i>オンラインで、どこからでも英会話レッスンを♬</i><em>Online Lessons</em><span>Mike’s English Class Sapporo</span></h2>
 </div><!-- /codrops-header -->
 <div class="mockup">
-<img alt="xxxxx" class="mockup__img" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/mockup4.jpg" />
+<img alt="オンライン英会話" class="mockup__img" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/mockup4.jpg" />
 <div class="mobile">
 <ul id="slideshow-1" class="slideshow">
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/01_320x480.jpeg"/></li>
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/02_320x480.jpeg"/></li>
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/03_320x480.jpeg"/></li>
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/04_320x480.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/01_320x480.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/02_320x480.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/03_320x480.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/small/04_320x480.jpeg"/></li>
 </ul>
 </div><!-- /mobile -->
 <div class="screen">
 <ul id="slideshow-2" class="slideshow">
-<li class="slideshow__item current"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/01_1280x800.jpeg"/></li>
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/02_1280x800.jpeg"/></li>
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/03_1280x800.jpeg"/></li>
-<li class="slideshow__item"><img alt="xxxxx" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/04_1280x800.jpeg"/></li>
+<li class="slideshow__item current"><img alt="オンライン英会話" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/01_1280x800.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/02_1280x800.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/03_1280x800.jpeg"/></li>
+<li class="slideshow__item"><img alt="オンライン英会話教室" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/large/04_1280x800.jpeg"/></li>
 </ul>
 </div><!-- /screen -->
 </div><!-- /mockup -->
@@ -57,8 +57,8 @@ Template Name: page-online-lessons
 <p class="sec_txt_lead one_to_one_lead">Mike’s Online Lessons</p>
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner">
-<p>マイク先生はアメリカ生まれの英語ネイティブスピーカー。大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。
-<p>2013年にマイク英会話教室札幌を開き、SkypeなどでのオンラインレッスンやLINEでの無料サポートを行っています。</p>
+<p>マイク先生はアメリカ生まれの英語ネイティブスピーカー。大学と大学院で英文学を専攻していました。その後アメリカのUCバークレーで数年間、そして来日後は室蘭工業大学と札幌医科大学でも数年間、英語講師を務めていました。</p>
+<p>2013年にマイク英会話教室札幌を開き、Skypeなどでオンラインレッスンを行い、LINEで無料サポートもしています。</p>
 <p>どんなレベルでも大丈夫です。上級、中級、初級でも。英語で何か困っていることはありませんか？</p>
 
 <div class="box_section">
@@ -94,7 +94,7 @@ Template Name: page-online-lessons
 <section class="section_online">
 <h3 class="online_lessons">マンツーマンで受けられます。</h3>
 <p>レッスンはマンツーマンです。もしわからない事があったり、質問があった時には、その時々にすぐに教えてくれます。</p>
-<p>英語ネイティブなので、リスニングやリーディング、リンキングもきっちりと。</p>
+<p>英語ネイティブスピーカーなので、リスニングやスピーキング、リーディングやリンキングもきっちりと。</p>
 
 <picture class="sec_pic sec_pic_02">
 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">

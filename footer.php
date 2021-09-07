@@ -42,6 +42,7 @@ Develop your strengths in English today at Mike’s English Class in Sapporo.</p
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.min.js"></script>
 <?php endif; ?>
 <script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/functions.js"></script>
+<script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/scroll.js"></script>
 <script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/scrolltopcontrol.min.js"></script>
 <script>
 window.onload = function() {

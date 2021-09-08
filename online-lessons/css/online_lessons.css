@@ -352,6 +352,15 @@ h4 {
 .a_contact:hover {
 	opacity: 0.9;
 }
+#masonry {
+	width: 100%;
+	overflow: hidden;
+}
+#masonry article {
+	width: 100%;
+	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
+	border: none;
+}
 
 /********************************************************************************************
 SP Landscape
@@ -383,8 +392,15 @@ SP Landscape
 		width: 50%;
 		padding: 15px;
 	}
+	#masonry article {
+		width: calc(100% / 2);
+		padding: 10px;
+		}
 	#pic_contact h4 {
 		font-size: 5rem;
+	}
+	.article:nth-child(2) {
+		margin-top: 15px;
 	}
 }
 
@@ -411,6 +427,9 @@ PC & Tablet Landscape
 /* 1024px
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px){
+	#masonry article {
+		width: calc(100% / 3);
+		}
 	.article {
 		width: calc(100% / 3);
 		margin-top: 15px;

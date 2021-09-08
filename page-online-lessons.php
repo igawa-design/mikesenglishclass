@@ -67,7 +67,7 @@ Template Name: page-online-lessons
 <section class="section_online">
 <h3 class="online_lessons">ネットで、どこでも。</h3>
 <p>インターネットがあれば、世界のどこからでもレッスンを受ける事ができます。国内はもちろん、海外から英会話を教えて欲しいという方も。</p>
-<p>英語は多くの場面で使えるとても便利な言語です。仕事はもちろん、街の看板でもオリンピック・パラリンピックなどの会場・映像・音声でも。</p>
+<p>英語は多くの場面で使えるとても便利な言語です。仕事はもちろん、街の看板でもオリンピックやパラリンピックなどの会場・映像・音声でも。</p>
 
 <div class="box">
 <picture class="sec_pic sec_pic_02">
@@ -185,7 +185,6 @@ $args=array(
 <article class="article">
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <div class="post">
-<?php remove_filter('the_content', 'wpautop'); ?>
 <p><?php the_content(); ?></p>
 <small class="article_cat">
 <?php

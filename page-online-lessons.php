@@ -162,6 +162,7 @@ Template Name: page-online-lessons
 <div class="sec_box sec_box_online">
 <div class="sec_box_inner box_articles">
 
+<div id="masonry">
 <?php
 $args=array(
   'tax_query' => array(
@@ -172,7 +173,7 @@ $args=array(
     ),
   ),
   'post_type' => 'reviews', //カスタム投稿名
-  'post__in' => array(3895, 3614, 3343), //オンラインについての記事（３つ）
+  'post__in' => array(3895, 3614, 3343, 6293, 6956), //オンラインについての記事（３つ）
   'posts_per_page'=> 10 //表示件数（-1で全ての記事を表示）
   );
 ?>
@@ -198,6 +199,7 @@ echo '<span class="cat">'.$term->name.'</span>';
 </article>
 
 <?php endwhile; endif; ?>
+</div><!--masonry-->
 
 </div><!--sec_box_inner box_articles-->
 </div><!--sec_box sec_box_online-->

@@ -40,6 +40,9 @@ Develop your strengths in English today at Mike’s English Class in Sapporo.</p
 <?php elseif(is_archive('archive-gallery')): ?>
 <script defer src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.min.js"></script>
+<?php elseif(is_page('online-lessons')): ?>
+<script defer src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.min.js"></script>
 <?php endif; ?>
 <script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/functions.js"></script>
 <script defer src="<?php echo get_stylesheet_directory_uri(); ?>/common/js/scroll.js"></script>

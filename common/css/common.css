@@ -135,7 +135,7 @@ article p,
 #single_reviews article p,
 #taxonomy_reviews_cat article p,
 #date_reviews article p {
-	margin: 5px;
+	margin: 15px ​5px;
 }
 p:empty {
 	margin: 0;

@@ -339,6 +339,9 @@ h4 {
 	color: rgb(53, 87, 129) /*#355781*/;
 	transition: all 0.3s ease 0s;
 }
+em:first-child::after {
+	content: ' / ';
+}
 .article p {
 	margin: 15px;
 }
@@ -417,6 +420,7 @@ Tablet Portrait
 		font-size: 7rem;
 	}
 	#pic_contact h4 em {
+		padding-bottom: 10px;
 		font-size: 1.6rem;
 	}
 }
@@ -433,5 +437,9 @@ PC & Tablet Landscape
 	.article {
 		width: calc(100% / 3);
 		margin-top: 15px;
+	}
+	#pic_contact h4 em {
+		padding-bottom: 15px;
+		font-size: 1.8rem;
 	}
 }

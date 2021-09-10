@@ -169,12 +169,9 @@ $args=array(
     array(
       'taxonomy' => 'reviews-cat', //タクソノミーを指定
       'field' => 'slug', //ターム名をスラッグで指定する
-      'terms' => array( 'one-to-one' ) //表示したいタームをスラッグで指定
+      'terms' => array( 'online-lessons' ) //表示したいタームをスラッグで指定
     ),
-  ),
-  'post_type' => 'reviews', //カスタム投稿名
-  'post__in' => array(3895, 3614, 3343, 6293, 6956), //オンラインについての記事（３つ）
-  'posts_per_page'=> 10 //表示件数（-1で全ての記事を表示）
+   ),
   );
 ?>
 
@@ -187,12 +184,14 @@ $args=array(
 <div class="post">
 <p><?php the_content(); ?></p>
 <small class="article_cat">
+<span class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
-echo '<span class="cat">'.$term->name.'</span>';
+echo '<em>'.$term->name.'</em>';
 }
 ?>
+</span>
 </small>
 </div><!--post-->
 </article>

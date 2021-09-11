@@ -23,7 +23,7 @@ html {
 }
 body {
 	font-size: 1.5rem;
-	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 	animation: fadeIn 2s ease 0s 1 normal;
 }
 /* Header */
@@ -111,8 +111,8 @@ h3 span {
 	opacity: 1;
 }
 .section {
-	margin: 10px auto;
-	padding: 0 2%;
+ margin: 15px ​0;
+ padding: 0 2%;
 }
 .box_section,
 .box,
@@ -310,6 +310,15 @@ h4 {
 #pic_contact img {
 	border-radius: 5px;
 }
+#masonry {
+	width: 100%;
+	overflow: hidden;
+}
+#masonry article {
+	width: 100%;
+	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
+	border: none;
+}
 .article {
 	padding: 15px 10px;
 }
@@ -336,11 +345,20 @@ h4 {
 	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-radius: 0 0 5px 0;
+	font-size: 1.3rem;
 	color: rgb(53, 87, 129) /*#355781*/;
+}
+.cat a {
 	transition: all 0.3s ease 0s;
 }
-em:first-child::after {
+.cat a:hover {
+	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+.cat a::after {
 	content: ' / ';
+}
+.cat a:last-child::after {
+	content: none;
 }
 .article p {
 	margin: 15px;
@@ -354,15 +372,6 @@ em:first-child::after {
 }
 .a_contact:hover {
 	opacity: 0.9;
-}
-#masonry {
-	width: 100%;
-	overflow: hidden;
-}
-#masonry article {
-	width: 100%;
-	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
-	border: none;
 }
 
 /********************************************************************************************
@@ -383,6 +392,11 @@ SP Landscape
 	h3 span {
 		display: inline;
 	}
+	.section {
+  width: calc(100% / 2);
+  margin: 0 auto 10px;
+  padding: 0 1% 30px;
+ }
 	.section:first-of-type {
 		margin: 20px auto 0;
 	}
@@ -397,8 +411,7 @@ SP Landscape
 	}
 	#masonry article {
 		width: calc(100% / 2);
-		padding: 10px;
-		}
+	}
 	#pic_contact h4 {
 		font-size: 5rem;
 	}

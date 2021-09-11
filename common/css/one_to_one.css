@@ -34,7 +34,6 @@ SP Portrait
  background: rgb(30, 136, 168) /*#1e88a8*/;
 }
 .section {
- width: 100%;
  margin: 15px ​0;
  padding: 0 2%;
 }
@@ -301,12 +300,21 @@ tr:first-child th {
  height: 40px;
  margin-right: 10px;
 }
+#masonry {
+	width: 100%;
+	overflow: hidden;
+}
+#masonry article {
+	width: 100%;
+	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
+	border: none;
+}
 .article {
 	position: relative;
  padding: 15px 10px;
 }
 .article:first-child {
- padding-top: 0;
+ margin-top: 15px;
 }
 .article:last-child {
  border-bottom: none;
@@ -329,11 +337,23 @@ tr:first-child th {
 	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-radius: 0 0 5px 0;
+	font-size: 1.3rem;
 	color: rgb(53, 87, 129) /*#355781*/;
-	transition: all 0.3s ease 0s;
 }
-.cat:hover {
+.cat a {
+	transition: all 0.3s ease 0s;	
+}
+.cat a:hover {
 	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+.cat a::after {
+	content: ' / ';
+}
+.cat a:last-child::after {
+	content: none;
+}
+.article p {
+	margin: 15px;
 }
 .box_link_cat {
 	width: 100%;
@@ -358,7 +378,6 @@ SP Landscape
  .section.w100 {
   width: 100%;
   margin: 20px 0;
-  padding: 0 1%;
  }
  .fig.main_view img {
   object-position: 0px -350px;
@@ -397,14 +416,18 @@ SP Landscape
   width: 100%;
   padding: 0;
  }
- .article {
-  width: calc(50% - (15px * 2)) /* width - margin */;
-  margin: 15px;
-  padding: 0;
- }
+	#masonry article {
+		width: calc(100% / 2);
+		}
+	#pic_contact h4 {
+		font-size: 5rem;
+	}
+	.article {
+		padding: 15px 10px;
+	}
 	.article:first-child .article_h4,
 	.article:nth-of-type(2) .article_h4 {
-		margin-top: 0;
+		margin-top: 15px;
 	}
 	.article .article_h4 {
 		margin-top: 15px;
@@ -481,6 +504,13 @@ PC & Tablet Landscape
  #anchor_Tuition .sec_box_inner {
   background-size: 500px;
  }
+	#masonry article {
+		width: calc(100% / 3);
+		}
+	.article {
+		width: calc(100% / 3);
+		margin-top: 15px;
+	}
 }
 
 /********************************************************************************************

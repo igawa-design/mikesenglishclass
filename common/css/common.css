@@ -11,6 +11,9 @@ SP Portrait
 *********************************************************************************************/
 /*
 --------------------------------------------------------------------------------------------*/
+body {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
 @keyframes scale_main_view {
 	0% {
   transition: all 2s ease 0s;
@@ -164,19 +167,27 @@ p:empty {
 .cat {
 	display: inline-block;
 	width: 100%;
-	margin-top: 15px;
 	padding: 0 5px 5px 0;
 	border-right: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-bottom: 4px double rgb(30, 136, 168) /*#1e88a8*/;
 	border-radius: 0 0 5px 0;
+	font-size: 1.3rem;
 	color: rgb(53, 87, 129) /*#355781*/;
+}
+.cat a {
 	transition: all 0.3s ease 0s;
 }
-.cat:hover,
+.cat a:hover,
 .archive .article_h4 a:hover,
 .cat-item a:hover,
 #tags a:hover {
 	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+.cat a::after {
+	content: ' / ';
+}
+.cat a:last-child::after {
+	content: none;
 }
 .box_link_cat {
 	width: 100%;

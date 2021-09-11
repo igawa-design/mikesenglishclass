@@ -163,6 +163,7 @@ Template Name: page-online-lessons
 <div class="sec_box_inner box_articles">
 
 <div id="masonry">
+
 <?php
 $args=array(
   'tax_query' => array(
@@ -184,19 +185,20 @@ $args=array(
 <div class="post">
 <p><?php the_content(); ?></p>
 <small class="article_cat">
-<span class="cat">
+<h5 class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
-echo '<em>'.$term->name.'</em>';
+echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a>';
 }
 ?>
-</span>
+</h5>
 </small>
 </div><!--post-->
 </article>
 
 <?php endwhile; endif; ?>
+
 </div><!--masonry-->
 
 </div><!--sec_box_inner box_articles-->

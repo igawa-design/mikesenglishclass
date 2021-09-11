@@ -86,8 +86,6 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/aboutmike.css">
 <?php elseif(is_page('one-to-one')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/one_to_one.css">
-<?php elseif(is_page('online-lessons')): ?>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/online.css">
 <?php elseif(is_post_type_archive('gallery')): ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/common.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/gallery.css">

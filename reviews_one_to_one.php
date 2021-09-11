@@ -5,6 +5,8 @@
 <div class="sec_box sec_box_one_to_one">
 <div class="sec_box_inner box_articles">
 
+<div id="masonry">
+
 <?php
 $args=array(
   'tax_query' => array(
@@ -28,17 +30,21 @@ $args=array(
 <div class="post">
 <p><?php the_content(); ?></p>
 <small class="article_cat">
+<h5 class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
-echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$term->name.'</a>';
+echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a>';
 }
 ?>
+</h5>
 </small>
 </div><!--post-->
 </article>
 
 <?php endwhile; endif; ?>
+
+</div><!--masonry-->
 
 <p class="box_link_cat"><a class="link_cat" href="<?php echo home_url('reviews-cat/one-to-one'); ?>">See more reviews<span class="arrow"></span></a></p>
 </div><!--sec_box_inner box_articles-->

@@ -46,12 +46,15 @@ $search_query = get_search_query();
 </div><!--post-->
 </a>
 <small class="article_cat">
+<small class="article_cat">
+<h5 class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
-echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'" class="cat">'.$term->name.'</a>';
+echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a>';
 }
 ?>
+</h5>
 </small>
 </article>
 

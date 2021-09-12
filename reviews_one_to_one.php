@@ -28,17 +28,17 @@ $args=array(
 <article class="article">
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <div class="post">
-<p><?php the_content(); ?></p>
-<small class="article_cat">
-<h5 class="cat">
+<h5 class="article_cat">
+<small class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
 echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a>';
 }
 ?>
-</h5>
 </small>
+</h5>
+<p><?php the_content(); ?></p>
 </div><!--post-->
 </article>
 

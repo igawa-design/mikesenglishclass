@@ -28,9 +28,9 @@ Template Name: archive-reviews
 
 <?php
 $args = array(
-	'post_type' => array('reviews'),
- 'paged' => $paged
- );
+'post_type' => array('reviews'),
+'paged' => $paged
+);
 ?>
 
 <?php $loop = new WP_Query($args); ?>
@@ -42,20 +42,19 @@ $args = array(
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
 <a href="<?php the_permalink(); ?>">
 <div class="post">
-<?php the_post_thumbnail(); ?>
-<?php the_excerpt(); ?>
-</div><!--post-->
-</a>
-<small class="article_cat">
-<h5 class="cat">
+<h5 class="article_cat">
+<small class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
 foreach( $terms as $term ) {
 echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a>';
 }
 ?>
-</h5>
 </small>
+</h5>
+<?php the_excerpt(); ?>
+</div><!--post-->
+</a>
 </article>
 
 <?php endwhile; ?>

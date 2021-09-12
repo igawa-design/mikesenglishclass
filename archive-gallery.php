@@ -40,19 +40,21 @@ $args = array(
 
 <article>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
+<h4 class="article_cat">
+<small class="cat">
+<?php
+$terms = get_the_terms($post->ID,'gallery-cat');
+foreach( $terms as $term ) {
+echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'">'.$term->name.'</a>';
+}
+?>
+</small>
+</h4>
 <?php the_content(); ?>
 <?php if($dis=get_post_meta($post->ID,"画像1",true)){ ?>
 <img src="<?php $Image = wp_get_attachment_image_src(get_post_meta($post->ID, '画像1', true),'large'); echo $Image[0]; ?>" alt="">
 <?php }else{ ?>
 <?php } ?>
-<small class="article_cat">
-<?php
-$terms = get_the_terms($post->ID,'gallery-cat');
-foreach( $terms as $term ) {
-echo '<a href="'.get_term_link($term->slug, 'gallery-cat').'" class="cat">'.$term->name.'</a>';
-}
-?>
-</small>
 </article>
 
 <?php endwhile; ?>

@@ -25,6 +25,22 @@ SP Portrait
 .main_view img {
 	object-position: center -30px ;
 }
+#archive_reviews article p,
+#archive_reviews .archive p {
+	margin: 15px;
+}
+#archive_reviews article p:first-of-type,
+#archive_reviews .archive p:first-of-type {
+	margin-top: 15px;
+}
+small:empty {
+	border: none;
+}
+.post:hover,
+.sec_img_translations:hover,
+.wp-post-image:hover {
+	opacity: 1;
+}
 
 /********************************************************************************************
 Tablet Portrait

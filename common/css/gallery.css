@@ -30,6 +30,8 @@ SP Portrait
 	overflow: hidden;
 }
 #masonry article {
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
 	border: none;
@@ -37,10 +39,21 @@ SP Portrait
 article:first-child {
 	padding-top: 15px;
 }
-article img {
-	height: auto;
-	margin: 10px 0 0 0;
+.article_cat {
+	display: block;
+	order: 3;
+	margin-top: 0;
+	border: none;
 	padding: 0;
+}
+article img {
+	order: 2;
+	height: auto;
+	margin: 10px 0;
+	padding: 0;
+}
+article time {
+	order: 1;
 }
 #archive_gallery article p,
 #archive_gallery article time {

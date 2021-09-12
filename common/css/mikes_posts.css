@@ -30,7 +30,9 @@ SP Portrait
 	object-position: center 0 !important;
 }
 article .post {
+	display: block;
  overflow: hidden;
+	margin-top: 15px;
 }
 article h3 {
 	margin: 10px 0;

@@ -172,11 +172,23 @@ h4:first-child,
 .arrow_h4:first-child {
  margin-top: 0;
 }
-.article:first-child .article_h4 {
+#masonry {
+	width: 100%;
+	overflow: hidden;
+}
+#masonry article {
+	width: 100%;
+	background: rgba(254, 253, 253, 0.5) /*#fefdfd*/;
+	border: none;
+}
+.article {
+	padding: 15px 10px;
+}
+.article:first-child {
 	margin-top: 15px;
 }
 .article .article_h4 {
- margin: -10px 0 15px 0;
+ margin: -10px 0 0 0;
  border-right: none;
 	border-bottom: none;
 	border-radius: 5px 0 0 0;
@@ -193,21 +205,24 @@ iframe {
 .li::before {
  color: rgb(242, 187, 3) /*#f2bb03*/;
 }
-.article {
-	position: relative;
- padding: 15px 10px;
-}
-.article:first-child {
- padding-top: 0;
-}
 .article:last-child {
  border-bottom: none;
 }
+.post {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
 .article_cat {
 	display: block;
+	order: 2;
  color: rgb(89, 145, 216) /*#5991d8*/;
  font-size: 1.4rem;
  text-align: right;
+}
+.article p {
+	order: 1;
+	margin: 15px;
 }
 .cat {
 	display: inline-block;
@@ -217,10 +232,21 @@ iframe {
 	border-bottom: 4px double rgb(211, 93, 135) /*#d35d87*/;
 	border-radius: 0 0 5px 0;
 	color: rgb(53, 87, 129) /*#355781*/;
-	transition: all 0.1s ease 0s;
 }
-.cat:hover {
+.cat:empty {
+	border: none;
+}
+.cat a {
+	transition: all 0.3s ease 0s;
+}
+.cat a:hover {
 	color: rgb(89, 145, 216) /*#5991d8*/;
+}
+.cat a::after {
+	content: ' / ';
+}
+.cat a:last-child::after {
+	content: none;
 }
 .box_link_cat {
 	width: 100%;
@@ -256,20 +282,11 @@ SP Landscape
   width: 100%;
   padding: 0;
  }
- .article {
-  width: calc(50% - (15px * 2)) /* width - margin */;
-  margin: 15px;
-  padding: 0;
- }
-	.article:first-child .article_h4,
-	.article:nth-of-type(2) .article_h4 {
-		margin-top: 0;
+	#masonry article {
+		width: calc(100% / 2);
 	}
-	.article .article_h4 {
+	.article:nth-child(2) {
 		margin-top: 15px;
-	}
-	.article_cat {
-		bottom: -30px;
 	}
 }
 
@@ -299,6 +316,13 @@ PC & Tablet Landscape
  .sec_h2 {
   font-size: 1.6rem;
  }
+	#masonry article {
+		width: calc(100% / 3);
+		}
+	.article {
+		width: calc(100% / 3);
+		margin-top: 15px;
+	}
 }
 
 /********************************************************************************************

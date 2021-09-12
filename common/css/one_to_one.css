@@ -179,7 +179,7 @@ h4:first-child,
 	margin-top: 15px;
 }
 .article .article_h4 {
- margin: -10px 0 15px 0;
+ margin: -10px 0 0 0;
  border-right: none;
 	border-bottom: none;
 	border-radius: 5px 0 0 0;
@@ -315,8 +315,10 @@ tr:first-child th {
 .article {
 	padding: 15px 10px;
 }
-.article:first-child {
-	margin-top: 15px;
+.post {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
 }
 .article_h4 {
  margin: -10px 0 15px 0;
@@ -327,9 +329,13 @@ tr:first-child th {
 }
 .article_cat {
 	display: block;
+	order: 2;
  color: rgb(89, 145, 216) /*#5991d8*/;
- font-size: 1.4rem;
  text-align: right;
+}
+.article p {
+	order: 1;
+	margin: 15px;
 }
 .cat {
 	display: inline-block;
@@ -340,6 +346,9 @@ tr:first-child th {
 	border-radius: 0 0 5px 0;
 	font-size: 1.3rem;
 	color: rgb(53, 87, 129) /*#355781*/;
+}
+.cat:empty {
+	border: none;
 }
 .cat a {
 	transition: all 0.3s ease 0s;
@@ -352,9 +361,6 @@ tr:first-child th {
 }
 .cat a:last-child::after {
 	content: none;
-}
-.article p {
-	margin: 15px;
 }
 .box_link_cat {
 	width: 100%;
@@ -420,9 +426,6 @@ SP Landscape
 		}
 	#pic_contact h4 {
 		font-size: 5rem;
-	}
-	.article {
-		padding: 15px 10px;
 	}
 	.article:nth-child(2) {
 		margin-top: 15px;

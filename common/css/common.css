@@ -150,7 +150,9 @@ p:empty {
 	margin: 0 15px;
 }
 .post {
-	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
 }
 #archive .post img:hover,
 #archive .post p:hover,
@@ -158,11 +160,19 @@ p:empty {
 #single .post a:hover {
 	opacity: 0.618;
 }
+.article .post {
+	display: flex;
+	flex-direction: column;
+}
 .article_cat {
 	display: block;
+	order: 2;
  color: rgb(89, 145, 216) /*#5991d8*/;
- font-size: 1.4rem;
  text-align: right;
+}
+.article p {
+	order: 1;
+	margin: 15px;
 }
 .cat {
 	display: inline-block;
@@ -173,6 +183,10 @@ p:empty {
 	border-radius: 0 0 5px 0;
 	font-size: 1.3rem;
 	color: rgb(53, 87, 129) /*#355781*/;
+}
+.cat:empty,
+.cat:blank {
+	border: none;
 }
 .cat a {
 	transition: all 0.3s ease 0s;

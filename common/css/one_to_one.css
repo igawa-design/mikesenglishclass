@@ -337,7 +337,9 @@ tr:first-child th {
 	order: 1;
 	margin: 15px;
 }
-.article p:hover {
+.article p:hover,
+.post:hover,
+.sec_box_one_to_one:hover {
 	opacity: 1;
 }
 .cat {

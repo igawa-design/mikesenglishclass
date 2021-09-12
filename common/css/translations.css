@@ -224,6 +224,9 @@ iframe {
 	order: 1;
 	margin: 15px;
 }
+.article p:hover {
+	opacity: 1;
+}
 .cat {
 	display: inline-block;
 	width: 100%;

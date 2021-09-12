@@ -33,8 +33,14 @@ SP Portrait
 #archive_reviews .archive p:first-of-type {
 	margin-top: 15px;
 }
-small:empty {
+.cat:empty,
+.cat:blank,
+small:empty,
+small:blank {
 	border: none;
+}
+#archive_reviews .article_cat > a {
+	display: none;
 }
 .post:hover,
 .sec_img_translations:hover,

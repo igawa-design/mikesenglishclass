@@ -29,6 +29,9 @@ SP Portrait
 #archive_reviews .archive p {
 	margin: 15px;
 }
+#single_reviews article p {
+	margin: 0 15px 15px 15px ;
+}
 #archive_reviews article p:first-of-type,
 #archive_reviews .archive p:first-of-type {
 	margin-top: 15px;
@@ -41,11 +44,6 @@ small:blank {
 }
 #archive_reviews .article_cat > a {
 	display: none;
-}
-.post:hover,
-.sec_img_translations:hover,
-.wp-post-image:hover {
-	opacity: 1;
 }
 
 /********************************************************************************************

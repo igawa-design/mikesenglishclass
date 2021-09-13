@@ -40,7 +40,6 @@ $args = array(
 <article>
 <h4 class="article_h4"><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
 <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time>
-<a href="<?php the_permalink(); ?>">
 <div class="post">
 <h5 class="article_cat">
 <small class="cat">
@@ -52,9 +51,10 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a
 ?>
 </small>
 </h5>
+<a href="<?php the_permalink(); ?>">
 <?php the_excerpt(); ?>
-</div><!--post-->
 </a>
+</div><!--post-->
 </article>
 
 <?php endwhile; ?>

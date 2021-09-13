@@ -124,8 +124,10 @@ transform: translateX(-600px);
 }
 }
 header.scroll {
-animation: slideIn 1s ease 0s 1 normal;
+position: relative;
+z-index: -10;
 opacity: 1;
+animation: slideIn 1s ease 0s 1 normal;
 }
 header.fade {
 animation: slideOut 1s ease 0s 1 normal;

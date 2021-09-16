@@ -3,11 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>英会話 英語は札幌中央区やオンラインで。マイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
+<title>英会話、英語は札幌中央区やオンラインで。マイク英会話教室札幌☆ Mike’s English Class Sapporo☆</title>
 <meta name="description" content="札幌やオンラインで英語・英会話を覚えるならぜひ！初心者の方から本格的なビジネス英語・作詞のお手伝いなども承っております。個人レッスンだからこそ、質の高い英会話力が身に付きます♬">
 <meta name="thumbnail" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
 <meta name="keywords" content="英会話,英語,札幌,オンライン,レッスン,英会話教室">
 <link rel="icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
+<link rel="shortcut icon" type="image/svg+xml" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_stylesheet_directory_uri(); ?>/common/img/logo.svg">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/normalize_custom_min.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" as="style">
 <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/fancy_slider.css" as="style">
@@ -22,12 +24,16 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/common/css/fancy_slider.css">
 <link rel="prerender" href="<?php echo home_url('aboutmike'); ?>">
-<meta property="og:title" content="英会話 英語は札幌中央区やオンラインで。マイク英会話教室札幌☆ Mike’s English Class Sapporo☆">
-<meta property="og:description" content="札幌やオンラインで英語・英会話を覚えるならぜひ！初心者の方から本格的なビジネス英語・作詞のお手伝いなども承っております。個人レッスンだからこそ、質の高い英会話力が身に付きます♬">
+<meta property="og:title" content="英会話、英語は札幌中央区やオンラインで。マイク英会話教室札幌☆">
+<meta property="og:description" content="札幌やオンラインで英語・英会話を覚えるならぜひ！個人レッスンだからこそ、質の高い英会話力が身に付きます♬">
 <meta property="og:url" content="https://mikesenglishclass.jp">
-<meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
+<meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/og_image_1200x630.jpg">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="マイク英会話教室札幌☆ Mike’s English Class Sapporo☆">
+<meta name="twitter:card" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/thumbnail_420x420.jpg">
+<meta name="twitter:title" content="英会話、英語は札幌中央区やオンラインで。マイク英会話教室札幌☆">
+<meta name="twitter:description" content="札幌やオンラインで英語・英会話を覚えるならぜひ！個人レッスンだからこそ、質の高い英会話力が身に付きます♬">
+<meta name="twitter:image" content="<?php echo get_stylesheet_directory_uri(); ?>/common/img/og_image_600x315.jpg">
 <link rel="alternate" href="https://mikesenglishclass.jp" hreflang="ja">
 <link rel="preconnect dns-prefetch" href="https://www.google.co.jp">
 <link rel="preconnect dns-prefetch" href="https://www.google.com">

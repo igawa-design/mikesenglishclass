@@ -8,7 +8,7 @@ Template Name: page-online-lessons
 
 <div id="wrap" class="wrap">
 <div class="codrops-header">
-<h2><i>オンラインで、どこからでも英会話レッスン を♬</i><em>Online Lessons</em><span>Mike’s English Class Sapporo</span></h2>
+<h2><i>オンラインで、どこからでも英会話レッスンを♬</i><em>Online Lessons</em><span>Mike’s English Class Sapporo</span></h2>
 </div><!-- /codrops-header -->
 <div class="mockup">
 <img alt="オンライン英会話" class="mockup__img" src="<?php echo get_stylesheet_directory_uri(); ?>/online-lessons/img/mockup4.jpg" />

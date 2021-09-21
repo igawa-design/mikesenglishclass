@@ -68,6 +68,8 @@ Template Name: page-online-lessons
 <h3 class="online_lessons">ネットで、どこでも。</h3>
 <p>インターネットがあれば、世界のどこからでもレッスンを受ける事ができます。国内はもちろん、海外から英会話を教えて欲しいという方も。</p>
 <p>英語は多くの場面で使えるとても便利な言語です。仕事はもちろん、街の看板でもオリンピックやパラリンピックなどの会場・映像・音声でも。</p>
+<p>オンラインだからってレッスンの質を諦めてはいませんか？</p>
+<p>マイク英会話教室札幌は、日本で受けられる最上級の英会話レッスンを目指しています。</p>
 
 <div class="box">
 <picture class="sec_pic sec_pic_02">
@@ -97,11 +99,12 @@ Template Name: page-online-lessons
 <h3 class="online_lessons">マンツーマンで受けられます。</h3>
 <p>レッスンはマンツーマンです。もしわからない事があったり、質問があった時には、その時々にすぐに教えてくれます。</p>
 <p>日常英会話からTOEICや英検の試験対策にも対応。英語ネイティブスピーカーの先生なので、リスニングやスピーキング、リーディングやリンキングもきっちりと。</p>
+<p>英文学の専門家だからできる、一人一人に合わせたきめ細かいレッスン。<br>決められた内容ではなく、オーダーメイドのようなレッスンを一緒に作って楽しく学びましょう！</p>
 
 <picture class="sec_pic sec_pic_02">
-<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">
-<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1920x2560.jpeg">
-<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpeg">
+<source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpg">
+<source media="(min-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1920x2560.jpg">
+<img class="sec_img" alt="オンラインで英会話を学ぶ。" width="1200" height="1600" loading="lazy" src="<?php echo get_template_directory_uri(); ?>/online-lessons/img/08_1200x1600.jpg">
 </picture>
 </section><!--section_online-->
 
@@ -184,7 +187,7 @@ $args=array(
 <h4 class="article_h4"><?php echo get_the_title(); ?></h4>
 <div class="post">
 <p><?php the_content(); ?></p>
-<small class="article_cat">
+<div class="article_cat">
 <h5 class="cat">
 <?php
 $terms = get_the_terms($post->ID,'reviews-cat');
@@ -193,7 +196,7 @@ echo '<a href="'.get_term_link($term->slug, 'reviews-cat').'">'.$term->name.'</a
 }
 ?>
 </h5>
-</small>
+</div>
 </div><!--post-->
 </article>
 
